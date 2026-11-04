@@ -3,6 +3,23 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v7 · Fight camp data (2026-11-04)
+
+- **Lift log.** Today's main lifts with every set pre-filled from the plan; tick what you did and
+  save. Estimated one-rep max (Epley, 12 reps or fewer), automatic PR detection that adds a win,
+  and a one-tap offer to raise a max when the estimate passes it. +10 XP, +25 per PR.
+- **Strength board** on Body: best estimated max per lift, compared with camp start and his
+  18-year-old numbers, with a trend chart per lift.
+- **Fuel.** Protein (0.7 g per pound of latest bodyweight) and water (a gallon) with one-tap
+  add buttons and undo. +10 / +5 XP.
+- **Tale of the tape** on Log: all 183 camp days as a heatmap (training, time with God, sleep,
+  debrief, protein), seven stat tiles, and 30-day trend charts with hover readouts.
+- **Backup.** Download every bit of HQ data as one JSON file.
+- **Next Fight Night** joins the milestone road; a **Quiet Storm pre-record** nudge appears Friday to
+  Sunday from December, since the show airs 9 to 11 PM and lights-out is 10.
+- **Fix:** Academy tracks now read "Learned in HQ (not a certification)" instead of "Certified",
+  per the no-unearned-credentials rule.
+
 ## v6 · Autopilot + Academy (2026-11-04)
 
 - **A phone button.** Quick-action links (`#debrief`, `#sos`, `#brief`, `#lesson`, `#ask`, `#train`,
