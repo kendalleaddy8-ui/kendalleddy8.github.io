@@ -3,6 +3,36 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v6 · Autopilot + Academy (2026-11-04)
+
+- **A phone button.** Quick-action links (`#debrief`, `#sos`, `#brief`, `#lesson`, `#ask`, `#train`,
+  `#music`) open HQ straight into an action. A "Phone button" sheet walks through an iOS Shortcut
+  (Open URLs, then Add to Home Screen), Siri, the Action Button, Back Tap and Control Center, and
+  draws an HQ app icon to save and use. A quick-action row (Debrief, I'm about to slip, Today's
+  lesson, Ask HQ, Phone button) stays on Home in every mode, night included.
+- **Evening debrief.** Talk for 60 seconds with keyboard dictation, framed by Seneca's nightly
+  review. Deacon answers, and extracts the day's log, wins, tasks, urges, crew memory and prayer
+  requests into one checklist; one tap saves everything checked (+15 XP). Radar nudges after 8 PM.
+- **The Academy (new Learn tab).** Three tracks, 35 modules: Head of AI (12: mandate, strategy,
+  operating model, platforms, governance and regulation, security, evals, economics, agents in
+  production, people, board communication, capstone), Founder-FDE (12: the forward-deployed model,
+  discovery, pricing, SOWs, solution patterns, safe builds, evals, deployment, retainers, sales,
+  running the firm, scaling) and The Inner Citadel (11: Deacon's school of the Stoics and the
+  apostles). Lessons are written for Kendall's real situation, cached, quizzed, drilled against a
+  crew member, and can go on the board or into a Doc. One lesson a day by weekday; +30 XP; a
+  certificate per track.
+- **Deacon, deeper.** A Stoic corner in his character (Epictetus, Marcus Aurelius, Seneca, Musonius
+  Rufus, Cato) paired with Paul, Peter, James and John, plus Augustine, Thomas a Kempis, Bonhoeffer,
+  C. S. Lewis, Douglass, King and Frankl, Christ first. A daily discipline card (one Stoic line, one
+  KJV verse, one practice, +10 XP) on Today and Mind, rotating through 24 pairings.
+- **Your Apple Music playlists** (Cali Vibes, Keep It In Rhythm, Shower) on the Soundtrack card,
+  with the right one highlighted for the current part of the day.
+- **Monthly reports.** "Month X of 6" in Deacon's voice: on Home after the 29th, archived on the Log
+  tab, writable on demand, saveable as a Doc.
+- **New scheduled agents:** Monthly report (29th, 7:23 PM ET; Feb 28 one-off), Academy lesson prep
+  (Sundays 6:17 PM ET, pre-writes the week's lessons with verified sources), Deacon's nightly
+  debrief nudge (9:07 PM ET).
+
 ## v5 · Mission Control (2026-11-04)
 
 The crew stops waiting to be asked.
