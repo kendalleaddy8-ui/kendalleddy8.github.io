@@ -3,6 +3,27 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v15 · Every tab as a launcher (2026-11-04)
+
+- **Same pattern as Home, on every tab.** The main card stays up top, the rest become icon buttons ("More in Mind", "More in Money"), and each opens on its own with a "‹ Tab" back bar.
+  - **Today:** momentum, today's workout and Deacon.
+  - **Board:** the board and the task list.
+  - **Learn:** today's lesson.
+  - **Interview:** the pursuit card.
+  - **Crew:** your team.
+  - **Mind:** the Forge.
+  - **Body:** today's plan.
+  - **Work:** the Office.
+  - **Money:** the summary, with the family budget as the first button.
+  - **PLV:** the Booth door and the episode board.
+  - **Life:** the decision.
+  - **Schedule:** my day.
+  - **Log:** tale of the tape.
+- **Icons:** picked from each section's topic. **Labels:** each card's own heading.
+- **Links still land in the right place:** any link into a tab (Ask HQ, quick actions, Privacy, pipeline form) opens the right card directly. Switching tabs resets. "Show everything" brings back the full scroll everywhere.
+- **Not changed:** the Booth and Us were already one screen.
+- **Typical tab height on a phone:** from 5,000 to 14,000px down to 400 to 2,600px.
+
 ## v14 · Home as a launcher (2026-11-04)
 
 - **Home shows only what matters right now:** the "Right now" card, the Day 1 card (first week) and the quick actions. Everything else is one tap away as a big icon button.
