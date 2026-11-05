@@ -3,6 +3,14 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17 · 30 isn't old (2026-11-05)
+
+- **A daily line on Home:** right under "Right now", a sourced fact or verse that shows 30 is the start of a prime, not the end of one. Examples: peak bone mass around 30, vocabulary peaking in the late 60s, the average high-growth founder starting at 45.
+- **Physical prime (Body tab):** nine markers doctors and researchers use for a young, strong body. They are resting heart rate, cardio fitness, push-ups, blood pressure, waist-to-height, steps, sleep, heart rate variability and A1c. Each shows a target, a Prime or Building status and a trend, with how to measure it from Apple Health. Measurements only: HQ never estimates body fat.
+- **The Prime Protocol:** a daily checklist of what to do and what to eat to stay biologically young and mentally sharp, each item with its reason and source. Protein targets come from your logged weight.
+- **Deacon after work:** a weekday push at 5:03 PM, right after the day job ends, with the top three tasks, the day's prime fact and one protocol nudge. The 5 AM brief now carries the prime fact too.
+- **Better uses of time** are saved on the Board: publish the workbook, a Printful sample, turn on Shelby's report, and the trademark search and store rename.
+
 ## v16.3 · First store products (2026-11-05)
 
 - **The first products are finished:** an 11-page AI Quick-Win Workbook for small business owners (printable PDF), plus three print-ready apparel designs: FEAR NOT (Isaiah 41:10), 5:15 Club and Old Soul / New Discipline. Each has a product image and copy-ready listing text, collected in a private Store Launch Kit linked from the Storefront card.
