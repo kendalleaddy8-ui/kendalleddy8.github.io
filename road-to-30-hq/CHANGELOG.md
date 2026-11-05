@@ -3,6 +3,26 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v16 · Voices that work, Ventures, the '60s and '70s, a new cover (2026-11-05)
+
+- **Voice built into HQ.** Deacon, The Executive and the crew speak with the phone's own voices. The old outside voice pages couldn't get the microphone inside the Claude app, which is why calls never connected. You talk back with the mic key on your keyboard.
+  - **Each voice has its own sound.** Deacon is deep, slow and comforting. The Executive is crisp and always a different voice from Deacon. Each has a picker and a "Hear him" button.
+  - **Voice hub on Home:** one tap to Deacon, The Executive (the faith gate, then the mock interview), the crew, or a voice check that tests what works on this phone.
+  - **iPhone fixes:** a first tap unlocks speech, the first line no longer gets swallowed, and long answers no longer stall.
+- **Ventures tab.** Five engines toward a $10K month each: Forward Works AI, Flow (tankless water heaters), Storefront (Shopify), the Markets desk and The Kit (digital products).
+  - **Each has a plan:** straight-talk odds, an architecture, a sustainability plan, a ramp to April 29 and a week-1 checklist.
+  - **Live scoreboard:** revenue comes from paid invoices, now tagged by business in the Office.
+  - **Tools:** Flow's quote calculator (price, parts, labor, profit per install), a paper-trading journal with win rate and expectancy, and the Shopify store hookup.
+  - **Three new crew members:** Flow (water heater trade lead), Shelby (storefront operator) and Dalton (markets teacher and risk manager), each with a backup.
+  - **Honest by design.** No bot trades real money from HQ. Dropshipping odds are stated plainly. Water heater work starts with licensing and insurance.
+- **Two new scheduled tasks.**
+  - Dalton's pre-market brief every weekday at 7:27 AM. It shows on top of the Markets desk.
+  - Flow's lead finder every Thursday evening: 8 water heater leads with drafted first messages, straight into the pipeline.
+- **'60s and '70s eras:** Space Age '65 and Soul '72.
+- **New cover:** a new app icon and a lock-screen wallpaper (gold 30, NO FEAR, the faith lines and the covenant), with a Shortcuts automation that sets the lock screen every morning.
+- **Make it yours:** a Profile card sets the name and tagline in the header. First step toward a version anyone can download.
+- **Built to hand off:** a private Source Kit holds every source file and a step-by-step guide, so a later session can rebuild, test and ship HQ without the original.
+
 ## v15 · Every tab as a launcher (2026-11-04)
 
 - **Same pattern as Home, on every tab.** The main card stays up top, the rest become icon buttons ("More in Mind", "More in Money"), and each opens on its own with a "‹ Tab" back bar.
