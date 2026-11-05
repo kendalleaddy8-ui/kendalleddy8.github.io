@@ -3,6 +3,20 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v9 · Coach mode and the Rocky montage (2026-11-05)
+
+- **Ultimate model for interview training:** mock scoring, coaching, answer keys, the practice thesis,
+  job decoding and Academy lessons now request the most capable Claude model at high effort; the voice
+  interviewer and the interview scheduled agents run on it too.
+- **Coach mode:** after every mock answer, a coach's note gives the grade, what was right, what was
+  missing, the right answer, the reasoning steps to get there, and an interview-ready "say it like
+  this". The voice interviewer offers coach mode or real-interview mode.
+- **Teach me the answer** on every bank question: the expert answer, how to derive it from first
+  principles, a 60-second spoken version, answers to the three follow-ups, common pitfalls.
+- **Rocky III and IV montage program:** weekday montage finishers (farm, barn, beach, footwork) and
+  Montage Saturdays (Siberia Day and Beach Day) in place of roadwork twice a month, skipping deload,
+  test and Fight Night days; a Rocky montage soundtrack tab; montage XP; safety notes on every one.
+
 ## v8 · Interview Camp (2026-11-05)
 
 Head of AI pursuit is back on (AI Practice Lead, Charlotte, financial services). A new Interview tab
