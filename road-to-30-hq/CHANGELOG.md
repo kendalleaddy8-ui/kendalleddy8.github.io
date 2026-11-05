@@ -3,6 +3,30 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v12 · The real Day 1, the Booth, the Office (2026-11-04)
+
+- **Restart from the real Day 1.** The whole HQ now counts from Wednesday, Nov 4, 2026: 177 days to April 29, 2027.
+  - **XP and rank** restart at zero.
+  - **Day 1 is 20 push-ups.** A Day 1 card on Home includes a hold-to-sign covenant.
+  - **The plan is re-dated.** Foundation runs Nov 5 to 29, Build Dec 7 to Jan 3, Strength Jan 11 to Feb 21, Peak Mar 1 to Apr 11, taper Apr 12 to 25, test week Apr 26 to 29. One Peak week was dropped so the taper and test week still land on the birthday.
+  - **Everything that counts days was updated:** all 177 morning briefs (Day 1 of 177), monthly report boundaries (Month 1 = Nov 4 to Dec 3), the April 29 birthday letter, the weekly report, voice Deacon's prompt and his plan document.
+- **Year 31.** The plan continues past the birthday: a victory lap Apr 30 to May 9, then 12-week cycles (build, strength, deloads, re-test) through April 2028.
+- **The Booth** is PLV Radio's own 90s-style studio:
+  - a big broadcast mic button with an ON AIR light, an analog VU meter and faders;
+  - four original synthesized beds (Quiet Storm, Sunset Cruise, Victory, Late Night Letters) plus your own instrumentals, with talkover ducking;
+  - an 8-pad cart wall (station ID, sweeper, phone ring, drop, rimshot, applause, ding, horns);
+  - four phone lines with a call screener and AI practice callers;
+  - a show clock for the segment map;
+  - input selection for USB-C mics, interfaces and a caller line-in;
+  - recording to takes saved on the device and exportable as files;
+  - a post-show writer for show notes, YouTube description, chapters, captions and the newsletter.
+- **The Office** is Forward Works AI's own toolkit:
+  - a time clock that refuses to clock in during day-job hours unless you confirm you're off the clock, and that logs business hours;
+  - a proposal writer from pipeline leads;
+  - numbered invoices with paid tracking and the 30% tax bucket;
+  - an ROI calculator with a ready pitch line.
+- **iPhone 18 ready.** A moving-to-a-new-phone checklist, plus a real restore from a backup file that fills in what's missing or overwrites.
+
 ## v11 · Privacy Shield, daily AI video, the vinyl crate, Hey Siri (2026-11-05)
 
 - **Privacy Shield.** A new card on the Log tab, with three layers:
