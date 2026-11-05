@@ -3,6 +3,28 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v10 · No fear, multiple choice, family budget (2026-11-05)
+
+- **No fear before every Executive session:** before the written mock starts or the voice interviewer
+  opens, a full-screen word: "I have these positions because of God, and I work for Him. What His will
+  is, so will be. No fear." With a rotating KJV verse (2 Timothy 1:7, Colossians 3:23, Proverbs 19:21),
+  one grounding line and a guided breath. The voice interviewer opens with the same word.
+- **Multiple choice or speak:** a toggle in the written mock. In multiple choice, every question gets
+  four answers (the strongest, a buzzword answer, a correct-but-shallow one, and one with a subtle error),
+  shuffled. Pick one and see why each is right or wrong; misses get a coach's note. Speak or type mode
+  adds a Talk button where the browser allows it. The scorecard counts multiple-choice hits. The voice
+  interviewer offers spoken A to D options on request.
+- **Ultimate model everywhere:** every in-page agent call (Deacon, the crew, huddles, debrief, lessons,
+  monthly reports, idea cards, sparring, mail drafts) now requests the most capable Claude model, as do
+  all five voice agents and every scheduled agent.
+- **Family budget and payoff plan** at the top of the Money tab, built to do together: money in (any pay
+  frequency, business income after the 30% tax set-aside), bills by need, want, giving and saving with
+  quick-add chips, and debts with balance, APR and minimum. It shows what's left each month, the
+  50/30/20 split, an extra-payment slider, avalanche vs snowball vs minimums-only (debt-free month,
+  total interest, savings), this month's payment for each debt with the target marked, a payoff chart,
+  and warnings when money is short or a minimum doesn't cover interest. Saves as you type, shares as a
+  Doc, and Ledger reads it in chat and in his 1st and 15th money check.
+
 ## v9 · Coach mode and the Rocky montage (2026-11-05)
 
 - **Ultimate model for interview training:** mock scoring, coaching, answer keys, the practice thesis,
