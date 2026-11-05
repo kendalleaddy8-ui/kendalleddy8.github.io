@@ -3,6 +3,14 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v14 · Home as a launcher (2026-11-04)
+
+- **Home shows only what matters right now:** the "Right now" card, the Day 1 card (first week) and the quick actions. Everything else is one tap away as a big icon button.
+- **"Right here" buttons:** each opens that Home card on its own screen, with a sticky "‹ Home" back bar. There are 18 of them: Missions, Rank, Lesson, AI video, Radar, Board, Inbox, Crew, Soundtrack, The Stash, The Signal, Fight Night, On the line, Shutdown, Inspire, Rewards, Journey and Letters. Each shows a live status line (XP today, rank, today's lesson, days to Fight Night).
+- **"Go to" buttons:** they jump to every tab: Today, Mind, Body, Work, Money, Interview, Learn, Booth, PLV, Us, Crew, Schedule, Life, Board, Log and Privacy, plus Ask HQ.
+- **Works in every mode:** night, wind-down and family modes. Shortcuts (Soundtrack, links) open the right card directly. "Show everything" brings back the long scroll.
+- **Home height:** from about 12,700px to about 2,400px on a phone.
+
 ## v13 · Loyal crew, coverage, and the momentum engine (2026-11-04)
 
 - **Loyalty oath** in every in-app agent call (Deacon, crew, huddles, lessons, everything): serve Kendall only, never deceive, never hide a failure, never take anyone else's side, cover for a downed teammate and say so. The Watchtower and the morning brief carry it too.
