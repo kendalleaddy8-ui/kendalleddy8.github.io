@@ -3,6 +3,16 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.1 · Prime for anyone (2026-11-05)
+
+- **Fits the rest of HQ:** Deacon's in-app chat now sees your prime numbers, today's fact and what's left on the protocol, unless you keep body data private in the Privacy Shield, whose Body area now names prime numbers. Fixed a bug where saving your profile could erase other profile settings.
+- **Adjusts to the person:** the "Make it yours" profile adds birthday, milestone age, which fitness norms to use (men, women or prefer not to say), faith content on or off, US or metric units, and lights-out time.
+  - **The headline:** reads "{milestone} isn't old", or your real age once you pass it.
+  - **Daily facts:** match your age, and scripture shows only with faith content on.
+  - **Targets:** VO2 max, push-ups, steps and sleep follow published norms for your age and sex.
+  - **The protocol:** bedtime, caffeine cutoff, fiber, water, protein units and the quiet-time wording follow your settings.
+- **Defaults reproduce the owner's setup exactly.** The training camp's dates and plan are still the owner's; handing those over is a separate build.
+
 ## v17 · 30 isn't old (2026-11-05)
 
 - **A daily line on Home:** right under "Right now", a sourced fact or verse that shows 30 is the start of a prime, not the end of one. Examples: peak bone mass around 30, vocabulary peaking in the late 60s, the average high-growth founder starting at 45.
