@@ -3,6 +3,11 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v16.2 · Real voice calls are back, a store plan (2026-11-05)
+
+- **ElevenLabs is the main voice again.** The Voice hub now leads with Call buttons for Deacon, The Executive, Pat, Toni and Ava, in their real voices. Calls open in Safari, where the microphone works, with one-time steps to put Deacon on the Home Screen and behind "Hey Siri, talk to Deacon". The phone's own voice stays as Quick voice for reading typed chats aloud.
+- **Storefront has a direction:** a faith-and-discipline brand for men. Digital programs deliver themselves, and print-on-demand apparel is printed and shipped by a partner. The setup steps now use the Shopify connector for Claude instead of store keys, and include a ready-to-paste Shopify Payments description.
+
 ## v16 · Voices that work, Ventures, the '60s and '70s, a new cover (2026-11-05)
 
 - **Voice built into HQ.** Deacon, The Executive and the crew speak with the phone's own voices. The old outside voice pages couldn't get the microphone inside the Claude app, which is why calls never connected. You talk back with the mic key on your keyboard.
