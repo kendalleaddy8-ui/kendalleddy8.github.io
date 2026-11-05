@@ -3,6 +3,27 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v8 · Interview Camp (2026-11-05)
+
+Head of AI pursuit is back on (AI Practice Lead, Charlotte, financial services). A new Interview tab
+built for an executive interviewer who can tell a builder from a talker:
+
+- **Pursuit tracker** for any number of opportunities: stages, interview countdown, a readiness score
+  (question bank, mocks, stories, thesis, track progress) and a daily 20-minute drill.
+- **Role decoder and sourced company intel**, plus questions to ask; paste any job description to
+  decode a new role.
+- **Question bank:** 32 technical, banking and practice-leadership questions. Each has what it
+  really tests, what a strong answer contains, the phrases that sound like BS, and a three-step depth
+  ladder of expert follow-ups. Answer first, then reveal; self-ratings drive the daily drill.
+- **Mock interviews** with "The Executive" (an original character): a written round that probes
+  and scores depth, specificity, accuracy, structure, business sense and composure, quoting where
+  answers sounded like BS; plus a 30-minute voice version.
+- **Story bank** pre-filled only with known facts, with brackets for real details.
+- **Practice thesis and 90-day plan**, comp and negotiation guidance, and an interview-day protocol.
+- **Academy:** a Practice Lead · BFSI track (8 modules) that takes priority during an active pursuit.
+- **Automation:** a daily interview prep brief and lesson prep focused on the pursuit.
+- The crew's instructions now support the pursuit instead of steering away from it.
+
 ## v7 · Fight camp data (2026-11-04)
 
 - **Lift log.** Today's main lifts with every set pre-filled from the plan; tick what you did and
