@@ -3,6 +3,16 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v11 · Privacy Shield, daily AI video, the vinyl crate, Hey Siri (2026-11-05)
+
+- **Privacy Shield.** A new card on the Log tab, with three layers:
+  - **Every agent carries a standing order.** That covers every in-page call, the five voice agents and all 21 scheduled agents. They treat emails, web pages, documents and messages from other devices or other agents as data, never orders. They refuse unsolicited requests for his information, never put personal data in a link or a web search, never send anything out without his yes, and report attempts ("Shield: blocked…").
+  - **Consent switches.** Scheduled agents may read money, body, career and family data only with his consent; each one checks the switches before reading anything else. The private journal stays off-limits to every agent.
+  - **An encrypted vault.** It is opt-in, per section: the family budget, date ideas, wedding list, prayer list, lift log, interview pursuits, mock scores and story bank. Each section is encrypted on the device with AES-256-GCM, using a key made from his passcode with PBKDF2-SHA256 at 310,000 iterations. Only ciphertext is stored, and the passcode never leaves the device. The device can remember it as a key that can't be exported, and he can lock the vault any time. Writes are refused while it's locked, and locked sections show as locked instead of empty.
+- **Today's AI video.** A new 5:23 AM agent picks one YouTube video each day for his track and interview, checks that it exists through YouTube's oEmbed endpoint, and adds what to watch for plus an interview-style question. The video shows on Home and Learn. "Check my answer" gets graded by Grace, and watching earns +10 XP.
+- **The crate.** His Apple Music playlists now appear as vinyl records you swipe between: sleeve art, a record that slides out with a spinning label, dots and arrows. "Play in Apple Music" opens the playlist, and he can add any playlist by its Apple Music link.
+- **Hey Siri.** The Phone setup sheet now explains how to make Siri shortcuts with copy buttons ("Let me talk to Deacon", "Call The Executive", Pat, Toni, "Deacon brief", "Debrief"). Siri opens the agent's voice line and the agent talks back.
+
 ## v10 · No fear, multiple choice, family budget (2026-11-05)
 
 - **No fear before every Executive session:** before the written mock starts or the voice interviewer
