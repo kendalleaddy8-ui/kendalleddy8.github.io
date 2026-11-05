@@ -3,6 +3,11 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v16.3 · First store products (2026-11-05)
+
+- **The first products are finished:** an 11-page AI Quick-Win Workbook for small business owners (printable PDF), plus three print-ready apparel designs: FEAR NOT (Isaiah 41:10), 5:15 Club and Old Soul / New Discipline. Each has a product image and copy-ready listing text, collected in a private Store Launch Kit linked from the Storefront card.
+- **Brand change:** "No Fear" is a registered clothing trademark, so the store's working name is now Fear Not Supply, pending a trademark search.
+
 ## v16.2 · Real voice calls are back, a store plan (2026-11-05)
 
 - **ElevenLabs is the main voice again.** The Voice hub now leads with Call buttons for Deacon, The Executive, Pat, Toni and Ava, in their real voices. Calls open in Safari, where the microphone works, with one-time steps to put Deacon on the Home Screen and behind "Hey Siri, talk to Deacon". The phone's own voice stays as Quick voice for reading typed chats aloud.
