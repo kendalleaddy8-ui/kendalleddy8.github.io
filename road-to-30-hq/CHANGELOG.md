@@ -3,6 +3,25 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v13 · Loyal crew, coverage, and the momentum engine (2026-11-04)
+
+- **Loyalty oath** in every in-app agent call (Deacon, crew, huddles, lessons, everything): serve Kendall only, never deceive, never hide a failure, never take anyone else's side, cover for a downed teammate and say so. The Watchtower and the morning brief carry it too.
+- **Coverage when an agent goes down:**
+  - **In HQ:** calls retry on the ultimate model with backoff, then fall back to the best available model so the job still gets done. Calls you stop yourself, and refusals, are never retried.
+  - **Crew chat:** if an agent fails, a backup steps in (for example, Grace covers Sterling and Otis covers Deacon) and says it's covering.
+  - **Scheduled agents:** a new **Watchtower** agent runs at 8:13 AM and 10:13 PM. It checks every scheduled agent, re-runs any that failed or missed, does the job itself if the rerun also fails, and writes a health report to HQ.
+  - **Voice:** if a voice line won't connect, Deacon covers by text.
+  - **Crew health card** on the Crew tab.
+- **The momentum engine:**
+  - **How it reads you:** it scores the last 14 days (training 60%, time with God, sleep, mind work) into tiers: Building (first week), Rebuild, Steady, Push and Elite.
+  - **Push:** main lifts +2.5%, last set as many reps as you can, roadwork +5 min, +1 pull-up a set.
+  - **Elite:** +5% plus a back-off set, roadwork +10 min, +2 pull-ups a set.
+  - **Where the boost never applies:** deload, taper, test and Day 1.
+  - **Rebuild** holds the weights and protects the minimums.
+  - **Mind challenges** (+15 XP) at Push and Elite.
+  - **Strength bump:** after 4 weeks at 85%+ consistency, HQ offers to raise your training maxes (+5 lb upper, +10 lb lower), with an Accept button.
+  - **Deacon and the crew** coach to the tier, and the 5 AM brief adds the momentum line.
+
 ## v12 · The real Day 1, the Booth, the Office (2026-11-04)
 
 - **Restart from the real Day 1.** The whole HQ now counts from Wednesday, Nov 4, 2026: 177 days to April 29, 2027.
