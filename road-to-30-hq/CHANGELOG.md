@@ -3,6 +3,12 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.3 · Your businesses, up front (2026-11-06)
+
+- **Easy to find:** a "Your businesses" card on Home, right under the day's fact, and at the top of the Work tab, which the bottom bar now calls **Business**. Five buttons, one per business, each showing this month's revenue.
+- **Plain names:** Water heaters (Flow), Shopify store (Fear Not Supply), Day trading (study and paper trades), Digital products (sold in the Shopify store) and Forward Works AI.
+- **The Shopify store card leads with your store's live status:** connected, each product with Draft or Live, anything missing (like the workbook's PDF), an Open Shopify button and the Launch Kit. The old setup steps fold away, and the week-1 checklist matches the current plan.
+
 ## v17.1 · Prime for anyone (2026-11-05)
 
 - **Fits the rest of HQ:** Deacon's in-app chat now sees your prime numbers, today's fact and what's left on the protocol, unless you keep body data private in the Privacy Shield, whose Body area now names prime numbers. Fixed a bug where saving your profile could erase other profile settings.
