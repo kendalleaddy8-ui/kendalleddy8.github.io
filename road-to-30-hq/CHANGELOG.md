@@ -3,6 +3,12 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.7 · Agent menu and action items (2026-11-06)
+
+- **Agent menu by industry** in the Consulting Kit: dental, medical, law, insurance, med spas, HVAC and plumbing, roofing and CPA firms. The first agent is the pilot to pitch; the rest are upsells.
+- **Every prospect has an agent plan:** all 38 found so far, matched to the agent that fits their hiring or growth signal.
+- **Action items on the Board:** 16 dated tasks with owners, from securing the store to booking the first discovery calls. Deacon's after-work message walks through them.
+
 ## v17.6 · Forward Works Consulting Kit (2026-11-06)
 
 - **Run every client the same way:** a Consulting Kit on the Business tab with five stages (discovery call, Quick-Win Audit, pilot, build, retainer), each with its price, what to do, what to deliver and a copy-ready template. It also has a kickoff checklist and a day-one setup list (separate accounts, one Anthropic workspace per client, contracts, insurance).
