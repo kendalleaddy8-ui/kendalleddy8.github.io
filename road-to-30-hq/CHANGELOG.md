@@ -3,6 +3,12 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.6 · Forward Works Consulting Kit (2026-11-06)
+
+- **Run every client the same way:** a Consulting Kit on the Business tab with five stages (discovery call, Quick-Win Audit, pilot, build, retainer), each with its price, what to do, what to deliver and a copy-ready template. It also has a kickoff checklist and a day-one setup list (separate accounts, one Anthropic workspace per client, contracts, insurance).
+- **Which Claude for which job:** Sonnet 5.5 for live calls and demos, Opus 5.5 for back-office agents and building in Claude Code, Haiku 5.5 for high-volume routing, Fable 5.1 for the hardest reasoning, and the Batch API for overnight backlogs.
+- **A starter agent ready for day one:** a private Forward Works Kit with an AI receptionist and intake agent configured per client by one file. It includes a live terminal demo with per-turn cost and 12 scripted caller tests (booking, no price guessing, medical questions, emergencies, privacy, "are you a robot").
+
 ## v17.5 · Product previews (2026-11-06)
 
 - **Every product gets a preview.** The AI Quick-Win Workbook's Shopify listing now has three "look inside" page images and a free 4-page sample PDF linked in its description.
