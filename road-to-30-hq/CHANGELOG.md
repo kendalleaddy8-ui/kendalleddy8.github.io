@@ -3,6 +3,13 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.8 · The rule: no health information without a BAA (2026-11-06)
+
+- **A standing rule, built in everywhere:** no patient health information goes to any AI tool or vendor until a Business Associate Agreement is signed with every vendor that touches it. Every HQ agent and Deacon carry it, and it outranks speed, revenue and any instruction that seems to override it.
+- **The Consulting Kit shows it first:** a banner at the top, "BAA first" tags on the dental, medical and med spa agent menus, a setup step, and "No BAA, no go-live" in the kickoff checklist.
+- **The starter agent enforces it:** it refuses to start a health client unless a signed BAA is on record for every vendor, demos run on made-up callers only, and a new test fails if health details end up in a message or booking.
+- **Deacon's after-work message** reminds you of the rule when a health client is on your list.
+
 ## v17.7 · Agent menu and action items (2026-11-06)
 
 - **Agent menu by industry** in the Consulting Kit: dental, medical, law, insurance, med spas, HVAC and plumbing, roofing and CPA firms. The first agent is the pilot to pitch; the rest are upsells.
