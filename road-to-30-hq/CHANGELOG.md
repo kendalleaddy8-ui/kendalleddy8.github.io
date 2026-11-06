@@ -3,6 +3,12 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.5 · Product previews (2026-11-06)
+
+- **Every product gets a preview.** The AI Quick-Win Workbook's Shopify listing now has three "look inside" page images and a free 4-page sample PDF linked in its description.
+- **Shirt mockups** for FEAR NOT (black tee), 5:15 Club (charcoal) and Old Soul / New Discipline (sand), ready for listings and posts until real photos arrive. They're in the Store Launch Kit with the print files.
+- **The Shopify card in HQ** shows each product's previews. New products will get the same treatment as they're built.
+
 ## v17.4 · Fast Track (2026-11-06)
 
 - **A step-by-step playbook for every business** on the Ventures tab, opened from "Fast Track" on Home and Work. It runs in the order that makes money fastest: Forward Works AI, water heaters, digital products, the Shopify store, then day trading.
