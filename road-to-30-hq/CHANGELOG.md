@@ -3,6 +3,13 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.4 · Fast Track (2026-11-06)
+
+- **A step-by-step playbook for every business** on the Ventures tab, opened from "Fast Track" on Home and Work. It runs in the order that makes money fastest: Forward Works AI, water heaters, digital products, the Shopify store, then day trading.
+  - **Each business gets** a goal, dated steps you check off, and four insights.
+  - **A weekly rhythm** fits all five around the day job, date night and Sunday.
+- **Ambitious and honest:** the first consulting client by Nov 30, the first install by Dec 15, a Black Friday apparel launch, a New Year pre-sale for the Camp program, and day trading on paper until your journal proves an edge.
+
 ## v17.3 · Your businesses, up front (2026-11-06)
 
 - **Easy to find:** a "Your businesses" card on Home, right under the day's fact, and at the top of the Work tab, which the bottom bar now calls **Business**. Five buttons, one per business, each showing this month's revenue.
