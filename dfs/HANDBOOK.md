@@ -376,7 +376,7 @@ Each of your 1–3 lineups tells a **different story**.
 | 15 | 9 | DK report had Hunter Henry Q; ESPN's Sunday page had him OUT | On Sunday, re-fetch ESPN's inactives page. When sources disagree, the more recent, more restrictive status wins |
 | 16 | 9 | Jeudy override silently did nothing (not in the salary table); the chat's 4pm lineup used Cody White (LV practice squad, no confirmed salary) | The pipeline warns on unmatched overrides; any player without a confirmed salary is excluded from final lineups |
 | 17 | 9 | Overlap cap 2 vs 3 cost only 0.04–0.09 points; best 2-lineup Milly pair = Purdy L1 + Willis L2 (2.23%) vs the McCarthy alt (2.19%) | Overlap/hedge choices that cost under 0.1 points are free. Pick by football story and hedging the contested angle |
-| 18 | 9 | **Results:** _fill in after games_ (grade Willis: sim vs trench; McCaffrey hamstring; Jeudy, Lock–JSN, Walker/McCaffrey/Gibbs core) | |
+| 18 | 9 | **Partial results (Kendall's own cards):** Walker 39.3 and Shedeur 22.7 (Kendall hunches ✅) · Willis 4.8, Gibbs 13.4, Dulcich 3.4, Judkins 5.5 · Jeudy 5.7, Cody White 0.0 (unverified player, as flagged) | **Trench model A beat the sim on Willis** → when the trench layer and Vegas disagree on a QB, trust the trench read. Kendall's QB/RB hunches went 2-for-2: give hunch angles at least one lineup |
 
 ---
 

@@ -9,9 +9,9 @@ import argparse, numpy as np, pandas as pd
 from pulp import LpProblem, LpMaximize, LpVariable, lpSum, PULP_CBC_CMD
 
 # ---------- 1. outcome model ----------
-CV = {"QB": 0.40, "RB": 0.55, "WR": 0.65, "TE": 0.70, "DST": 0.85}   # sd/mean, DK scoring
+CV = {"QB": 0.40, "RB": 0.55, "WR": 0.65, "TE": 0.70, "DST": 0.85, "K": 0.55}   # sd/mean, DK scoring
 # share of each player's variance coming from: game environment, team pass/rush script, own noise
-W = {"QB": (0.30, 0.55), "WR": (0.20, 0.45), "TE": (0.20, 0.40), "RB": (0.20, 0.35), "DST": (0.25, 0.0)}
+W = {"QB": (0.30, 0.55), "WR": (0.20, 0.45), "TE": (0.20, 0.40), "RB": (0.20, 0.35), "DST": (0.25, 0.0), "K": (0.15, 0.30)}
 
 def simulate(pool, sims=20000, seed=7):
     rng = np.random.default_rng(seed)
