@@ -1,0 +1,12 @@
+Two-lineup Milly options, P(at least one >= 240):
+  Chat plan L1 + L2 (Willis)             2.23%   shared=3  each: 1.40% / 1.01%   validator: PASS
+  L1 + McCarthy/Nabers (cap-2 alt)       2.19%   shared=2  each: 1.40% / 0.91%   validator: PASS
+  L1 + sim L3 (McCarthy/JSN/Walker)      2.09%   shared=0  each: 1.40% / 0.70%   validator: PASS
+
+  Optimizer best pair (cap 3): 2.23%
+     1.40% Jahmyr Gibbs, Puka Nacua, Brock Purdy, George Kittle, Ollie Gordon II, Jordan Watkins, Chris Bell, Greg Dulcich, Eagles
+     1.01% Jahmyr Gibbs, Amon-Ra St. Brown, Jameson Williams, Woody Marks, Quinshon Judkins, Malik Willis, Chris Bell, Cowboys, Greg Dulcich
+
+  Optimizer best pair (cap 2): 2.19%
+     1.40% Jahmyr Gibbs, Puka Nacua, Brock Purdy, George Kittle, Ollie Gordon II, Jordan Watkins, Chris Bell, Greg Dulcich, Eagles
+     0.91% Jahmyr Gibbs, Amon-Ra St. Brown, Malik Nabers, Ollie Gordon II, Isaiah Likely, J.J. McCarthy, Hollywood Brown, Mason Taylor, Packers

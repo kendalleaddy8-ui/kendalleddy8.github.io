@@ -48,3 +48,18 @@ Fixes: Walker is KC (not SEA) · J.J. McCarthy is the NYG QB ($4,800) · all sal
 - L2 Purdy/Kittle/Watkins + Gibbs, Nacua, Gordon, Bell, Mason Taylor, Saints DST: 1.07% (v2.1 L2 re-scores at 1.35%, an equal-or-better swap)
 - L3 Shedeur/Boston/Fannin + Kendre Miller (bring-back), Smith-Njigba, St. Brown, McCaffrey, Dulcich, Giants DST: 0.80% (own≈68%)
 Portfolio P(≥1 ≥240) = 2.96%. Angle ranks: Willis 1.39 · Shedeur 1.12 · Purdy 1.07 · Mahomes 0.94 · McCarthy 0.86 · Lock 0.85 · Milton 0.71.
+
+---
+
+## Claude Code re-run (this session) — Nov 8, 2026, ~11:30 ET
+
+Changes vs `2026-wk09/`: SF–LV kickoff → 4:25 · overrides = chat §3 + Sunday news (Henry OUT and Knight OUT per ESPN inactives page, Allgeier leadRB, Mitchell ×0.95, Lock ×1.04) · injury report re-fetched (unchanged).
+Trench factors live in `overrides.Mult` this week; `trenches_reference.csv` records them as data and is **not** auto-applied (avoids double counting).
+
+## Results (validator PASS on everything below)
+- Main run (`run.txt`, 675 candidates): reproduces the chat portfolio exactly (2.92%). Overlap cap 2 costs 0.09 pts.
+- **Milly pair** (`milly_pair.txt`): Purdy L1 + Willis L2 = **2.23%** (optimizer's best pair) · Purdy L1 + McCarthy/Nabers alt = 2.19% (shares 2; hedges the contested Willis angle).
+- **4pm slate** (`late.txt`, target 200): sim best = Purdy/Kittle/Robinson + JSN + Stevenson/Douglas/Raridon + Marks + Texans (3.97%) · best Lock build (`late_lock.txt`) 3.10%.
+- Chat's 4pm Lock lineup includes **Cody White**: not in ESPN's DK table (LV practice squad), salary unconfirmed → replace.
+- Status sweep (`status_sweep.txt`): no OUT/IR/D in any recommended lineup. St. Brown Q (expected to play). Hollins (calf) and Robinson ("expected to return") need a 2:30 check.
+- The chat session's own run output is preserved as `run_chat.txt`.

@@ -60,6 +60,9 @@ Run Handbook v3: fetch → verify → model → sim + angle matrix → portfolio
 | **DK Network DvP** (`nfl-defense-vs-position-week-N-draftkings-dfs`) | ✅ curl | Yards and targets allowed per position with salary context → DvP multipliers. | Article covers selected players only. |
 | **DK Network value / tournament / Millionaire / best plays** | ✅ curl | Season stats, snap shares, stack ideas, contrarian angles → role overrides and ownership hints. | Writers disagree. Use them for facts, not conclusions. |
 | **Web search** (CBS/Fox/Covers/VegasInsider/SportsBettingDime) | search | Spreads, totals, **opening vs current lines**, sharp/public splits. | Snippets mix in older seasons. Confirm the year. |
+| **ESPN Sunday inactives page** (`espn.com/fantasy/football/story/_/page/FFSundayInactives-<id>/...week-N-inactive-active`) | ✅ curl | **More current than the DK report on Sunday** (Week 9: Hunter Henry OUT while DK still said Q). It also gives DvP notes. | It's a live page, so re-fetch at 11:30 and 2:30. |
+| **4for4 weekly OL/DL matchups** (via chat or a future allowed host) | chat | Pressure rate, PROE, blown-block rate, adjusted line yards → `trenches.csv` | Don't also put the same trench factors in `Mult` |
+| **DK lobby screen / CSV** | user | **Kickoff times** (Week 9: SF–LV was 4:25, though articles said 4:05) | Articles are unreliable for kickoffs |
 | **NFL.com / Yahoo / CBS live trackers** | search | Sunday inactives, starting-QB news. | Verify within 72 hours. |
 
 **Access notes:** `dknetwork.draftkings.com` and `www.espn.com` are allowed in the Default environment. Fetch them with `curl` (`engine/fetch.py get`), because the `WebFetch` tool still can't reach them. To add more sites (rotowire, fantasylabs, footballguys, nfl.com, 4for4), ask Claude to add the host to the environment.
@@ -74,8 +77,18 @@ python3 -I dfs/engine/fetch.py espn     $DL/espn.html $W/espn_pool.csv      # sa
 python3 -I dfs/engine/fetch.py injuries $DL/inj.html  $W/injuries.csv       # Out/Doubtful/Q/IR
 python3 -I dfs/engine/fetch.py text     $DL/<article>.html $DL/<article>.txt # read DK picks/DvP
 # write $W/lines.csv and $W/overrides.csv (formats below), then:
-cd dfs/engine && python3 run_week.py ../2026-wkNN --target 240 --cands 500 --qbs "Hunch QB1,Hunch QB2"
+cd dfs/engine && python3 run_week.py ../2026-wkNN --target 240 --cands 600 --shared 3 --compare-shared 2 \
+       --qbs "Hunch QB1,Hunch QB2" --tag run                       # main slate
+python3 run_week.py ../2026-wkNN --teams late --n 1 --target 200 --cands 300 --tag late   # 4pm-only slate
 ```
+- `--teams late` keeps only the 4:05/4:25 games. `--teams HOU,LAC,...` takes an explicit list.
+- `--compare-shared` reports what a tighter overlap cap costs.
+- `--tag` names the outputs (`lineups_<tag>.csv`, `<tag>.txt`, `cands_<tag>.pkl` for re-picking pairs without re-solving).
+- **Optional `trenches.csv`** (`Team,PassProEdge,RunBlockEdge,Source`, edges −2..+2) is auto-applied:
+  - pass pro: QB/WR/TE ×(1+0.025·e), opposing DST ×(1−0.05·e)
+  - run block: RB ×(1+0.04·e)
+  - Use it *instead of* trench factors in `Mult`. Week 9's edges are saved as `2026-wk09-sun/trenches_reference.csv` (not applied, since that week's Mult values already include them).
+- The pipeline prints a **WARNING** for any override that matches no player in the salary table (a silent no-op: Week 9 Jeudy).
 - Downloads stay in a separate data directory, and anything that parses them runs with `python3 -I`.
 - `run_week.py` = pipeline → sim portfolio → angle table → validator → `lineups_run.csv` + `report.txt` in the week folder.
 
@@ -357,7 +370,13 @@ Each of your 1–3 lineups tells a **different story**.
 | 9 | 9 | Stale QB (McKee vs Milton); Walker's team from memory (SEA vs KC); McCarthy's NYG start missed | Teams from the salary table; QBs from news less than 72 hours old |
 | 10 | 9 | ESPN projected Burks, who was OUT | The injury report overrides projections |
 | 11 | 9 | Search breadth changed the best angle 1.04% → 1.39% | ≥500 candidates; gaps under 0.3 points are ties |
-| 12 | 9 | **Results:** _fill in after games_ | |
+| 12 | 9 | The trench layer (4for4 OL/DL: pressure, PROE, blown blocks, adjusted line yards) reshuffled the QB ranking (Purdy up; Willis, Shedeur down) | Trench edges go in **every week**, stored in `trenches.csv` and auto-applied by `pipeline.py` |
+| 13 | 9 | Model A (trenches: MIA OL vs DET rush) and the sim (DET–MIA 50.5, sharp money on the over) disagreed on Willis | The canonical two-model case (§8). Log Willis' result to calibrate |
+| 14 | 9 | SF–LV listed 4:05 in articles, actually 4:25 | Kickoffs come from the DK screen/CSV |
+| 15 | 9 | DK report had Hunter Henry Q; ESPN's Sunday page had him OUT | On Sunday, re-fetch ESPN's inactives page. When sources disagree, the more recent, more restrictive status wins |
+| 16 | 9 | Jeudy override silently did nothing (not in the salary table); the chat's 4pm lineup used Cody White (LV practice squad, no confirmed salary) | The pipeline warns on unmatched overrides; any player without a confirmed salary is excluded from final lineups |
+| 17 | 9 | Overlap cap 2 vs 3 cost only 0.04–0.09 points; best 2-lineup Milly pair = Purdy L1 + Willis L2 (2.23%) vs the McCarthy alt (2.19%) | Overlap/hedge choices that cost under 0.1 points are free. Pick by football story and hedging the contested angle |
+| 18 | 9 | **Results:** _fill in after games_ (grade Willis: sim vs trench; McCaffrey hamstring; Jeudy, Lock–JSN, Walker/McCaffrey/Gibbs core) | |
 
 ---
 
@@ -400,9 +419,12 @@ Each of your 1–3 lineups tells a **different story**.
 | `engine/sim.py` | correlated simulation · `solve()` (rules, bring-backs, `require_any`, `qbs`, `lock`/`exclude`, overlap) · `candidates()` · `pick()` |
 | `engine/validate.py` | hard-rule checker (§7.1) |
 | `engine/run_week.py` | one command: pipeline → sim → angles → validator → `lineups_run.csv` + `report.txt` |
+| `2026-wk09-sun/` | Sunday re-run: kickoff fix, trench overrides, ESPN inactives, `run.txt`, `late.txt`, `milly_pair.txt`, `late_lock.txt`, `trenches_reference.csv` |
 | `2026-wk09/` | worked example: `lines.csv`, `overrides.csv`, `espn_pool.csv`, `injuries.csv`, `scenarios.py` (full angle matrix), `rebuild_espn.py`, outputs |
 
 **Roadmap:**
+- [x] `--teams` slate filter (`late` = 4:05/4:25) · [x] overlap cap `--shared` / `--compare-shared` · [x] `trenches.csv` auto-multiplier · [x] unmatched-override warning (Week 9 Sunday)
+- [ ] Field-ownership sim (top priority)
 - [ ] Better default ownership (salary rank × game total × projection value) to replace the weak heuristic.
 - [ ] Field simulation (5k field lineups from ownership) → the real target score and a duplicate penalty.
 - [ ] Showdown mode in `sim.py`.

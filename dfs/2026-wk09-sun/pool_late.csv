@@ -1,0 +1,61 @@
+Name,Rating,Team,Opponent,Pos,Base,Salary,Spread,Total,OpenTotal,Kick,PROE,Status,Proj,Adj,Implied,Own
+Drake Maye,Good,NE,GB,QB,23.0,7000,-2.5,45.5,,4:25,,,23.0,34.5,24.0,4.0
+Brock Purdy,Great,SF,LV,QB,24.1,6800,-9.5,52.0,,4:25,,,26.82,38.89,30.75,11.0
+Jordan Love,Average,GB,NE,QB,19.2,6300,2.5,45.5,,4:25,,,19.2,27.84,21.5,4.0
+C.J. Stroud,Average,HOU,LAC,QB,18.2,5900,-6.0,40.5,,4:05,,,18.2,26.39,23.25,3.5
+Kirk Cousins,Shaky,LV,SF,QB,16.6,5300,9.5,52.0,,4:25,,,16.6,24.07,21.25,2.8
+Justin Herbert,Poor,LAC,HOU,QB,14.3,5000,6.0,40.5,,4:05,,,13.16,19.08,17.25,2.4
+Gardner Minshew II,Poor,ARI,SEA,QB,13.3,4500,8.5,39.5,,4:25,,,13.3,19.29,15.5,1.8
+Drew Lock,Great,SEA,ARI,QB,18.4,4000,-8.5,39.5,,4:25,,,19.14,27.75,24.0,9.7
+Christian McCaffrey,Great,SF,LV,RB,22.8,8000,-9.5,52.0,,4:25,,,24.39,36.58,30.75,20.0
+Josh Jacobs,Average,GB,NE,RB,17.1,6800,2.5,45.5,,4:25,,,15.39,23.09,21.5,4.6
+Rhamondre Stevenson,Good,NE,GB,RB,15.5,6100,-2.5,45.5,,4:25,,,16.12,24.18,24.0,3.7
+Ashton Jeanty,Good,LV,SF,RB,15.2,5900,9.5,52.0,,4:25,,,13.98,20.98,21.25,3.5
+Zach Charbonnet,Average,SEA,ARI,RB,11.2,5800,-8.5,39.5,,4:25,,,10.3,15.46,24.0,3.4
+Woody Marks,Good,HOU,LAC,RB,15.3,5700,-6.0,40.5,,4:05,,,15.76,23.64,23.25,3.2
+Kaelon Black,Average,SF,LV,RB,10.7,5500,-9.5,52.0,,4:25,,,10.7,16.05,30.75,3.0
+Tyler Allgeier,Shaky,ARI,SEA,RB,9.6,5400,8.5,39.5,,4:25,,,8.83,13.25,15.5,2.9
+Jadarian Price,Average,SEA,ARI,RB,11.3,5300,-8.5,39.5,,4:25,,,11.98,17.97,24.0,2.8
+Mike Washington Jr.,Poor,LV,SF,RB,7.2,5200,9.5,52.0,,4:25,,,7.2,10.8,21.25,2.6
+Omarion Hampton,Average,LAC,HOU,RB,9.1,4800,6.0,40.5,,4:05,,,9.1,13.65,17.25,2.2
+Kimani Vidal,Average,LAC,HOU,RB,9.1,4700,6.0,40.5,,4:05,,,9.1,13.65,17.25,2.0
+Keaton Mitchell,Shaky,LAC,HOU,RB,6.6,4200,6.0,40.5,,4:05,,,6.6,9.9,17.25,1.5
+Corey Kiner,Shaky,NE,GB,RB,5.7,4100,-2.5,45.5,,4:25,,,5.7,8.55,24.0,1.5
+Jaxon Smith-Njigba,Great,SEA,ARI,WR,23.4,9300,-8.5,39.5,,4:25,,,23.4,39.78,24.0,16.0
+Christian Watson,Average,GB,NE,WR,16.6,7500,2.5,45.5,,4:25,,,16.6,27.39,21.5,5.4
+Nico Collins,Poor,HOU,LAC,WR,14.4,7200,-6.0,40.5,,4:05,,,14.4,23.76,23.25,5.0
+Matthew Golden,Great,GB,NE,WR,18.3,7000,2.5,45.5,,4:25,,,18.3,31.11,21.5,4.8
+Michael Wilson,Shaky,ARI,SEA,WR,13.7,6700,8.5,39.5,,4:25,,,12.88,21.25,15.5,4.4
+Ladd McConkey,Average,LAC,HOU,WR,11.2,5500,6.0,40.5,,4:05,,,10.42,17.19,17.25,3.0
+Tre Tucker,Poor,LV,SF,WR,9.7,5400,9.5,52.0,,4:25,,,9.12,15.04,21.25,2.9
+DeMario Douglas,Good,NE,GB,WR,11.4,4800,-2.5,45.5,,4:25,,,11.4,18.81,24.0,2.2
+Marvin Harrison Jr.,Poor,HOU,LAC,WR,7.6,4500,-6.0,40.5,,4:05,,,7.6,12.54,23.25,1.8
+Demarcus Robinson,Average,SF,LV,WR,9.9,4300,-9.5,52.0,,4:25,,,9.5,15.68,30.75,1.6
+Quentin Johnston,Poor,LAC,HOU,WR,6.6,4300,6.0,40.5,,4:05,,,6.6,10.89,17.25,1.6
+Tre Harris,Poor,LAC,HOU,WR,6.6,4000,6.0,40.5,,4:05,,,6.6,10.89,17.25,1.5
+Xavier Hutchinson,Shaky,HOU,LAC,WR,7.0,4000,-6.0,40.5,,4:05,,,7.0,11.55,23.25,1.5
+Brandin Cooks,Poor,SF,LV,WR,5.7,3900,-9.5,52.0,,4:25,,,5.47,9.03,30.75,1.5
+Mack Hollins,Good,NE,GB,WR,10.1,3800,-2.5,45.5,,4:25,,,10.1,16.66,24.0,1.5
+Efton Chism III,Good,NE,GB,WR,8.9,3600,-2.5,45.5,,4:25,,,8.9,14.69,24.0,1.5
+Kyle Williams,Shaky,NE,GB,WR,5.6,3500,-2.5,45.5,,4:25,,,5.6,9.24,24.0,1.5
+Savion Williams,Shaky,GB,NE,WR,6.0,3500,2.5,45.5,,4:25,,,6.0,9.9,21.5,1.5
+Jalen Nailor,Average,LV,SF,WR,7.6,3400,9.5,52.0,,4:25,,,7.14,11.79,21.25,1.5
+Jordan Watkins,Average,SF,LV,WR,6.4,3300,-9.5,52.0,,4:25,,,6.14,10.14,30.75,1.5
+Brock Bowers,Average,LV,SF,TE,19.1,7900,9.5,52.0,,4:25,,,17.95,28.73,21.25,5.9
+Trey McBride,Poor,ARI,SEA,TE,14.8,7700,8.5,39.5,,4:25,,,13.91,22.26,15.5,5.6
+George Kittle,Great,SF,LV,TE,16.9,6000,-9.5,52.0,,4:25,,,17.41,27.85,30.75,25.0
+Tucker Kraft,Poor,GB,NE,TE,11.0,5500,2.5,45.5,,4:25,,,11.0,17.6,21.5,3.0
+AJ Barner,Average,SEA,ARI,TE,8.5,3800,-8.5,39.5,,4:25,,,8.5,13.6,24.0,1.5
+Eli Raridon,Great,NE,GB,TE,10.1,3500,-2.5,45.5,,4:25,,,10.1,16.16,24.0,1.5
+Michael Mayer,Average,LV,SF,TE,8.5,3400,9.5,52.0,,4:25,,,7.99,12.78,21.25,1.5
+Oronde Gadsden,Shaky,LAC,HOU,TE,5.8,3300,6.0,40.5,,4:05,,,5.8,9.28,17.25,1.5
+Dalton Schultz,Good,HOU,LAC,TE,8.6,3200,-6.0,40.5,,4:05,,,8.6,13.76,23.25,1.5
+Charlie Kolar,Average,LAC,HOU,TE,5.8,2500,6.0,40.5,,4:05,,,5.8,9.28,17.25,1.5
+Seahawks,Average,SEA,ARI,DST,7.6,3800,-8.5,39.5,,4:25,,,7.6,15.2,24.0,1.5
+49ers,Poor,SF,LV,DST,5.4,3600,-9.5,52.0,,4:25,,,5.4,10.8,30.75,1.5
+Texans,Good,HOU,LAC,DST,7.9,3500,-6.0,40.5,,4:05,,,9.08,18.17,23.25,10.0
+Patriots,Shaky,NE,GB,DST,5.6,3100,-2.5,45.5,,4:25,,,5.6,11.2,24.0,1.5
+Packers,Great,GB,NE,DST,6.1,2400,2.5,45.5,,4:25,,,6.1,12.2,21.5,1.5
+Chargers,Average,LAC,HOU,DST,5.0,2400,6.0,40.5,,4:05,,,5.0,10.0,17.25,1.5
+Raiders,Average,LV,SF,DST,4.4,2200,9.5,52.0,,4:25,,,4.4,8.8,21.25,1.5
+Cardinals,Great,ARI,SEA,DST,4.6,2000,8.5,39.5,,4:25,,,4.6,9.2,15.5,1.5
