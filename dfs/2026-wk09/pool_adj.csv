@@ -1,0 +1,77 @@
+Name,Pos,Team,Opponent,Salary,Proj,Kick
+Brock Purdy,QB,SF,LV,6800,25.55,4:05
+Drake Maye,QB,NE,GB,7000,23.0,4:25
+Jared Goff,QB,DET,MIA,6600,21.1,1:00
+Patrick Mahomes,QB,KC,NYJ,6100,22.57,1:00
+Dak Prescott,QB,DAL,IND,6500,20.0,1:00
+Jordan Love,QB,GB,NE,6300,19.0,4:25
+Matthew Stafford,QB,LAR,WAS,6200,18.5,1:00
+Jayden Daniels,QB,WAS,LAR,6000,20.5,1:00
+C.J. Stroud,QB,HOU,LAC,5900,16.5,4:05
+Bo Nix,QB,DEN,CAR,5400,18.0,1:00
+Kirk Cousins,QB,LV,SF,5300,16.5,4:05
+Malik Willis,QB,MIA,DET,5100,19.0,1:00
+Justin Herbert,QB,LAC,HOU,5000,13.34,4:05
+Daniel Jones,QB,IND,DAL,4700,17.5,1:00
+Gardner Minshew,QB,ARI,SEA,4500,12.5,4:25
+Drew Lock,QB,SEA,ARI,4000,16.5,4:25
+Shedeur Sanders,QB,CLE,NO,4000,15.0,1:00
+Jahmyr Gibbs,RB,DET,MIA,10000,30.21,1:00
+Kenneth Walker III,RB,SEA,ARI,9000,26.53,4:25
+Christian McCaffrey,RB,SF,LV,8000,25.13,4:05
+Kyren Williams,RB,LAR,WAS,7600,19.05,1:00
+Jonathan Taylor,RB,IND,DAL,7500,20.8,1:00
+Javonte Williams,RB,DAL,IND,7300,18.54,1:00
+Josh Jacobs,RB,GB,NE,6800,20.0,4:25
+Chuba Hubbard,RB,CAR,DEN,6500,18.8,1:00
+Rhamondre Stevenson,RB,NE,GB,6100,16.5,4:25
+Breece Hall,RB,NYJ,KC,6000,10.12,1:00
+Ashton Jeanty,RB,LV,SF,5900,12.42,4:05
+Ollie Gordon II,RB,MIA,DET,5600,17.3,1:00
+Jonah Coleman,RB,DEN,CAR,5300,17.32,1:00
+Blake Corum,RB,LAR,WAS,5100,12.5,1:00
+Alvin Kamara,RB,NO,CLE,5000,12.5,1:00
+Omarion Hampton,RB,LAC,HOU,4800,10.92,4:05
+Devin Singletary,RB,NYG,PHI,4600,13.0,1:00
+Jaxon Smith-Njigba,WR,SEA,ARI,9300,24.5,4:25
+Puka Nacua,WR,LAR,WAS,8800,24.0,1:00
+CeeDee Lamb,WR,DAL,IND,8300,21.5,1:00
+Amon-Ra St. Brown,WR,DET,MIA,8100,20.5,1:00
+Chris Olave,WR,NO,CLE,7400,18.7,1:00
+Malik Nabers,WR,NYG,PHI,7300,19.8,1:00
+Nico Collins,WR,HOU,LAC,7200,16.5,4:05
+Matthew Golden,WR,GB,NE,7000,18.3,4:25
+Tetairoa McMillan,WR,CAR,DEN,6900,14.2,1:00
+Rashee Rice,WR,KC,NYJ,6400,15.36,1:00
+George Pickens,WR,DAL,IND,6300,11.0,1:00
+Jameson Williams,WR,DET,MIA,6100,13.5,1:00
+Ladd McConkey,WR,LAC,HOU,5500,11.62,4:05
+Josh Downs,WR,IND,DAL,5100,12.0,1:00
+Keenan Allen,WR,IND,DAL,4900,12.0,1:00
+Demario Douglas,WR,NE,GB,4800,12.88,4:25
+Ryan Flournoy,WR,DAL,IND,4800,11.5,1:00
+Malik Washington,WR,MIA,DET,4700,12.5,1:00
+Makai Lemon,WR,PHI,NYG,4700,12.0,1:00
+KC Concepcion,WR,CLE,NO,4600,11.0,1:00
+Adonai Mitchell,WR,NYJ,KC,4500,12.22,1:00
+Xavier Worthy,WR,KC,NYJ,4400,10.08,1:00
+Antonio Williams,WR,WAS,LAR,4100,11.0,1:00
+Efton Chism III,WR,NE,GB,3600,10.0,4:25
+Brock Bowers,TE,LV,SF,7900,15.98,4:05
+Trey McBride,TE,ARI,SEA,7700,14.1,4:25
+George Kittle,TE,SF,LV,6000,17.0,4:05
+Tucker Kraft,TE,GB,NE,5500,12.0,4:25
+Sam LaPorta,TE,DET,MIA,5100,12.72,1:00
+Travis Kelce,TE,KC,NYJ,4900,11.0,1:00
+Harold Fannin Jr.,TE,CLE,NO,4700,13.25,1:00
+Darren Waller,TE,CAR,DEN,3300,8.4,1:00
+Greg Dulcich,TE,MIA,DET,3100,10.35,1:00
+Seahawks,DST,SEA,ARI,3800,7.6,4:25
+Chiefs,DST,KC,NYJ,3700,6.7,1:00
+49ers,DST,SF,LV,3600,5.4,4:05
+Texans,DST,HOU,LAC,3500,9.08,4:05
+Lions,DST,DET,MIA,3400,6.4,1:00
+Saints,DST,NO,CLE,2900,6.7,1:00
+Giants,DST,NYG,PHI,2800,6.5,1:00
+Eagles,DST,PHI,NYG,2500,6.0,1:00
+Cardinals,DST,ARI,SEA,2000,3.5,4:25
