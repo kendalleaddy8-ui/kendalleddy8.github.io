@@ -1,0 +1,20 @@
+Name,Pos,Team,Opponent,Salary,Proj,Own,CptOwn,Note,FieldOnly
+Caleb Williams,QB,CHI,TB,10800,20.5,55,22.0,props: 245.5 pass yds (-113); ~1.7 pass TD; rush upside,0
+D'Andre Swift,RB,CHI,TB,10000,15.5,70,25.0,TB 4th rush success; only 20% of opp TDs on ground -> TD regression vs 10 TD pace,0
+Luther Burden III,WR,CHI,TB,9000,15.0,50,12.0,leads CHI in every rec category; TB funnels to air,0
+Colston Loveland,TE,CHI,TB,7800,13.5,40,10.0,ATD +160 (~37%); 65+ yds all 3 w/ Caleb; 32% 1Q TS; Kmet IR,0
+Rome Odunze,WR,CHI,TB,6800,10.0,34,8.0,receptions line 2.5; 7 straight games 3+,0
+Cairo Santos,K,CHI,TB,5400,8.0,25,1.0,CHI -6,0
+Bears,DST,CHI,TB,5200,7.5,25,1.0,TB 131 pass yds/g; Mayfield glove/thumb,0
+Baker Mayfield,QB,TB,CHI,9600,11.5,30,5.0,limited passing; thumb,0
+Bucky Irving,RB,TB,CHI,9800,11.5,45,10.0,props: 64.5 rush yds -> ~11 DK,0
+Emeka Egbuka,WR,TB,CHI,8400,9.5,30,3.0,"Q foot, playing; low TB pass volume",0
+Chase McLaughlin,K,TB,CHI,5000,7.0,20,1.0,19/19 FG,0
+Kenneth Gainwell,RB,TB,CHI,4800,8.0,15,1.0,split backfield,0
+P. Durham,TE,TB,CHI,1600,1.5,20,0.5,FPPG 0.2 punt,0
+Buccaneers DST (est),DST,TB,CHI,4400,5.5,18,0.5,"FIELD-ONLY filler, salary estimated",1
+CHI RB2 Monangai (est),RB,CHI,TB,3200,4.5,14,0.5,FIELD-ONLY filler; Q,1
+TB WR2 (est),WR,TB,CHI,5400,7.0,18,1.0,FIELD-ONLY filler,1
+CHI WR3 (est),WR,CHI,TB,1800,3.5,16,0.3,FIELD-ONLY filler,1
+TB WR3/TE2 (est),TE,TB,CHI,1200,2.0,12,0.2,FIELD-ONLY filler,1
+CHI TE2 (est),TE,CHI,TB,1000,2.0,10,0.2,FIELD-ONLY filler,1

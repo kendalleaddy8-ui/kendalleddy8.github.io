@@ -376,6 +376,7 @@ Each of your 1–3 lineups tells a **different story**.
 | 15 | 9 | DK report had Hunter Henry Q; ESPN's Sunday page had him OUT | On Sunday, re-fetch ESPN's inactives page. When sources disagree, the more recent, more restrictive status wins |
 | 16 | 9 | Jeudy override silently did nothing (not in the salary table); the chat's 4pm lineup used Cody White (LV practice squad, no confirmed salary) | The pipeline warns on unmatched overrides; any player without a confirmed salary is excluded from final lineups |
 | 17 | 9 | Overlap cap 2 vs 3 cost only 0.04–0.09 points; best 2-lineup Milly pair = Purdy L1 + Willis L2 (2.23%) vs the McCarthy alt (2.19%) | Overlap/hedge choices that cost under 0.1 points are free. Pick by football story and hedging the contested angle |
+| 19 | 9 SNF | The field sim showed Kendall's chalk showdown build would be duplicated ~35 times (P(1st) 0.24 per 10k) vs 8.7 per 10k for a Burden-CPT build; a DST-captain 'edge' disappeared once the DST tail was made realistic (CV 0.85→0.60) | Rank GPP lineups by **P(1st) against a simulated field**, not raw ceiling. Always re-run with conservative DST/K variance before trusting a DST/K-captain result. Field-only filler players (estimated) are allowed to make the field realistic, never in our lineup |
 | 18 | 9 | **Partial results (Kendall's own cards):** Walker 39.3 and Shedeur 22.7 (Kendall hunches ✅) · Willis 4.8, Gibbs 13.4, Dulcich 3.4, Judkins 5.5 · Jeudy 5.7, Cody White 0.0 (unverified player, as flagged) | **Trench model A beat the sim on Willis** → when the trench layer and Vegas disagree on a QB, trust the trench read. Kendall's QB/RB hunches went 2-for-2: give hunch angles at least one lineup |
 
 ---
@@ -424,7 +425,7 @@ Each of your 1–3 lineups tells a **different story**.
 
 **Roadmap:**
 - [x] `--teams` slate filter (`late` = 4:05/4:25) · [x] overlap cap `--shared` / `--compare-shared` · [x] `trenches.csv` auto-multiplier · [x] unmatched-override warning (Week 9 Sunday)
-- [ ] Field-ownership sim (top priority)
+- [x] Field-ownership sim for showdown (`engine/field.py`, Week 9 SNF): synthetic 59.5k-entry field from ownership → P(1st) with duplicate splits. Next: Classic version.
 - [ ] Better default ownership (salary rank × game total × projection value) to replace the weak heuristic.
 - [ ] Field simulation (5k field lineups from ownership) → the real target score and a duplicate penalty.
 - [ ] Showdown mode in `sim.py`.
