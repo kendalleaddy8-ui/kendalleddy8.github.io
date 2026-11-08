@@ -41,3 +41,10 @@ Walker option for L2: Walker + Lemon in for Hubbard + Nabers → ceiling 234.9, 
 | DST | Saints $2,900 | Cardinals $2,000 | Giants $2,800 |
 | P(≥240) | 1.47% | 1.30% | 0.77% |
 Portfolio P(≥1 lineup ≥240) = 3.17%. Alternates (validator PASS): Lock+JSN+McBride+Gibbs 0.89% · Shedeur+Fannin+Concepcion+Olave+Gibbs+Walker 0.94% · Milton+Lemon+Singletary+Gibbs+Puka 1.02%.
+
+## v2.2: rebuilt from ESPN's full DK table (`rebuild_espn.py`; validator PASS)
+Fixes: Walker is KC (not SEA) · J.J. McCarthy is the NYG QB ($4,800) · all salaries now 2-source verified.
+- L1 Willis/Bell/Dulcich + Gibbs/St. Brown/LaPorta (DET–MIA game stack) + Nabers, Coleman, Browns DST: P≥240 1.39%
+- L2 Purdy/Kittle/Watkins + Gibbs, Nacua, Gordon, Bell, Mason Taylor, Saints DST: 1.07% (v2.1 L2 re-scores at 1.35%, an equal-or-better swap)
+- L3 Shedeur/Boston/Fannin + Kendre Miller (bring-back), Smith-Njigba, St. Brown, McCaffrey, Dulcich, Giants DST: 0.80% (own≈68%)
+Portfolio P(≥1 ≥240) = 2.96%. Angle ranks: Willis 1.39 · Shedeur 1.12 · Purdy 1.07 · Mahomes 0.94 · McCarthy 0.86 · Lock 0.85 · Milton 0.71.

@@ -72,7 +72,8 @@ Name,Pos,Team,Opponent,Salary,Base,Proj,Own,Kick,Status,Conf,Note
 - Save each week's pool, model and lineups to `dfs/2026-wkNN/` so we can calibrate later.
 
 ### 3.3 Session/network notes (Claude-side)
-- If Claude's cloud session can't open DK Network/ESPN pages directly (Week 9: dknetwork.draftkings.com was blocked), allow these domains in the environment's network settings: `dknetwork.draftkings.com, www.espn.com, www.rotowire.com, www.fantasylabs.com, www.footballguys.com, ftnfantasy.com, www.nfl.com, www.covers.com, www.4for4.com`. Search-result snippets work as a fallback, but they are lossy.
+- **Allowed now (Wk9):** `dknetwork.draftkings.com`, `www.espn.com`. Fetch them with `curl` in the shell, which goes through the session proxy. The `WebFetch` tool still can't reach them. **ESPN's "DraftKings DFS values" article has the full slate table (salary + projection + team for ~170 players): parse it first, every week** (`dfs/2026-wk09/rebuild_espn.py`).
+- If other pages are blocked, allow these domains in the environment's network settings: `dknetwork.draftkings.com, www.espn.com, www.rotowire.com, www.fantasylabs.com, www.footballguys.com, ftnfantasy.com, www.nfl.com, www.covers.com, www.4for4.com`. Search-result snippets work as a fallback, but they are lossy.
 - If a needed number truly can't be found, **exclude the player rather than guess a salary.** Say so in the output.
 
 ---
@@ -293,6 +294,7 @@ Then answer:
 7. **Wk9 (process):** published projections already include Vegas → **apply `implied/22` only to season averages** (no double-counting).
 8. **Wk9 (process):** a deterministic optimizer put Coleman and Dulcich in all 3 lineups → **enforce the exposure cap in code, not by eye.**
 9. **Wk9 (process):** the first sim portfolio put Purdy in two lineups → **distinct QB per lineup is now enforced in code** (`pick(distinct_qb=True)`) and checked by `validate.py`.
+10a. **Wk9 (process):** Kenneth Walker III is a **Chief** in 2026, not a Seahawk, and J.J. McCarthy is the **Giants'** starter. Both came from my memory or snippets → **take every player's team from the salary table (CSV or ESPN), never from memory.** Normalize name spellings ("DeMario" vs "Demario") before joining sources.
 10. **Wk9 (process):** a stale starting QB (McKee vs Milton) slipped into the first handoff → **verify all 32 starting QBs from news less than 72 hours old** (§3.1 #2).
 11. **Wk9 results:** _fill in after games: final portfolio = Willis/Gibbs/JSN/CMC · Purdy/Gibbs/Puka/Kittle · D. Jones/Lamb/CMC/Kittle; alternates Lock/JSN/Gibbs, Shedeur/Fannin/Gibbs/Walker, Milton/Lemon/Gibbs/Puka._
 
