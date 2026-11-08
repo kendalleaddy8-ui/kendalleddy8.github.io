@@ -1,0 +1,74 @@
+
+LINEUP 1  $50,000 ($0 left) · median 143.2 · p99 249.4 · P≥215 3.99% · P≥240 1.47% · own≈106%
+  QB   Malik Willis           MIA vs DET $5,100  proj  19.6  1:00
+  RB   Jahmyr Gibbs           DET vs MIA $10,000  proj  31.1  1:00
+  RB   Christian McCaffrey    SF  vs LV  $8,000  proj  25.1  4:05
+  WR   Jaxon Smith-Njigba     SEA vs ARI $9,300  proj  24.5  4:25
+  WR   Malik Washington       MIA vs DET $4,700  proj  12.9  1:00
+  WR   Efton Chism III        NE  vs GB  $3,600  proj  10.0  4:25
+  TE   Darren Waller          CAR vs DEN $3,300  proj   8.6  1:00
+  FLEX Greg Dulcich           MIA vs DET $3,100  proj  10.7  1:00
+  DST  Saints                 NO  vs CLE $2,900  proj   6.7  1:00
+
+LINEUP 2  $50,000 ($0 left) · median 144.4 · p99 245.2 · P≥215 3.96% · P≥240 1.30% · own≈134%
+  QB   Brock Purdy            SF  vs LV  $6,800  proj  25.6  4:05
+  RB   Jahmyr Gibbs           DET vs MIA $10,000  proj  31.1  1:00
+  RB   Ollie Gordon II        MIA vs DET $5,600  proj  17.8  1:00
+  WR   Puka Nacua             LAR vs WAS $8,800  proj  23.5  1:00
+  WR   Antonio Williams       WAS vs LAR $4,100  proj  10.8  1:00
+  WR   Efton Chism III        NE  vs GB  $3,600  proj  10.0  4:25
+  TE   Greg Dulcich           MIA vs DET $3,100  proj  10.7  1:00
+  FLEX George Kittle          SF  vs LV  $6,000  proj  17.0  4:05
+  DST  Cardinals              ARI vs SEA $2,000  proj   3.5  4:25
+
+LINEUP 3  $49,900 ($100 left) · median 136.7 · p99 234.5 · P≥215 2.49% · P≥240 0.77% · own≈94%
+  QB   Daniel Jones           IND vs DAL $4,700  proj  17.5  1:00
+  RB   Christian McCaffrey    SF  vs LV  $8,000  proj  25.1  4:05
+  RB   Jonah Coleman          DEN vs CAR $5,300  proj  17.7  1:00
+  WR   CeeDee Lamb            DAL vs IND $8,300  proj  21.5  1:00
+  WR   Josh Downs             IND vs DAL $5,100  proj  12.0  1:00
+  WR   Keenan Allen           IND vs DAL $4,900  proj  12.0  1:00
+  TE   George Kittle          SF  vs LV  $6,000  proj  17.0  4:05
+  FLEX Demario Douglas        NE  vs GB  $4,800  proj  12.9  4:25
+  DST  Giants                 NYG vs PHI $2,800  proj   6.5  1:00
+
+Portfolio P(≥1 lineup ≥240) = 3.17%
+VALIDATOR: PASS
+
+--- Requested angles (best P≥240 build per QB) ---
+
+Drew Lock [Gibbs+JSN]  $50,000 ($0 left) · median 137.2 · p99 237.2 · P≥215 2.61% · P≥240 0.89% · own≈128%
+  QB   Drew Lock              SEA vs ARI $4,000  proj  16.5  4:25
+  RB   Jahmyr Gibbs           DET vs MIA $10,000  proj  31.1  1:00
+  RB   Jonah Coleman          DEN vs CAR $5,300  proj  17.7  1:00
+  WR   Jaxon Smith-Njigba     SEA vs ARI $9,300  proj  24.5  4:25
+  WR   Adonai Mitchell        NYJ vs KC  $4,500  proj  12.6  1:00
+  WR   Efton Chism III        NE  vs GB  $3,600  proj  10.0  4:25
+  TE   Greg Dulcich           MIA vs DET $3,100  proj  10.7  1:00
+  FLEX Trey McBride           ARI vs SEA $7,700  proj  14.1  4:25
+  DST  Eagles                 PHI vs NYG $2,500  proj   6.0  1:00
+  validator: PASS
+
+Shedeur Sanders [Gibbs]  $49,800 ($200 left) · median 139.0 · p99 238.2 · P≥215 2.73% · P≥240 0.94% · own≈84%
+  QB   Shedeur Sanders        CLE vs NO  $4,000  proj  15.0  1:00
+  RB   Jahmyr Gibbs           DET vs MIA $10,000  proj  31.1  1:00
+  RB   Kenneth Walker III     SEA vs ARI $9,000  proj  26.5  4:25
+  WR   Chris Olave            NO  vs CLE $7,400  proj  18.7  1:00
+  WR   KC Concepcion          CLE vs NO  $4,600  proj  11.0  1:00
+  WR   Adonai Mitchell        NYJ vs KC  $4,500  proj  12.6  1:00
+  TE   Harold Fannin Jr.      CLE vs NO  $4,700  proj  13.2  1:00
+  FLEX Greg Dulcich           MIA vs DET $3,100  proj  10.7  1:00
+  DST  Eagles                 PHI vs NYG $2,500  proj   6.0  1:00
+  validator: PASS
+
+Joe Milton III [Gibbs+Puka]  $50,000 ($0 left) · median 140.5 · p99 240.3 · P≥215 2.77% · P≥240 1.02% · own≈112%
+  QB   Joe Milton III         PHI vs NYG $4,100  proj  15.2  1:00
+  RB   Jahmyr Gibbs           DET vs MIA $10,000  proj  31.1  1:00
+  RB   Chuba Hubbard          CAR vs DEN $6,500  proj  19.2  1:00
+  WR   Puka Nacua             LAR vs WAS $8,800  proj  23.5  1:00
+  WR   Malik Washington       MIA vs DET $4,700  proj  12.9  1:00
+  WR   Makai Lemon            PHI vs NYG $4,700  proj  11.8  1:00
+  TE   Greg Dulcich           MIA vs DET $3,100  proj  10.7  1:00
+  FLEX Devin Singletary       NYG vs PHI $4,600  proj  12.7  1:00
+  DST  Texans                 HOU vs LAC $3,500  proj   9.1  4:05
+  validator: PASS

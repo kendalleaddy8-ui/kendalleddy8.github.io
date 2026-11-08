@@ -8,7 +8,7 @@ LAR 26.0–WAS 21.5 · NE 24.0–GB 21.5 · SEA 24.0–ARI 15.5 · DEN 23.5–CA
 NO 22.75–CLE 19.75 · NYG 20.75–PHI 17.75. Late games: HOU@LAC, LV@SF 4:05 · GB@NE, ARI@SEA 4:25.
 
 **Key news:** SF WR Evans & Deebo OUT · SEA Darnold OUT (Lock starts) · NE A.J. Brown OUT, Henderson OUT ·
-PHI DeVonta Smith & Wicks OUT (McKee at QB) · NYJ Garrett Wilson OUT, Breece Hall back (limited) ·
+PHI DeVonta Smith & Wicks OUT, **Joe Milton III named starter** (Hurts out for season) · NYJ Garrett Wilson OUT, Breece Hall back (limited) ·
 NYG Skattebo doubtful · CLE Watson inactive (Shedeur starts) · WAS McLaurin IR · St. Brown (ribs) expected to play.
 
 | | L1 Purdy (best) | L2 Willis | L3 Daniels |
@@ -26,3 +26,18 @@ NYG Skattebo doubtful · CLE Watson inactive (Shedeur starts) · WAS McLaurin IR
 | Proj / Ceiling | 151.3 / 241.2 | 149.3 / 237.2 | 144.8 / 231.3 |
 
 Walker option for L2: Walker + Lemon in for Hubbard + Nabers → ceiling 234.9, same median, $49,900, Walker at 4:25.
+
+## v2.1 — final after self-review (sim portfolio, `final.py`; validator PASS)
+| | L1 Willis (DET–MIA shootout) | L2 Purdy (SF blowout) | L3 D. Jones (DAL–IND shootout) |
+|---|---|---|---|
+| QB | Malik Willis $5,100 | Brock Purdy $6,800 | Daniel Jones $4,700 |
+| RB | Jahmyr Gibbs $10,000 | Jahmyr Gibbs $10,000 | Christian McCaffrey $8,000 |
+| RB | Christian McCaffrey $8,000 | Ollie Gordon II $5,600 | Jonah Coleman $5,300 |
+| WR | Jaxon Smith-Njigba $9,300 | Puka Nacua $8,800 | CeeDee Lamb $8,300 |
+| WR | Malik Washington $4,700 | Antonio Williams $4,100 | Josh Downs $5,100 |
+| WR | Efton Chism III $3,600 | Efton Chism III $3,600 | Keenan Allen $4,900 |
+| TE | Darren Waller $3,300 | Greg Dulcich $3,100 | George Kittle $6,000 |
+| FLEX | Greg Dulcich $3,100 | George Kittle $6,000 | Demario Douglas $4,800 |
+| DST | Saints $2,900 | Cardinals $2,000 | Giants $2,800 |
+| P(≥240) | 1.47% | 1.30% | 0.77% |
+Portfolio P(≥1 lineup ≥240) = 3.17%. Alternates (validator PASS): Lock+JSN+McBride+Gibbs 0.89% · Shedeur+Fannin+Concepcion+Olave+Gibbs+Walker 0.94% · Milton+Lemon+Singletary+Gibbs+Puka 1.02%.

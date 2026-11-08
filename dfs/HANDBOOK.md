@@ -3,7 +3,7 @@
 
 > Paste this whole file into a new chat with Claude at the start of each slate, along with the kickoff prompt in §0.
 > Engine code lives in the repo `kendalleaddy8-ui/kendalleddy8.github.io` under `dfs/` (`engine/sim.py`, weekly folders `dfs/2026-wkNN/`).
-> Version history: v1 = original playbook (Weeks 5–8). v2 = Week 9 run: simulation engine, ownership/leverage, data protocol, calibration loop.
+> Version history: v1 = original playbook (Weeks 5–8). v2 = Week 9: simulation engine, ownership/leverage, data protocol, calibration loop. **v2.1 = Week 9 self-review: angle matrix, Vegas money signal, rules validator, self-evaluation protocol (§15A), starting-QB verification.**
 
 ---
 
@@ -52,14 +52,16 @@ Run the handbook: data → projections → ownership → sim → portfolio → s
 
 ### 3.1 Inputs (priority order) and the source for each
 1. **Salaries:** `DKSalaries.csv` (truth). Fallbacks: ESPN "DraftKings DFS values" tables, FTN, The Huddle "Fantasy Domination", Footballguys "Cracking DK", FantasyLabs, DK Network. **Rule: a salary needs 2 sources, or 1 source plus a user screenshot, before a player is "confirmed". Single-source salaries are flagged `?`.**
-2. **Vegas:** spread and total for every game. **Implied team total = total/2 − spread/2** (favorite has the negative spread). Example: SF −9.5, 52 → SF 30.75 / LV 21.25. Use the *latest* line. Sources: CBS, Fox, Covers, VegasInsider, RotoWire.
-3. **Injuries/inactives:** NFL.com injuries-to-monitor and official reports, Yahoo injury tracker, CBS live inactives, RotoWire, Sharp Football (all 32 teams).
-4. **Role changes:** snap %, route %, target share, carries inside the 10 (§4.3).
-5. **DvP:** DK Network DvP article, Pro Football Network.
-6. **Trenches:** 4for4 OL/DL matchups (pressure rate, adjusted line yards, blown-block rate).
-7. **Tendencies:** PROE (muffed.ai), pace (seconds/play), red-zone usage (Fantasy Footballers Red Zone report).
-8. **Ownership:** Fantasy Footballers GPP article, FantasyLabs, Fantasy Team Advice. Use a range, not a point estimate.
-9. **Weather:** game-day forecast for outdoor stadiums.
+2. **Starting QB for every team (verify from news within the last 72 hours, not depth charts or season pages).** Week 9 miss: I listed Tanner McKee for PHI, but Joe Milton III was named the starter on 11/4. Search `"<team> starting quarterback week N <year>"` for every team with any QB uncertainty.
+3. **Vegas:** spread and total for every game. **Implied team total = total/2 − spread/2** (favorite has the negative spread). Example: SF −9.5, 52 → SF 30.75 / LV 21.25. Use the *latest* line. Sources: CBS, Fox, Covers, VegasInsider, RotoWire.
+4. **Injuries/inactives:** NFL.com injuries-to-monitor and official reports, Yahoo injury tracker, CBS live inactives, RotoWire, Sharp Football (all 32 teams).
+5. **Role changes:** snap %, route %, target share, carries inside the 10 (§4.3).
+6. **DvP:** DK Network DvP article, Pro Football Network.
+7. **Trenches:** 4for4 OL/DL matchups (pressure rate, adjusted line yards, blown-block rate).
+8. **Tendencies:** PROE (muffed.ai), pace (seconds/play), red-zone usage (Fantasy Footballers Red Zone report).
+9. **Ownership:** Fantasy Footballers GPP article, FantasyLabs, Fantasy Team Advice. Use a range, not a point estimate.
+10. **Weather:**
+11. **Line movement (open → now) and betting splits:** SportsBettingDime "biggest odds movement", VegasInsider, TheOddsBreakers sharp money, Yahoo betting buzz. Record open and current spread/total for every game. game-day forecast for outdoor stadiums.
 
 ### 3.2 The player-pool CSV schema (one row per player)
 ```
@@ -97,6 +99,7 @@ Name,Pos,Team,Opponent,Salary,Base,Proj,Own,Kick,Status,Conf,Note
 | **Weather** | Wind ≥15 mph: QB/WR/TE ×0.92, K ×0.85 · heavy rain: pass ×0.95, RB ×1.02 |
 | **Pace** | Both teams top-8 pace: all offense ×1.03 · both bottom-8: ×0.97 |
 | **Injury-limited return** | First game back from soft-tissue injury: ×0.80–0.90 (Week 9: Breece Hall) |
+| **Vegas money signal** | Total up ≥3 pts from open, or sharp % on the over: that game's offenses ×1.02–1.03 · total down ≥3: ×0.98 · sharp money on a favorite (spread grows ≥1 with money% > tickets%): favorite's lead RB +0.02. Week 9: DET–MIA 47.5→50.5 with sharp over and DET −6.5→−7 (Gibbs) · NYJ–KC 41.5→47.5 · DEN–CAR 41→44.5 · LAR–WAS 51.5→47.5 · NYG–PHI 44.5→38.5 (Milton named starter) |
 | **QB downgrade on team** | Backup QB: own pass catchers ×0.90, opposing DST only ×1.05 (Lesson 4) |
 
 ### 4.3 Role-change engine (highest-leverage step)
@@ -212,8 +215,13 @@ python3 dfs/engine/sim.py dfs/2026-wkNN/pool_adj.csv --n 3 --target 215 --sims 2
 - **(B)** the sim portfolio.
 Where they agree = core. Where they disagree = decide with football reasoning + Kendall's hunch. The sim doesn't enforce bring-backs yet, so check them by hand.
 
+**Angle matrix (run every week, and always when Kendall names players/QBs):** `dfs/2026-wk09/scenarios.py` builds the best sims for every QB × a set of star requirements (e.g., Gibbs+JSN, Gibbs+Puka, Gibbs, JSN|Puka, Open) and prints P(≥240) for each cell. That turns "what about Shedeur / Milton / Lock?" into a number instead of an opinion. Week 9 result: the best cell was Willis + Gibbs + JSN at 1.46%; Lock, Shedeur and Milton came in at 0.88–1.02%, viable but not superior. The top ~10 QBs sat inside a ~0.6-point band, which is below our projection error, so football judgment and Kendall's read should decide within that band.
+
+**Reading the numbers honestly:** P(≥240) means "scores in the Milly first-place range". It does **not** mean P(win). Winning also requires beating ~1M other lineups that hit on the same Sunday, so the true win probability is a small fraction of P(≥240).
+
 **Engine roadmap (next upgrades):**
-- [ ] Add `Spread` per team so the sim can enforce bring-backs and apply game-script multipliers itself.
+- [x] `Spread` column → bring-backs enforced in the sim (done Wk9 v2.1). Distinct QB per lineup enforced. Hard-rule validator `engine/validate.py`.
+- [ ] Game-script multipliers applied inside the sim from `Spread` (currently done upstream in `model.py`).
 - [ ] Ownership-aware objective: penalize lineups by expected duplicates (product of ownerships).
 - [ ] Field simulation: build 5,000 "field" lineups from ownership to get the real target score per contest.
 - [ ] Showdown mode (CPT slot, 1.5× multipliers).
@@ -284,7 +292,9 @@ Then answer:
 6. **Wk9 (process):** no salary CSV meant ~15 relevant players couldn't be priced → **always upload the CSV; exclude players with unknown prices, never guess.**
 7. **Wk9 (process):** published projections already include Vegas → **apply `implied/22` only to season averages** (no double-counting).
 8. **Wk9 (process):** a deterministic optimizer put Coleman and Dulcich in all 3 lineups → **enforce the exposure cap in code, not by eye.**
-9. **Wk9 results:** _fill in after games: Purdy/McCaffrey/Kittle blowout build, Willis–Gibbs shootout, Daniels–Nacua, sim Shedeur stack._
+9. **Wk9 (process):** the first sim portfolio put Purdy in two lineups → **distinct QB per lineup is now enforced in code** (`pick(distinct_qb=True)`) and checked by `validate.py`.
+10. **Wk9 (process):** a stale starting QB (McKee vs Milton) slipped into the first handoff → **verify all 32 starting QBs from news less than 72 hours old** (§3.1 #2).
+11. **Wk9 results:** _fill in after games: final portfolio = Willis/Gibbs/JSN/CMC · Purdy/Gibbs/Puka/Kittle · D. Jones/Lamb/CMC/Kittle; alternates Lock/JSN/Gibbs, Shedeur/Fannin/Gibbs/Walker, Milton/Lemon/Gibbs/Puka._
 
 ---
 
@@ -303,6 +313,17 @@ Then answer:
 
 ---
 
+## 15A. Self-evaluation protocol (run before EVERY handoff, and show the results)
+
+Claude must do all of this and write a short "Self-evaluation" block in the answer, **before** the lineups:
+1. **Run the validator** (`engine/validate.py`) on the final lineups and every alternate. Report PASS or the exact failures.
+2. **Data-freshness audit:** list every input older than 24 hours or single-sourced (salaries, starting QBs, injury tags, lines). Re-search anything that would change a lineup.
+3. **Rules beyond the validator:** soft defaults from §7.2 (bring-back, lead RB on big favorite, late players in FLEX, punt DSTs). List each deviation with its reason.
+4. **Adversarial pass:** "How does each lineup lose?" Name the single most fragile piece of each lineup and whether a cheap hedge exists.
+5. **Requested angles:** every player/QB Kendall named must appear in the angle matrix with a number, and in the portfolio or as an alternate with a reason.
+6. **Blind spots, stated plainly:** heuristic ownership, single-source salaries, uncalibrated CVs/correlations, TD lumpiness the lognormal doesn't model, no field simulation.
+7. **What changed after review:** list the fixes made because of this self-evaluation. If nothing changed, say why.
+
 ## 15. Self-check before sending any lineup
 
 - [ ] 9 players · salary ≤ $50,000 (prefer ≤ $500 left, or a deliberate dupe-avoidance leftover) · positions valid
@@ -312,7 +333,8 @@ Then answer:
 - [ ] Kickoff times listed · late-game players in FLEX
 - [ ] Across lineups: different QB/stories · pairwise overlap ≤ 3–4 · nobody in all 3 unless deliberate
 - [ ] Total ownership within the contest target (§5.3) · ≥1 leverage angle per lineup
-- [ ] Both models shown (deterministic + sim) · Kendall's hunches tested and reported
+- [ ] Both models shown (deterministic + sim) · Kendall's hunches tested and reported · angle-matrix numbers shown for every requested player/QB
+- [ ] Starting QBs verified from news less than 72 hours old · line moves (open → now) checked · validator PASS
 - [ ] Omar Cooper Jr. excluded
 
 ---
@@ -349,4 +371,4 @@ Loop over every QB (lock QB + ≥2 own pass catchers + bring-back unless the tea
 ---
 
 ## 17. Responsible play
-DFS GPPs are long shots even with optimal lineups. Week 9's best sim portfolio had about an 8% chance of *any* lineup clearing a top-0.5% score, and winning outright is far rarer. Set a fixed weekly budget you're comfortable losing, don't chase losses, and treat a winning week as variance, not proof.
+DFS GPPs are long shots even with optimal lineups. Week 9's final sim portfolio had about a 3% chance that *any* of the 3 lineups reaches the first-place score range (240+), and winning outright is far rarer than that. Set a fixed weekly budget you're comfortable losing, don't chase losses, and treat a winning week as variance, not proof.

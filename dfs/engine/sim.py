@@ -36,7 +36,11 @@ def simulate(pool, sims=20000, seed=7):
     return out
 
 # ---------- 2. lineup optimizer with an arbitrary objective ----------
-def solve(pool, obj, avoid=(), maxov=9, min_stack=1, own_cap=None, lock=(), exclude=()):
+def solve(pool, obj, avoid=(), maxov=9, min_stack=1, own_cap=None, lock=(), exclude=(),
+          require_any=(), qbs=None, bringback=True, blowout=-9):
+    """require_any: list of name-sets, lineup must contain >=1 from each set.
+    qbs: restrict QB to these names. bringback: if pool has Spread, QB on a team with spread > blowout
+    must have >=1 opposing non-DST player."""
     I = range(len(pool)); P = pool.reset_index(drop=True)
     m = LpProblem("d", LpMaximize); x = [LpVariable(f"x{i}", cat="Binary") for i in I]
     m += lpSum(obj[i] * x[i] for i in I)
@@ -48,6 +52,11 @@ def solve(pool, obj, avoid=(), maxov=9, min_stack=1, own_cap=None, lock=(), excl
     for q in [i for i in I if P.Pos[i] == "QB"]:                       # QB + own pass catchers
         pcs = [i for i in I if P.Team[i] == P.Team[q] and P.Pos[i] in ("WR", "TE")]
         m += lpSum(x[i] for i in pcs) >= min(min_stack, len(pcs)) * x[q]
+    for grp in require_any: m += lpSum(x[i] for i in I if P.Name[i] in grp) >= 1
+    if qbs: m += lpSum(x[i] for i in I if P.Pos[i] == "QB" and P.Name[i] in qbs) == 1
+    if bringback and "Spread" in P:
+        for q in [i for i in I if P.Pos[i] == "QB" and P.Spread[i] > blowout]:
+            m += lpSum(x[i] for i in I if P.Team[i] == P.Opponent[q] and P.Pos[i] != "DST") >= x[q]
     for d in [i for i in I if P.Pos[i] == "DST"]:                    # no offense vs own DST
         for i in I:
             if P.Team[i] == P.Opponent[d] and P.Pos[i] != "DST": m += x[i] + x[d] <= 1
@@ -61,16 +70,16 @@ def solve(pool, obj, avoid=(), maxov=9, min_stack=1, own_cap=None, lock=(), excl
     return tuple(i for i in I if x[i].value() > 0.5)
 
 # ---------- 3. candidates = lineups that are optimal in some simulated world ----------
-def candidates(pool, S, n=150, seed=11, **kw):
+def candidates(pool, S, n=150, seed=11, w=0.5, **kw):
     rng = np.random.default_rng(seed); seen = set()
     for k in rng.choice(len(S), size=n, replace=False):
-        obj = 0.5 * S[k] + 0.5 * pool.Proj.values                      # shrink toward median: fewer junk builds
+        obj = w * S[k] + (1 - w) * pool.Proj.values                      # shrink toward median: fewer junk builds
         lu = solve(pool, obj, min_stack=2, **kw)
         if lu: seen.add(lu)
     return sorted(seen)
 
 # ---------- 4. portfolio pick: maximize P(at least one lineup >= target) ----------
-def pick(pool, S, cands, n=3, target=230.0, max_shared=4, max_exp=None):
+def pick(pool, S, cands, n=3, target=230.0, max_shared=4, max_exp=None, distinct_qb=True):
     max_exp = max_exp or max(n - 1, 1)                                 # nobody in every lineup (n>=3)
     scores = np.stack([S[:, list(c)].sum(1) for c in cands], 1)        # sims x candidates
     hit = scores >= target
@@ -80,6 +89,8 @@ def pick(pool, S, cands, n=3, target=230.0, max_shared=4, max_exp=None):
         for j, c in enumerate(cands):
             if j in chosen or any(len(set(c) & set(cands[k])) > max_shared for k in chosen): continue
             used = [i for k in chosen for i in cands[k]]
+            qb = [i for i in c if pool.Pos.iloc[i] == "QB"][0]
+            if distinct_qb and qb in used: continue
             if n >= 3 and any(used.count(i) >= max_exp for i in c): continue
             v = (covered | hit[:, j]).mean()
             if v > bv: best, bv = j, v
