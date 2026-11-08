@@ -1,0 +1,58 @@
+pool: 156 players (ESPN salaries+projections)
+512 candidates
+
+LINEUP 1: $50,000 · med 139.4 · p99 247.7 · P≥240 1.39% · own≈94%
+   RB  Jahmyr Gibbs           DET vs MIA $10,000 proj  31.1 1:00
+   WR  Amon-Ra St. Brown      DET vs MIA $8,100 proj  22.4 1:00
+   WR  Malik Nabers           NYG vs PHI $7,300 proj  18.9 1:00
+   RB  Jonah Coleman          DEN vs CAR $5,300 proj  16.0 1:00
+   QB  Malik Willis           MIA vs DET $5,100 proj  19.5 1:00
+   TE  Sam LaPorta            DET vs MIA $5,100 proj  13.5 1:00
+   WR  Chris Bell             MIA vs DET $3,300 proj   7.8 1:00
+   TE  Greg Dulcich           MIA vs DET $3,100 proj  10.5 1:00
+   DST Browns                 CLE vs NO  $2,700 proj   6.0 1:00
+
+LINEUP 2: $49,800 · med 138.1 · p99 241.7 · P≥240 1.07% · own≈107%
+   RB  Jahmyr Gibbs           DET vs MIA $10,000 proj  31.1 1:00
+   WR  Puka Nacua             LAR vs WAS $8,800 proj  25.0 1:00
+   QB  Brock Purdy            SF  vs LV  $6,800 proj  25.6 4:05
+   TE  George Kittle          SF  vs LV  $6,000 proj  16.9 4:05
+   RB  Ollie Gordon II        MIA vs DET $5,600 proj  17.8 1:00
+   WR  Jordan Watkins         SF  vs LV  $3,300 proj   6.1 4:05
+   WR  Chris Bell             MIA vs DET $3,300 proj   7.8 1:00
+   TE  Mason Taylor           NYJ vs KC  $3,100 proj   8.2 1:00
+   DST Saints                 NO  vs CLE $2,900 proj   6.2 1:00
+
+LINEUP 3: $49,500 · med 135.6 · p99 235.3 · P≥240 0.80% · own≈68%
+   WR  Jaxon Smith-Njigba     SEA vs ARI $9,300 proj  23.4 4:25
+   WR  Amon-Ra St. Brown      DET vs MIA $8,100 proj  22.4 1:00
+   RB  Christian McCaffrey    SF  vs LV  $8,000 proj  25.1 4:05
+   WR  Denzel Boston          CLE vs NO  $5,000 proj  13.0 1:00
+   TE  Harold Fannin Jr.      CLE vs NO  $4,700 proj  12.6 1:00
+   RB  Kendre Miller          NO  vs CLE $4,500 proj   9.8 1:00
+   QB  Shedeur Sanders        CLE vs NO  $4,000 proj  16.7 1:00
+   TE  Greg Dulcich           MIA vs DET $3,100 proj  10.5 1:00
+   DST Giants                 NYG vs PHI $2,800 proj   7.7 1:00
+
+Portfolio P(≥1 ≥240) = 2.96%
+VALIDATOR: PASS
+
+Angle table (best P≥240 per QB among candidates):
+QB
+Malik Willis       1.39%
+Shedeur Sanders    1.12%
+Brock Purdy        1.07%
+Patrick Mahomes    0.94%
+J.J. McCarthy      0.86%
+Drew Lock          0.85%
+Jared Goff         0.83%
+Joe Milton III     0.71%
+Jayden Daniels     0.66%
+Drake Maye         0.62%
+Dak Prescott       0.61%
+Daniel Jones       0.60%
+
+v2.1 portfolio re-scored on ESPN pool:
+  L1: found 9/9  P≥240 0.76%
+  L2: found 9/9  P≥240 1.35%
+  L3: missing {'Demario Douglas'}

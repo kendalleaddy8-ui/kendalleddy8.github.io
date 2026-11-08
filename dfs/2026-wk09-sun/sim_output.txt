@@ -1,0 +1,32 @@
+150 unique candidates · target 215.0 · P(>=1 lineup hits) = 8.4%
+
+Lineup 1: $50,000  median 145.4  p90 191.0  p99 240.9  P(>=215) 3.64%
+   RB  Kenneth Walker III     SEA $9,000  26.5
+   RB  Christian McCaffrey    SF  $8,000  25.1
+   QB  Brock Purdy            SF  $6,800  25.6
+   TE  George Kittle          SF  $6,000  17.0
+   RB  Jonah Coleman          DEN $5,300  17.3
+   WR  Malik Washington       MIA $4,700  12.5
+   WR  Antonio Williams       WAS $4,100  11.0
+   WR  Efton Chism III        NE  $3,600  10.0
+   DST Eagles                 PHI $2,500  6.0
+Lineup 2: $49,900  median 141.8  p90 189.6  p99 243.2  P(>=215) 3.52%
+   RB  Jahmyr Gibbs           DET $10,000  30.2
+   WR  Puka Nacua             LAR $8,800  24.0
+   RB  Christian McCaffrey    SF  $8,000  25.1
+   QB  Malik Willis           MIA $5,100  19.0
+   WR  Malik Washington       MIA $4,700  12.5
+   WR  Antonio Williams       WAS $4,100  11.0
+   TE  Darren Waller          CAR $3,300  8.4
+   TE  Greg Dulcich           MIA $3,100  10.3
+   DST Giants                 NYG $2,800  6.5
+Lineup 3: $49,600  median 133.8  p90 179.8  p99 231.8  P(>=215) 2.15%
+   WR  Jaxon Smith-Njigba     SEA $9,300  24.5
+   WR  Malik Nabers           NYG $7,300  19.8
+   TE  George Kittle          SF  $6,000  17.0
+   RB  Ollie Gordon II        MIA $5,600  17.3
+   TE  Harold Fannin Jr.      CLE $4,700  13.2
+   WR  KC Concepcion          CLE $4,600  11.0
+   RB  Devin Singletary       NYG $4,600  13.0
+   QB  Shedeur Sanders        CLE $4,000  15.0
+   DST Texans                 HOU $3,500  9.1

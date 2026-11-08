@@ -1,0 +1,38 @@
+154 players · 575 candidates · target 240.0 · P(>=1 hits) 2.92%
+
+LINEUP 1: $49,400 · med 140.9 · p99 246.6 · P>=240 1.40% · own~106%
+   RB  Jahmyr Gibbs           DET vs MIA $10,000 proj  31.1 1:00 
+   WR  Puka Nacua             LAR vs WAS $8,800 proj  25.7 1:00 
+   QB  Brock Purdy            SF  vs LV  $6,800 proj  26.8 4:25 
+   TE  George Kittle          SF  vs LV  $6,000 proj  17.4 4:25 
+   RB  Ollie Gordon II        MIA vs DET $5,600 proj  17.8 1:00 
+   WR  Jordan Watkins         SF  vs LV  $3,300 proj   6.1 4:25 
+   WR  Chris Bell             MIA vs DET $3,300 proj   7.2 1:00 
+   TE  Greg Dulcich           MIA vs DET $3,100 proj   9.7 1:00 
+   DST Eagles                 PHI vs NYG $2,500 proj   5.6 1:00 
+
+LINEUP 2: $50,000 · med 134.9 · p99 240.2 · P>=240 1.01% · own~61%
+   RB  Jahmyr Gibbs           DET vs MIA $10,000 proj  31.1 1:00 
+   WR  Amon-Ra St. Brown      DET vs MIA $8,100 proj  21.8 1:00 QUESTIONABLE
+   WR  Jameson Williams       DET vs MIA $6,100 proj  15.0 1:00 
+   RB  Woody Marks            HOU vs LAC $5,700 proj  15.8 4:05 
+   RB  Quinshon Judkins       CLE vs NO  $5,400 proj  16.4 1:00 
+   QB  Malik Willis           MIA vs DET $5,100 proj  17.9 1:00 
+   WR  Chris Bell             MIA vs DET $3,300 proj   7.2 1:00 
+   DST Cowboys                DAL vs IND $3,200 proj   6.4 1:00 
+   TE  Greg Dulcich           MIA vs DET $3,100 proj   9.7 1:00 
+
+LINEUP 3: $50,000 · med 131.4 · p99 231.4 · P>=240 0.70% · own~85%
+   WR  Jaxon Smith-Njigba     SEA vs ARI $9,300 proj  23.4 4:25 
+   RB  Kenneth Walker III     KC  vs NYJ $9,000 proj  26.5 1:00 
+   WR  Malik Nabers           NYG vs PHI $7,300 proj  18.9 1:00 
+   RB  Jonah Coleman          DEN vs CAR $5,300 proj  16.9 1:00 
+   TE  Isaiah Likely          NYG vs PHI $5,000 proj  12.9 1:00 
+   QB  J.J. McCarthy          NYG vs PHI $4,800 proj  18.8 1:00 
+   TE  Chig Okonkwo           WAS vs LAR $3,600 proj   9.3 1:00 
+   WR  Hollywood Brown        PHI vs NYG $3,400 proj   5.5 1:00 
+   DST Commanders             WAS vs LAR $2,300 proj   5.0 1:00 
+
+Angle table (best P>=target per QB): Brock Purdy 1.40% · Malik Willis 1.14% · Jared Goff 1.08% · Drew Lock 0.92% · Matthew Stafford 0.89% · Daniel Jones 0.85% · Geno Smith 0.84% · Drake Maye 0.80% · J.J. McCarthy 0.79% · Shedeur Sanders 0.71% · Dak Prescott 0.69% · Joe Milton III 0.57%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Amon-Ra St. Brown, George Pickens, Colby Parkinson

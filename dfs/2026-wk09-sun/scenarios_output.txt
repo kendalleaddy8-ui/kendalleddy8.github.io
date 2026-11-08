@@ -1,0 +1,54 @@
+/home/user/kendalleddy8.github.io/dfs/2026-wk09/scenarios.py:23: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  tab["best"] = tab.max(1); tab = tab.sort_values("best", ascending=False)
+P(lineup >= 240, Milly first-place range) %, best build per QB x requirement
+
+Cfg               Gibbs+JSN  Gibbs+Puka  Gibbs  JSN|Puka  Open  best
+QB                                                                  
+Malik Willis           1.46        1.40   1.23      1.36  1.23  1.46
+Brock Purdy             NaN        1.30   1.20      1.03  1.28  1.30
+Patrick Mahomes        0.88        1.10   1.19      1.08  0.95  1.19
+Jayden Daniels         0.83        1.15   0.98      0.92  0.90  1.15
+Drake Maye              NaN        1.04   1.06      1.04  0.89  1.06
+Matthew Stafford        NaN        1.01   1.03      0.95  0.92  1.03
+Joe Milton III         0.90        1.02   0.98      0.98  0.76  1.02
+Bo Nix                 0.97        0.98   0.88      1.02  0.74  1.02
+Jared Goff              NaN         NaN    NaN      0.96  0.78  0.96
+Shedeur Sanders        0.82        0.81   0.94      0.74  0.68  0.94
+Daniel Jones           0.83        0.90   0.92      0.83  0.84  0.92
+Dak Prescott            NaN         NaN   0.92      0.76  0.83  0.92
+Drew Lock              0.88         NaN   0.88      0.65  0.68  0.88
+
+Portfolio (target 240): P(>=1 of 3 lineups >= 240) = 3.26%
+
+Lineup 1 [Malik Willis | Gibbs+JSN]  $50,000  med 143.2  p99 249.4  P>=215 3.99%  P>=240 1.47%  own 106%
+   RB  Jahmyr Gibbs           DET $10,000  proj 31.1  own 26%  1:00
+   WR  Jaxon Smith-Njigba     SEA $9,300  proj 24.5  own 16%  4:25
+   RB  Christian McCaffrey    SF  $8,000  proj 25.1  own 20%  4:05
+   QB  Malik Willis           MIA $5,100  proj 19.6  own 9%  1:00
+   WR  Malik Washington       MIA $4,700  proj 12.9  own 10%  1:00
+   WR  Efton Chism III        NE  $3,600  proj 10.0  own 15%  4:25
+   TE  Darren Waller          CAR $3,300  proj 8.6  own 2%  1:00
+   TE  Greg Dulcich           MIA $3,100  proj 10.7  own 7%  1:00
+   DST Saints                 NO  $2,900  proj 6.7  own 2%  1:00
+
+Lineup 2 [Brock Purdy | Gibbs+Puka]  $50,000  med 144.4  p99 245.2  P>=215 3.96%  P>=240 1.30%  own 134%
+   RB  Jahmyr Gibbs           DET $10,000  proj 31.1  own 26%  1:00
+   WR  Puka Nacua             LAR $8,800  proj 23.5  own 29%  1:00
+   QB  Brock Purdy            SF  $6,800  proj 25.6  own 11%  4:05
+   TE  George Kittle          SF  $6,000  proj 17.0  own 25%  4:05
+   RB  Ollie Gordon II        MIA $5,600  proj 17.8  own 10%  1:00
+   WR  Antonio Williams       WAS $4,100  proj 10.8  own 9%  1:00
+   WR  Efton Chism III        NE  $3,600  proj 10.0  own 15%  4:25
+   TE  Greg Dulcich           MIA $3,100  proj 10.7  own 7%  1:00
+   DST Cardinals              ARI $2,000  proj 3.5  own 2%  4:25
+
+Lineup 3 [Brock Purdy | Open]  $50,000  med 143.4  p99 239.8  P>=215 3.24%  P>=240 0.99%  own 129%
+   WR  Amon-Ra St. Brown      DET $8,100  proj 21.1  own 6%  1:00
+   RB  Christian McCaffrey    SF  $8,000  proj 25.1  own 20%  4:05
+   QB  Brock Purdy            SF  $6,800  proj 25.6  own 11%  4:05
+   TE  George Kittle          SF  $6,000  proj 17.0  own 25%  4:05
+   RB  Jonah Coleman          DEN $5,300  proj 17.7  own 30%  1:00
+   WR  Malik Washington       MIA $4,700  proj 12.9  own 10%  1:00
+   WR  Adonai Mitchell        NYJ $4,500  proj 12.6  own 12%  1:00
+   WR  Antonio Williams       WAS $4,100  proj 10.8  own 9%  1:00
+   DST Eagles                 PHI $2,500  proj 6.0  own 6%  1:00

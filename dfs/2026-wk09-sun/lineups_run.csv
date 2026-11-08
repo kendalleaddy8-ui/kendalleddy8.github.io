@@ -1,0 +1,28 @@
+Name,Rating,Team,Opponent,Pos,Base,Salary,Spread,Total,OpenTotal,Kick,PROE,Status,Proj,Adj,Implied,Own,Lineup
+Jahmyr Gibbs,Great,DET,MIA,RB,28.2,10000,-6.5,50.5,47.5,1:00,,,31.11,46.67,28.5,26.0,1
+Puka Nacua,Great,LAR,WAS,WR,25.5,8800,-4.5,47.5,51.5,1:00,,,25.74,43.76,26.0,29.0,1
+Brock Purdy,Great,SF,LV,QB,24.1,6800,-9.5,52.0,,4:25,,,26.82,38.89,30.75,11.0,1
+George Kittle,Great,SF,LV,TE,16.9,6000,-9.5,52.0,,4:25,,,17.41,27.85,30.75,25.0,1
+Ollie Gordon II,Great,MIA,DET,RB,17.3,5600,6.5,50.5,47.5,1:00,,,17.82,26.73,22.0,3.1,1
+Jordan Watkins,Average,SF,LV,WR,6.4,3300,-9.5,52.0,,4:25,,,6.14,10.14,30.75,1.5,1
+Chris Bell,Average,MIA,DET,WR,7.6,3300,6.5,50.5,47.5,1:00,,,7.2,11.88,22.0,1.5,1
+Greg Dulcich,Great,MIA,DET,TE,8.9,3100,6.5,50.5,47.5,1:00,,,9.7,15.52,22.0,7.4,1
+Eagles,Good,PHI,NYG,DST,5.6,2500,3.0,38.5,44.5,1:00,,,5.6,11.2,17.75,1.5,1
+Jahmyr Gibbs,Great,DET,MIA,RB,28.2,10000,-6.5,50.5,47.5,1:00,,,31.11,46.67,28.5,26.0,2
+Amon-Ra St. Brown,Great,DET,MIA,WR,21.8,8100,-6.5,50.5,47.5,1:00,,QUESTIONABLE,21.78,37.03,28.5,6.1,2
+Jameson Williams,Good,DET,MIA,WR,14.6,6100,-6.5,50.5,47.5,1:00,,,15.04,24.81,28.5,3.7,2
+Woody Marks,Good,HOU,LAC,RB,15.3,5700,-6.0,40.5,,4:05,,,15.76,23.64,23.25,3.2,2
+Quinshon Judkins,Good,CLE,NO,RB,14.9,5400,3.0,42.5,,1:00,,,16.39,24.59,19.75,2.9,2
+Malik Willis,Good,MIA,DET,QB,18.9,5100,6.5,50.5,47.5,1:00,,,17.91,26.86,22.0,9.0,2
+Chris Bell,Average,MIA,DET,WR,7.6,3300,6.5,50.5,47.5,1:00,,,7.2,11.88,22.0,1.5,2
+Cowboys,Average,DAL,IND,DST,6.4,3200,-4.5,51.5,,1:00,,,6.4,12.8,28.0,1.5,2
+Greg Dulcich,Great,MIA,DET,TE,8.9,3100,6.5,50.5,47.5,1:00,,,9.7,15.52,22.0,7.4,2
+Jaxon Smith-Njigba,Great,SEA,ARI,WR,23.4,9300,-8.5,39.5,,4:25,,,23.4,39.78,24.0,16.0,3
+Kenneth Walker III,Great,KC,NYJ,RB,24.3,9000,-9.5,47.5,41.5,1:00,,,26.53,39.8,28.5,14.0,3
+Malik Nabers,Good,NYG,PHI,WR,18.0,7300,-3.0,38.5,44.5,1:00,,,18.87,32.09,20.75,10.0,3
+Jonah Coleman,Good,DEN,CAR,RB,14.9,5300,-2.5,44.5,41.0,1:00,,,16.91,25.37,23.5,30.0,3
+Isaiah Likely,Great,NYG,PHI,TE,13.2,5000,-3.0,38.5,44.5,1:00,,,12.94,20.7,20.75,2.4,3
+J.J. McCarthy,Great,NYG,PHI,QB,19.2,4800,-3.0,38.5,44.5,1:00,,,18.82,27.28,20.75,8.0,3
+Chig Okonkwo,Good,WAS,LAR,TE,9.5,3600,4.5,47.5,51.5,1:00,,,9.31,14.9,21.5,1.5,3
+Hollywood Brown,Shaky,PHI,NYG,WR,5.6,3400,3.0,38.5,44.5,1:00,,,5.49,9.06,17.75,1.5,3
+Commanders,Average,WAS,LAR,DST,5.0,2300,4.5,47.5,51.5,1:00,,,5.0,10.0,21.5,1.5,3
