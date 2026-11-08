@@ -1,0 +1,168 @@
+Name,Rating,Team,Opponent,Pos,Base,Salary
+Drake Maye,Good,NE,GB,QB,23.0,7000
+Brock Purdy,Great,SF,LV,QB,24.1,6800
+Jared Goff,Average,DET,MIA,QB,21.1,6600
+Dak Prescott,Average,DAL,IND,QB,20.7,6500
+Jordan Love,Average,GB,NE,QB,19.2,6300
+Matthew Stafford,Shaky,LAR,WAS,QB,18.7,6200
+Patrick Mahomes,Average,KC,NYJ,QB,19.8,6100
+Jayden Daniels,Good,WAS,LAR,QB,21.3,6000
+C.J. Stroud,Average,HOU,LAC,QB,18.2,5900
+Tyler Shough,Poor,NO,CLE,QB,16.9,5700
+Bryce Young,Average,CAR,DEN,QB,17.4,5500
+Bo Nix,Average,DEN,CAR,QB,16.9,5400
+Kirk Cousins,Shaky,LV,SF,QB,16.6,5300
+Malik Willis,Good,MIA,DET,QB,18.9,5100
+Justin Herbert,Poor,LAC,HOU,QB,14.3,5000
+Geno Smith,Shaky,NYJ,KC,QB,15.5,4900
+J.J. McCarthy,Great,NYG,PHI,QB,19.2,4800
+Daniel Jones,Shaky,IND,DAL,QB,15.0,4700
+Gardner Minshew II,Poor,ARI,SEA,QB,13.3,4500
+Joe Milton III,Average,PHI,NYG,QB,15.4,4100
+Shedeur Sanders,Good,CLE,NO,QB,16.7,4000
+Drew Lock,Great,SEA,ARI,QB,18.4,4000
+Jahmyr Gibbs,Great,DET,MIA,RB,28.2,10000
+Kenneth Walker III,Great,KC,NYJ,RB,24.3,9000
+Christian McCaffrey,Great,SF,LV,RB,22.8,8000
+Kyren Williams,Average,LAR,WAS,RB,17.5,7600
+Jonathan Taylor,Great,IND,DAL,RB,20.8,7500
+Javonte Williams,Good,DAL,IND,RB,18.4,7300
+Josh Jacobs,Average,GB,NE,RB,17.1,6800
+Chuba Hubbard,Great,CAR,DEN,RB,18.8,6500
+Braelon Allen,Poor,NYJ,KC,RB,9.3,6300
+Saquon Barkley,Average,PHI,NYG,RB,13.1,6200
+Rhamondre Stevenson,Good,NE,GB,RB,15.5,6100
+Breece Hall,Shaky,NYJ,KC,RB,11.2,6000
+Ashton Jeanty,Good,LV,SF,RB,15.2,5900
+Zach Charbonnet,Average,SEA,ARI,RB,11.2,5800
+Woody Marks,Good,HOU,LAC,RB,15.3,5700
+Ollie Gordon II,Great,MIA,DET,RB,17.3,5600
+Cam Skattebo,Good,NYG,PHI,RB,14.6,5600
+Kaelon Black,Average,SF,LV,RB,10.7,5500
+Tyler Allgeier,Shaky,ARI,SEA,RB,9.6,5400
+Quinshon Judkins,Good,CLE,NO,RB,14.9,5400
+Jonah Coleman,Good,DEN,CAR,RB,14.9,5300
+Jadarian Price,Average,SEA,ARI,RB,11.3,5300
+Mike Washington Jr.,Poor,LV,SF,RB,7.2,5200
+Blake Corum,Average,LAR,WAS,RB,10.2,5100
+Rachaad White,Average,WAS,LAR,RB,12.2,5100
+Seth McGowan,Poor,IND,DAL,RB,4.9,5000
+Alvin Kamara,Average,NO,CLE,RB,11.5,5000
+Emmett Johnson,Poor,KC,NYJ,RB,7.6,4900
+Dylan Sampson,Average,CLE,NO,RB,9.0,4900
+J.K. Dobbins,Average,DEN,CAR,RB,8.5,4800
+Omarion Hampton,Average,LAC,HOU,RB,9.1,4800
+Bam Knight,Shaky,ARI,SEA,RB,8.2,4700
+Kimani Vidal,Average,LAC,HOU,RB,9.1,4700
+MarShawn Lloyd,Poor,GB,NE,RB,3.9,4600
+Devin Singletary,Average,NYG,PHI,RB,8.6,4600
+Elijah Mitchell,Average,PHI,NYG,RB,8.9,4500
+Sione Vaki,Poor,DET,MIA,RB,4.5,4500
+Kendre Miller,Average,NO,CLE,RB,9.8,4500
+Austin Ekeler,Shaky,WAS,LAR,RB,7.0,4400
+Keaton Mitchell,Shaky,LAC,HOU,RB,6.6,4200
+Corey Kiner,Shaky,NE,GB,RB,5.7,4100
+Jaxon Smith-Njigba,Great,SEA,ARI,WR,23.4,9300
+Puka Nacua,Great,LAR,WAS,WR,25.5,8800
+CeeDee Lamb,Great,DAL,IND,WR,21.7,8300
+Amon-Ra St. Brown,Great,DET,MIA,WR,21.8,8100
+Christian Watson,Average,GB,NE,WR,16.6,7500
+Chris Olave,Shaky,NO,CLE,WR,14.9,7400
+Malik Nabers,Good,NYG,PHI,WR,18.0,7300
+Nico Collins,Poor,HOU,LAC,WR,14.4,7200
+Matthew Golden,Great,GB,NE,WR,18.3,7000
+Tetairoa McMillan,Shaky,CAR,DEN,WR,14.2,6900
+Michael Wilson,Shaky,ARI,SEA,WR,13.7,6700
+Garrett Wilson,Shaky,NYJ,KC,WR,13.2,6600
+Rashee Rice,Average,KC,NYJ,WR,14.5,6400
+George Pickens,Average,DAL,IND,WR,13.8,6300
+Jalen Coker,Shaky,CAR,DEN,WR,12.5,6200
+Jameson Williams,Good,DET,MIA,WR,14.6,6100
+Jaylen Waddle,Average,DEN,CAR,WR,11.8,5700
+Stefon Diggs,Average,WAS,LAR,WR,12.6,5600
+Ladd McConkey,Average,LAC,HOU,WR,11.2,5500
+Tre Tucker,Poor,LV,SF,WR,9.7,5400
+Josh Downs,Poor,IND,DAL,WR,8.8,5100
+Devaughn Vele,Average,NO,CLE,WR,10.2,5100
+Denzel Boston,Great,CLE,NO,WR,13.0,5000
+Omar Cooper Jr.,Average,NYJ,KC,WR,9.6,4900
+Keenan Allen,Average,IND,DAL,WR,10.4,4900
+DeMario Douglas,Good,NE,GB,WR,11.4,4800
+Ryan Flournoy,Average,DAL,IND,WR,9.1,4800
+Makai Lemon,Average,PHI,NYG,WR,10.6,4700
+Malik Washington,Average,MIA,DET,WR,10.1,4700
+KC Concepcion,Good,CLE,NO,WR,11.5,4600
+Adonai Mitchell,Average,NYJ,KC,WR,10.1,4500
+Marvin Harrison Jr.,Poor,HOU,LAC,WR,7.6,4500
+Xavier Worthy,Average,KC,NYJ,WR,9.5,4400
+Courtland Sutton,Average,DEN,CAR,WR,9.2,4400
+Demarcus Robinson,Average,SF,LV,WR,9.9,4300
+Quentin Johnston,Poor,LAC,HOU,WR,6.6,4300
+Darius Cooper,Average,PHI,NYG,WR,8.7,4200
+Caleb Douglas,Good,MIA,DET,WR,9.7,4200
+Antonio Williams,Good,WAS,LAR,WR,9.5,4100
+Rashid Shaheed,Average,SEA,ARI,WR,7.6,4100
+Tre Harris,Poor,LAC,HOU,WR,6.6,4000
+Xavier Hutchinson,Shaky,HOU,LAC,WR,7.0,4000
+Brandin Cooks,Poor,SF,LV,WR,5.7,3900
+Mack Hollins,Good,NE,GB,WR,10.1,3800
+Malachi Fields,Good,NYG,PHI,WR,8.6,3700
+Efton Chism III,Good,NE,GB,WR,8.9,3600
+Treylon Burks,Great,WAS,LAR,WR,10.3,3600
+Kyle Williams,Shaky,NE,GB,WR,5.6,3500
+Savion Williams,Shaky,GB,NE,WR,6.0,3500
+Jalen Nailor,Average,LV,SF,WR,7.6,3400
+Hollywood Brown,Shaky,PHI,NYG,WR,5.6,3400
+Jordan Watkins,Average,SF,LV,WR,6.4,3300
+Chris Bell,Average,MIA,DET,WR,7.6,3300
+Laquon Treadwell,Average,IND,DAL,WR,6.0,3100
+Brock Bowers,Average,LV,SF,TE,19.1,7900
+Trey McBride,Poor,ARI,SEA,TE,14.8,7700
+George Kittle,Great,SF,LV,TE,16.9,6000
+Tucker Kraft,Poor,GB,NE,TE,11.0,5500
+Sam LaPorta,Average,DET,MIA,TE,12.4,5100
+Isaiah Likely,Great,NYG,PHI,TE,13.2,5000
+Travis Kelce,Average,KC,NYJ,TE,10.9,4900
+Harold Fannin Jr.,Good,CLE,NO,TE,11.9,4700
+Tyler Warren,Good,IND,DAL,TE,12.1,4600
+Dallas Goedert,Shaky,PHI,NYG,TE,8.8,4400
+Juwan Johnson,Poor,NO,CLE,TE,7.4,4200
+AJ Barner,Average,SEA,ARI,TE,8.5,3800
+Tyler Higbee,Poor,LAR,WAS,TE,6.1,3700
+Chig Okonkwo,Good,WAS,LAR,TE,9.5,3600
+Eli Raridon,Great,NE,GB,TE,10.1,3500
+Michael Mayer,Average,LV,SF,TE,8.5,3400
+Oronde Gadsden,Shaky,LAC,HOU,TE,5.8,3300
+Darren Waller,Shaky,CAR,DEN,TE,5.9,3300
+Dalton Schultz,Good,HOU,LAC,TE,8.6,3200
+Mason Taylor,Good,NYJ,KC,TE,8.5,3100
+Greg Dulcich,Great,MIA,DET,TE,8.9,3100
+Colby Parkinson,Average,LAR,WAS,TE,7.4,3000
+Brevyn Spann-Ford,Average,DAL,IND,TE,6.3,2900
+Evan Engram,Shaky,DEN,CAR,TE,4.7,2800
+Davis Allen,Shaky,LAR,WAS,TE,4.7,2700
+Tommy Tremble,Average,CAR,DEN,TE,5.2,2600
+Charlie Kolar,Average,LAC,HOU,TE,5.8,2500
+Elijah Higgins,Average,ARI,SEA,TE,4.8,2500
+Seahawks,Average,SEA,ARI,DST,7.6,3800
+Chiefs,Poor,KC,NYJ,DST,6.7,3700
+49ers,Poor,SF,LV,DST,5.4,3600
+Texans,Good,HOU,LAC,DST,7.9,3500
+Lions,Shaky,DET,MIA,DST,6.4,3400
+Rams,Poor,LAR,WAS,DST,5.7,3300
+Cowboys,Average,DAL,IND,DST,6.4,3200
+Patriots,Shaky,NE,GB,DST,5.6,3100
+Broncos,Average,DEN,CAR,DST,6.4,3000
+Saints,Average,NO,CLE,DST,6.0,2900
+Giants,Great,NYG,PHI,DST,7.7,2800
+Browns,Good,CLE,NO,DST,6.0,2700
+Panthers,Shaky,CAR,DEN,DST,4.5,2600
+Eagles,Good,PHI,NYG,DST,5.6,2500
+Packers,Great,GB,NE,DST,6.1,2400
+Chargers,Average,LAC,HOU,DST,5.0,2400
+Commanders,Average,WAS,LAR,DST,5.0,2300
+Colts,Shaky,IND,DAL,DST,3.7,2300
+Dolphins,Average,MIA,DET,DST,3.8,2200
+Raiders,Average,LV,SF,DST,4.4,2200
+Jets,Good,NYJ,KC,DST,4.6,2100
+Cardinals,Great,ARI,SEA,DST,4.6,2000

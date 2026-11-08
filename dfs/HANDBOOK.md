@@ -1,376 +1,416 @@
-# NFL DFS GPP Handbook v2 — Kendall × Claude
+# NFL DFS GPP Handbook v3 — Kendall × Claude
 **DraftKings Classic & Showdown · 2026–27 season · large-field GPPs (Millionaire Maker, $20 TNF/MNF showdowns) · 1–3 lineups**
 
-> Paste this whole file into a new chat with Claude at the start of each slate, along with the kickoff prompt in §0.
-> Engine code lives in the repo `kendalleaddy8-ui/kendalleddy8.github.io` under `dfs/` (`engine/sim.py`, weekly folders `dfs/2026-wkNN/`).
-> Version history: v1 = original playbook (Weeks 5–8). v2 = Week 9: simulation engine, ownership/leverage, data protocol, calibration loop. **v2.1 = Week 9 self-review: angle matrix, Vegas money signal, rules validator, self-evaluation protocol (§15A), starting-QB verification.**
+> **How to use:** paste this whole file into a new chat at the start of each slate, along with the kickoff prompt in §0.
+> **Code:** repo `kendalleaddy8-ui/kendalleddy8.github.io`, folder `dfs/`. The engine is in `dfs/engine/`, and each week gets a folder `dfs/2026-wkNN/`.
+> **v3 (Week 9, after the DK Network + ESPN access was turned on):** rebuilt around a real data pipeline (ESPN full salary table + DK Network injury report → simulator → rules check). This replaces v1/v2, so don't paste older versions alongside it.
 
 ---
 
-## 0. How to start each week (paste this with the handbook)
+## 0. Kickoff prompt (paste with the handbook)
 
 ```
-Week __ · Slate: [Main Classic / TNF Showdown / MNF Showdown / other] · Contest: [Milly Maker / $20 SD / other], field size ____
-Lineups: __ · Attached: DKSalaries.csv [yes/no] · Time now: ____ ET
-My hunches this week: ____
-Players I'm excluding: Omar Cooper Jr., ____
-Last week's results (paste scores/finishes if you have them): ____
-Run the handbook: data → projections → ownership → sim → portfolio → self-check. Show the best overall lineup first.
+Week __ · Slate: [Main Classic / TNF Showdown / MNF Showdown / other] · Contest: [Milly / $20 SD / other], field ~____
+Lineups: __ · DKSalaries.csv attached: [yes/no] · Time now: ____ ET
+My hunches / players to test: ____            (every one gets a number in the angle table)
+Always exclude: Omar Cooper Jr., ____
+Last week's results (scores, finishes, notes): ____
+Run Handbook v3: fetch → verify → model → sim + angle matrix → portfolio → self-evaluation → handoff. Best overall lineup first.
 ```
 
-**Always upload `DKSalaries.csv`** (DK lobby → contest → Export to CSV). It takes 10 seconds and is the single biggest quality lever. In Week 9 there was no CSV. Salaries had to be pieced together from about 25 articles, so roughly 15 relevant players (Jeudy, Barkley, Achane, Waddle, Sutton, Pearsall, the Saints QB…) couldn't be priced, and the optimizer couldn't consider them.
+**Upload `DKSalaries.csv` when you can** (DK lobby → contest → Export). It's the only source that settles salary conflicts (Week 9 example: DK Network listed Tyler Shough at $6,000 and ESPN at $5,700). Without it, ESPN's table is the fallback (§3).
 
 ---
 
-## 1. The edge philosophy (why GPPs are different)
+## 1. Edge philosophy
 
-1. **GPP payouts are top-heavy.** First place in the Milly is worth more than everything from 2nd to 100th combined. So we maximize **P(lineup finishes ~top 0.1%)**, not expected points. A 150-median lineup with a fat right tail beats a 155-median lineup that can't reach 240.
-2. **Three levers, in order:** **Ceiling** (players who can score 2–3× their median) × **Correlation** (players whose ceilings happen *together*) × **Uniqueness** (when we hit, we don't split first place with 40 duplicates).
-3. **Role changes are our biggest repeatable edge** (Lesson 2: Bernard). DK prices lag news by 2–5 days. Injury news after Wednesday's pricing usually creates mispriced players.
-4. **Being right about the field matters as much as being right about football.** If a 30%-owned player busts, 30% of the field busts with him. If he booms, we only keep pace. Leverage is fading chalk that is *fragile* and playing low-owned players with *real paths* to a ceiling.
-5. **Test Kendall's hunches in the model, don't dismiss them** (Lesson 5). Week 9: the unconstrained sim independently chose Walker + McCaffrey (workhorse RBs) and a contrarian Shedeur stack, both Kendall instincts.
+1. **GPPs pay the top.** Maximize **P(lineup reaches the first-place score range)**, not average points. A lineup that scores 150 typically but can't reach 240 is worth less than one that scores 140 typically and reaches 240 one week in fifty.
+2. **Three levers:** **Ceiling** (players who can score 2–3× their median) × **Correlation** (ceilings that happen together) × **Uniqueness** (when we hit, we don't split first place).
+3. **Role changes are the most repeatable edge.** DK prices are set by Wednesday, and injury news after that creates mispriced players (Lesson 2: Bernard 25.7 on a 5.5 average).
+4. **Field awareness.** Fade chalk that's *fragile* (a narrow path to points). Play chalk that's *robust* (workhorse RB on a big favorite: Lesson 1, Gibbs 32.7 when faded).
+5. **Test Kendall's hunches with numbers** (Lesson 5). Week 9: the sim on its own picked workhorse RBs (Walker, McCaffrey, Gibbs). On full ESPN data, the Shedeur angle ranked #2 of 13 QBs.
+6. **Honesty about uncertainty.** The top ~10 QB angles are usually within ~0.5 points of each other. That's smaller than our projection error, so inside that band football judgment and Kendall's read break the tie.
 
 ---
 
-## 2. Weekly operating timeline (ET)
+## 2. Weekly timeline (ET)
 
 | When | Task |
 |---|---|
-| **Mon night / Tue** | Post-mortem last week (§12): log projection vs actual, finish, ownership. Update the lessons log. |
-| **Tue–Wed** | DK salaries post. First look: mispricings, role changes already known, game totals. Note early-week lines. |
-| **Wed–Fri** | Practice reports (DNP/LP/FP). Build the **role-change board** (who inherits volume). Track line moves (sharp money moves totals by 1+ pt). |
-| **Fri afternoon** | Final injury reports (Out/Doubtful/Questionable). First full model + sim run. |
-| **Sat** | Saturday updates/elevations. Ownership projections firm up. Second sim run. |
-| **Sun 9:30 AM** | Weather (wind ≥15 mph, heavy rain), line moves, morning reports (Schefter/Rapoport/Pelissero-level news). |
-| **Sun 11:30 AM** | **1:00 inactives.** Re-run. Lock 1:00 decisions. |
-| **Sun ~2:35/2:55 PM** | **4:05/4:25 inactives.** Late swap (§11). |
+| **Mon/Tue** | Post-mortem (§13). Log results in `dfs/results.csv`. Update lessons. |
+| **Tue–Wed** | Salaries post. ESPN DK values article + DK Network first looks. Record **opening lines** in `lines.csv` (`OpenTotal`). |
+| **Wed–Fri** | Practice reports. Role-change board (§5.3). Line moves. |
+| **Fri PM** | First full run (§3–§9). |
+| **Sat** | DK Network injury report (final statuses + IR lists). Ownership firms up. Second run. |
+| **Sun 9:30** | Weather, final line moves, morning reports. Third run. |
+| **Sun 11:30** | 1:00 inactives → swap → re-run with 1:00 players locked. |
+| **Sun ~2:35/2:55** | Late inactives → late swap (§11). |
 | **TNF/MNF** | Showdown (§10). Inactives ~90 min before kick. |
 
 ---
 
-## 3. Data acquisition protocol
+## 3. Data pipeline (what runs, in order)
 
-### 3.1 Inputs (priority order) and the source for each
-1. **Salaries:** `DKSalaries.csv` (truth). Fallbacks: ESPN "DraftKings DFS values" tables, FTN, The Huddle "Fantasy Domination", Footballguys "Cracking DK", FantasyLabs, DK Network. **Rule: a salary needs 2 sources, or 1 source plus a user screenshot, before a player is "confirmed". Single-source salaries are flagged `?`.**
-2. **Starting QB for every team (verify from news within the last 72 hours, not depth charts or season pages).** Week 9 miss: I listed Tanner McKee for PHI, but Joe Milton III was named the starter on 11/4. Search `"<team> starting quarterback week N <year>"` for every team with any QB uncertainty.
-3. **Vegas:** spread and total for every game. **Implied team total = total/2 − spread/2** (favorite has the negative spread). Example: SF −9.5, 52 → SF 30.75 / LV 21.25. Use the *latest* line. Sources: CBS, Fox, Covers, VegasInsider, RotoWire.
-4. **Injuries/inactives:** NFL.com injuries-to-monitor and official reports, Yahoo injury tracker, CBS live inactives, RotoWire, Sharp Football (all 32 teams).
-5. **Role changes:** snap %, route %, target share, carries inside the 10 (§4.3).
-6. **DvP:** DK Network DvP article, Pro Football Network.
-7. **Trenches:** 4for4 OL/DL matchups (pressure rate, adjusted line yards, blown-block rate).
-8. **Tendencies:** PROE (muffed.ai), pace (seconds/play), red-zone usage (Fantasy Footballers Red Zone report).
-9. **Ownership:** Fantasy Footballers GPP article, FantasyLabs, Fantasy Team Advice. Use a range, not a point estimate.
-10. **Weather:**
-11. **Line movement (open → now) and betting splits:** SportsBettingDime "biggest odds movement", VegasInsider, TheOddsBreakers sharp money, Yahoo betting buzz. Record open and current spread/total for every game. game-day forecast for outdoor stadiums.
+### 3.1 Source map: who gives what
+| Source | Access | What it reliably gives | Watch out for |
+|---|---|---|---|
+| **DKSalaries.csv** (user upload) | upload | Truth for salary, position, team, game | Not available unless uploaded |
+| **ESPN "DraftKings DFS values"** (weekly article, `espn.com/fantasy/football/story/...draftkings-nfl-dfs-values-week-N`) | ✅ curl | **Full slate table, ~170 players: name, team, opponent, position, projection, DK salary, value rating.** The backbone of the pool. | Projections can lag injury news (Week 9: listed Treylon Burks, who was OUT). Team assignments are correct for 2026, so trust them over memory. |
+| **DK Network injury report** (`dknetwork.draftkings.com/YYYY/MM/DD/nfl-injury-report-week-N/`) | ✅ curl | Per-team Out/Doubtful/Questionable with beat-writer notes, plus **"On IR/Reserve" lists**. Parsed automatically. | Grep by full name; surnames collide (Luke vs Christian McCaffrey). |
+| **DK Network DvP** (`nfl-defense-vs-position-week-N-draftkings-dfs`) | ✅ curl | Yards and targets allowed per position with salary context → DvP multipliers. | Article covers selected players only. |
+| **DK Network value / tournament / Millionaire / best plays** | ✅ curl | Season stats, snap shares, stack ideas, contrarian angles → role overrides and ownership hints. | Writers disagree. Use them for facts, not conclusions. |
+| **Web search** (CBS/Fox/Covers/VegasInsider/SportsBettingDime) | search | Spreads, totals, **opening vs current lines**, sharp/public splits. | Snippets mix in older seasons. Confirm the year. |
+| **NFL.com / Yahoo / CBS live trackers** | search | Sunday inactives, starting-QB news. | Verify within 72 hours. |
 
-### 3.2 The player-pool CSV schema (one row per player)
+**Access notes:** `dknetwork.draftkings.com` and `www.espn.com` are allowed in the Default environment. Fetch them with `curl` (`engine/fetch.py get`), because the `WebFetch` tool still can't reach them. To add more sites (rotowire, fantasylabs, footballguys, nfl.com, 4for4), ask Claude to add the host to the environment.
+
+### 3.2 Commands
+```bash
+pip install pulp==2.8.0 pandas numpy                     # pulp v4 breaks cat=
+DL=<scratch>/dl; W=dfs/2026-wkNN; mkdir -p $DL $W
+python3 -I dfs/engine/fetch.py get "<ESPN DK values URL>"      $DL/espn.html
+python3 -I dfs/engine/fetch.py get "<DK Network injury URL>"   $DL/inj.html
+python3 -I dfs/engine/fetch.py espn     $DL/espn.html $W/espn_pool.csv      # salaries+proj+teams
+python3 -I dfs/engine/fetch.py injuries $DL/inj.html  $W/injuries.csv       # Out/Doubtful/Q/IR
+python3 -I dfs/engine/fetch.py text     $DL/<article>.html $DL/<article>.txt # read DK picks/DvP
+# write $W/lines.csv and $W/overrides.csv (formats below), then:
+cd dfs/engine && python3 run_week.py ../2026-wkNN --target 240 --cands 500 --qbs "Hunch QB1,Hunch QB2"
 ```
-Name,Pos,Team,Opponent,Salary,Base,Proj,Own,Kick,Status,Conf,Note
-```
-- `Base` = raw source projection (median DK points). `Proj` = after the multipliers in §4. `Own` = projected ownership %.
-- `Kick` = 1:00 / 4:05 / 4:25 / SNF. `Status` = OK/Q/D/OUT. `Conf` = H/M/L (data confidence: salary verified, role clear).
-- Save each week's pool, model and lineups to `dfs/2026-wkNN/` so we can calibrate later.
+- Downloads stay in a separate data directory, and anything that parses them runs with `python3 -I`.
+- `run_week.py` = pipeline → sim portfolio → angle table → validator → `lineups_run.csv` + `report.txt` in the week folder.
 
-### 3.3 Session/network notes (Claude-side)
-- **Allowed now (Wk9):** `dknetwork.draftkings.com`, `www.espn.com`. Fetch them with `curl` in the shell, which goes through the session proxy. The `WebFetch` tool still can't reach them. **ESPN's "DraftKings DFS values" article has the full slate table (salary + projection + team for ~170 players): parse it first, every week** (`dfs/2026-wk09/rebuild_espn.py`).
-- If other pages are blocked, allow these domains in the environment's network settings: `dknetwork.draftkings.com, www.espn.com, www.rotowire.com, www.fantasylabs.com, www.footballguys.com, ftnfantasy.com, www.nfl.com, www.covers.com, www.4for4.com`. Search-result snippets work as a fallback, but they are lossy.
-- If a needed number truly can't be found, **exclude the player rather than guess a salary.** Say so in the output.
+### 3.3 The two hand-made files
+**`lines.csv`** (one row per team): `Team,Opponent,Spread,Total,OpenTotal,Kick,PROE`
+- `Spread` is negative for the favorite. Implied total = Total/2 − Spread/2.
+- `OpenTotal` drives the Vegas money signal.
+- `Kick` = 1:00 / 4:05 / 4:25.
+
+**`overrides.csv`**: `Name,Base,Mult,Own,Status,Tag,Note`
+- `Base` = role-change projection (replaces ESPN's).
+- `Mult` = DvP/trench/red-zone multiplier (§4.2).
+- `Own` = projected ownership %.
+- `Status` = OUT etc. when news beats the injury report.
+- `Tag` ∈ {`rushQB`, `alphaWR`, `leadRB`, `exclude`}.
+- `Note` = the reason (always fill it in, since it's our audit trail).
+
+### 3.4 Verification rules (non-negotiable)
+1. **Salary:** CSV, or ESPN plus one other source. Conflicts → CSV wins, otherwise flag and use the higher salary.
+2. **Team:** from the salary table, never from memory (Week 9: Walker is a **Chief**, not a Seahawk).
+3. **Starting QB for all teams:** news less than 72 hours old (Week 9: Joe Milton III was named the PHI starter over McKee, and J.J. McCarthy starts for NYG because Dart is on IR).
+4. **Status:** DK Network injury report > ESPN projection. If a player is OUT anywhere credible, exclude him.
+5. **Names:** normalize spellings across sources before joining ("DeMario"/"Demario", Jr./II, curly apostrophes). The pipeline does this for injuries; check overrides by hand.
+6. **Unknown salary → exclude the player.** Never guess.
 
 ---
 
-## 4. Projection model v2
+## 4. Projection model
 
-### 4.1 Base projection
-- **Preferred:** a blend of 2–3 published projections (ESPN, FTN, Footballguys, FantasyLabs consensus). Weight the median, and drop an outlier if it's >25% off the others.
-- **No published projection:** season DK avg × (team implied total / 22).
-- ⚠️ **Don't double-count Vegas.** Published projections already include the implied total. Only apply the `× implied/22` step to a season average, never to a source projection.
-- **DST:** base × (22 / opponent implied total).
+### 4.1 Base
+- `Base` = ESPN projection (already includes Vegas). A role-change override replaces it.
+- If blending a second source, take the median and drop outliers more than 25% off.
+- ⚠️ Apply `× implied/22` **only** to a season average, never to a published projection (no double-counting Vegas).
+- DST base = average × (22 / opponent implied total), used only when no projection exists.
 
-### 4.2 Multipliers (applied to Base → Proj). Cap the combined stack at 0.80–1.25.
-| Factor | Rule |
-|---|---|
-| **Game script: favorite lead RB** | ×1.06 if spread ≤ −7 · ×1.03 if ≤ −3.5 |
-| **Game script: underdog RB** | ×0.92 if spread ≥ +7 |
-| **Trailing pass catchers** | WR/TE ×0.94 if spread ≥ +7 (projected garbage time is already priced in) |
-| **Big-favorite WRs** | ×0.95–0.96 if spread ≤ −9 (TDs spread out, starters sit late) |
-| **Pass tendency** | PROE ≥ +3: WR/TE ×1.03 · PROE ≤ −4.5: WR/TE ×0.97, RB ×1.02 |
-| **Red zone** | Heavy inside-10/inside-5 usage ×1.03–1.08, most for players "due" (lots of goal-line work, few TDs) |
-| **DvP** | (pts allowed to position / league avg)^0.35, capped 0.85–1.15 |
-| **Trenches** | QB/pass catchers ×0.90–0.95 behind a bad pass-pro OL vs a strong rush · RB ×1.05–1.10 with a clear run-blocking edge · DST ×1.15 vs a bad OL/offense |
-| **Weather** | Wind ≥15 mph: QB/WR/TE ×0.92, K ×0.85 · heavy rain: pass ×0.95, RB ×1.02 |
-| **Pace** | Both teams top-8 pace: all offense ×1.03 · both bottom-8: ×0.97 |
-| **Injury-limited return** | First game back from soft-tissue injury: ×0.80–0.90 (Week 9: Breece Hall) |
-| **Vegas money signal** | Total up ≥3 pts from open, or sharp % on the over: that game's offenses ×1.02–1.03 · total down ≥3: ×0.98 · sharp money on a favorite (spread grows ≥1 with money% > tickets%): favorite's lead RB +0.02. Week 9: DET–MIA 47.5→50.5 with sharp over and DET −6.5→−7 (Gibbs) · NYJ–KC 41.5→47.5 · DEN–CAR 41→44.5 · LAR–WAS 51.5→47.5 · NYG–PHI 44.5→38.5 (Milton named starter) |
-| **QB downgrade on team** | Backup QB: own pass catchers ×0.90, opposing DST only ×1.05 (Lesson 4) |
+### 4.2 Multipliers (`pipeline.py` applies the automatic ones; the rest go in `overrides.Mult`)
+The combined multiplier is capped at 0.80–1.25× Base.
 
-### 4.3 Role-change engine (highest-leverage step)
-When a starter is OUT, reallocate his **targets, carries and red-zone looks** explicitly. Don't just bump a backup.
-1. Take the missing player's per-game targets/carries/RZ looks.
-2. Distribute by depth chart and route share: roughly 50–60% to the direct replacement, 20–30% to the next man, 10–20% spread out (plus some to the TE/RB on passing downs).
-3. Rebuild the projection: targets × team catch rate × yards per target + TD share × team implied TDs.
-4. Apply a rookie/unknown discount of 0.90 unless snap data already confirms the role.
-5. Flag every role-change player `Conf=M` and list it in the output so Kendall can apply judgment.
-- Week 9 examples: NE A.J. Brown OUT → Douglas/Chism · SF Evans & Deebo OUT → Kittle/McCaffrey target concentration · PHI DeVonta Smith & Wicks OUT → Makai Lemon · NYJ G. Wilson OUT → Adonai Mitchell · NYG Skattebo doubtful → Singletary · NE Henderson OUT → Stevenson.
-
-### 4.4 Distribution parameters (for the sim)
-Coefficient of variation (sd/mean) by position: **QB 0.40 · RB 0.55 · WR 0.65 · TE 0.70 · DST 0.85**. Then:
-- Rushing QBs: CV −0.03 (higher floor), but keep a ceiling boost via the projection.
-- Boom/bust deep threats and TD-dependent TEs: CV +0.10.
-- Workhorse RBs (≥70% snaps, goal-line role): CV −0.05.
-- **Calibrate these from our logged results every 4 weeks (§12).**
-
----
-
-## 5. Ownership & leverage
-
-### 5.1 Ownership sources and heuristics
-Use published projections when available. Without them, the field's chalk is predictable:
-- **Cheap RB who inherits a starter's role** (Week 9: Jonah Coleman $5,300) → 20–35%.
-- **Top RB in the best spot** (Gibbs $10,000, DET 28.75 implied) → 20–30%.
-- **Min-priced starting QB** (Lock / Shedeur $4,000) → 8–15%.
-- **Top WR in the highest-total game, or the most-written-about value** (Nacua ~29%).
-- **TE with a vacated-target story** (Kittle with Evans/Deebo out) → "very chalky".
-- Articles that appear in 4+ outlets (DK Network, FantasyLabs, Footballguys, FTN) → add 5–10%.
-
-### 5.2 Leverage score
-`Leverage = P(player hits ceiling, from sim) − Own%`. Positive = under-owned relative to his boom rate.
-- Prefer +leverage players at the same salary tier.
-- **Fragile chalk** (big ownership with a narrow path: a backup RB in a timeshare, a WR needing a long TD) → fade in at least one lineup.
-- **Robust chalk** (a workhorse RB on a big favorite) → play it. Lesson 1: Gibbs 32.7 when faded. Don't fade good chalk just to be different. Get different elsewhere.
-
-### 5.3 Lineup-level ownership targets (sum of 9 players' Own%)
-| Contest | Target total ownership | Notes |
+| Factor | Rule | Auto? |
 |---|---|---|
-| Milly Maker (~1M+ entries) | **90–140%** | Need ≥2 players under 5%. At least one "game story" the field is light on. |
-| Mid-field GPP (10k–100k) | 110–160% | One contrarian angle is enough. |
-| $20 showdown (large) | CPT ownership is the key lever (§10) | |
-- **Duplication control:** leaving **$200–$1,000 unused** in big fields reduces dupes (most of the field uses $49,800–$50,000). Use it when the cost to ceiling is under ~1.5 points.
+| Favorite's lead RB | ×1.06 (spread ≤ −7) · ×1.03 (≤ −3.5) | ✅ (lead RB = top-projected RB per team, or `leadRB` tag) |
+| Underdog lead RB | ×0.92 (spread ≥ +7) | ✅ |
+| Trailing WR/TE | ×0.94 (spread ≥ +7) | ✅ |
+| Big-favorite WRs | ×0.96 (spread ≤ −9: TDs spread out, starters sit late) | ✅ |
+| PROE | ≥ +3: WR/TE ×1.03 · ≤ −4.5: WR/TE ×0.97, RB ×1.02 | ✅ if `PROE` filled |
+| **Vegas money signal** | Total up ≥3 from open: offense ×1.03 · down ≥3: ×0.98 | ✅ |
+| Red zone | Heavy inside-10/inside-5 usage ×1.03–1.08 ("due" players at the top) | `Mult` |
+| DvP | (points allowed to position / league avg)^0.35, capped 0.85–1.15. DK Network DvP gives the yards/targets. | `Mult` |
+| Trenches | Bad pass-pro vs strong rush: QB/WR/TE ×0.90–0.95 · run-block edge: RB ×1.05–1.10 · DST vs a broken offense ×1.15 | `Mult` |
+| Weather | Wind ≥15 mph: QB/WR/TE ×0.92 · heavy rain: pass ×0.95, RB ×1.02 | `Mult` |
+| Pace | Both teams top-8 pace ×1.03 · both bottom-8 ×0.97 | `Mult` |
+| First game back from soft-tissue injury | ×0.80–0.90 (Week 9: Breece Hall) | `Mult` |
+| Backup QB on team | Own pass catchers ×0.90 · opposing DST only ×1.05 (Lesson 4) | `Mult` |
+
+### 4.3 Ceiling (deterministic model A)
+Proj × position volatility: **QB 1.45, RB 1.5, WR 1.65, TE 1.6, DST 2.0**, plus +0.05 for `rushQB` and alpha WRs (projected ≥18, or tagged).
+
+### 4.4 Distribution (sim model B)
+Lognormal with **mean = Proj** and coefficient of variation (sd/mean) **QB 0.40 · RB 0.55 · WR 0.65 · TE 0.70 · DST 0.85**.
+- **Calibration check:** a good lineup should show median ~135–145, p90 ~190 and p99 ~235–250, which matches real Milly winners. If p99 runs past ~270, the CVs are too high.
+- Re-fit the CVs from `results.csv` every 4 weeks.
 
 ---
 
-## 6. Correlation & game theory
+## 5. Roles, ownership & leverage
 
-### 6.1 Approximate DK correlations (industry-typical; refine with our logs)
+### 5.1 Ownership (fill `overrides.Own` for the 25–40 most relevant players)
+- Sources: Fantasy Footballers GPP article, FantasyLabs, Fantasy Team Advice, DK Network chalk notes.
+- **The default heuristic in `pipeline.py` is weak for studs** (it gave Lamb and St. Brown ~6%). Always override the top-salary players at each position.
+- Typical chalk:
+  - a cheap RB inheriting a role → 20–35%
+  - the top RB in the best spot → 20–30%
+  - a min-priced starting QB → 8–15%
+  - the most-written-about WR → 25–30%
+  - a TE with vacated targets → "very chalky"
+  - anyone featured in 4+ outlets → +5–10%
+
+### 5.2 Leverage
+`Leverage = P(player reaches his ceiling, from the sim) − Own%`.
+- Fade fragile chalk in at least one lineup.
+- Keep robust chalk and get unique elsewhere.
+- **Total lineup ownership targets** (sum of 9 players):
+
+| Contest | Target total | Requirement |
+|---|---|---|
+| Milly | 90–140% | ≥2 players under 5% owned |
+| Mid-size GPP | 110–160% | |
+| Showdown | Captain ownership is the main lever (§10) | |
+
+- In big fields, leaving **$200–$1,000** unused cuts duplicate lineups when it costs under ~1.5 ceiling points.
+
+### 5.3 Role-change engine
+When a starter is OUT, reallocate his targets, carries and red-zone looks:
+- 50–60% to the direct replacement, 20–30% to the next man, the rest spread out.
+- Rebuild the projection: targets × catch rate × yards per target + TD share × team implied TDs.
+- Apply a ×0.90 rookie discount unless snaps confirm the role.
+- Put it in `overrides.Base` with a `Note`.
+
+Week 9 board, for reference:
+
+| Out | Who gains |
+|---|---|
+| NE A.J. Brown | Douglas, Chism, Hollins, Raridon |
+| NE Henderson | Stevenson |
+| SF Evans & Deebo (plus Pearsall, out for the season) | Kittle, McCaffrey, Watkins, Robinson |
+| PHI Smith & Wicks, with Milton at QB | Makai Lemon |
+| NYJ G. Wilson | Adonai Mitchell, Mason Taylor |
+| NYG Skattebo (Tracy on IR, Harris released) | Singletary |
+| MIA Achane (out for the season) | Ollie Gordon II |
+| WAS McLaurin and Burks | Antonio Williams, Diggs, Okonkwo |
+| SEA Darnold and Shaheed | Lock, Smith-Njigba |
+
+---
+
+## 6. Correlation & game stories
+
+### 6.1 Approximate DK correlations (industry-typical; refine from our logs)
 | Pair | r |
 |---|---|
 | QB – own WR1 | **+0.45** |
 | QB – own TE1 | +0.35 |
 | QB – own WR2 | +0.30 |
-| QB – opposing WR1 (bring-back) | +0.20 |
+| QB – opposing WR1 | +0.20 |
 | QB – own RB1 | +0.10 (pass-catching RB +0.20) |
-| RB1 – own DST | +0.15 to +0.20 (winning script) |
-| Own WR1 – WR2 | ~0 to +0.10 |
-| RB1 – same-team RB2 | **−0.20** (avoid unless a blowout/backfield split narrative) |
+| RB1 – own DST | +0.15 to 0.20 |
+| WR1 – WR2 (same team) | ~0 to +0.10 |
+| RB1 – same-team RB2 | **−0.20** |
 | DST – opposing offense | **−0.30 to −0.40** (hard rule: never) |
-| QB – own DST | ~0 |
-The sim (`engine/sim.py`) builds these through shared **game**, **team-pass** and **team-rush** factors, plus DSTs negatively tied to the opposing offense.
 
-### 6.2 Build around a game story, not a list of good plays
-Pick the story first, then fill it in:
-- **Shootout:** QB + 2 pass catchers + 1–2 bring-backs (high total, close spread; Week 9: DAL–IND 51.5, DET–MIA 50.5).
-- **Blowout:** QB + RB + 1–2 pass catchers from the favorite + that team's DST. No bring-back needed (Week 9: SF −9.5 with Purdy/McCaffrey/Kittle).
-- **Defensive slog:** fade the game entirely. Use that DST plus a workhorse RB.
-- **Role-change smash:** the newly promoted player plus his QB (Week 9: Maye + Douglas + Chism).
-- **Contrarian QB:** a low-owned QB in a good matchup with his top 2 targets (Week 9: Shedeur + Fannin + Concepcion vs NO).
-- Each of your 1–3 lineups should tell a **different story**.
+The sim produces these through shared game, team-pass and team-rush factors. DSTs are negatively tied to the opposing offense.
+
+### 6.2 Build each lineup around a story
+| Story | Recipe | Week 9 example |
+|---|---|---|
+| **Shootout** | QB + 2 pass catchers + 1–2 bring-backs; high total, close spread | Lions–Dolphins 50.5 (sharp money on the over): Willis + Bell + Dulcich vs Gibbs + St. Brown + LaPorta |
+| **Blowout** | Favorite's QB + RB + 1–2 pass catchers (+ DST); no bring-back | 49ers −9.5: Purdy + Kittle (+ McCaffrey) |
+| **Role-change smash** | Promoted player + his QB | Maye + Douglas/Chism |
+| **Contrarian QB** | Low-owned QB + top 2 targets + bring-back | Shedeur + Boston + Fannin + Kendre Miller |
+| **Slog fade** | Skip the game; use its DST and/or workhorse RB | Giants–Eagles 38.5 |
+
+Each of your 1–3 lineups tells a **different story**.
 
 ---
 
 ## 7. Construction rules (Classic)
 
-### 7.1 Hard rules (never break)
-- $50,000 cap; QB, 2 RB, 3 WR, TE, FLEX (RB/WR/TE), DST.
-- **Max 3 players per team** (Lesson 3: four Rams sank Week 6).
-- **No offensive player against your own DST** (Week 5 Shough + Vikings DST, Week 8 Dolphins DST).
-- **QB + ≥1 own pass catcher**; ≥2 when the team has two viable ones.
-- Nobody OUT/Doubtful. Questionables only with a 4:05/4:25 pivot available, or with confirmed "expected to play" news.
-- **≤ 2 near-zero punts** (avg < ~5 with no new role). No 0.0-average backups unless a role change is confirmed.
+### 7.1 Hard rules (enforced in code by `engine/validate.py`)
+- $50,000 cap. Positions: QB, 2 RB, 3 WR, TE, FLEX (RB/WR/TE), DST.
+- **≤3 players per team** (Lesson 3).
+- **No offensive player against your own DST.**
+- **QB + ≥1 own pass catcher**, and ≥2 when the team has two viable ones.
+- **Bring-back required** unless the QB's team is favored by 9 or more.
+- Nobody OUT, IR or Doubtful. Omar Cooper Jr. never.
+- Across lineups: **a different QB in each lineup**, at most 3–4 shared players per pair, and nobody in every lineup (3+ lineups).
 
 ### 7.2 Strong defaults (break only with a stated reason)
-- Bring-back from the opponent preferred, unless the QB's team is favored by ≥9 (blowout story).
-- Lead RB on a favorite of −7 or more = core (Lesson 1).
-- DST vs a backup/rookie QB: modest boost only (Lesson 4: Panthers DST scored 4).
-- Late-game players (4:05/4:25) in FLEX for late-swap flexibility.
-- Avoid same-team RB + RB, and avoid a QB with his own RB as the only "stack".
-- TE in FLEX only if the TE2 has a target/red-zone path (Week 9: Dulcich vs DET's 28.3 DK pts/g to TEs).
+- Lead RB on a −7 or bigger favorite is a core play.
+- DSTs vs backup/rookie QBs get only a modest boost.
+- At most 2 near-punts (projected under ~6 with no new role).
+- Questionable players only with a late-game pivot or "expected to play" news.
+- Late-window players in FLEX.
+- No same-team RB+RB.
+- A second TE only with a target/red-zone path.
 
 ---
 
-## 8. Simulation engine (how we pick lineups now)
+## 8. Simulation engine & angle matrix
 
-**What it does** (`dfs/engine/sim.py`):
-1. **Simulate** 20,000 slates. Each player = lognormal(mean = Proj, CV by position), correlated through game, team-pass and team-rush factors. DSTs are negatively tied to the opponent offense.
-2. **Generate candidates:** solve the optimizer ~150 times against blended objectives (½ one simulated world + ½ median). Each candidate is optimal in some plausible world, and all hard rules are enforced.
-3. **Pick the portfolio:** greedily choose lineups that maximize **P(at least one lineup ≥ target score)**. Shared players are limited (default ≤4) and nobody is in all 3 lineups.
+**`engine/sim.py`:**
+1. 20,000 correlated slate simulations.
+2. ~250–500 **sim-optimal candidates**: the optimizer solved against a blend of one simulated world and the median projections, with all hard rules, bring-backs and forced players.
+3. **Greedy portfolio pick** maximizing P(at least one lineup ≥ target), with overlap and exposure caps and a distinct QB per lineup.
 
-**Run it:**
-```bash
-pip install pulp==2.8.0 pandas numpy        # pulp v4 breaks cat=
-python3 dfs/engine/sim.py dfs/2026-wkNN/pool_adj.csv --n 3 --target 215 --sims 20000 --cands 150
-```
-**Targets (calibrate with our results):** Milly first-place range is roughly 230–260 DK pts, so use `--target 230–240` for a pure first-place chase and `215` to balance the top-1% finish rate. Mid-field GPPs: ~200.
-**Week 9 calibration check:** good lineups showed median ~140–145, p90 ~190 and p99 ~240, consistent with real Milly winning scores. If p99 drifts above ~270, the CVs are too high.
+**Angle matrix (every week, and always for Kendall's hunches):**
+- Every relevant QB × a set of star requirements, for example: Gibbs + (Smith-Njigba or Nacua), Gibbs only, (Smith-Njigba or Nacua), Open.
+- Print P(≥240) for each cell. That turns "what about Shedeur / Milton / Lock / McCarthy?" into a number.
+- Week 9 full matrix (ESPN pool), chance of 240+:
 
-**Two-model rule:** always show both
-- **(A)** the deterministic "ceiling optimizer" (v1 multiplier method, `dfs/2026-wk09/model.py`), and
-- **(B)** the sim portfolio.
-Where they agree = core. Where they disagree = decide with football reasoning + Kendall's hunch. The sim doesn't enforce bring-backs yet, so check them by hand.
+| QB | Chance |
+|---|---|
+| Malik Willis | 1.39% |
+| Shedeur Sanders | 1.12% |
+| Brock Purdy | 1.07% |
+| Patrick Mahomes | 0.94% |
+| J.J. McCarthy | 0.86% |
+| Drew Lock | 0.85% |
+| Joe Milton III | 0.71% |
 
-**Angle matrix (run every week, and always when Kendall names players/QBs):** `dfs/2026-wk09/scenarios.py` builds the best sims for every QB × a set of star requirements (e.g., Gibbs+JSN, Gibbs+Puka, Gibbs, JSN|Puka, Open) and prints P(≥240) for each cell. That turns "what about Shedeur / Milton / Lock?" into a number instead of an opinion. Week 9 result: the best cell was Willis + Gibbs + JSN at 1.46%; Lock, Shedeur and Milton came in at 0.88–1.02%, viable but not superior. The top ~10 QBs sat inside a ~0.6-point band, which is below our projection error, so football judgment and Kendall's read should decide within that band.
+- `run_week.py --qbs "..."` does a quick version.
 
-**Reading the numbers honestly:** P(≥240) means "scores in the Milly first-place range". It does **not** mean P(win). Winning also requires beating ~1M other lineups that hit on the same Sunday, so the true win probability is a small fraction of P(≥240).
+**Search breadth matters.** Week 9: 310 candidates found a best of 1.04% where 512 candidates (with forced-star configs) found 1.39%. Use **≥500 candidates** for the final portfolio, and treat gaps under ~0.3 points as ties.
 
-**Engine roadmap (next upgrades):**
-- [x] `Spread` column → bring-backs enforced in the sim (done Wk9 v2.1). Distinct QB per lineup enforced. Hard-rule validator `engine/validate.py`.
-- [ ] Game-script multipliers applied inside the sim from `Spread` (currently done upstream in `model.py`).
-- [ ] Ownership-aware objective: penalize lineups by expected duplicates (product of ownerships).
-- [ ] Field simulation: build 5,000 "field" lineups from ownership to get the real target score per contest.
-- [ ] Showdown mode (CPT slot, 1.5× multipliers).
-- [ ] Calibrate CVs and correlations from our logged weekly results.
+**Targets:**
+- Milly first-place range ≈ 230–260, so use `--target 240`.
+- For a top-1% balance use 215. Mid-size GPPs: ~200.
+- **P(≥240) is not P(win).** You also have to outscore everyone else who hits that week.
 
----
-
-## 9. Portfolio strategy for 1–3 lineups
-
-- **1 lineup:** the highest P(≥target) lineup that also passes the "story" test. Take some chalk where it's robust and get your leverage at one or two spots.
-- **2 lineups:** two different game stories, no shared QB, ≤3 shared players. One leans chalk-robust, one leans contrarian.
-- **3 lineups:** three stories (e.g., blowout favorite / shootout / contrarian QB), ≤3–4 shared players per pair, and no player in all 3 unless that's deliberate and stated (e.g., a workhorse RB at a price the field won't pay).
-- **Exposure sanity:** each lineup should differ at QB, the main stack, the DST, and at least 2 of the RBs/WRs.
+**Two-model rule:** show both the deterministic ceiling optimizer (model A, `2026-wk09/model.py` style) and the sim portfolio (model B). Where they agree = core. Where they disagree = decide with football reasoning plus Kendall's read.
 
 ---
 
-## 10. Showdown v2 (TNF/MNF, $20)
+## 9. Portfolio for 1–3 lineups
 
-- **Format:** CPT (1.5× points and salary) + 5 FLEX, $50,000. Both teams must be represented.
-- **Hard rule:** never pair a DST with the opposing QB (or with opposing pass catchers as CPT).
-- **Captain selection:** rank by **P(top-scoring player in the game) × (1 − CPT ownership)**. The field over-captains the QB and alpha WR. Pivot CPTs: the workhorse RB on the favorite, the WR2 with a role change, the TE in a red-zone-heavy offense.
-- **Composition by story:**
-  - Favorite dominates → **5-1 or 4-2** favorite (CPT the RB or WR1 from the favorite).
+- **1 lineup:** the highest P(≥target) lineup that passes the story test. Robust chalk plus 1–2 leverage spots.
+- **2 lineups:** two stories, different QBs, ≤3 shared players. One chalk-robust, one contrarian.
+- **3 lineups:** three stories (for example blowout / shootout / contrarian QB), ≤3–4 shared players per pair, nobody in all 3.
+- Each lineup should differ at QB, the main stack, the DST, and at least 2 RB/WR spots.
+
+---
+
+## 10. Showdown (TNF/MNF)
+
+- **Format:** CPT (1.5× points and salary) + 5 FLEX, $50,000, both teams represented. **Never** a DST with the opposing QB or opposing pass catchers at CPT.
+- **Captain choice:** P(top scorer in the game) × (1 − CPT ownership). The field over-captains the QB and WR1. Pivot captains: the favorite's workhorse RB, a WR2 with a role change, a red-zone TE.
+- **Team splits by story:**
+  - Favorite dominates → 5-1 or 4-2 (CPT the favorite's RB or WR1).
   - Shootout → 3-3 or 4-2 with both QBs.
-  - Defensive game → DST + K in FLEX, CPT a RB.
-- **Kickers:** viable FLEX in low totals or when the favorite stalls in the red zone. Rarely CPT.
+  - Slog → DST + K in FLEX, CPT a RB.
+- **Kickers:** fine as FLEX in low totals. Rarely CPT.
 - **Backup-QB games:** the opposing DST is strong, and the backup's WR1 still gets catch-up targets.
-- **Salary:** most of the field spends the full $50,000. Leaving $1,000–$2,500 is a legitimate dupe-avoider in showdown.
-- **Multiple lineups:** a different CPT in each (QB in one, RB/WR in another), and ≤4 shared FLEX.
+- **Salary:** leaving $1,000–$2,500 unused is a legitimate way to avoid duplicates.
+- **Multiple lineups:** a different CPT in each, ≤4 shared FLEX.
 
 ---
 
-## 11. Sunday late-swap protocol
+## 11. Sunday protocol & late swap
 
-1. 11:30 AM: process the 1:00 inactives. Swap any inactive 1:00 player, then re-run the sim with the 1:00 players locked.
-2. Keep **4:05/4:25 players in FLEX** (and in the latest RB/WR slots possible).
-3. Around 3:30 PM, with the 1:00 games mostly done: check where each lineup stands.
-   - If a lineup needs a ceiling outcome, pivot late slots to **higher-variance, lower-owned** players.
-   - If it's already strong, keep the late slots chalky and robust.
-4. ~2:35/2:55 PM: late inactives. Swap anyone ruled out.
-5. Re-check the "no offense vs own DST" rule after every swap.
-
----
-
-## 12. Post-mortem & calibration loop (do this every week)
-
-Log one row per player we rostered **and** for the top 30 projected players:
-```
-Week,Name,Pos,Salary,Base,Proj,Ceiling,Own_proj,Own_actual,Actual,Rostered,Note
-```
-Then answer:
-1. Which projections missed by more than 50%, and why: role, game script, injury, TD variance? Is the miss **repeatable** (model error) or **noise**?
-2. Did any multiplier consistently push the wrong way? Every 4 weeks, adjust its size by up to ±0.02.
-3. Did the sim's p99 match the actual winning scores? Adjust the CVs.
-4. Ownership: what did the field get wrong (and right) that we can exploit next week?
-5. Did Kendall's hunch hit? Log it. Hunch hit rate is data.
-6. Write any new lesson into §13 **only if it changes a rule**.
+1. **11:30:** 1:00 inactives. Re-fetch the injury report → swap → re-run with 1:00 players locked.
+2. Keep 4:05/4:25 players in FLEX and the late RB/WR slots.
+3. **~3:30:**
+   - A lineup that needs a ceiling → pivot its late slots to higher-variance, lower-owned players.
+   - A lineup that's already strong → stay robust.
+4. **~2:35/2:55:** late inactives → swap.
+5. After **every** swap, re-run `validate.py` (DST conflict, stack, team caps).
 
 ---
 
-## 13. Lessons log (rules learned from results)
+## 12. Self-evaluation protocol (before EVERY handoff, and shown in the answer)
 
-1. **Wk5:** faded Gibbs on a big favorite → he scored 32.7. **Lead RBs on big favorites = core.**
-2. **Wk6:** Germie Bernard scored 25.7 on a 5.5 average → **current role > season average.**
-3. **Wk6:** four Rams in one lineup in a game that busted → **max 3 per team.**
-4. **Wk6:** Panthers DST vs a backup QB scored 4 → **don't overrate DSTs vs backups.**
-5. **Kendall's instincts hit** (Bernard, Chase/Ravens history, Walker) → **test his hunches in the model, don't dismiss them.**
-6. **Wk9 (process):** no salary CSV meant ~15 relevant players couldn't be priced → **always upload the CSV; exclude players with unknown prices, never guess.**
-7. **Wk9 (process):** published projections already include Vegas → **apply `implied/22` only to season averages** (no double-counting).
-8. **Wk9 (process):** a deterministic optimizer put Coleman and Dulcich in all 3 lineups → **enforce the exposure cap in code, not by eye.**
-9. **Wk9 (process):** the first sim portfolio put Purdy in two lineups → **distinct QB per lineup is now enforced in code** (`pick(distinct_qb=True)`) and checked by `validate.py`.
-10a. **Wk9 (process):** Kenneth Walker III is a **Chief** in 2026, not a Seahawk, and J.J. McCarthy is the **Giants'** starter. Both came from my memory or snippets → **take every player's team from the salary table (CSV or ESPN), never from memory.** Normalize name spellings ("DeMario" vs "Demario") before joining sources.
-10. **Wk9 (process):** a stale starting QB (McKee vs Milton) slipped into the first handoff → **verify all 32 starting QBs from news less than 72 hours old** (§3.1 #2).
-11. **Wk9 results:** _fill in after games: final portfolio = Willis/Gibbs/JSN/CMC · Purdy/Gibbs/Puka/Kittle · D. Jones/Lamb/CMC/Kittle; alternates Lock/JSN/Gibbs, Shedeur/Fannin/Gibbs/Walker, Milton/Lemon/Gibbs/Puka._
-
----
-
-## 14. Kendall's profile & communication preferences
-
-- **Goal:** win large-field GPPs. Usually 1–3 lineups.
-- **Wants every angle:** film-style football reasoning, coaching tendencies, trenches, Vegas, DK Network, stats.
-- **Likes:** workhorse RBs (Gibbs, Walker, McCaffrey), contrarian QBs, sleepers with history (e.g., Jeudy–Shedeur).
-- **Always excludes:** Omar Cooper Jr.
-- **Output format:**
-  - Show the **overall best lineup first**, alongside any other answer.
-  - When reviewing Kendall's lineups, give **positives before negatives**.
-  - Note kickoff times for late swap. State which data was missing or uncertain.
-  - **Always self-check before sending (§15).**
-- **Season rule:** 2026–27 data only. Trust the uploaded salary CSV over articles when they conflict.
+1. **Validator** on the final lineups and every alternate → PASS or the exact failures.
+2. **Data-freshness audit:**
+   - starting QBs verified less than 72 hours ago
+   - injury report re-fetched today
+   - single-source salaries listed
+   - lines compared open → now
+3. **Player-status sweep:** grep the DK injury report for **every rostered player's full name**, and report any Q/D/OUT with a quote.
+4. **Soft-rule deviations** (§7.2), each with its reason.
+5. **Adversarial pass:** how does each lineup lose? Name the most fragile piece and any cheap hedge.
+6. **Requested angles:** every player/QB Kendall named has a number in the angle table, and is either in the portfolio or listed as an alternate with a reason.
+7. **Blind spots, stated plainly:** heuristic ownership, CVs/correlations not yet calibrated, TD scoring lumpier than the lognormal shows, no field simulation, how much results depend on search breadth.
+8. **What changed because of this review.** If nothing changed, say why.
 
 ---
 
-## 15A. Self-evaluation protocol (run before EVERY handoff, and show the results)
+## 13. Post-mortem & calibration
 
-Claude must do all of this and write a short "Self-evaluation" block in the answer, **before** the lineups:
-1. **Run the validator** (`engine/validate.py`) on the final lineups and every alternate. Report PASS or the exact failures.
-2. **Data-freshness audit:** list every input older than 24 hours or single-sourced (salaries, starting QBs, injury tags, lines). Re-search anything that would change a lineup.
-3. **Rules beyond the validator:** soft defaults from §7.2 (bring-back, lead RB on big favorite, late players in FLEX, punt DSTs). List each deviation with its reason.
-4. **Adversarial pass:** "How does each lineup lose?" Name the single most fragile piece of each lineup and whether a cheap hedge exists.
-5. **Requested angles:** every player/QB Kendall named must appear in the angle matrix with a number, and in the portfolio or as an alternate with a reason.
-6. **Blind spots, stated plainly:** heuristic ownership, single-source salaries, uncalibrated CVs/correlations, TD lumpiness the lognormal doesn't model, no field simulation.
-7. **What changed after review:** list the fixes made because of this self-evaluation. If nothing changed, say why.
+`dfs/results.csv`: `Week,Name,Pos,Salary,Base,Proj,Own_proj,Own_actual,Actual,Rostered,Note`. Log the rostered players plus the top 30 projected.
+1. Misses of more than 50%: role, script, injury, or TD variance? Is it repeatable or noise?
+2. Multipliers that consistently push the wrong way → adjust by up to ±0.02 every 4 weeks.
+3. Sim p99 vs actual winning scores → re-fit the CVs.
+4. Where was ownership wrong (ours vs the field's)?
+5. Kendall hunch log, hit or miss. The hit rate is data.
+6. Add a lesson in §14 **only if it changes a rule.**
 
-## 15. Self-check before sending any lineup
+---
 
-- [ ] 9 players · salary ≤ $50,000 (prefer ≤ $500 left, or a deliberate dupe-avoidance leftover) · positions valid
-- [ ] ≤ 3 per team · no offense vs own DST · QB + ≥1 own pass catcher (2 when available) · bring-back or a stated blowout reason
-- [ ] Nobody OUT/Doubtful · Questionables have a stated plan · ≤ 2 punts
-- [ ] Every salary confirmed (CSV, or 2 sources) · no 2025 data
-- [ ] Kickoff times listed · late-game players in FLEX
-- [ ] Across lineups: different QB/stories · pairwise overlap ≤ 3–4 · nobody in all 3 unless deliberate
-- [ ] Total ownership within the contest target (§5.3) · ≥1 leverage angle per lineup
-- [ ] Both models shown (deterministic + sim) · Kendall's hunches tested and reported · angle-matrix numbers shown for every requested player/QB
-- [ ] Starting QBs verified from news less than 72 hours old · line moves (open → now) checked · validator PASS
+## 14. Lessons (each one is a rule)
+
+| # | Week | What happened | Rule |
+|---|---|---|---|
+| 1 | 5 | Faded Gibbs on a big favorite → 32.7 | Lead RBs on big favorites = core |
+| 2 | 6 | Bernard 25.7 on a 5.5 average | Current role > season average |
+| 3 | 6 | Four Rams in a busted game | ≤3 per team |
+| 4 | 6 | Panthers DST vs a backup QB scored 4 | Modest DST boost vs backups |
+| 5 | — | Kendall's instincts hit (Bernard, Chase/Ravens, Walker) | Test hunches in the model |
+| 6 | 9 | No CSV → ~15 relevant players unpriceable | Upload the CSV, or parse ESPN's full table. Never guess salaries |
+| 7 | 9 | Projections already include Vegas | `implied/22` only on season averages |
+| 8 | 9 | Same players in all 3 lineups by eye | Exposure and distinct-QB rules enforced in code |
+| 9 | 9 | Stale QB (McKee vs Milton); Walker's team from memory (SEA vs KC); McCarthy's NYG start missed | Teams from the salary table; QBs from news less than 72 hours old |
+| 10 | 9 | ESPN projected Burks, who was OUT | The injury report overrides projections |
+| 11 | 9 | Search breadth changed the best angle 1.04% → 1.39% | ≥500 candidates; gaps under 0.3 points are ties |
+| 12 | 9 | **Results:** _fill in after games_ | |
+
+---
+
+## 15. Kendall's profile & output format
+
+- **Goal:** win large-field GPPs with 1–3 lineups. Wants every angle: film-style reasoning, coaching tendencies, trenches, Vegas (including money movement), DK Network, stats.
+- **Likes:** workhorse RBs (Gibbs, Walker, McCaffrey), contrarian QBs (Shedeur, Milton, Lock, McCarthy), sleepers with history (Jeudy–Shedeur). **Always excludes Omar Cooper Jr.**
+- **Output order:**
+  1. Self-evaluation (§12)
+  2. **Best overall lineup**
+  3. The portfolio table (salary, chance of 240+, ownership, kickoff)
+  4. Alternates for requested angles
+  5. Before-lock checklist
+  6. Sources
+- **When reviewing Kendall's lineups:** positives before negatives.
+- **Season rule:** 2026–27 only. The uploaded CSV beats articles.
+
+---
+
+## 16. Final checklist
+
+- [ ] 9 players · ≤ $50,000 · valid positions · ≤3 per team · no DST conflict · QB stack · bring-back or a blowout reason → `validate.py` PASS
+- [ ] Every rostered player grepped in today's injury report · nobody OUT/IR/D · Questionables have a pivot
+- [ ] Salaries confirmed (CSV, or ESPN plus one) · teams from the salary table · starting QBs less than 72 hours old · no 2025 data
+- [ ] Lines open → now recorded · Vegas signal applied · weather checked
+- [ ] Angle table shown with Kendall's hunches · ≥500 candidates for the final portfolio
+- [ ] Different stories and QBs across lineups · overlap ≤3–4 · nobody in all 3
+- [ ] Total ownership in the contest range · ≥1 leverage spot per lineup
+- [ ] Kickoff times listed · late players in FLEX
 - [ ] Omar Cooper Jr. excluded
 
 ---
 
-## 16. Code reference (compact)
+## 17. Engine reference
 
-**Deterministic ceiling optimizer** (v1, still used as model A). Full version: `dfs/2026-wk09/model.py`.
-```python
-import pandas as pd
-from pulp import *
-def build(dk, lock=[], exclude=[], avoid=[], maxov=9, min_stack=2, bringback_team=None):
-    I=dk.index; p=LpProblem("d",LpMaximize); x={i:LpVariable(f"x{i}",cat="Binary") for i in I}
-    p+=lpSum(x[i]*dk.Adj[i] for i in I); p+=lpSum(x[i]*dk.Salary[i] for i in I)<=50000; p+=lpSum(x.values())==9
-    P=lambda q: lpSum(x[i] for i in I if dk.Pos[i]==q)
-    p+=P('QB')==1; p+=P('DST')==1; p+=P('RB')>=2; p+=P('RB')<=3; p+=P('WR')>=3; p+=P('WR')<=4; p+=P('TE')>=1; p+=P('TE')<=2
-    for q in I[dk.Pos=='QB']:
-        pcs=[i for i in I if dk.Team[i]==dk.Team[q] and dk.Pos[i] in('WR','TE')]
-        p+=lpSum(x[i] for i in pcs)>=min(min_stack,len(pcs))*x[q]
-    opp=dict(zip(dk.Team,dk.Opponent))
-    if bringback_team: p+=lpSum(x[i] for i in I if dk.Team[i]==bringback_team and dk.Pos[i]!='DST')>=1
-    for d in I[dk.Pos=='DST']:
-        for i in I[(dk.Team==opp[dk.Team[d]])&(dk.Pos!='DST')]: p+=x[i]+x[d]<=1
-    for t in dk.Team.unique(): p+=lpSum(x[i] for i in I if dk.Team[i]==t)<=3
-    for prev in avoid: p+=lpSum(x[i] for i in I if dk.Name[i] in prev)<=maxov
-    for i in I:
-        if dk.Name[i] in lock: p+=x[i]==1
-        if dk.Name[i] in exclude: p+=x[i]==0
-    p.solve(PULP_CBC_CMD(msg=0)); return dk[[x[i].value()==1 for i in I]]
-```
-Loop over every QB (lock QB + ≥2 own pass catchers + bring-back unless the team is favored by ≥9) and keep the highest-ceiling build. Lineups 2 and 3 use `avoid=[previous lineups], maxov=3`, a different game stack, and exclude anyone already in both earlier lineups.
-**Simulation engine** (model B): `dfs/engine/sim.py` (§8).
-**Playbook ceiling multipliers** (model A): QB 1.45, RB 1.5, WR 1.65, TE 1.6, DST 2.0; +0.05 for rushing QBs and alpha WRs.
+| File | Purpose |
+|---|---|
+| `engine/fetch.py` | `get` (curl through proxy) · `espn` (table → pool CSV) · `injuries` (DK report → statuses + IR) · `text` (article → text) |
+| `engine/pipeline.py` | pool + injuries + lines + overrides → `pool_v3.csv` (status filter, multipliers, caps, implied totals, ownership) |
+| `engine/sim.py` | correlated simulation · `solve()` (rules, bring-backs, `require_any`, `qbs`, `lock`/`exclude`, overlap) · `candidates()` · `pick()` |
+| `engine/validate.py` | hard-rule checker (§7.1) |
+| `engine/run_week.py` | one command: pipeline → sim → angles → validator → `lineups_run.csv` + `report.txt` |
+| `2026-wk09/` | worked example: `lines.csv`, `overrides.csv`, `espn_pool.csv`, `injuries.csv`, `scenarios.py` (full angle matrix), `rebuild_espn.py`, outputs |
+
+**Roadmap:**
+- [ ] Better default ownership (salary rank × game total × projection value) to replace the weak heuristic.
+- [ ] Field simulation (5k field lineups from ownership) → the real target score and a duplicate penalty.
+- [ ] Showdown mode in `sim.py`.
+- [ ] Auto-fetch lines.
+- [ ] Parse the DK Network DvP article into `Mult` suggestions.
+- [ ] CV/correlation calibration from `results.csv`.
 
 ---
 
-## 17. Responsible play
-DFS GPPs are long shots even with optimal lineups. Week 9's final sim portfolio had about a 3% chance that *any* of the 3 lineups reaches the first-place score range (240+), and winning outright is far rarer than that. Set a fixed weekly budget you're comfortable losing, don't chase losses, and treat a winning week as variance, not proof.
+## 18. Responsible play
+DFS GPPs are long shots even with optimal lineups. Week 9's best 3-lineup portfolio had about a 3% chance that *any* lineup reaches the first-place score range, and winning outright is far rarer. Set a fixed weekly budget you're comfortable losing, don't chase losses, and treat a big week as variance, not proof.
