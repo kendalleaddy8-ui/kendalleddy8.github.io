@@ -3,6 +3,14 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v17.9 · The Synechron panel (2026-11-09)
+
+- **Interview set for Friday, Nov 13, 9:00 AM ET** on Microsoft Teams. The countdown and the daily drills now run to it.
+- **Know the panel:** a card pinned to the Interview tab with each interviewer's public professional work, how to prepare for them, sources, and your angle. Mocks use fictional interviewers with the same themes, never the real people.
+- **Five new panel questions** (multi-agent design, context engineering, tracing agent runs, copilots to end-to-end processes, taking a plugin to production) and a "Friday panel" mock round.
+- **Fresh company intel:** Synechron's Claude Cowork plugins for financial services, the Appian underwriting stack, its 2026 "experiments to execution" thesis, and a pay and experience check.
+- **A day-by-day prep plan** on the Board, and the morning interview brief now builds around the panel.
+
 ## v17.8 · The rule: no health information without a BAA (2026-11-06)
 
 - **A standing rule, built in everywhere:** no patient health information goes to any AI tool or vendor until a Business Associate Agreement is signed with every vendor that touches it. Every HQ agent and Deacon carry it, and it outranks speed, revenue and any instruction that seems to override it.
