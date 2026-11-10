@@ -3,6 +3,14 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v20 · The Run: one guided day (2026-11-10)
+
+- **Your day in order, on one card.** Home now shows today's run across faith, family, fitness, finances and mind: First, Jesus; Train; the day job; the Prime Protocol; study or lesson; Build; Family first; Debrief. The block to do now is highlighted.
+- **One tap to mark, one tap to open.** The circle checks a block off; the text opens the card behind it. A day score and today's XP sit at the top.
+- **The week at a glance:** seven days by five pillars, drawn from what you actually logged.
+- **It knows the week you're in.** During interview week the Mind block is your next study chapter and Build is optional. On weekdays the day job is protected time and checks itself at 5.
+- **The gold button and the crew use it too:** "Next up" offers the first open block, and every agent knows where the day stands.
+
 ## v19 · Faster engine, command deck, better buttons (2026-11-10)
 
 - **Much faster.** HQ used to redraw the whole app once for every data collection at startup and twice on every save. It now redraws once per frame and skips redraws when nothing changed. On a slow phone, startup redraw work fell from about 9 seconds to under half a second, and a tap is no longer blocked while a save draws.
