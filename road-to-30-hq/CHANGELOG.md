@@ -3,6 +3,15 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v18 · Interview study guide and mission mode (2026-11-10)
+
+- **A full study guide in the Interview tab:** 15 chapters scheduled across the three days before the interview, from how language models work to building a practice. Each has what to know, how to say it in 60 seconds, the traps, and linked drill questions.
+- **80 flashcards** with a rapid-fire mode that brings back the ones you missed, **five whiteboard diagrams** you can blank out and rebuild from memory, a **teach-back** that Grace grades, and a listen button.
+- **A cram sheet** for the morning of: one line per chapter plus the names and numbers to have right.
+- **Mission mode on Home:** during interview week the top card is the countdown, today's chapters, your prep tasks and one-tap mocks. After the call it becomes the debrief and thank-you notes.
+- **Current rules, corrected:** model risk guidance SR 11-7 was replaced in April 2026 and the EU AI Act's high-risk deadline moved to December 2027. The question bank, the mock interviewer and the crew now teach the current versions.
+- **The voice mock interviewer** runs a two-interviewer panel round by default.
+
 ## v17.9 · The Synechron panel (2026-11-09)
 
 - **Interview set for Friday, Nov 13, 9:00 AM ET** on Microsoft Teams. The countdown and the daily drills now run to it.
