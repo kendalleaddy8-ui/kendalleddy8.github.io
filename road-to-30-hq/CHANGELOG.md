@@ -3,6 +3,14 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v19 · Faster engine, command deck, better buttons (2026-11-10)
+
+- **Much faster.** HQ used to redraw the whole app once for every data collection at startup and twice on every save. It now redraws once per frame and skips redraws when nothing changed. On a slow phone, startup redraw work fell from about 9 seconds to under half a second, and a tap is no longer blocked while a save draws.
+- **Command deck.** The gold button now opens with what to do next (this week: your next study chapter and prep tasks) and eight one-tap actions, with search underneath.
+- **Buttons.** Bigger touch targets, a pressed state, a focus ring and a busy state. Buttons that scroll to a tucked-away card now open it; that fixed "Written mock interview".
+- **Every tab's buttons were pressed by a test script:** 125 kinds, no errors.
+- **Forward Works model guide refreshed:** Fable 5.2 at $8 / $40 replaces Fable 5.1, with current cache prices. Automatic work stays on Opus 5.5.
+
 ## v18 · Interview study guide and mission mode (2026-11-10)
 
 - **A full study guide in the Interview tab:** 15 chapters scheduled across the three days before the interview, from how language models work to building a practice. Each has what to know, how to say it in 60 seconds, the traps, and linked drill questions.
