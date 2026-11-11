@@ -3,6 +3,15 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v21 · Weekly review, offer desk, next-round prep (2026-11-11)
+
+- **Weekly review:** the Sunday reset now shows your week by pillar, names the strongest and the one that needs you, and takes one commitment that shows on next week's run.
+- **Offer desk:** on the pay card: your target and walk-away, a year-one total for any offer, what to say at each step, and eight checks before you say yes.
+- **Next-round prep:** after the interview, your debrief maps to the chapters to revisit, and Grace can turn it into a round-two plan.
+- **Deacon's 9:07 PM message** names the blocks of your run that are still open.
+- **Add buttons** now tell you when the field is empty.
+- Tested against a copy of the real HQ data: no errors across every tab.
+
 ## v20 · The Run: one guided day (2026-11-10)
 
 - **Your day in order, on one card.** Home now shows today's run across faith, family, fitness, finances and mind: First, Jesus; Train; the day job; the Prime Protocol; study or lesson; Build; Family first; Debrief. The block to do now is highlighted.
