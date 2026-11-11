@@ -3,6 +3,13 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v25.1 · 8×8 and more of your men in the plan (2026-11-11)
+
+- **Vince Gironda's 8×8** is now in every lifting day on one exercise, building from 4 sets to 8 across the phases.
+- **Added from workouts you've done:** hack or front squats, leg extensions and curls, both calf raises, T-bar and seated rows, shrugs, close-grip bench, barbell curls, and a Friday arms circuit.
+- **New names in the plan:** Phil Heath, Franco Columbu, Vince Gironda, Carl Weathers and Sylvester Stallone, alongside everyone already there.
+- **Left out for now:** barbell neck press, sissy squats and frog squats, to protect your shoulders and knees while the weight comes off.
+
 ## v25 · Level up: the clock restarts (2026-11-11)
 
 - **Day 1 is today.** The camp clock, XP and streaks restart on November 11, 2026, with 170 days to April 29, 2027.
