@@ -3,6 +3,10 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v24 · Finger-size tap targets (2026-11-11)
+
+- **Easier to tap on a phone:** buttons, section headers and dropdowns across every tab are now at least 40 pixels tall on touch screens, and checkboxes are larger. A scan of all 17 tabs found 239 undersized targets before and 42 after.
+
 ## v23 · Wheel scrollers and family on Home (2026-11-11)
 
 - **Wheels:** the study guide's chapter bar and the Map's tab strip now spin and snap like a combination lock. Whatever lands in the center grows, and the chapter bar names it with an Open button.
