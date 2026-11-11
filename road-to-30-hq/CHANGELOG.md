@@ -3,6 +3,13 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v22 · Chapter rail and the Map (2026-11-11)
+
+- **Study guide without the long scroll:** a chapter bar stays at the top; tap a number to jump. One chapter is open at a time, each has jump chips for its sections (Know, Say it, Traps, Drill, Flashcards, Teach it back), and previous and next at the bottom.
+- **The Map:** a new button above the gold one opens every tab and card in HQ on one screen (134 places), with search, pins and your recent places.
+- **Pins travel with you:** pinned cards also show in the command deck.
+- Fixed: jumping to a section while another was open could leave the target closed.
+
 ## v21 · Weekly review, offer desk, next-round prep (2026-11-11)
 
 - **Weekly review:** the Sunday reset now shows your week by pillar, names the strongest and the one that needs you, and takes one commitment that shows on next week's run.
