@@ -3,6 +3,12 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v23 · Wheel scrollers and family on Home (2026-11-11)
+
+- **Wheels:** the study guide's chapter bar and the Map's tab strip now spin and snap like a combination lock. Whatever lands in the center grows, and the chapter bar names it with an Open button.
+- **Family on Home:** a Family card for your wife and your dog. Add their names once; then tick time with her and the walk each day, with a week of dots for each.
+- **They're in your day:** the run now says "Time with" her by name and adds the dog walk, and a walk counts toward the Family pillar. Your crew knows both names.
+
 ## v22 · Chapter rail and the Map (2026-11-11)
 
 - **Study guide without the long scroll:** a chapter bar stays at the top; tap a number to jump. One chapter is open at a time, each has jump chips for its sections (Know, Say it, Traps, Drill, Flashcards, Teach it back), and previous and next at the bottom.
