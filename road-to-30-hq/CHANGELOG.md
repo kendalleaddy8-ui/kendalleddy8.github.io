@@ -3,6 +3,15 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v25 · Level up: the clock restarts (2026-11-11)
+
+- **Day 1 is today.** The camp clock, XP and streaks restart on November 11, 2026, with 170 days to April 29, 2027.
+- **A new training plan** built for losing fat while keeping and building muscle: four lifting days, boxing, speed and road work each week, in four phases with deload weeks and a birthday test week. It keeps every man the first plan was built from.
+- **Level up card (Body tab):** enter your weight and height and HQ works out your calories, protein, pace and a projection for your birthday, with ten rules and a doctor check-up reminder. It never guesses body fat.
+- **Business starts January 4, 2027.** A launch budget on the Business tab lists what each business costs to open, line by line, with a savings tracker. Business tasks moved to January and the two business agents are paused until then.
+- **The Booth has a gear list** for PLV Radio with store links.
+- **Deacon knows:** in HQ, in his after-work message and on voice calls.
+
 ## v24 · Finger-size tap targets (2026-11-11)
 
 - **Easier to tap on a phone:** buttons, section headers and dropdowns across every tab are now at least 40 pixels tall on touch screens, and checkboxes are larger. A scan of all 17 tabs found 239 undersized targets before and 42 after.
