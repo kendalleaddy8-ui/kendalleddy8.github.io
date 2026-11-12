@@ -3,6 +3,13 @@
 The HQ itself lives as a private Claude artifact (it holds personal data, so its source is
 intentionally not stored in this public repo). This file records what changed and when.
 
+## v26 · The night session at home (2026-11-12)
+
+- **A night workout for every day,** under today's workout on the Today tab. No equipment: a chair, a step, a loaded backpack, a towel in a door.
+- **Two versions:** "Missed the morning" is a full 35-minute replacement that counts as the day's session. "Second session" is a light 20 minutes for two-a-days.
+- **It matches the day:** push, pull, legs, boxing, speed or road. Rest days stay rest.
+- **Your run nudges you** toward it after 5 PM if the morning isn't logged, and Deacon knows about it.
+
 ## v25.1 · 8×8 and more of your men in the plan (2026-11-11)
 
 - **Vince Gironda's 8×8** is now in every lifting day on one exercise, building from 4 sets to 8 across the phases.
