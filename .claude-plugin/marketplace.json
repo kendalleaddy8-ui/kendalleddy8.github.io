@@ -1,0 +1,11 @@
+{
+  "name": "kendall-mods",
+  "owner": { "name": "kendalleaddy8-ui" },
+  "plugins": [
+    {
+      "name": "token-saver",
+      "source": "./claude-mods/token-saver",
+      "description": "Six token-saving mods: input router, effort optimizer, subagent model selector, cache clock, /handoff, screenshot shrinking."
+    }
+  ]
+}

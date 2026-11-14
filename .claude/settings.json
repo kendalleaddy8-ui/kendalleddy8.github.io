@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "kendall-mods": {
+      "source": { "source": "github", "repo": "kendalleaddy8-ui/kendalleddy8.github.io" }
+    }
+  },
+  "enabledPlugins": {
+    "token-saver@kendall-mods": true
+  }
+}
