@@ -1,0 +1,46 @@
+Lineup,Name,Pos,Team,Opponent,Salary,Proj,Own,Kick
+Best v1 (Lawrence GS),Trevor Lawrence,QB,JAC,TEN,6600,23.78,12.0,1:00
+Best v1 (Lawrence GS),James Cook III,RB,BUF,NYJ,7400,24.83,18.0,1:00
+Best v1 (Lawrence GS),Chuba Hubbard,RB,CAR,NO,7200,21.2,22.0,1:00
+Best v1 (Lawrence GS),Emmett Johnson,RB,KC,ATL,4700,15.96,50.0,1:00
+Best v1 (Lawrence GS),Colby Parkinson,TE,LAR,ARI,3000,8.2,20.0,4:05
+Best v1 (Lawrence GS),Justin Jefferson,WR,MIN,GB,6800,20.2,22.0,1:00
+Best v1 (Lawrence GS),Parker Washington,WR,JAC,TEN,6200,14.86,18.0,1:00
+Best v1 (Lawrence GS),Jakobi Meyers,WR,JAC,TEN,4200,11.71,1.5,1:00
+Best v1 (Lawrence GS),Rams,DST,LAR,ARI,3800,13.67,20.0,4:05
+Lock GS,Drew Lock,QB,SEA,LV,5000,17.69,2.4,4:05
+Lock GS,James Cook III,RB,BUF,NYJ,7400,24.83,18.0,1:00
+Lock GS,Ollie Gordon II,RB,MIA,IND,5800,18.02,9.0,1:00
+Lock GS,Emmett Johnson,RB,KC,ATL,4700,15.96,50.0,1:00
+Lock GS,Jaxon Smith-Njigba,WR,SEA,LV,9300,23.01,17.0,4:05
+Lock GS,Justin Jefferson,WR,MIN,GB,6800,20.2,22.0,1:00
+Lock GS,Jalen Nailor,WR,LV,SEA,3100,6.3,1.5,4:05
+Lock GS,AJ Barner,TE,SEA,LV,3900,8.58,1.5,4:05
+Lock GS,Rams,DST,LAR,ARI,3800,13.67,20.0,4:05
+B-fixed v1,Drew Lock,QB,SEA,LV,5000,17.69,2.4,4:05
+B-fixed v1,James Cook III,RB,BUF,NYJ,7400,24.83,18.0,1:00
+B-fixed v1,Chuba Hubbard,RB,CAR,NO,7200,21.2,22.0,1:00
+B-fixed v1,Emmett Johnson,RB,KC,ATL,4700,15.96,50.0,1:00
+B-fixed v1,Michael Mayer,TE,LV,SEA,3100,7.3,1.5,4:05
+B-fixed v1,Jaxon Smith-Njigba,WR,SEA,LV,9300,23.01,17.0,4:05
+B-fixed v1,Justin Jefferson,WR,MIN,GB,6800,20.2,22.0,1:00
+B-fixed v1,Tutu Atwell,WR,LAR,ARI,3700,8.74,16.0,4:05
+B-fixed v1,Vikings,DST,MIN,GB,2800,6.6,7.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Kirk Cousins,QB,MIN,GB,5300,15.65,7.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Christian McCaffrey,RB,SF,DAL,8500,24.21,25.0,4:25
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Ollie Gordon II,RB,MIA,IND,5800,18.02,9.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Jaxon Smith-Njigba,WR,SEA,LV,9300,23.01,17.0,4:05
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Justin Jefferson,WR,MIN,GB,6800,20.2,22.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Laquon Treadwell,WR,IND,MIA,3000,7.51,1.5,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Travis Kelce,TE,KC,ATL,4700,11.6,11.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Noah Gray,TE,KC,ATL,2700,4.4,3.0,1:00
+A-fix v2: Cousins/JJ/JSN/CMC/Kelce/Gordon,Rams,DST,LAR,ARI,3800,13.67,20.0,4:05
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Kirk Cousins,QB,MIN,GB,5300,15.65,7.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,James Cook III,RB,BUF,NYJ,7400,24.83,18.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Ollie Gordon II,RB,MIA,IND,5800,18.02,9.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Emmett Johnson,RB,KC,ATL,4700,15.96,50.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Matthew Golden,WR,GB,MIN,7300,17.29,5.2,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Justin Jefferson,WR,MIN,GB,6800,20.2,22.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Jakobi Meyers,WR,JAC,TEN,4200,11.71,1.5,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Travis Kelce,TE,KC,ATL,4700,11.6,11.0,1:00
+Hunch: Cousins/JJ/Gordon/Cook +GB BB,Rams,DST,LAR,ARI,3800,13.67,20.0,4:05

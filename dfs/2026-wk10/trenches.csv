@@ -1,15 +1,16 @@
 Team,PassProEdge,RunBlockEdge,Source
-MIN,1,0,4for4 riser; Cousins 14.1% P2S
-GB,-2,0,vs MIN #1 pressure/def PROE; Jacobs OUT
-SF,1,0,top OL vs DAL top-10 pressure
-BUF,0,2,"NYJ 29th rush success, 30th stuff"
-LAR,1,0,edge at ARI
-JAC,1,0,edge vs TEN
-MIA,-2,0,"31st OL, McCord"
-SEA,0,1,run edge vs LV
-NO,0,1,run edge vs CAR
-LV,0,-1,run disadvantage
-TEN,0,-1,run disadvantage
-HOU,-1,0,PFF 31st OL vs CLE 26 sacks
-ARI,-2,0,"PFF 30th OL, rookie Beck debut"
-IND,-1,0,4for4 faller
+MIN,2.0,0.0,riser + Micah Parsons OUT for GB
+GB,-2.0,0.0,"vs MIN #1 pressure; Rhyan OUT, Zeitler Q; Jacobs OUT"
+SF,1.0,0.0,top OL vs DAL top-10 pressure
+BUF,0.0,1.5,NYJ 29th rush success; RT Spencer Brown doubtful; Sweat IR for NYJ
+LAR,0.0,0.0,edge at ARI but Avila OUT
+JAC,1.0,0.0,edge vs TEN
+MIA,-2.0,0.0,"31st OL, McCord"
+SEA,-1.0,0.0,LT Charles Cross + Quenton Nelson OUT; Lock elbow/oblique
+NO,-1.0,0.0,Fuaga + McCoy OUT
+LV,0.0,-1.0,run disadvantage
+TEN,0.0,-1.0,run disadvantage
+HOU,-2.0,0.0,"PFF 31st OL, Teller/T.Brown Q vs CLE 26 sacks"
+ARI,-2.0,0.0,"PFF 30th OL, rookie Beck debut"
+IND,-1.0,0.0,4for4 faller
+CLE,1.0,0.0,"HOU: Hunter OUT, Anderson Q, Al-Shaair OUT"

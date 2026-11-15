@@ -1,0 +1,43 @@
+149 players · 390 candidates · target 210.0 · P(>=1 hits) 8.89%
+
+LINEUP 1: $49,600 · med 143.6 · p99 243.9 · P>=210 4.51% · own~138%
+   RB  Christian McCaffrey    SF  vs DAL $8,500 proj  24.2 4:25 
+   RB  James Cook III         BUF vs NYJ $7,400 proj  24.8 1:00 
+   WR  Justin Jefferson       MIN vs GB  $6,800 proj  20.2 1:00 
+   QB  Trevor Lawrence        JAC vs TEN $6,600 proj  23.8 1:00 
+   WR  Parker Washington      JAC vs TEN $6,200 proj  14.9 1:00 
+   WR  Jakobi Meyers          JAC vs TEN $4,200 proj  11.7 1:00 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+   TE  Michael Mayer          LV  vs SEA $3,100 proj   7.3 4:05 
+   TE  Colby Parkinson        LAR vs ARI $3,000 proj   8.2 4:05 
+
+LINEUP 2: $50,000 · med 136.5 · p99 230.5 · P>=210 2.65% · own~122%
+   WR  CeeDee Lamb            DAL vs SF  $8,800 proj  22.9 4:25 
+   RB  James Cook III         BUF vs NYJ $7,400 proj  24.8 1:00 
+   WR  Tetairoa McMillan      CAR vs NO  $6,700 proj  16.9 1:00 
+   QB  Bryce Young            CAR vs NO  $5,800 proj  21.4 1:00 
+   WR  Deebo Samuel Sr.       SF  vs DAL $5,500 proj  12.9 4:25 
+   RB  Emmett Johnson         KC  vs ATL $4,700 proj  16.0 1:00 
+   RB  Audric Estime          NO  vs CAR $4,500 proj  10.8 1:00 
+   TE  Darren Waller          CAR vs NO  $3,600 proj   8.6 1:00 
+   DST Colts                  IND vs MIA $3,000 proj   7.9 1:00 
+
+LINEUP 3: $49,300 · med 136.7 · p99 233.2 · P>=210 3.02% · own~139%
+   WR  Matthew Golden         GB  vs MIN $7,300 proj  17.3 1:00 
+   RB  Chuba Hubbard          CAR vs NO  $7,200 proj  21.2 1:00 
+   WR  Justin Jefferson       MIN vs GB  $6,800 proj  20.2 1:00 
+   RB  Ollie Gordon II        MIA vs IND $5,800 proj  18.0 1:00 
+   QB  Kirk Cousins           MIN vs GB  $5,300 proj  15.7 1:00 
+   WR  Jordan Addison         MIN vs GB  $4,800 proj  11.7 1:00 QUESTIONABLE
+   RB  Emmett Johnson         KC  vs ATL $4,700 proj  16.0 1:00 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+   TE  Darren Waller          CAR vs NO  $3,600 proj   8.6 1:00 
+
+Angle table (best P>=target per QB): Trevor Lawrence 4.51% · Deshaun Watson 3.28% · Bryce Young 3.22% · Kirk Cousins 3.02% · Jordan Love 2.78% · Geno Smith 2.69% · Drew Lock 2.62% · Michael Penix Jr. 2.58% · Fernando Mendoza 2.50% · Josh Allen 2.48% · Daniel Jones 2.47% · Brock Purdy 2.20%
+
+Overlap cap 4: P(>=1 hits) 8.89% vs 8.89% at cap 3 (cost +0.00 pts)
+   alt L1 P>=210 4.51%: Christian McCaffrey, James Cook III, Justin Jefferson, Trevor Lawrence, Parker Washington, Jakobi Meyers, Rams, Michael Mayer, Colby Parkinson
+   alt L2 P>=210 2.65%: CeeDee Lamb, James Cook III, Tetairoa McMillan, Bryce Young, Deebo Samuel Sr., Emmett Johnson, Audric Estime, Darren Waller, Colts
+   alt L3 P>=210 3.02%: Matthew Golden, Chuba Hubbard, Justin Jefferson, Ollie Gordon II, Kirk Cousins, Jordan Addison, Emmett Johnson, Rams, Darren Waller
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Tyjae Spears, Garrett Wilson, Denzel Boston, Jordan Addison

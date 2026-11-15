@@ -1,6 +1,6 @@
 import pandas as pd, itertools
 from pulp import *
-dk=pd.read_csv("pool_run.csv").reset_index(drop=True)
+dk=pd.read_csv(__import__("os").environ.get("POOL","pool_run.csv")).reset_index(drop=True)
 def build(lock=[],exclude=[],obj="Adj",extra=None):
     I=dk.index; p=LpProblem("d",LpMaximize); x={i:LpVariable(f"x{i}",cat="Binary") for i in I}
     p+=lpSum(x[i]*dk[obj][i] for i in I); p+=lpSum(x[i]*dk.Salary[i] for i in I)<=50000; p+=lpSum(x.values())==9
