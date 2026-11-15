@@ -1,0 +1,43 @@
+153 players · 505 candidates · target 210.0 · P(>=1 hits) 9.38%
+
+LINEUP 1: $49,400 · med 143.2 · p99 243.7 · P>=210 4.37% · own~123%
+   RB  Chuba Hubbard          CAR vs NO  $7,200 proj  21.2 1:00 
+   WR  Justin Jefferson       MIN vs GB  $6,800 proj  19.0 1:00 
+   QB  Trevor Lawrence        JAC vs TEN $6,600 proj  23.8 1:00 
+   WR  Parker Washington      JAC vs TEN $6,200 proj  14.9 1:00 
+   RB  Zach Charbonnet        SEA vs LV  $5,600 proj  16.3 4:05 
+   RB  Emmett Johnson         KC  vs ATL $4,700 proj  16.0 1:00 
+   TE  T.J. Hockenson         MIN vs GB  $4,300 proj  12.1 1:00 
+   WR  Jakobi Meyers          JAC vs TEN $4,200 proj  11.7 1:00 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+
+LINEUP 2: $49,900 · med 140.7 · p99 244.4 · P>=210 4.12% · own~99%
+   WR  Jaxon Smith-Njigba     SEA vs LV  $9,300 proj  23.6 4:05 
+   RB  James Cook III         BUF vs NYJ $7,400 proj  25.3 1:00 
+   WR  Justin Jefferson       MIN vs GB  $6,800 proj  19.0 1:00 
+   RB  Bhayshul Tuten         JAC vs TEN $6,600 proj  19.5 1:00 
+   QB  Drew Lock              SEA vs LV  $5,000 proj  19.1 4:05 
+   WR  Konata Mumpfield       LAR vs ARI $4,000 proj  10.3 4:05 
+   TE  AJ Barner              SEA vs LV  $3,900 proj   8.8 4:05 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+   TE  Michael Mayer          LV  vs SEA $3,100 proj   7.3 4:05 
+
+LINEUP 3: $49,300 · med 133.1 · p99 225.0 · P>=210 2.25% · own~54%
+   RB  James Cook III         BUF vs NYJ $7,400 proj  25.3 1:00 
+   RB  Kyren Williams         LAR vs ARI $7,100 proj  20.6 4:05 
+   WR  Tetairoa McMillan      CAR vs NO  $6,700 proj  16.9 1:00 
+   RB  Woody Marks            HOU vs CLE $5,700 proj  15.2 1:00 
+   WR  Denzel Boston          CLE vs HOU $5,200 proj  13.2 1:00 
+   QB  Deshaun Watson         CLE vs HOU $5,100 proj  16.7 1:00 
+   WR  KC Concepcion          CLE vs HOU $4,800 proj  11.0 1:00 
+   TE  T.J. Hockenson         MIN vs GB  $4,300 proj  12.1 1:00 
+   DST Colts                  IND vs MIA $3,000 proj   7.9 1:00 
+
+Angle table (best P>=target per QB): Trevor Lawrence 4.37% · Drew Lock 4.12% · Bryce Young 3.95% · Kirk Cousins 3.45% · Michael Penix Jr. 3.14% · Geno Smith 2.85% · Tyler Shough 2.67% · Deshaun Watson 2.66% · Josh Allen 2.56% · Matthew Stafford 2.25% · Brock Purdy 2.21% · Patrick Mahomes 2.21%
+
+Overlap cap 4: P(>=1 hits) 9.38% vs 9.38% at cap 3 (cost +0.00 pts)
+   alt L1 P>=210 4.37%: Chuba Hubbard, Justin Jefferson, Trevor Lawrence, Parker Washington, Zach Charbonnet, Emmett Johnson, T.J. Hockenson, Jakobi Meyers, Rams
+   alt L2 P>=210 4.12%: Jaxon Smith-Njigba, James Cook III, Justin Jefferson, Bhayshul Tuten, Drew Lock, Konata Mumpfield, AJ Barner, Rams, Michael Mayer
+   alt L3 P>=210 2.25%: James Cook III, Kyren Williams, Tetairoa McMillan, Woody Marks, Denzel Boston, Deshaun Watson, KC Concepcion, T.J. Hockenson, Colts
+VALIDATOR: PASS
+Questionable in pool (have a pivot): 
