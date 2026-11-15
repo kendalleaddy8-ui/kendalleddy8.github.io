@@ -1,0 +1,38 @@
+46 players · 364 candidates · target 175.0 · P(>=1 hits) 21.66%
+
+LINEUP 1: $49,800 · med 131.4 · p99 227.6 · P>=175 10.66% · own~222%
+   WR  Jaxon Smith-Njigba     SEA vs LV  $9,300 proj  23.0 4:05 
+   RB  Christian McCaffrey    SF  vs DAL $8,500 proj  24.2 4:25 
+   RB  Kyren Williams         LAR vs ARI $7,100 proj  20.6 4:05 
+   RB  Ashton Jeanty          LV  vs SEA $5,400 proj  13.7 4:05 
+   QB  Drew Lock              SEA vs LV  $5,000 proj  17.7 4:05 
+   TE  AJ Barner              SEA vs LV  $3,900 proj   8.6 4:05 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+   WR  Tutu Atwell            LAR vs ARI $3,700 proj   8.7 4:05 
+   WR  Jalen Nailor           LV  vs SEA $3,100 proj   6.8 4:05 
+
+LINEUP 2: $49,300 · med 129.9 · p99 228.6 · P>=175 10.41% · own~231%
+   WR  CeeDee Lamb            DAL vs SF  $8,800 proj  22.9 4:25 
+   QB  Brock Purdy            SF  vs DAL $7,000 proj  23.2 4:25 
+   TE  George Kittle          SF  vs DAL $6,500 proj  16.5 4:25 
+   RB  Zach Charbonnet        SEA vs LV  $5,600 proj  16.1 4:05 
+   WR  Deebo Samuel Sr.       SF  vs DAL $5,500 proj  12.9 4:25 
+   RB  Jadarian Price         SEA vs LV  $5,100 proj  12.4 4:05 
+   WR  Konata Mumpfield       LAR vs ARI $4,000 proj  10.1 4:05 
+   DST Rams                   LAR vs ARI $3,800 proj  13.7 4:05 
+   TE  Colby Parkinson        LAR vs ARI $3,000 proj   8.2 4:05 
+
+LINEUP 3: $49,900 · med 124.7 · p99 218.3 · P>=175 7.34% · own~199%
+   WR  CeeDee Lamb            DAL vs SF  $8,800 proj  22.9 4:25 
+   RB  Christian McCaffrey    SF  vs DAL $8,500 proj  24.2 4:25 
+   RB  Kyren Williams         LAR vs ARI $7,100 proj  20.6 4:05 
+   QB  Dak Prescott           DAL vs SF  $6,400 proj  18.0 4:25 
+   RB  Zach Charbonnet        SEA vs LV  $5,600 proj  16.1 4:05 
+   WR  Konata Mumpfield       LAR vs ARI $4,000 proj  10.1 4:05 
+   DST Seahawks               SEA vs LV  $3,300 proj   7.4 4:05 
+   TE  Brevyn Spann-Ford      DAL vs SF  $3,200 proj   5.5 4:25 
+   WR  CJ Daniels             LAR vs ARI $3,000 proj   5.9 4:05 
+
+Angle table (best P>=target per QB): Drew Lock 10.66% · Brock Purdy 10.41% · Fernando Mendoza 10.12% · Dak Prescott 8.79% · Matthew Stafford 7.99% · Carson Beck 4.33%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): 
