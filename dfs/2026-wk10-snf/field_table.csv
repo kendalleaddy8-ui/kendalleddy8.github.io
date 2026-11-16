@@ -1,0 +1,731 @@
+CPT,FLEX,Sal,dup,own,Pwin_per_10k,Ptop01,win_base,win_bengals_boom,win_steelers_win,win_shootout,win_low_scoring
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Mike Gesicki, Dohnte Meyers, Pat Freiermuth",49900,1,148.0,11.47,1.53,11.5,24.5,1.5,9.5,6.0
+Bengals,"Joe Burrow, Tee Higgins, Chase Brown, Mike Gesicki, Jaylen Warren",49800,0,199.0,11.0,0.8,11.0,12.0,10.67,7.0,14.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Pat Freiermuth",49600,0,154.0,10.85,1.22,10.33,23.67,1.67,10.0,5.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Bengals, Darnell Washington",49600,0,170.0,9.67,1.03,6.67,21.67,3.33,8.0,8.67
+Mike Gesicki,"Joe Burrow, Tee Higgins, Dohnte Meyers, Aaron Rodgers, Jaylen Warren",49800,0,195.0,8.28,0.56,8.0,9.67,7.67,12.67,3.33
+Steelers,"Ja'Marr Chase, Chase Brown, Aaron Rodgers, Jaylen Warren, Rico Dowdle",49300,0,195.0,7.5,0.53,10.0,6.0,3.33,5.33,10.0
+Germie Bernard,"Joe Burrow, Tee Higgins, Mike Gesicki, Aaron Rodgers, Pat Freiermuth",49900,0,160.0,7.05,0.65,5.0,9.0,6.33,14.33,2.67
+Aaron Rodgers,"Joe Burrow, Chase Brown, Rico Dowdle, Germie Bernard, Pat Freiermuth",49700,0,147.0,6.72,0.68,6.33,5.0,6.0,13.67,3.67
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, Ben Skowronek",49800,0,208.0,6.72,0.37,6.67,10.67,3.33,9.67,2.0
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, Germie Bernard, Pat Freiermuth, Darnell Washington",48900,1,165.0,4.71,0.89,4.83,2.33,10.5,5.0,1.5
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Ben Skowronek",50000,2,177.0,4.58,0.47,6.11,6.78,0.89,3.33,3.0
+Tee Higgins,"Joe Burrow, Mike Gesicki, Jaylen Warren, Rico Dowdle, Darnell Washington",49800,1,158.0,4.49,0.75,3.83,9.5,4.33,2.83,1.17
+Germie Bernard,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Pat Freiermuth",49900,2,164.0,4.42,1.11,4.44,3.56,4.0,8.0,2.33
+Bengals,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Chase Brown, Darnell Washington",50000,2,217.0,4.39,0.75,5.0,3.89,2.0,4.22,6.22
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Dohnte Meyers, Pat Freiermuth",49700,2,146.0,4.28,1.29,4.22,10.0,0.22,3.78,1.33
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Dohnte Meyers, Jaylen Warren, Ben Skowronek",49500,0,167.0,4.25,0.28,3.33,3.67,4.67,10.0,1.0
+Ja'Marr Chase,"Joe Burrow, Samaje Perine, Mike Gesicki, Aaron Rodgers, Pat Freiermuth",49900,1,146.0,4.22,0.65,4.83,6.5,0.5,5.17,2.5
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Mike Gesicki, Evan McPherson, Ben Skowronek",49900,5,162.0,3.94,1.55,3.67,8.5,0.39,3.0,3.0
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Aaron Rodgers",49400,0,204.0,3.88,0.22,4.33,4.33,3.33,5.33,1.33
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Dohnte Meyers, DK Metcalf",49900,0,140.0,3.77,0.34,4.67,6.67,1.0,2.33,2.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Ben Skowronek",49600,3,168.0,3.77,1.24,3.83,7.83,0.42,2.0,3.33
+Steelers,"Tee Higgins, Aaron Rodgers, Jaylen Warren, DK Metcalf, Germie Bernard",49100,0,174.0,3.7,0.42,2.0,1.0,7.33,4.33,7.0
+Bengals,"Joe Burrow, Tee Higgins, Chase Brown, Jaylen Warren, Chris Boswell",50000,2,207.0,3.65,0.74,3.11,1.89,2.11,2.67,9.78
+Germie Bernard,"Chase Brown, Aaron Rodgers, Jaylen Warren, DK Metcalf, Chris Boswell",49900,2,170.0,3.63,0.66,2.89,1.33,9.56,3.67,2.44
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Evan McPherson, Aaron Rodgers, Rico Dowdle",49600,2,156.0,3.63,0.88,3.67,4.0,4.67,4.22,1.44
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Evan McPherson, Pat Freiermuth",49900,2,161.0,3.52,0.74,3.89,6.44,0.22,2.67,2.89
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Mike Gesicki, Darnell Washington",50000,4,168.0,3.49,1.19,3.13,8.07,1.4,2.07,1.73
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Dohnte Meyers, Aaron Rodgers, Ben Skowronek",49900,2,169.0,3.46,0.52,3.56,4.22,0.44,7.44,1.22
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Chris Boswell",50000,6,166.0,3.44,1.58,3.1,7.05,0.71,2.67,2.95
+Joe Burrow,"Mike Gesicki, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Chris Boswell",49900,3,146.0,3.41,1.01,3.33,4.83,1.08,4.17,3.25
+Jaylen Warren,"Chase Brown, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Germie Bernard",49200,0,140.0,3.33,0.35,2.33,2.33,9.33,2.0,2.33
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Evan McPherson, Rico Dowdle",50000,2,194.0,3.31,0.77,2.89,7.22,0.78,2.33,2.56
+Bengals,"Joe Burrow, Ja'Marr Chase, Chase Brown, Samaje Perine, Jaylen Warren",50000,2,213.0,3.22,0.6,2.78,3.0,1.33,3.33,6.33
+DK Metcalf,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Pat Freiermuth, Chris Boswell",49900,2,174.0,2.93,0.69,3.89,1.78,3.11,2.0,3.0
+Jaylen Warren,"Joe Burrow, Tee Higgins, Dohnte Meyers, Aaron Rodgers, Ben Skowronek",49800,3,164.0,2.82,0.49,2.33,2.0,2.83,6.75,1.08
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Jaylen Warren, Rico Dowdle",49900,3,154.0,2.81,0.91,2.5,6.25,0.25,2.75,1.58
+Bengals,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Germie Bernard",49800,2,194.0,2.68,0.59,2.44,3.22,1.11,2.44,4.33
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Dohnte Meyers, Darnell Washington",48700,2,158.0,2.64,0.86,2.44,6.0,0.56,2.56,0.78
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Dohnte Meyers, Evan McPherson, Jaylen Warren",49700,7,171.0,2.63,1.04,2.75,4.21,0.92,2.38,2.21
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Bengals, Rico Dowdle",49700,2,150.0,2.49,0.65,2.78,5.0,0.56,1.33,1.56
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Darnell Washington",49900,4,156.0,2.47,0.97,2.33,4.4,0.8,3.13,1.2
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Germie Bernard, Pat Freiermuth, Ben Skowronek",50000,1,167.0,2.45,0.29,2.83,3.17,0.83,3.67,1.0
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, Rico Dowdle, Germie Bernard, Darnell Washington",49900,8,167.0,2.36,1.3,1.85,0.96,4.04,5.15,0.93
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Pat Freiermuth",49000,1,139.0,2.34,0.64,3.17,2.67,2.67,1.83,0.17
+Chris Boswell,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Germie Bernard",49300,1,178.0,2.32,0.46,2.33,1.5,1.83,2.67,3.5
+DK Metcalf,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Ben Skowronek",49700,2,176.0,2.24,0.46,1.44,1.67,5.11,3.11,1.11
+Germie Bernard,"Tee Higgins, Dohnte Meyers, Aaron Rodgers, Jaylen Warren, DK Metcalf",49900,1,160.0,2.2,0.28,1.83,0.17,6.33,2.83,1.0
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Mike Gesicki, Bengals, Darnell Washington",49900,8,164.0,2.19,1.3,1.85,4.26,0.78,2.07,1.78
+Joe Burrow,"Mike Gesicki, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Pat Freiermuth",49500,3,134.0,2.19,0.82,3.33,2.92,0.42,2.08,0.42
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Mike Gesicki, Pat Freiermuth, Ben Skowronek",49300,0,145.0,2.17,0.66,3.33,5.0,0.0,0.0,0.0
+Joe Burrow,"Aaron Rodgers, Rico Dowdle, DK Metcalf, Germie Bernard, Pat Freiermuth",49500,1,119.0,2.17,0.51,3.33,2.5,0.0,1.67,1.67
+Darnell Washington,"Joe Burrow, Tee Higgins, Mike Gesicki, Aaron Rodgers, Jaylen Warren",49800,4,198.0,2.12,0.47,0.67,1.67,7.0,3.0,0.33
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Evan McPherson, Jaylen Warren",49500,5,169.0,2.12,0.92,1.94,4.72,0.28,1.11,1.94
+Joe Burrow,"Tee Higgins, Mike Gesicki, Evan McPherson, Bengals, Jaylen Warren",49900,6,157.0,2.11,0.95,1.52,3.62,0.76,1.76,3.19
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, Rico Dowdle, Germie Bernard, Darnell Washington",49700,3,153.0,2.08,0.54,1.25,1.67,6.67,2.08,0.0
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, DK Metcalf, Pat Freiermuth, Darnell Washington",49300,4,160.0,2.04,0.83,2.27,0.87,3.4,3.13,0.6
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Rico Dowdle, Pat Freiermuth",49700,0,150.0,2.03,0.27,2.33,2.33,0.67,3.33,1.0
+Tee Higgins,"Joe Burrow, Mike Gesicki, Dohnte Meyers, Aaron Rodgers, Germie Bernard",50000,5,151.0,2.01,0.94,1.28,2.78,2.0,4.11,0.61
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Pat Freiermuth, Chris Boswell",49400,0,186.0,2.0,0.17,3.33,1.67,1.67,1.67,0.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Germie Bernard, Ben Skowronek",49600,1,164.0,1.96,0.46,1.67,2.5,0.0,3.33,2.5
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Chase Brown, Dohnte Meyers, Jaylen Warren",49800,3,213.0,1.96,0.43,2.08,2.08,1.67,1.67,2.08
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Chase Brown, Dohnte Meyers, Aaron Rodgers",49800,2,202.0,1.94,0.28,3.0,0.56,0.67,1.56,3.0
+Joe Burrow,"Tee Higgins, Mike Gesicki, Jaylen Warren, Rico Dowdle, Darnell Washington",49900,3,150.0,1.94,0.77,2.5,3.75,0.42,0.83,0.83
+Jaylen Warren,"Joe Burrow, Tee Higgins, Evan McPherson, Rico Dowdle, Darnell Washington",49800,5,168.0,1.94,0.54,2.5,1.39,3.06,0.56,1.67
+Chase Brown,"Joe Burrow, Tee Higgins, Mike Gesicki, Aaron Rodgers, Ben Skowronek",49800,2,161.0,1.94,0.42,1.67,2.22,2.22,3.33,0.56
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Dohnte Meyers, Aaron Rodgers, Ben Skowronek",49700,3,167.0,1.94,0.44,1.67,2.33,0.42,5.0,0.5
+Aaron Rodgers,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Jaylen Warren, Ben Skowronek",49700,0,171.0,1.92,0.11,1.67,1.67,0.0,6.67,0.0
+Aaron Rodgers,"Chase Brown, Jaylen Warren, DK Metcalf, Germie Bernard, Darnell Washington",49500,7,161.0,1.91,0.85,0.42,0.21,7.71,2.08,1.67
+Joe Burrow,"Tee Higgins, Mike Gesicki, Evan McPherson, Aaron Rodgers, Pat Freiermuth",49900,5,143.0,1.9,1.04,1.67,3.89,0.28,1.67,1.67
+Chase Brown,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Ben Skowronek",49800,2,165.0,1.89,0.45,1.11,1.67,0.56,6.11,1.11
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Samaje Perine, Rico Dowdle",49800,0,178.0,1.87,0.23,2.67,0.67,0.67,1.67,3.0
+Steelers,"Ja'Marr Chase, Tee Higgins, Chase Brown, Aaron Rodgers, Chris Boswell",49500,1,199.0,1.87,0.37,1.67,0.83,0.83,1.67,5.0
+Darnell Washington,"Joe Burrow, Tee Higgins, Aaron Rodgers, Jaylen Warren, Pat Freiermuth",49600,2,194.0,1.86,0.44,1.67,0.56,3.33,3.33,1.11
+Bengals,"Ja'Marr Chase, Jaylen Warren, DK Metcalf, Germie Bernard, Steelers",44800,0,162.0,1.83,0.08,1.67,0.0,0.0,0.0,8.33
+Bengals,"Joe Burrow, Chase Brown, Jaylen Warren, DK Metcalf, Germie Bernard",49000,0,190.0,1.83,0.19,1.67,0.0,3.33,5.0,0.0
+Joe Burrow,"Tee Higgins, Dohnte Meyers, Evan McPherson, Jaylen Warren, Rico Dowdle",49700,4,151.0,1.82,0.54,2.33,3.0,1.67,0.33,0.67
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Bengals, Darnell Washington",49700,7,162.0,1.81,1.09,1.46,4.17,0.42,1.88,0.83
+Germie Bernard,"Chase Brown, Aaron Rodgers, Jaylen Warren, DK Metcalf, Pat Freiermuth",49500,4,158.0,1.8,0.58,2.33,0.67,3.33,2.0,0.33
+Aaron Rodgers,"Joe Burrow, Mike Gesicki, Jaylen Warren, DK Metcalf, Darnell Washington",49500,3,164.0,1.75,0.59,1.25,1.25,3.75,2.5,0.83
+Steelers,"Ja'Marr Chase, Tee Higgins, Chase Brown, Evan McPherson, Aaron Rodgers",49700,2,204.0,1.75,0.36,2.78,0.56,1.67,0.56,2.22
+Chase Brown,"Joe Burrow, Tee Higgins, Aaron Rodgers, Ben Skowronek, Chris Boswell",50000,2,169.0,1.75,0.39,2.78,0.56,0.56,3.33,0.56
+Germie Bernard,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",49300,1,178.0,1.75,0.34,1.67,0.83,4.17,0.83,1.67
+Tee Higgins,"Joe Burrow, Chase Brown, Mike Gesicki, Dohnte Meyers, DK Metcalf",49800,2,148.0,1.72,0.3,2.78,1.67,0.56,1.67,0.56
+Joe Burrow,"Tee Higgins, Mike Gesicki, Aaron Rodgers, Germie Bernard, Ben Skowronek",49500,3,140.0,1.65,0.42,1.25,2.92,1.67,2.5,0.0
+Joe Burrow,"Chase Brown, Aaron Rodgers, Rico Dowdle, Germie Bernard, Darnell Washington",49500,3,151.0,1.65,0.48,1.75,1.5,1.67,2.75,0.5
+Joe Burrow,"Aaron Rodgers, Jaylen Warren, Rico Dowdle, Germie Bernard, Ben Skowronek",49500,2,144.0,1.61,0.42,2.22,1.67,0.0,2.78,0.56
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Darnell Washington, Chris Boswell",49700,7,196.0,1.6,0.76,1.46,1.25,0.83,1.88,2.92
+Chase Brown,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Pat Freiermuth, Darnell Washington",50000,11,178.0,1.58,1.03,2.64,0.69,1.11,1.39,0.97
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Jaylen Warren, Rico Dowdle, Ben Skowronek",49500,1,153.0,1.58,0.5,1.67,2.5,0.0,3.33,0.0
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Dohnte Meyers, Evan McPherson, Aaron Rodgers",49100,3,161.0,1.58,0.69,1.25,2.92,0.42,1.25,2.08
+Jaylen Warren,"Joe Burrow, Evan McPherson, Aaron Rodgers, Rico Dowdle, Pat Freiermuth",49400,2,152.0,1.58,0.8,2.22,1.11,1.11,1.11,1.67
+Darnell Washington,"Joe Burrow, Tee Higgins, Aaron Rodgers, DK Metcalf, Germie Bernard",49800,2,183.0,1.56,0.38,0.0,1.11,5.56,2.78,0.56
+Joe Burrow,"Tee Higgins, Dohnte Meyers, Aaron Rodgers, Germie Bernard, Pat Freiermuth",49900,4,139.0,1.55,0.58,2.33,1.67,0.33,2.0,0.33
+DK Metcalf,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Pat Freiermuth, Darnell Washington",49900,4,184.0,1.52,0.54,1.67,1.67,3.0,0.67,0.33
+Jaylen Warren,"Tee Higgins, Aaron Rodgers, Rico Dowdle, Germie Bernard, Darnell Washington",50000,7,150.0,1.51,0.73,1.25,0.21,3.33,2.29,1.25
+Ja'Marr Chase,"Joe Burrow, Aaron Rodgers, Rico Dowdle, Pat Freiermuth, Darnell Washington",49900,8,154.0,1.51,0.82,2.04,2.04,0.0,2.04,0.56
+Tee Higgins,"Ja'Marr Chase, Chase Brown, Dohnte Meyers, Jaylen Warren, Ben Skowronek",50000,2,171.0,1.5,0.25,1.67,1.67,1.67,1.11,1.11
+Bengals,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, Rico Dowdle, Germie Bernard",49800,3,198.0,1.48,0.32,2.08,1.25,1.67,1.25,0.42
+Joe Burrow,"Tee Higgins, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Darnell Washington",49300,3,140.0,1.48,0.65,2.5,2.08,0.0,0.83,0.42
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Pat Freiermuth",50000,2,187.0,1.47,0.32,1.67,1.11,0.56,1.11,2.78
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Bengals, Rico Dowdle",49900,4,152.0,1.47,0.63,2.0,2.33,0.67,1.0,0.33
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Rico Dowdle, Germie Bernard, Pat Freiermuth",48900,0,131.0,1.47,0.28,1.0,3.33,0.33,1.67,1.0
+Joe Burrow,"Chase Brown, Mike Gesicki, Evan McPherson, Jaylen Warren, Rico Dowdle",49500,5,153.0,1.46,0.62,2.5,1.67,0.0,0.56,1.11
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Evan McPherson, Aaron Rodgers",48900,3,159.0,1.46,0.61,0.83,2.08,0.42,3.75,0.83
+Ja'Marr Chase,"Tee Higgins, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Darnell Washington",49900,1,144.0,1.46,0.36,2.5,1.67,0.83,0.0,0.83
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Jaylen Warren, Chris Boswell",49400,1,196.0,1.46,0.3,1.67,2.5,1.67,0.0,0.83
+Germie Bernard,"Joe Burrow, Evan McPherson, Aaron Rodgers, Jaylen Warren, Chris Boswell",49900,10,191.0,1.45,0.82,1.67,0.15,1.36,3.03,1.21
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, Rico Dowdle, Germie Bernard, Steelers",49900,2,143.0,1.44,0.4,0.0,2.22,2.78,3.33,0.56
+Jaylen Warren,"Joe Burrow, Evan McPherson, Aaron Rodgers, Rico Dowdle, Chris Boswell",49800,6,164.0,1.44,0.87,0.95,0.71,1.67,1.9,2.86
+Joe Burrow,"Chase Brown, Mike Gesicki, Aaron Rodgers, Germie Bernard, Pat Freiermuth",49700,5,141.0,1.43,0.68,0.83,2.78,0.0,2.78,1.11
+Germie Bernard,"Joe Burrow, Tee Higgins, Aaron Rodgers, Rico Dowdle, Darnell Washington",49700,4,170.0,1.43,0.63,2.0,0.67,2.33,1.67,0.0
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Dohnte Meyers, Rico Dowdle, Darnell Washington",49700,5,158.0,1.42,0.69,1.67,3.33,0.0,0.83,0.28
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Rico Dowdle, DK Metcalf, Pat Freiermuth",49300,0,126.0,1.42,0.29,1.67,1.67,0.0,1.67,1.67
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Germie Bernard, Pat Freiermuth",49700,1,163.0,1.42,0.33,0.83,0.0,0.83,5.83,0.83
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Chase Brown, Aaron Rodgers, Ben Skowronek",49800,0,199.0,1.42,0.16,3.33,0.0,0.0,1.67,0.0
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Ben Skowronek",49700,1,177.0,1.42,0.28,1.5,1.83,0.83,2.5,0.17
+Chris Boswell,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Pat Freiermuth",49700,3,186.0,1.4,0.39,1.25,1.67,0.0,2.08,2.08
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Pat Freiermuth, Darnell Washington",49300,6,184.0,1.4,0.67,1.67,2.14,1.43,0.95,0.24
+Joe Burrow,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Pat Freiermuth",49900,5,147.0,1.39,0.79,1.11,0.83,0.83,2.78,1.94
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Samaje Perine, Dohnte Meyers, Chris Boswell",49900,6,158.0,1.39,0.61,0.95,1.9,0.24,2.38,1.9
+Joe Burrow,"Tee Higgins, Mike Gesicki, Dohnte Meyers, Jaylen Warren, Rico Dowdle",49300,4,138.0,1.38,0.64,0.67,4.0,0.67,0.33,1.33
+Chris Boswell,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Germie Bernard",49900,1,190.0,1.37,0.4,0.0,2.5,0.0,2.5,3.33
+Chris Boswell,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Rico Dowdle",49900,1,179.0,1.37,0.32,1.67,0.83,0.0,1.67,2.5
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Bengals, Darnell Washington",50000,13,183.0,1.37,1.03,2.02,1.19,0.6,0.83,1.43
+Joe Burrow,"Mike Gesicki, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",49900,13,161.0,1.35,0.95,1.43,1.19,1.19,2.26,0.6
+DK Metcalf,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Jaylen Warren, Darnell Washington",48700,1,178.0,1.33,0.34,0.83,0.83,4.17,1.67,0.0
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Pat Freiermuth",49800,0,178.0,1.33,0.31,0.0,1.67,0.0,5.0,1.67
+Joe Burrow,"Tee Higgins, Aaron Rodgers, DK Metcalf, Pat Freiermuth, Ben Skowronek",49700,2,131.0,1.33,0.27,1.67,3.33,0.0,0.56,0.0
+Joe Burrow,"Tee Higgins, Mike Gesicki, Aaron Rodgers, DK Metcalf, Ben Skowronek",49900,2,135.0,1.33,0.35,0.56,2.78,0.56,2.78,0.56
+Joe Burrow,"Chase Brown, Evan McPherson, Jaylen Warren, Rico Dowdle, Chris Boswell",49700,5,161.0,1.33,0.41,1.67,0.83,0.56,0.83,2.5
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Germie Bernard",49900,2,167.0,1.33,0.42,1.11,0.56,0.56,4.44,0.56
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Mike Gesicki, Dohnte Meyers, Darnell Washington",48900,6,160.0,1.32,1.16,1.43,2.86,0.48,0.24,0.95
+Germie Bernard,"Joe Burrow, Chase Brown, Aaron Rodgers, DK Metcalf, Darnell Washington",49500,7,178.0,1.31,0.66,1.25,0.62,2.08,2.29,0.62
+Germie Bernard,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, Pat Freiermuth, Chris Boswell",49700,2,176.0,1.31,0.43,1.11,0.0,1.67,2.22,2.22
+Joe Burrow,"Tee Higgins, Samaje Perine, Aaron Rodgers, Rico Dowdle, Pat Freiermuth",49900,2,126.0,1.31,0.46,1.67,1.11,0.56,2.22,0.56
+Aaron Rodgers,"Chase Brown, Jaylen Warren, DK Metcalf, Germie Bernard, Steelers",49700,4,151.0,1.3,0.59,1.0,0.0,2.33,2.33,1.67
+Bengals,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Germie Bernard, Chris Boswell",50000,2,202.0,1.3,0.45,0.44,1.56,1.0,1.44,3.11
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Rico Dowdle, Darnell Washington",50000,7,171.0,1.29,0.87,1.46,1.25,0.62,1.46,1.46
+Chase Brown,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Rico Dowdle, DK Metcalf",50000,2,144.0,1.28,0.4,1.11,2.78,1.11,0.56,0.56
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, Darnell Washington, Ben Skowronek",49800,8,195.0,1.27,0.34,2.41,1.3,0.19,0.93,0.0
+Bengals,"Joe Burrow, Ja'Marr Chase, Chase Brown, Jaylen Warren, Darnell Washington",49200,4,223.0,1.27,0.43,2.0,0.33,1.33,0.33,1.67
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Aaron Rodgers, DK Metcalf, Darnell Washington",49800,10,161.0,1.26,0.76,1.21,1.21,2.58,0.76,0.61
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Pat Freiermuth",49700,4,167.0,1.25,0.45,1.33,0.67,1.67,2.0,0.67
+Jaylen Warren,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Steelers",49800,2,154.0,1.25,0.43,1.67,0.0,1.11,2.22,1.11
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Jaylen Warren, Rico Dowdle, Ben Skowronek",49900,3,166.0,1.25,0.46,1.25,1.25,0.42,2.08,1.25
+Tee Higgins,"Aaron Rodgers, Jaylen Warren, DK Metcalf, Pat Freiermuth, Darnell Washington",49800,2,146.0,1.25,0.43,0.56,1.11,4.44,0.56,0.56
+Joe Burrow,"Tee Higgins, Mike Gesicki, Evan McPherson, Jaylen Warren, Darnell Washington",49500,8,165.0,1.24,0.65,1.48,2.22,0.93,0.74,0.19
+Pat Freiermuth,"Joe Burrow, Chase Brown, Evan McPherson, Aaron Rodgers, Jaylen Warren",49700,3,208.0,1.23,0.38,2.08,1.25,0.42,0.42,0.83
+Rico Dowdle,"Joe Burrow, Evan McPherson, Aaron Rodgers, Jaylen Warren, Germie Bernard",49800,3,194.0,1.23,0.46,1.25,0.83,1.25,2.5,0.42
+Aaron Rodgers,"Joe Burrow, Evan McPherson, Rico Dowdle, DK Metcalf, Germie Bernard",49300,2,144.0,1.22,0.35,1.11,0.0,0.0,3.33,2.22
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Samaje Perine, Evan McPherson, Rico Dowdle",49700,1,151.0,1.21,0.23,1.67,0.0,1.67,0.83,1.67
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Aaron Rodgers, Rico Dowdle, Chris Boswell",49700,4,154.0,1.2,0.5,0.67,1.33,0.33,2.33,2.0
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Darnell Washington",49500,5,188.0,1.18,0.59,1.39,1.39,0.56,1.67,0.56
+Ben Skowronek,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Jaylen Warren",50000,1,216.0,1.17,0.1,1.67,1.67,0.0,1.67,0.0
+Pat Freiermuth,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",46700,0,188.0,1.17,0.17,1.67,1.67,0.0,1.67,0.0
+Tee Higgins,"Joe Burrow, Jaylen Warren, Rico Dowdle, Darnell Washington, Chris Boswell",50000,6,166.0,1.17,0.48,1.43,1.9,0.24,1.43,0.24
+Aaron Rodgers,"Ja'Marr Chase, Tee Higgins, Rico Dowdle, Germie Bernard, Ben Skowronek",49900,0,148.0,1.17,0.13,0.0,3.33,1.67,1.67,0.0
+DK Metcalf,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Darnell Washington",49700,2,188.0,1.17,0.21,0.56,2.78,1.11,1.11,0.56
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Germie Bernard, Ben Skowronek",49700,2,156.0,1.17,0.42,1.0,2.11,0.11,2.44,0.11
+Pat Freiermuth,"Joe Burrow, Chase Brown, Mike Gesicki, Aaron Rodgers, Jaylen Warren",49300,1,195.0,1.17,0.37,2.5,0.83,0.0,0.83,0.0
+Jaylen Warren,"Joe Burrow, Aaron Rodgers, DK Metcalf, Darnell Washington, Chris Boswell",50000,15,169.0,1.16,0.98,0.62,1.04,2.92,1.15,0.83
+Ja'Marr Chase,"Joe Burrow, Jaylen Warren, Germie Bernard, Darnell Washington, Ben Skowronek",49700,4,176.0,1.15,0.38,1.0,2.0,0.67,1.33,0.67
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Pat Freiermuth, Darnell Washington",48900,4,154.0,1.15,0.49,1.33,2.67,0.33,0.0,0.67
+Germie Bernard,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Jaylen Warren, Chris Boswell",49500,5,178.0,1.15,0.64,1.39,0.83,1.39,1.11,0.83
+Chris Boswell,"Joe Burrow, Chase Brown, Mike Gesicki, Aaron Rodgers, Jaylen Warren",49900,4,195.0,1.15,0.37,2.0,0.0,0.67,0.67,1.67
+Steelers,"Ja'Marr Chase, Tee Higgins, Aaron Rodgers, Jaylen Warren, Darnell Washington",49300,4,207.0,1.12,0.43,1.0,1.33,1.33,0.0,2.0
+Chase Brown,"Joe Burrow, Tee Higgins, Mike Gesicki, Germie Bernard, Pat Freiermuth",50000,1,151.0,1.12,0.31,0.83,1.67,0.0,3.33,0.0
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Rico Dowdle, Germie Bernard, Darnell Washington",48100,1,145.0,1.12,0.16,0.83,4.17,0.0,0.0,0.0
+Evan McPherson,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Pat Freiermuth",50000,4,192.0,1.1,0.38,0.33,0.67,0.67,1.67,3.33
+Joe Burrow,"Aaron Rodgers, Rico Dowdle, DK Metcalf, Germie Bernard, Chris Boswell",49900,7,131.0,1.1,0.61,1.04,1.04,0.42,1.46,1.67
+Darnell Washington,"Joe Burrow, Aaron Rodgers, Jaylen Warren, DK Metcalf, Germie Bernard",49000,6,189.0,1.1,0.48,0.0,0.48,5.0,1.67,0.0
+Aaron Rodgers,"Tee Higgins, Chase Brown, Mike Gesicki, Rico Dowdle, Germie Bernard",49700,0,137.0,1.08,0.18,1.67,0.0,1.67,0.0,1.67
+Germie Bernard,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, DK Metcalf, Ben Skowronek",49900,1,173.0,1.08,0.24,0.0,1.67,2.5,2.5,0.0
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Chris Boswell",49400,6,151.0,1.08,0.85,0.95,0.71,0.48,2.14,1.43
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Germie Bernard, Darnell Washington",49400,10,166.0,1.08,0.69,1.21,0.76,1.97,1.21,0.15
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Samaje Perine, DK Metcalf, Darnell Washington",49900,3,156.0,1.06,0.27,0.42,0.83,1.25,2.92,0.83
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Rico Dowdle, Darnell Washington",49500,5,156.0,1.06,0.62,1.11,1.67,0.0,1.67,0.56
+Chase Brown,"Joe Burrow, Dohnte Meyers, Evan McPherson, Aaron Rodgers, Jaylen Warren",50000,8,183.0,1.04,0.51,0.74,0.56,1.67,1.67,1.11
+Chase Brown,"Joe Burrow, Mike Gesicki, Bengals, Jaylen Warren, Germie Bernard",48600,1,161.0,1.04,0.15,0.83,0.0,1.67,1.67,1.67
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, DK Metcalf, Pat Freiermuth, Darnell Washington",49100,3,146.0,1.04,0.37,1.67,0.42,2.5,0.0,0.0
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Rico Dowdle, DK Metcalf, Germie Bernard",49800,4,138.0,1.02,0.43,1.33,1.0,1.33,0.67,0.33
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Germie Bernard, Pat Freiermuth, Darnell Washington",49700,9,159.0,1.02,0.77,0.83,0.67,1.5,1.83,0.67
+Joe Burrow,"Aaron Rodgers, Jaylen Warren, Germie Bernard, Pat Freiermuth, Darnell Washington",49700,11,157.0,1.01,0.86,0.69,1.25,0.83,2.5,0.14
+Joe Burrow,"Tee Higgins, Dohnte Meyers, Evan McPherson, Aaron Rodgers, Pat Freiermuth",48100,0,139.0,1.0,0.11,0.0,0.0,0.0,3.33,3.33
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Evan McPherson, Pat Freiermuth, Ben Skowronek",49500,1,156.0,1.0,0.38,0.0,2.5,0.0,2.5,0.83
+Bengals,"Joe Burrow, Tee Higgins, Mike Gesicki, Jaylen Warren, DK Metcalf",48800,1,179.0,1.0,0.23,0.83,1.67,0.83,0.0,1.67
+Joe Burrow,"Samaje Perine, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Chris Boswell",49500,3,144.0,1.0,0.46,1.25,1.25,0.0,1.67,0.42
+Chase Brown,"Joe Burrow, Evan McPherson, Aaron Rodgers, Rico Dowdle, Germie Bernard",50000,4,162.0,1.0,0.44,0.67,0.33,1.67,2.0,1.0
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Rico Dowdle, Pat Freiermuth, Darnell Washington",48900,3,160.0,1.0,0.33,1.25,1.25,0.42,0.83,0.83
+Joe Burrow,"Tee Higgins, Samaje Perine, Bengals, Jaylen Warren, Rico Dowdle",49900,1,140.0,1.0,0.36,0.83,1.67,0.0,0.83,1.67
+Germie Bernard,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Darnell Washington, Chris Boswell",48300,6,186.0,1.0,0.47,0.71,0.71,2.62,0.71,0.71
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, DK Metcalf, Pat Freiermuth, Steelers",49300,0,136.0,1.0,0.24,0.0,0.0,5.0,1.67,0.0
+Germie Bernard,"Joe Burrow, Mike Gesicki, Evan McPherson, Aaron Rodgers, Jaylen Warren",49700,7,183.0,0.99,0.56,0.83,0.21,1.46,2.08,0.83
+Tee Higgins,"Joe Burrow, Chase Brown, Mike Gesicki, Germie Bernard, Darnell Washington",50000,5,165.0,0.99,0.56,0.56,1.67,1.11,1.11,0.83
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Rico Dowdle, Darnell Washington",49300,4,158.0,0.98,0.41,1.67,1.0,0.0,0.67,0.67
+Darnell Washington,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Germie Bernard",50000,10,209.0,0.98,0.5,0.76,0.61,1.36,1.82,0.76
+Chase Brown,"Joe Burrow, Aaron Rodgers, Rico Dowdle, Germie Bernard, Chris Boswell",49800,5,157.0,0.97,0.49,1.11,0.83,0.28,1.39,1.11
+Germie Bernard,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",48900,5,176.0,0.97,0.78,0.83,0.28,1.94,1.94,0.28
+Tee Higgins,"Joe Burrow, Dohnte Meyers, Jaylen Warren, Rico Dowdle, Chris Boswell",49400,2,154.0,0.97,0.35,0.56,2.22,1.11,1.11,0.0
+Joe Burrow,"Chase Brown, Samaje Perine, Aaron Rodgers, DK Metcalf, Pat Freiermuth",49700,2,134.0,0.97,0.25,1.11,1.67,0.56,0.56,0.56
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Bengals, Rico Dowdle, Chris Boswell",49900,5,158.0,0.97,0.42,1.11,0.83,0.0,0.28,2.5
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, Rico Dowdle, Darnell Washington, Chris Boswell",47900,1,162.0,0.96,0.28,0.83,0.83,0.83,0.0,2.5
+Germie Bernard,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Jaylen Warren, Pat Freiermuth",49500,1,168.0,0.96,0.29,1.67,0.0,0.83,0.83,0.83
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Pat Freiermuth, Chris Boswell",49900,6,154.0,0.96,0.52,0.95,1.9,0.0,1.19,0.48
+Aaron Rodgers,"Joe Burrow, Rico Dowdle, DK Metcalf, Germie Bernard, Chris Boswell",49100,4,139.0,0.95,0.57,1.33,0.67,0.67,1.0,0.67
+Joe Burrow,"Tee Higgins, Aaron Rodgers, Rico Dowdle, Darnell Washington, Chris Boswell",49500,7,148.0,0.95,0.6,1.25,0.83,0.21,1.04,1.04
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Rico Dowdle",49800,6,169.0,0.95,0.39,1.43,1.19,0.24,0.71,0.48
+Aaron Rodgers,"Joe Burrow, Mike Gesicki, Jaylen Warren, Germie Bernard, Darnell Washington",49100,7,169.0,0.94,0.56,0.42,0.83,1.46,2.5,0.21
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Bengals, Rico Dowdle",49100,3,134.0,0.94,0.5,0.83,1.67,0.42,0.83,0.83
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Rico Dowdle, Germie Bernard",49500,3,148.0,0.94,0.42,0.83,2.92,0.0,0.42,0.0
+DK Metcalf,"Joe Burrow, Chase Brown, Aaron Rodgers, Germie Bernard, Darnell Washington",49700,6,183.0,0.93,0.6,0.48,0.95,3.33,0.48,0.0
+Joe Burrow,"Tee Higgins, Evan McPherson, Aaron Rodgers, Germie Bernard, Ben Skowronek",49900,6,153.0,0.93,0.43,0.24,1.19,0.48,3.33,0.24
+Darnell Washington,"Ja'Marr Chase, Tee Higgins, Aaron Rodgers, Jaylen Warren, Pat Freiermuth",50000,1,196.0,0.92,0.16,0.83,0.0,1.67,0.83,1.67
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Bengals, Jaylen Warren, Pat Freiermuth",49900,3,156.0,0.92,0.51,0.0,2.08,1.67,0.83,0.83
+Joe Burrow,"Tee Higgins, Rico Dowdle, DK Metcalf, Pat Freiermuth, Chris Boswell",48900,0,118.0,0.92,0.13,0.0,3.33,0.0,0.0,1.67
+Joe Burrow,"Bengals, Jaylen Warren, Rico Dowdle, DK Metcalf, Germie Bernard",49500,2,133.0,0.92,0.15,1.67,0.0,0.56,0.56,1.11
+Germie Bernard,"Joe Burrow, Tee Higgins, Chase Brown, Mike Gesicki, Evan McPherson",49900,2,179.0,0.92,0.22,1.11,0.56,0.56,1.67,0.56
+Tee Higgins,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Ben Skowronek, Chris Boswell",50000,3,158.0,0.92,0.2,1.25,0.83,0.0,1.67,0.42
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Jaylen Warren, Pat Freiermuth, Darnell Washington",49700,8,166.0,0.9,0.69,0.74,1.67,0.37,0.74,0.93
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Aaron Rodgers, Jaylen Warren",50000,4,212.0,0.9,0.24,0.67,1.33,1.0,1.33,0.33
+Tee Higgins,"Joe Burrow, Mike Gesicki, Evan McPherson, Aaron Rodgers, Darnell Washington",48800,5,163.0,0.89,0.59,0.83,1.11,1.39,0.56,0.56
+Bengals,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, DK Metcalf, Chris Boswell",49600,2,203.0,0.89,0.27,1.11,0.0,0.0,1.11,2.22
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Chase Brown, Darnell Washington, Ben Skowronek",49500,5,187.0,0.88,0.26,1.11,0.56,0.83,1.11,0.56
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Mike Gesicki, Germie Bernard, Darnell Washington",49900,10,163.0,0.88,0.7,0.61,0.61,0.76,2.58,0.3
+Jaylen Warren,"Chase Brown, Aaron Rodgers, DK Metcalf, Germie Bernard, Steelers",50000,9,148.0,0.88,0.66,1.17,0.33,1.83,0.33,0.5
+Mike Gesicki,"Joe Burrow, Chase Brown, Evan McPherson, Aaron Rodgers, Jaylen Warren",50000,14,210.0,0.87,0.62,0.89,0.89,1.0,0.78,0.78
+DK Metcalf,"Joe Burrow, Mike Gesicki, Jaylen Warren, Rico Dowdle, Germie Bernard",48700,1,155.0,0.87,0.16,1.67,0.83,0.0,0.83,0.0
+Tee Higgins,"Ja'Marr Chase, Dohnte Meyers, Jaylen Warren, Rico Dowdle, Chris Boswell",49800,2,156.0,0.86,0.18,1.11,1.11,0.0,1.11,0.56
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Evan McPherson, Ben Skowronek, Chris Boswell",49900,10,168.0,0.86,0.57,0.76,1.36,0.15,0.76,1.21
+Joe Burrow,"Ja'Marr Chase, Aaron Rodgers, Rico Dowdle, Pat Freiermuth, Darnell Washington",49700,5,152.0,0.86,0.64,0.56,2.5,0.0,0.83,0.28
+Pat Freiermuth,"Joe Burrow, Tee Higgins, Dohnte Meyers, Aaron Rodgers, Jaylen Warren",49500,2,193.0,0.86,0.22,1.67,0.56,0.0,1.11,0.0
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Darnell Washington, Chris Boswell",49500,14,168.0,0.86,0.77,1.0,1.44,0.33,0.44,0.67
+Bengals,"Joe Burrow, Ja'Marr Chase, Chase Brown, Evan McPherson, Germie Bernard",48200,2,205.0,0.86,0.24,0.56,0.0,0.0,1.67,2.78
+Pat Freiermuth,"Joe Burrow, Ja'Marr Chase, Chase Brown, Aaron Rodgers, Darnell Washington",49500,4,213.0,0.85,0.35,0.67,0.33,0.33,2.33,1.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Ben Skowronek, Chris Boswell",49800,5,176.0,0.85,0.48,0.83,1.11,0.28,0.56,1.39
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Germie Bernard, Ben Skowronek, Chris Boswell",49500,3,172.0,0.85,0.3,1.25,0.83,0.0,0.83,0.83
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Darnell Washington",49900,14,201.0,0.85,0.67,1.0,0.67,0.33,1.33,0.78
+Tee Higgins,"Joe Burrow, Mike Gesicki, Evan McPherson, Bengals, Jaylen Warren",49800,10,165.0,0.85,0.74,0.91,1.52,0.76,0.0,0.76
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Evan McPherson, Jaylen Warren, Chris Boswell",49900,17,179.0,0.85,0.67,1.11,1.11,0.09,0.46,1.02
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Darnell Washington, Chris Boswell",49300,12,166.0,0.85,0.64,0.9,1.15,0.38,1.15,0.51
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Samaje Perine, Rico Dowdle, Chris Boswell",49500,1,146.0,0.83,0.2,0.83,0.83,0.0,2.5,0.0
+Germie Bernard,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, DK Metcalf, Pat Freiermuth",48700,0,144.0,0.83,0.07,1.67,0.0,0.0,1.67,0.0
+Chris Boswell,"Joe Burrow, Tee Higgins, Evan McPherson, Aaron Rodgers, Germie Bernard",49700,3,187.0,0.83,0.32,0.83,0.83,0.0,0.0,2.5
+Mike Gesicki,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Germie Bernard",49400,2,182.0,0.83,0.18,0.56,1.11,1.67,0.0,1.11
+Chris Boswell,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Bengals, Jaylen Warren",47900,1,200.0,0.83,0.06,0.83,0.83,0.0,0.0,2.5
+Tee Higgins,"Joe Burrow, Aaron Rodgers, Rico Dowdle, Darnell Washington, Chris Boswell",49400,7,156.0,0.82,0.48,0.62,1.46,0.83,0.21,1.04
+Jaylen Warren,"Joe Burrow, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Darnell Washington",49200,14,162.0,0.82,0.97,0.56,0.22,1.78,1.67,0.44
+Tee Higgins,"Joe Burrow, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Chris Boswell",50000,9,159.0,0.82,0.76,0.67,1.17,0.33,0.67,1.33
+Germie Bernard,"Joe Burrow, Evan McPherson, Aaron Rodgers, Jaylen Warren, Pat Freiermuth",49500,11,179.0,0.81,0.67,0.69,0.56,1.25,1.11,0.69
+Germie Bernard,"Joe Burrow, Tee Higgins, Dohnte Meyers, Jaylen Warren, Rico Dowdle",49700,3,168.0,0.81,0.21,0.42,0.83,1.67,1.67,0.0
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Samaje Perine, Rico Dowdle, Ben Skowronek",49700,2,143.0,0.81,0.29,0.56,2.22,0.0,1.11,0.0
+Jaylen Warren,"Joe Burrow, Aaron Rodgers, Rico Dowdle, Germie Bernard, Ben Skowronek",49000,2,149.0,0.81,0.39,0.56,0.56,1.67,1.67,0.0
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Aaron Rodgers, Germie Bernard, Darnell Washington",49700,20,169.0,0.81,0.7,0.79,0.79,0.56,1.75,0.16
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Darnell Washington",48600,6,166.0,0.81,0.88,0.95,0.95,0.95,0.71,0.24
+Joe Burrow,"Tee Higgins, Evan McPherson, Aaron Rodgers, Rico Dowdle, Darnell Washington",49700,9,153.0,0.8,0.63,0.83,1.17,0.0,1.33,0.5
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Bengals",50000,10,178.0,0.8,0.56,0.91,0.61,0.45,0.0,1.97
+Joe Burrow,"Ja'Marr Chase, Dohnte Meyers, Evan McPherson, Aaron Rodgers, Rico Dowdle",49700,6,157.0,0.8,0.5,0.95,0.71,0.24,0.95,0.95
+Aaron Rodgers,"Joe Burrow, Chase Brown, Mike Gesicki, Dohnte Meyers, Jaylen Warren",49900,7,172.0,0.8,0.47,0.83,0.83,0.83,1.25,0.21
+Samaje Perine,"Tee Higgins, Aaron Rodgers, Jaylen Warren, DK Metcalf, Germie Bernard",50000,1,175.0,0.79,0.07,0.83,0.0,3.33,0.0,0.0
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Evan McPherson, Jaylen Warren, Pat Freiermuth",49500,6,167.0,0.79,0.43,1.19,0.95,0.48,0.48,0.24
+Steelers,"Ja'Marr Chase, Tee Higgins, Chase Brown, Mike Gesicki, Jaylen Warren",49900,1,201.0,0.79,0.25,0.0,0.83,1.67,0.83,1.67
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, DK Metcalf, Darnell Washington",49400,1,194.0,0.79,0.14,0.0,0.83,1.67,0.83,1.67
+Germie Bernard,"Tee Higgins, Mike Gesicki, Evan McPherson, Aaron Rodgers, Jaylen Warren",49500,2,169.0,0.78,0.27,0.0,0.56,3.89,0.56,0.0
+Mike Gesicki,"Ja'Marr Chase, Tee Higgins, Aaron Rodgers, DK Metcalf, Chris Boswell",50000,4,181.0,0.78,0.15,1.0,0.67,1.33,0.33,0.33
+Chase Brown,"Joe Burrow, Tee Higgins, Aaron Rodgers, Pat Freiermuth, Ben Skowronek",49600,2,157.0,0.78,0.32,1.67,0.56,0.0,0.0,0.56
+Darnell Washington,"Joe Burrow, Tee Higgins, Aaron Rodgers, Jaylen Warren, Chris Boswell",50000,9,206.0,0.77,0.48,0.5,0.83,1.17,0.83,0.83
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Dohnte Meyers, Evan McPherson, Rico Dowdle",49300,8,161.0,0.77,0.36,1.48,1.11,0.0,0.19,0.0
+Chris Boswell,"Joe Burrow, Evan McPherson, Aaron Rodgers, Jaylen Warren, Germie Bernard",48900,4,193.0,0.77,0.28,1.0,0.33,0.67,0.33,1.33
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Evan McPherson, Rico Dowdle",49800,10,172.0,0.77,0.56,0.91,0.91,0.15,1.06,0.61
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Chris Boswell",49600,7,190.0,0.77,0.44,1.04,0.0,0.0,0.42,2.29
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Darnell Washington",48000,4,151.0,0.77,0.38,1.0,0.33,1.0,1.0,0.33
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Aaron Rodgers, Darnell Washington",49500,18,171.0,0.76,0.95,0.96,0.79,0.44,0.79,0.53
+Tee Higgins,"Joe Burrow, Jaylen Warren, Germie Bernard, Pat Freiermuth, Ben Skowronek",49800,2,154.0,0.75,0.26,0.0,1.67,0.0,2.78,0.0
+Tee Higgins,"Joe Burrow, Jaylen Warren, Rico Dowdle, Pat Freiermuth, Darnell Washington",49600,1,154.0,0.75,0.34,0.83,1.67,0.0,0.0,0.83
+Tee Higgins,"Joe Burrow, Chase Brown, Evan McPherson, Rico Dowdle, Pat Freiermuth",50000,4,151.0,0.75,0.4,1.0,1.0,0.33,0.33,0.67
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Pat Freiermuth, Darnell Washington",48100,0,162.0,0.75,0.21,0.0,0.0,1.67,1.67,1.67
+Steelers,"Ja'Marr Chase, Chase Brown, Aaron Rodgers, DK Metcalf, Chris Boswell",46500,0,177.0,0.75,0.15,0.0,0.0,0.0,0.0,5.0
+Aaron Rodgers,"Joe Burrow, Evan McPherson, Jaylen Warren, Germie Bernard, Darnell Washington",49500,17,182.0,0.75,0.65,0.74,0.37,0.74,1.85,0.19
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Jaylen Warren",50000,4,214.0,0.75,0.26,1.0,1.0,0.67,0.67,0.0
+Pat Freiermuth,"Joe Burrow, Chase Brown, Aaron Rodgers, Rico Dowdle, Germie Bernard",47500,1,170.0,0.75,0.15,0.83,1.67,0.83,0.0,0.0
+Joe Burrow,"Mike Gesicki, Aaron Rodgers, DK Metcalf, Germie Bernard, Chris Boswell",49100,5,133.0,0.74,0.42,0.56,0.83,0.83,0.83,0.83
+Joe Burrow,"Tee Higgins, Chase Brown, Evan McPherson, Bengals, Rico Dowdle",49500,9,147.0,0.74,0.49,0.67,0.67,0.17,1.17,1.17
+Joe Burrow,"Ja'Marr Chase, Jaylen Warren, DK Metcalf, Darnell Washington, Ben Skowronek",49900,7,169.0,0.73,0.22,0.62,2.08,0.21,0.21,0.21
+Germie Bernard,"Ja'Marr Chase, Chase Brown, Aaron Rodgers, Rico Dowdle, Chris Boswell",49500,3,170.0,0.73,0.21,0.42,0.42,0.83,2.5,0.0
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Pat Freiermuth, Chris Boswell",49900,6,175.0,0.73,0.47,0.71,0.24,0.0,1.43,1.43
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Evan McPherson, Pat Freiermuth, Chris Boswell",49300,4,159.0,0.73,0.36,0.67,1.0,0.0,1.0,1.0
+Aaron Rodgers,"Chase Brown, Evan McPherson, Jaylen Warren, Rico Dowdle, DK Metcalf",49700,3,151.0,0.73,0.25,0.83,0.0,0.83,0.42,1.67
+Jaylen Warren,"Joe Burrow, Chase Brown, Rico Dowdle, Germie Bernard, Darnell Washington",49600,10,166.0,0.73,0.38,1.06,0.45,0.61,0.61,0.61
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Jaylen Warren, Darnell Washington, Chris Boswell",49900,16,176.0,0.72,0.71,0.98,1.27,0.0,0.49,0.29
+Germie Bernard,"Joe Burrow, Tee Higgins, Jaylen Warren, Darnell Washington, Chris Boswell",49700,5,190.0,0.72,0.29,0.83,0.28,0.56,0.56,1.39
+Ja'Marr Chase,"Joe Burrow, Aaron Rodgers, DK Metcalf, Darnell Washington, Ben Skowronek",49500,7,161.0,0.72,0.34,0.21,1.67,0.42,1.04,0.62
+Aaron Rodgers,"Tee Higgins, Chase Brown, DK Metcalf, Pat Freiermuth, Chris Boswell",49300,1,138.0,0.71,0.2,0.83,0.83,0.83,0.0,0.83
+Joe Burrow,"Tee Higgins, Mike Gesicki, Dohnte Meyers, Aaron Rodgers, Chris Boswell",48100,1,138.0,0.71,0.25,0.83,0.83,0.0,0.0,1.67
+Joe Burrow,"Chase Brown, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Chris Boswell",49900,9,149.0,0.71,0.7,0.67,1.0,0.33,0.83,0.67
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Evan McPherson, Aaron Rodgers, Darnell Washington",49700,19,173.0,0.71,1.01,0.42,1.08,0.42,1.08,0.83
+Jaylen Warren,"Tee Higgins, Evan McPherson, Aaron Rodgers, Germie Bernard, Steelers",49800,5,155.0,0.71,0.33,0.83,0.0,1.11,0.83,0.83
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Dohnte Meyers, Rico Dowdle",48700,1,146.0,0.71,0.37,0.0,1.67,0.0,1.67,0.83
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, DK Metcalf, Darnell Washington, Chris Boswell",49500,8,158.0,0.71,0.34,0.74,0.19,1.67,0.93,0.19
+Aaron Rodgers,"Ja'Marr Chase, Jaylen Warren, Germie Bernard, Chris Boswell, Steelers",49900,8,169.0,0.71,0.48,0.56,0.37,0.56,1.67,0.74
+Rico Dowdle,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Chris Boswell",49600,6,189.0,0.7,0.57,0.24,0.95,0.48,1.67,0.71
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Darnell Washington",49600,14,186.0,0.7,0.46,0.67,0.33,0.89,0.89,0.89
+Joe Burrow,"Tee Higgins, Chase Brown, Rico Dowdle, Pat Freiermuth, Chris Boswell",49900,2,138.0,0.69,0.3,1.11,1.11,0.0,0.56,0.0
+Joe Burrow,"Ja'Marr Chase, Bengals, Jaylen Warren, Rico Dowdle, Darnell Washington",49700,5,166.0,0.69,0.35,1.11,0.28,0.0,1.11,0.56
+Chase Brown,"Joe Burrow, Samaje Perine, Aaron Rodgers, Jaylen Warren, Darnell Washington",49800,11,180.0,0.69,0.54,0.97,0.42,0.83,0.69,0.28
+Chase Brown,"Joe Burrow, Samaje Perine, Mike Gesicki, Aaron Rodgers, Germie Bernard",48400,2,149.0,0.69,0.16,1.11,1.11,0.0,0.56,0.0
+Ja'Marr Chase,"Joe Burrow, Samaje Perine, Aaron Rodgers, Rico Dowdle, Darnell Washington",49700,5,156.0,0.68,0.4,1.11,0.83,0.0,0.28,0.56
+Ja'Marr Chase,"Tee Higgins, Aaron Rodgers, Rico Dowdle, Pat Freiermuth, Steelers",49900,2,130.0,0.67,0.26,1.11,0.56,0.0,0.0,1.11
+Steelers,"Ja'Marr Chase, Tee Higgins, Aaron Rodgers, Rico Dowdle, Germie Bernard",48700,1,174.0,0.67,0.26,0.0,0.83,0.0,3.33,0.0
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Jaylen Warren, Chris Boswell",48800,1,196.0,0.67,0.12,0.0,0.83,0.83,0.0,2.5
+Rico Dowdle,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Darnell Washington",49600,9,204.0,0.67,0.54,0.5,0.33,1.17,0.67,1.0
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, Jaylen Warren",49500,3,186.0,0.67,0.22,0.83,1.25,0.42,0.42,0.0
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Darnell Washington",49500,10,169.0,0.67,0.53,0.76,0.76,0.0,0.76,0.91
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, Rico Dowdle",49700,2,174.0,0.67,0.26,0.0,0.0,0.0,3.89,0.56
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, Germie Bernard, Darnell Washington, Chris Boswell",49300,16,177.0,0.67,0.98,0.39,0.39,1.47,1.27,0.29
+Aaron Rodgers,"Joe Burrow, Mike Gesicki, Jaylen Warren, Rico Dowdle, Chris Boswell",49100,3,154.0,0.67,0.43,0.0,0.83,1.25,1.67,0.42
+Tee Higgins,"Joe Burrow, Evan McPherson, Bengals, Jaylen Warren, Chris Boswell",50000,13,173.0,0.67,0.6,0.95,0.36,0.36,0.36,1.07
+Jaylen Warren,"Chase Brown, Aaron Rodgers, DK Metcalf, Germie Bernard, Darnell Washington",49800,20,158.0,0.65,0.82,0.32,0.16,2.62,0.63,0.16
+Aaron Rodgers,"Joe Burrow, Jaylen Warren, DK Metcalf, Darnell Washington, Chris Boswell",49700,13,172.0,0.65,0.87,0.48,0.12,1.31,0.95,0.83
+Joe Burrow,"Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, Germie Bernard, Darnell Washington",49500,12,167.0,0.65,0.5,0.51,0.26,0.0,2.31,0.51
+Joe Burrow,"Tee Higgins, Mike Gesicki, Evan McPherson, Aaron Rodgers, Darnell Washington",48900,10,155.0,0.64,0.59,0.91,0.91,0.3,0.45,0.15
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Bengals, Chris Boswell",48400,6,179.0,0.64,0.2,1.19,0.24,0.0,0.24,0.95
+Jaylen Warren,"Joe Burrow, Chase Brown, Mike Gesicki, Rico Dowdle, Darnell Washington",47400,2,153.0,0.64,0.14,1.11,0.0,1.67,0.0,0.0
+Joe Burrow,"Chase Brown, Mike Gesicki, Evan McPherson, Aaron Rodgers, Rico Dowdle",48900,8,143.0,0.64,0.44,1.11,0.56,0.0,0.19,0.74
+Jaylen Warren,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Darnell Washington, Chris Boswell",50000,17,176.0,0.63,0.53,0.37,0.28,1.57,0.83,0.56
+Tee Higgins,"Joe Burrow, Chase Brown, Aaron Rodgers, Darnell Washington, Ben Skowronek",49600,9,171.0,0.63,0.47,0.83,0.83,0.17,0.83,0.17
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Bengals, Jaylen Warren, Germie Bernard",50000,4,201.0,0.63,0.19,0.67,1.0,0.0,0.33,1.0
+Joe Burrow,"Chase Brown, Mike Gesicki, Bengals, Jaylen Warren, Rico Dowdle",48300,4,140.0,0.62,0.26,1.0,0.33,0.0,0.67,0.67
+DK Metcalf,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Darnell Washington, Chris Boswell",48900,6,186.0,0.62,0.43,0.71,0.24,1.43,0.48,0.24
+Aaron Rodgers,"Joe Burrow, Chase Brown, Samaje Perine, Rico Dowdle, DK Metcalf",49900,3,144.0,0.62,0.24,0.42,0.83,0.83,0.83,0.42
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Dohnte Meyers, Germie Bernard",49500,7,145.0,0.62,0.4,1.04,0.83,0.0,0.62,0.0
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Rico Dowdle, Darnell Washington",49500,5,160.0,0.62,0.47,0.28,1.39,0.0,1.67,0.0
+Jaylen Warren,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Chris Boswell",49800,5,153.0,0.62,0.38,0.83,0.0,0.56,0.56,1.11
+Jaylen Warren,"Joe Burrow, Rico Dowdle, DK Metcalf, Germie Bernard, Darnell Washington",48600,3,146.0,0.62,0.25,1.25,0.0,0.42,0.42,0.42
+Joe Burrow,"Tee Higgins, Chase Brown, Rico Dowdle, Germie Bernard, Ben Skowronek",49700,1,140.0,0.62,0.15,0.83,1.67,0.0,0.0,0.0
+Ja'Marr Chase,"Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington, Steelers",49500,12,163.0,0.61,0.33,0.9,0.13,0.64,0.77,0.38
+Aaron Rodgers,"Joe Burrow, Chase Brown, Mike Gesicki, Evan McPherson, Germie Bernard",49500,5,166.0,0.61,0.29,0.28,0.28,0.83,1.39,0.83
+Chris Boswell,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Darnell Washington",48700,6,203.0,0.61,0.26,0.48,0.24,0.24,1.67,0.71
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Evan McPherson, Jaylen Warren",49600,3,201.0,0.6,0.36,0.42,1.67,0.0,0.42,0.42
+Joe Burrow,"Tee Higgins, Aaron Rodgers, Germie Bernard, Ben Skowronek, Chris Boswell",49700,9,148.0,0.6,0.4,0.67,0.83,0.17,1.0,0.17
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Samaje Perine, Pat Freiermuth, Darnell Washington",49900,5,156.0,0.6,0.43,0.0,1.94,0.28,0.56,0.56
+Darnell Washington,"Tee Higgins, Chase Brown, Aaron Rodgers, Jaylen Warren, Germie Bernard",49800,11,195.0,0.59,0.24,0.28,0.69,2.08,0.0,0.28
+Jaylen Warren,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Aaron Rodgers, Ben Skowronek",50000,5,168.0,0.58,0.2,0.28,0.56,0.83,1.67,0.0
+DK Metcalf,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Rico Dowdle, Ben Skowronek",49700,1,171.0,0.58,0.15,0.83,0.83,0.0,0.0,0.83
+Jaylen Warren,"Joe Burrow, Chase Brown, Aaron Rodgers, Ben Skowronek, Chris Boswell",49800,12,174.0,0.58,0.48,0.38,0.38,0.51,1.28,0.64
+Tee Higgins,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Bengals, Rico Dowdle",49400,2,144.0,0.58,0.17,0.56,1.11,0.56,0.0,0.56
+Joe Burrow,"Chase Brown, Mike Gesicki, Jaylen Warren, DK Metcalf, Darnell Washington",49700,9,158.0,0.58,0.3,1.17,0.5,0.5,0.0,0.0
+Chase Brown,"Joe Burrow, Dohnte Meyers, Aaron Rodgers, Jaylen Warren, Chris Boswell",49800,9,178.0,0.58,0.45,0.83,0.33,0.33,0.33,0.83
+Rico Dowdle,"Joe Burrow, Samaje Perine, Aaron Rodgers, Jaylen Warren, DK Metcalf",49400,2,174.0,0.58,0.22,0.56,1.11,1.11,0.0,0.0
+Chase Brown,"Joe Burrow, Mike Gesicki, Jaylen Warren, Germie Bernard, Chris Boswell",49600,6,169.0,0.58,0.21,0.71,0.95,0.24,0.48,0.24
+Tee Higgins,"Joe Burrow, Chase Brown, Dohnte Meyers, Evan McPherson, Germie Bernard",49800,8,166.0,0.57,0.38,0.37,1.11,0.0,0.93,0.56
+Bengals,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Jaylen Warren, Germie Bernard",49400,6,213.0,0.57,0.39,0.48,0.24,0.24,0.48,1.67
+Jaylen Warren,"Ja'Marr Chase, Mike Gesicki, Aaron Rodgers, Germie Bernard, Darnell Washington",49800,15,168.0,0.57,0.43,0.42,0.42,1.67,0.62,0.0
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Chase Brown, Aaron Rodgers, Darnell Washington",49800,12,215.0,0.57,0.57,0.38,1.03,0.51,0.51,0.51
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Germie Bernard, Ben Skowronek",49700,5,160.0,0.57,0.28,0.28,1.11,0.0,0.28,1.39
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Evan McPherson, Bengals, Pat Freiermuth",49100,5,161.0,0.56,0.25,0.56,0.56,0.28,0.56,0.83
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Rico Dowdle, Pat Freiermuth, Chris Boswell",49400,2,160.0,0.56,0.16,1.11,0.0,0.0,0.56,0.56
+Tee Higgins,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Rico Dowdle, Germie Bernard",49200,2,142.0,0.56,0.13,1.11,0.0,0.0,1.11,0.0
+Tee Higgins,"Joe Burrow, Mike Gesicki, Evan McPherson, Jaylen Warren, Darnell Washington",49400,13,173.0,0.55,0.7,0.12,1.31,0.71,0.36,0.6
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Germie Bernard, Darnell Washington",49800,11,204.0,0.55,0.54,0.42,1.39,0.28,0.42,0.14
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Dohnte Meyers, Evan McPherson, Darnell Washington",49300,21,173.0,0.55,1.04,0.45,1.06,0.23,0.38,0.61
+Joe Burrow,"Tee Higgins, Mike Gesicki, Bengals, Jaylen Warren, Chris Boswell",49700,8,152.0,0.55,0.49,0.56,0.93,0.0,0.37,0.74
+Ja'Marr Chase,"Joe Burrow, Jaylen Warren, Pat Freiermuth, Darnell Washington, Chris Boswell",49900,14,174.0,0.55,0.5,0.56,0.78,0.0,0.44,0.89
+Jaylen Warren,"Chase Brown, Aaron Rodgers, Rico Dowdle, Germie Bernard, Chris Boswell",49400,9,148.0,0.54,0.42,0.67,0.17,0.83,0.5,0.5
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Samaje Perine, Dohnte Meyers",49900,1,178.0,0.54,0.18,0.83,0.0,0.0,1.67,0.0
+Jaylen Warren,"Tee Higgins, Mike Gesicki, Aaron Rodgers, Germie Bernard, Steelers",49400,3,142.0,0.54,0.25,0.0,0.83,1.25,0.83,0.42
+Jaylen Warren,"Joe Burrow, Aaron Rodgers, Germie Bernard, Darnell Washington, Chris Boswell",49600,32,174.0,0.54,1.04,0.35,0.15,0.91,1.26,0.4
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Ben Skowronek, Chris Boswell",49500,5,155.0,0.54,0.7,0.83,0.83,0.0,0.28,0.28
+Ja'Marr Chase,"Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington, Chris Boswell",49300,10,158.0,0.53,0.29,0.45,0.61,0.45,0.76,0.45
+Evan McPherson,"Tee Higgins, Chase Brown, Mike Gesicki, Aaron Rodgers, Jaylen Warren",50000,4,182.0,0.53,0.19,0.33,0.33,1.0,0.67,0.67
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Bengals, Chris Boswell",49100,10,160.0,0.52,0.49,0.61,0.61,0.0,0.61,0.61
+Joe Burrow,"Tee Higgins, Chase Brown, Germie Bernard, Pat Freiermuth, Darnell Washington",49900,7,153.0,0.52,0.27,0.42,0.62,0.42,0.83,0.42
+Joe Burrow,"Ja'Marr Chase, Dohnte Meyers, Evan McPherson, Jaylen Warren, Chris Boswell",49700,14,177.0,0.52,0.4,0.56,0.89,0.11,0.22,0.67
+Mike Gesicki,"Joe Burrow, Tee Higgins, Evan McPherson, Jaylen Warren, Germie Bernard",50000,14,199.0,0.52,0.39,0.67,0.78,0.44,0.11,0.33
+Joe Burrow,"Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, DK Metcalf, Darnell Washington",49900,13,162.0,0.52,0.45,0.36,1.19,0.36,0.71,0.0
+Aaron Rodgers,"Tee Higgins, Chase Brown, Rico Dowdle, Germie Bernard, Chris Boswell",49900,4,145.0,0.52,0.25,0.33,0.0,0.33,1.33,1.0
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Mike Gesicki, Bengals, Chris Boswell",49800,9,173.0,0.52,0.38,0.67,0.83,0.17,0.33,0.33
+Pat Freiermuth,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Germie Bernard",49700,5,203.0,0.51,0.33,0.83,0.28,0.28,0.28,0.56
+Aaron Rodgers,"Tee Higgins, Chase Brown, Dohnte Meyers, Jaylen Warren, Chris Boswell",49900,5,166.0,0.51,0.16,0.28,0.0,2.22,0.0,0.56
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Evan McPherson, Germie Bernard, Ben Skowronek",49900,7,171.0,0.51,0.2,0.83,0.0,0.0,1.04,0.42
+Jaylen Warren,"Ja'Marr Chase, Aaron Rodgers, DK Metcalf, Pat Freiermuth, Darnell Washington",50000,11,159.0,0.51,0.58,0.56,0.14,0.83,0.97,0.14
+Tee Higgins,"Joe Burrow, Dohnte Meyers, Aaron Rodgers, Germie Bernard, Darnell Washington",48800,6,159.0,0.51,0.36,0.71,0.24,0.95,0.48,0.0
+Joe Burrow,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",48900,15,159.0,0.51,0.49,0.42,0.62,0.31,0.83,0.42
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, Darnell Washington",49800,11,188.0,0.51,0.48,0.28,0.83,0.28,0.56,0.83
+Chase Brown,"Tee Higgins, Mike Gesicki, Aaron Rodgers, Jaylen Warren, Darnell Washington",50000,10,168.0,0.51,0.4,0.61,0.45,0.76,0.3,0.3
+Jaylen Warren,"Joe Burrow, Evan McPherson, Aaron Rodgers, Germie Bernard, Darnell Washington",49800,29,179.0,0.51,0.79,0.33,0.22,1.28,0.72,0.33
+DK Metcalf,"Joe Burrow, Tee Higgins, Evan McPherson, Germie Bernard, Pat Freiermuth",48900,0,160.0,0.5,0.07,0.0,0.0,0.0,0.0,3.33
+Joe Burrow,"Tee Higgins, Bengals, Jaylen Warren, DK Metcalf, Ben Skowronek",49700,1,145.0,0.5,0.11,0.0,2.5,0.0,0.0,0.0
+Tee Higgins,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Jaylen Warren, Steelers",50000,4,165.0,0.5,0.24,0.67,0.33,0.0,0.33,1.0
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Mike Gesicki, Aaron Rodgers",47600,0,176.0,0.5,0.08,0.0,0.0,0.0,0.0,3.33
+Bengals,"Ja'Marr Chase, Tee Higgins, Chase Brown, Samaje Perine, Jaylen Warren",49800,1,199.0,0.5,0.24,0.0,0.0,0.0,2.5,0.83
+Dohnte Meyers,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Jaylen Warren",49900,3,226.0,0.5,0.15,0.83,0.42,0.42,0.0,0.42
+Jaylen Warren,"Chase Brown, Aaron Rodgers, Rico Dowdle, Chris Boswell, Steelers",46200,2,133.0,0.5,0.17,0.0,0.0,0.0,1.67,1.67
+Germie Bernard,"Chase Brown, Aaron Rodgers, Jaylen Warren, DK Metcalf, Darnell Washington",48500,6,170.0,0.49,0.48,0.24,0.24,1.67,0.71,0.0
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Bengals, Chris Boswell",48500,5,144.0,0.49,0.29,0.0,1.39,0.56,0.28,0.56
+Jaylen Warren,"Joe Burrow, Chase Brown, Evan McPherson, Aaron Rodgers, Ben Skowronek",50000,11,179.0,0.49,0.46,0.56,0.42,0.56,0.56,0.28
+Joe Burrow,"Mike Gesicki, Evan McPherson, Aaron Rodgers, DK Metcalf, Germie Bernard",49300,8,138.0,0.48,0.38,0.56,0.19,0.56,0.74,0.37
+Joe Burrow,"Chase Brown, Mike Gesicki, Bengals, Jaylen Warren, Germie Bernard",49700,6,155.0,0.48,0.31,0.48,0.48,0.48,0.71,0.24
+Aaron Rodgers,"Chase Brown, Evan McPherson, Jaylen Warren, Rico Dowdle, Germie Bernard",49300,6,156.0,0.48,0.24,0.71,0.24,0.24,0.71,0.24
+Tee Higgins,"Joe Burrow, Evan McPherson, Aaron Rodgers, Germie Bernard, Ben Skowronek",49800,7,161.0,0.48,0.39,0.21,0.62,0.21,1.46,0.21
+Chris Boswell,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",47300,4,188.0,0.48,0.1,0.67,0.0,0.0,0.33,1.33
+Aaron Rodgers,"Joe Burrow, Chase Brown, Mike Gesicki, DK Metcalf, Chris Boswell",49700,7,156.0,0.48,0.4,0.42,0.42,0.62,0.42,0.62
+Joe Burrow,"Ja'Marr Chase, Samaje Perine, Aaron Rodgers, Rico Dowdle, Darnell Washington",49500,3,154.0,0.48,0.29,0.42,0.42,0.0,1.25,0.42
+Jaylen Warren,"Joe Burrow, Tee Higgins, Mike Gesicki, Bengals, Rico Dowdle",49800,5,147.0,0.47,0.47,0.56,0.56,0.28,0.56,0.28
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, DK Metcalf, Chris Boswell",49300,9,153.0,0.47,0.33,0.67,0.67,0.0,0.17,0.5
+Evan McPherson,"Joe Burrow, Tee Higgins, Samaje Perine, Jaylen Warren, Germie Bernard",49800,2,183.0,0.47,0.09,0.56,0.56,0.0,0.56,0.56
+Bengals,"Joe Burrow, Ja'Marr Chase, Chase Brown, Evan McPherson, Chris Boswell",46200,4,200.0,0.47,0.22,0.33,0.0,0.0,0.0,2.33
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Rico Dowdle, Chris Boswell",49600,10,167.0,0.47,0.4,0.76,0.45,0.3,0.15,0.3
+Tee Higgins,"Joe Burrow, Chase Brown, Mike Gesicki, Evan McPherson, Chris Boswell",49600,22,165.0,0.47,0.68,0.51,0.94,0.14,0.07,0.51
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Samaje Perine, Mike Gesicki, Pat Freiermuth",49100,4,146.0,0.47,0.29,0.33,1.0,0.0,0.67,0.33
+DK Metcalf,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",49500,8,176.0,0.47,0.5,0.37,0.19,1.3,0.56,0.19
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Germie Bernard",50000,11,205.0,0.47,0.53,0.28,0.69,0.28,0.69,0.56
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Rico Dowdle, DK Metcalf, Pat Freiermuth",49900,5,141.0,0.47,0.32,0.83,0.28,0.28,0.28,0.28
+Joe Burrow,"Tee Higgins, Aaron Rodgers, Rico Dowdle, Pat Freiermuth, Darnell Washington",49100,5,136.0,0.46,0.39,0.28,0.56,0.28,1.39,0.0
+Chase Brown,"Aaron Rodgers, Jaylen Warren, Rico Dowdle, DK Metcalf, Darnell Washington",47800,3,144.0,0.46,0.12,0.42,0.0,2.08,0.0,0.0
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Evan McPherson, Chris Boswell",49700,21,157.0,0.46,0.71,0.23,0.98,0.15,0.53,0.53
+Aaron Rodgers,"Joe Burrow, Evan McPherson, Jaylen Warren, DK Metcalf, Darnell Washington",49900,20,177.0,0.46,0.56,0.4,0.08,0.95,0.63,0.48
+Joe Burrow,"Dohnte Meyers, Aaron Rodgers, Jaylen Warren, Germie Bernard, Chris Boswell",49500,7,157.0,0.46,0.37,0.83,0.21,0.21,0.42,0.21
+Aaron Rodgers,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Evan McPherson, Chris Boswell",49900,4,165.0,0.45,0.14,0.67,0.33,0.0,0.33,0.67
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Bengals, Darnell Washington, Chris Boswell",49900,17,170.0,0.45,0.61,0.37,0.83,0.09,0.37,0.56
+Jaylen Warren,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Darnell Washington",49600,8,164.0,0.45,0.48,0.56,0.19,1.11,0.37,0.0
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Evan McPherson, Rico Dowdle, Germie Bernard",49700,10,150.0,0.45,0.52,0.45,0.45,0.0,0.45,0.91
+Mike Gesicki,"Joe Burrow, Tee Higgins, Chase Brown, Jaylen Warren, Darnell Washington",49800,17,209.0,0.45,0.43,0.65,0.56,0.46,0.19,0.09
+Tee Higgins,"Mike Gesicki, Aaron Rodgers, Jaylen Warren, DK Metcalf, Darnell Washington",50000,7,150.0,0.45,0.33,0.21,0.0,2.29,0.0,0.21
+Germie Bernard,"Ja'Marr Chase, Chase Brown, Evan McPherson, Aaron Rodgers, Rico Dowdle",49700,6,175.0,0.45,0.18,0.71,0.48,0.24,0.24,0.24
+Ja'Marr Chase,"Joe Burrow, Aaron Rodgers, Pat Freiermuth, Darnell Washington, Chris Boswell",49300,10,164.0,0.45,0.51,0.3,0.91,0.0,0.3,0.76
+Joe Burrow,"Ja'Marr Chase, Evan McPherson, Jaylen Warren, Pat Freiermuth, Darnell Washington",49900,15,177.0,0.45,0.47,0.52,0.73,0.0,0.62,0.21
+DK Metcalf,"Joe Burrow, Tee Higgins, Aaron Rodgers, Darnell Washington, Chris Boswell",49700,11,180.0,0.44,0.45,0.56,0.28,0.28,0.28,0.69
+Chase Brown,"Joe Burrow, Tee Higgins, Dohnte Meyers, Jaylen Warren, Darnell Washington",49800,11,182.0,0.44,0.4,0.42,0.42,0.42,0.42,0.56
+Germie Bernard,"Joe Burrow, Mike Gesicki, Aaron Rodgers, Jaylen Warren, Darnell Washington",48100,5,178.0,0.44,0.26,0.28,0.28,0.83,0.83,0.28
+Tee Higgins,"Joe Burrow, Evan McPherson, Jaylen Warren, Pat Freiermuth, Darnell Washington",49200,8,169.0,0.44,0.26,0.37,0.56,0.56,0.37,0.37
+Evan McPherson,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Darnell Washington",49000,10,204.0,0.44,0.22,0.45,0.15,0.3,0.3,1.06
+Pat Freiermuth,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Evan McPherson, Chris Boswell",49100,3,202.0,0.44,0.17,1.25,0.0,0.0,0.0,0.0
+Tee Higgins,"Chase Brown, Dohnte Meyers, Aaron Rodgers, Jaylen Warren, Darnell Washington",49200,8,166.0,0.44,0.2,0.56,0.56,0.93,0.0,0.0
+Germie Bernard,"Joe Burrow, Tee Higgins, Chase Brown, Mike Gesicki, Chris Boswell",49700,3,174.0,0.44,0.17,0.0,0.0,0.0,2.08,0.83
+Jaylen Warren,"Ja'Marr Chase, Aaron Rodgers, Rico Dowdle, Pat Freiermuth, Steelers",48400,2,139.0,0.44,0.23,0.56,0.0,0.0,0.0,1.67
+Tee Higgins,"Joe Burrow, Samaje Perine, Jaylen Warren, Pat Freiermuth, Chris Boswell",49800,5,154.0,0.44,0.26,0.28,1.11,0.28,0.28,0.28
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Evan McPherson, Bengals, Jaylen Warren",48900,11,171.0,0.44,0.33,0.42,0.56,0.28,0.28,0.69
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Bengals, Chris Boswell",49300,17,162.0,0.44,0.46,0.56,0.65,0.0,0.19,0.56
+Joe Burrow,"Chase Brown, Aaron Rodgers, Rico Dowdle, DK Metcalf, Darnell Washington",49900,8,146.0,0.44,0.41,0.74,0.19,0.37,0.56,0.0
+Joe Burrow,"Chase Brown, Samaje Perine, Bengals, Jaylen Warren, DK Metcalf",49700,2,148.0,0.44,0.13,0.56,0.0,0.56,0.56,0.56
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Bengals, DK Metcalf",48300,2,145.0,0.44,0.16,0.0,0.56,0.0,0.0,2.22
+Pat Freiermuth,"Ja'Marr Chase, Chase Brown, Aaron Rodgers, Jaylen Warren, Chris Boswell",49900,6,205.0,0.43,0.24,0.48,0.24,0.24,0.71,0.48
+Aaron Rodgers,"Ja'Marr Chase, Jaylen Warren, Germie Bernard, Darnell Washington, Chris Boswell",49700,14,179.0,0.43,0.45,0.33,0.22,1.11,0.44,0.22
+Jaylen Warren,"Joe Burrow, Chase Brown, Germie Bernard, Pat Freiermuth, Chris Boswell",50000,9,164.0,0.43,0.41,0.17,0.5,0.67,0.67,0.5
+Germie Bernard,"Tee Higgins, Chase Brown, Jaylen Warren, DK Metcalf, Darnell Washington",49900,7,174.0,0.43,0.18,0.42,0.0,1.25,0.42,0.21
+Mike Gesicki,"Joe Burrow, Tee Higgins, Chase Brown, Dohnte Meyers, Jaylen Warren",49200,5,197.0,0.43,0.27,0.28,0.83,0.0,0.0,1.11
+Jaylen Warren,"Joe Burrow, Tee Higgins, Rico Dowdle, Darnell Washington, Chris Boswell",49600,8,163.0,0.43,0.44,0.56,0.19,0.0,0.74,0.56
+Pat Freiermuth,"Joe Burrow, Tee Higgins, Jaylen Warren, Germie Bernard, Chris Boswell",49500,4,192.0,0.43,0.2,0.67,0.0,0.33,0.67,0.33
+Chase Brown,"Joe Burrow, Aaron Rodgers, Rico Dowdle, DK Metcalf, Darnell Washington",48800,5,152.0,0.42,0.25,0.56,0.28,0.0,0.83,0.28
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Evan McPherson, Darnell Washington",49100,22,175.0,0.42,0.49,0.43,0.87,0.07,0.14,0.43
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, DK Metcalf, Germie Bernard, Darnell Washington",49900,12,155.0,0.42,0.41,0.0,1.03,0.64,0.38,0.38
+Darnell Washington,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, DK Metcalf, Germie Bernard",49400,6,191.0,0.42,0.25,0.24,0.24,1.19,0.24,0.48
+Aaron Rodgers,"Ja'Marr Chase, Evan McPherson, Jaylen Warren, Germie Bernard, Darnell Washington",49900,16,184.0,0.42,0.29,0.49,0.29,0.78,0.29,0.2
+DK Metcalf,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Bengals, Ben Skowronek",49500,1,177.0,0.42,0.07,0.83,0.0,0.83,0.0,0.0
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Evan McPherson, DK Metcalf, Chris Boswell",49500,10,155.0,0.42,0.35,0.61,0.45,0.0,0.0,0.76
+Germie Bernard,"Tee Higgins, Evan McPherson, Aaron Rodgers, Jaylen Warren, Chris Boswell",49700,11,177.0,0.42,0.29,0.42,0.14,0.97,0.42,0.28
+Chris Boswell,"Joe Burrow, Tee Higgins, Chase Brown, Dohnte Meyers, Jaylen Warren",49500,4,195.0,0.42,0.12,0.0,0.33,1.0,0.33,1.0
+Mike Gesicki,"Joe Burrow, Tee Higgins, Jaylen Warren, DK Metcalf, Darnell Washington",48800,3,189.0,0.42,0.1,0.0,0.83,0.83,0.0,0.83
+Joe Burrow,"Chase Brown, Mike Gesicki, Jaylen Warren, Rico Dowdle, Pat Freiermuth",48900,4,136.0,0.42,0.31,0.33,1.0,0.0,0.67,0.0
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, DK Metcalf, Germie Bernard, Darnell Washington",49700,9,153.0,0.41,0.24,0.0,1.17,0.33,0.5,0.33
+Aaron Rodgers,"Joe Burrow, Evan McPherson, Jaylen Warren, Rico Dowdle, Chris Boswell",49500,14,167.0,0.41,0.53,0.44,0.11,0.33,0.44,0.78
+Germie Bernard,"Joe Burrow, Tee Higgins, Samaje Perine, Aaron Rodgers, Chris Boswell",49900,8,170.0,0.41,0.33,0.19,0.19,0.0,1.85,0.19
+Joe Burrow,"Dohnte Meyers, Evan McPherson, Aaron Rodgers, Jaylen Warren, Germie Bernard",49700,15,162.0,0.41,0.38,0.1,0.52,0.42,0.83,0.52
+Joe Burrow,"Chase Brown, Mike Gesicki, Jaylen Warren, Rico Dowdle, Chris Boswell",49300,6,148.0,0.4,0.44,0.24,0.71,0.0,0.48,0.71
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Chris Boswell",49800,7,200.0,0.4,0.43,0.42,0.62,0.0,0.42,0.42
+Joe Burrow,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Pat Freiermuth, Chris Boswell",49300,14,157.0,0.4,0.51,0.33,0.0,0.11,0.78,1.0
+Joe Burrow,"Chase Brown, Mike Gesicki, Evan McPherson, Aaron Rodgers, Chris Boswell",48300,13,153.0,0.4,0.32,0.36,0.6,0.12,0.36,0.6
+Ja'Marr Chase,"Joe Burrow, Dohnte Meyers, Aaron Rodgers, Pat Freiermuth, Chris Boswell",48700,4,152.0,0.4,0.22,0.67,0.33,0.0,0.0,0.67
+Chase Brown,"Ja'Marr Chase, Jaylen Warren, Rico Dowdle, Germie Bernard, Darnell Washington",49400,4,169.0,0.4,0.11,0.33,0.67,0.67,0.0,0.33
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Aaron Rodgers, Darnell Washington, Chris Boswell",49900,38,181.0,0.39,0.68,0.38,0.3,0.26,0.3,0.77
+Joe Burrow,"Evan McPherson, Jaylen Warren, DK Metcalf, Germie Bernard, Pat Freiermuth",49700,2,144.0,0.39,0.2,0.0,1.11,0.56,0.56,0.0
+Joe Burrow,"Chase Brown, Bengals, Jaylen Warren, DK Metcalf, Pat Freiermuth",49900,6,146.0,0.39,0.19,0.48,0.24,0.0,0.24,0.95
+Joe Burrow,"Ja'Marr Chase, DK Metcalf, Germie Bernard, Darnell Washington, Chris Boswell",49900,19,161.0,0.39,0.27,0.92,0.17,0.08,0.08,0.08
+Jaylen Warren,"Tee Higgins, Dohnte Meyers, Aaron Rodgers, Rico Dowdle, DK Metcalf",49800,5,133.0,0.39,0.22,0.28,0.0,1.11,0.28,0.56
+Jaylen Warren,"Tee Higgins, Aaron Rodgers, DK Metcalf, Chris Boswell, Steelers",50000,9,145.0,0.38,0.35,0.5,0.0,0.83,0.0,0.5
+Joe Burrow,"Tee Higgins, Jaylen Warren, Rico Dowdle, Pat Freiermuth, Darnell Washington",49700,6,146.0,0.38,0.4,0.24,0.95,0.0,0.24,0.48
+Aaron Rodgers,"Ja'Marr Chase, Mike Gesicki, Jaylen Warren, DK Metcalf, Darnell Washington",49900,10,166.0,0.38,0.32,0.15,0.61,0.91,0.3,0.15
+Joe Burrow,"Tee Higgins, Dohnte Meyers, Jaylen Warren, Germie Bernard, Darnell Washington",49500,8,161.0,0.38,0.26,0.37,0.56,0.0,0.56,0.37
+Bengals,"Joe Burrow, Tee Higgins, Evan McPherson, Jaylen Warren, Germie Bernard",48800,3,197.0,0.37,0.31,0.0,0.0,0.42,0.42,1.67
+Tee Higgins,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Rico Dowdle, Darnell Washington",49000,3,152.0,0.37,0.12,0.83,0.42,0.0,0.0,0.0
+Jaylen Warren,"Tee Higgins, Evan McPherson, Aaron Rodgers, DK Metcalf, Darnell Washington",50000,14,160.0,0.37,0.33,0.11,0.22,1.78,0.0,0.11
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Evan McPherson, Bengals, Pat Freiermuth",49300,13,163.0,0.37,0.27,0.24,0.48,0.12,0.24,0.95
+Germie Bernard,"Ja'Marr Chase, Tee Higgins, Evan McPherson, Aaron Rodgers, Darnell Washington",49700,8,187.0,0.37,0.24,0.0,0.19,0.74,0.93,0.56
+Tee Higgins,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Darnell Washington, Steelers",50000,6,163.0,0.37,0.2,0.24,0.71,0.0,0.0,0.95
+Ja'Marr Chase,"Tee Higgins, Bengals, Jaylen Warren, Rico Dowdle, Steelers",49900,5,144.0,0.37,0.2,0.28,0.56,0.28,0.56,0.28
+Germie Bernard,"Joe Burrow, Samaje Perine, Aaron Rodgers, Jaylen Warren, Chris Boswell",49100,5,176.0,0.37,0.27,0.56,0.28,0.0,0.83,0.0
+Joe Burrow,"Dohnte Meyers, Aaron Rodgers, Jaylen Warren, DK Metcalf, Chris Boswell",49900,8,152.0,0.37,0.36,0.37,0.37,0.0,0.19,0.93
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Evan McPherson, Bengals, Chris Boswell",49700,32,175.0,0.37,0.5,0.35,0.3,0.1,0.15,0.96
+DK Metcalf,"Chase Brown, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",48700,7,175.0,0.37,0.43,0.0,0.0,1.88,0.42,0.21
+Rico Dowdle,"Joe Burrow, Tee Higgins, Aaron Rodgers, DK Metcalf, Darnell Washington",49400,2,178.0,0.36,0.17,0.0,0.56,1.11,0.0,0.56
+Joe Burrow,"Mike Gesicki, Evan McPherson, Aaron Rodgers, Jaylen Warren, Chris Boswell",49500,23,161.0,0.36,0.73,0.07,0.28,0.42,0.62,0.83
+Joe Burrow,"Tee Higgins, Chase Brown, Dohnte Meyers, Evan McPherson, Germie Bernard",49900,18,158.0,0.36,0.42,0.26,0.79,0.09,0.26,0.35
+Aaron Rodgers,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Dohnte Meyers, Germie Bernard",49700,2,153.0,0.36,0.17,0.0,0.56,0.56,1.11,0.0
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Chase Brown, Evan McPherson, DK Metcalf",49800,7,202.0,0.35,0.2,0.21,0.62,0.42,0.21,0.42
+Ja'Marr Chase,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",49500,12,163.0,0.35,0.24,0.51,0.26,0.26,0.0,0.51
+Ja'Marr Chase,"Chase Brown, Mike Gesicki, Jaylen Warren, Germie Bernard, Darnell Washington",49900,11,167.0,0.35,0.24,0.28,0.56,0.42,0.56,0.0
+Jaylen Warren,"Joe Burrow, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Chris Boswell",48800,12,162.0,0.35,0.36,0.26,0.26,0.0,0.26,1.15
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Samaje Perine, Bengals, Darnell Washington",49300,5,160.0,0.35,0.26,0.56,0.56,0.0,0.0,0.28
+Joe Burrow,"Mike Gesicki, Evan McPherson, Jaylen Warren, DK Metcalf, Germie Bernard",49900,8,148.0,0.35,0.3,0.19,0.74,0.37,0.0,0.56
+Aaron Rodgers,"Joe Burrow, Chase Brown, Evan McPherson, Jaylen Warren, Ben Skowronek",49700,12,182.0,0.35,0.34,0.38,0.13,0.26,1.03,0.0
+Tee Higgins,"Joe Burrow, Samaje Perine, Evan McPherson, Aaron Rodgers, Chris Boswell",49800,8,161.0,0.34,0.47,0.19,0.0,0.37,0.74,0.74
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Dohnte Meyers, Evan McPherson, Rico Dowdle",49100,8,159.0,0.34,0.27,0.19,0.56,0.0,0.19,0.93
+Joe Burrow,"Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Darnell Washington, Chris Boswell",49700,34,179.0,0.34,0.56,0.14,0.29,0.0,0.52,1.0
+Germie Bernard,"Joe Burrow, Tee Higgins, Aaron Rodgers, Darnell Washington, Chris Boswell",49100,9,180.0,0.34,0.46,0.17,0.17,0.0,1.33,0.33
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Bengals, Pat Freiermuth, Darnell Washington",49700,8,160.0,0.34,0.41,0.37,0.93,0.0,0.0,0.19
+Aaron Rodgers,"Joe Burrow, Evan McPherson, DK Metcalf, Germie Bernard, Chris Boswell",48700,7,154.0,0.34,0.32,0.42,0.21,0.0,0.0,1.04
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Rico Dowdle, Germie Bernard, Chris Boswell",49900,11,158.0,0.34,0.31,0.42,0.14,0.14,0.42,0.56
+DK Metcalf,"Joe Burrow, Chase Brown, Evan McPherson, Aaron Rodgers, Rico Dowdle",49900,7,173.0,0.34,0.24,0.21,0.42,0.21,0.21,0.83
+DK Metcalf,"Tee Higgins, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Darnell Washington",49300,2,162.0,0.33,0.23,0.0,0.0,1.11,0.56,0.56
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Jaylen Warren, Chris Boswell",49800,9,209.0,0.33,0.24,0.17,0.0,0.33,0.33,1.17
+Mike Gesicki,"Joe Burrow, Aaron Rodgers, Jaylen Warren, DK Metcalf, Chris Boswell",48800,6,185.0,0.33,0.22,0.24,0.71,0.48,0.0,0.24
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Dohnte Meyers, Germie Bernard",49500,2,165.0,0.33,0.15,0.0,0.0,0.0,1.67,0.56
+Aaron Rodgers,"Chase Brown, Jaylen Warren, Rico Dowdle, DK Metcalf, Darnell Washington",48100,3,146.0,0.33,0.21,0.0,0.42,1.25,0.0,0.42
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Germie Bernard, Chris Boswell",48900,9,158.0,0.33,0.29,0.17,0.83,0.0,0.17,0.5
+Joe Burrow,"Tee Higgins, Mike Gesicki, Evan McPherson, Rico Dowdle, DK Metcalf",49300,4,127.0,0.33,0.26,0.33,0.33,0.33,0.0,0.67
+Samaje Perine,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, Jaylen Warren",49800,3,210.0,0.33,0.11,0.0,0.42,0.42,0.83,0.42
+Tee Higgins,"Ja'Marr Chase, Mike Gesicki, Jaylen Warren, Rico Dowdle, Ben Skowronek",49000,0,145.0,0.33,0.12,0.0,1.67,0.0,0.0,0.0
+Joe Burrow,"Samaje Perine, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",49500,19,159.0,0.33,0.38,0.5,0.17,0.25,0.42,0.17
+Aaron Rodgers,"Joe Burrow, DK Metcalf, Germie Bernard, Darnell Washington, Chris Boswell",47100,4,149.0,0.33,0.32,0.33,0.33,0.67,0.0,0.33
+Joe Burrow,"Tee Higgins, Chase Brown, Dohnte Meyers, Germie Bernard, Chris Boswell",49700,12,153.0,0.32,0.2,0.38,0.26,0.0,0.77,0.13
+Tee Higgins,"Ja'Marr Chase, Evan McPherson, Bengals, Jaylen Warren, Pat Freiermuth",50000,5,163.0,0.32,0.15,0.28,0.28,0.0,0.28,0.83
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Chase Brown, Jaylen Warren, Chris Boswell",50000,10,224.0,0.32,0.17,0.3,0.15,0.3,0.45,0.45
+Chase Brown,"Aaron Rodgers, Jaylen Warren, DK Metcalf, Germie Bernard, Darnell Washington",49200,8,159.0,0.32,0.36,0.37,0.0,0.93,0.19,0.19
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Rico Dowdle, Darnell Washington, Chris Boswell",49700,18,168.0,0.32,0.33,0.61,0.35,0.0,0.09,0.18
+Ja'Marr Chase,"Joe Burrow, Mike Gesicki, Evan McPherson, Germie Bernard, Chris Boswell",49100,16,160.0,0.32,0.33,0.29,0.49,0.0,0.39,0.39
+Jaylen Warren,"Joe Burrow, Tee Higgins, Bengals, Germie Bernard, Darnell Washington",50000,15,170.0,0.31,0.29,0.1,0.1,0.42,0.83,0.42
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Samaje Perine, Evan McPherson, Chris Boswell",49900,25,171.0,0.31,0.36,0.38,0.38,0.06,0.13,0.45
+Tee Higgins,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Rico Dowdle, Chris Boswell",50000,13,153.0,0.31,0.37,0.0,0.48,1.07,0.0,0.36
+Joe Burrow,"Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Darnell Washington",49300,18,167.0,0.31,0.49,0.53,0.09,0.18,0.35,0.18
+Joe Burrow,"Ja'Marr Chase, Samaje Perine, Dohnte Meyers, Evan McPherson, Jaylen Warren",49100,7,167.0,0.31,0.25,0.62,0.0,0.21,0.21,0.21
+Germie Bernard,"Joe Burrow, Tee Higgins, Evan McPherson, Aaron Rodgers, Darnell Washington",49300,17,185.0,0.31,0.42,0.19,0.09,0.74,0.46,0.28
+Jaylen Warren,"Chase Brown, Mike Gesicki, Aaron Rodgers, Rico Dowdle, DK Metcalf",49600,3,135.0,0.31,0.34,0.0,0.0,1.67,0.0,0.42
+Aaron Rodgers,"Joe Burrow, Chase Brown, Evan McPherson, Germie Bernard, Pat Freiermuth",49300,8,162.0,0.3,0.4,0.37,0.0,0.19,0.37,0.56
+Joe Burrow,"Tee Higgins, Dohnte Meyers, Evan McPherson, Aaron Rodgers, Rico Dowdle",49100,11,141.0,0.3,0.39,0.28,0.28,0.14,0.14,0.69
+Germie Bernard,"Joe Burrow, Tee Higgins, Mike Gesicki, Jaylen Warren, Darnell Washington",49500,8,182.0,0.3,0.32,0.19,0.19,0.56,0.37,0.37
+Joe Burrow,"Chase Brown, Samaje Perine, Evan McPherson, Aaron Rodgers, Germie Bernard",49900,13,156.0,0.3,0.38,0.24,0.12,0.12,0.6,0.6
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Mike Gesicki, Pat Freiermuth, Chris Boswell",49900,12,158.0,0.3,0.51,0.13,0.9,0.13,0.0,0.38
+Joe Burrow,"Tee Higgins, Samaje Perine, Mike Gesicki, DK Metcalf, Germie Bernard",49900,1,127.0,0.29,0.16,0.0,0.83,0.0,0.83,0.0
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Dohnte Meyers, Bengals, Germie Bernard",50000,5,174.0,0.29,0.23,0.0,0.83,0.0,0.83,0.0
+Jaylen Warren,"Ja'Marr Chase, Tee Higgins, Mike Gesicki, Dohnte Meyers, Rico Dowdle",49200,1,145.0,0.29,0.17,0.83,0.0,0.0,0.0,0.0
+Chase Brown,"Joe Burrow, Tee Higgins, Mike Gesicki, DK Metcalf, Darnell Washington",49400,5,158.0,0.29,0.22,0.28,0.56,0.56,0.0,0.0
+Germie Bernard,"Joe Burrow, Tee Higgins, Mike Gesicki, Dohnte Meyers, Jaylen Warren",48900,1,170.0,0.29,0.15,0.83,0.0,0.0,0.0,0.0
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Evan McPherson, Bengals, Chris Boswell",49500,25,173.0,0.28,0.49,0.19,0.26,0.0,0.32,0.77
+Ja'Marr Chase,"Chase Brown, Jaylen Warren, Rico Dowdle, Pat Freiermuth, Chris Boswell",49700,5,148.0,0.28,0.15,0.28,0.28,0.28,0.56,0.0
+Chase Brown,"Joe Burrow, Evan McPherson, Jaylen Warren, Rico Dowdle, Pat Freiermuth",48200,2,155.0,0.28,0.11,0.56,0.0,0.0,0.0,0.56
+Tee Higgins,"Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington, Steelers",48600,5,153.0,0.28,0.13,0.28,0.28,0.56,0.28,0.0
+Ja'Marr Chase,"Joe Burrow, Tee Higgins, Samaje Perine, Bengals, Darnell Washington",49500,9,162.0,0.28,0.34,0.5,0.0,0.17,0.0,0.5
+Aaron Rodgers,"Joe Burrow, Mike Gesicki, Evan McPherson, Jaylen Warren, Chris Boswell",48700,5,169.0,0.28,0.21,0.28,0.28,0.56,0.0,0.28
+Aaron Rodgers,"Joe Burrow, Mike Gesicki, Rico Dowdle, DK Metcalf, Germie Bernard",48900,2,131.0,0.28,0.35,0.0,0.56,0.56,0.56,0.0
+Aaron Rodgers,"Tee Higgins, Jaylen Warren, Germie Bernard, Darnell Washington, Chris Boswell",49100,10,163.0,0.27,0.3,0.15,0.15,0.61,0.45,0.15
+Evan McPherson,"Joe Burrow, Tee Higgins, Jaylen Warren, DK Metcalf, Darnell Washington",49400,4,188.0,0.27,0.06,0.0,0.33,0.67,0.67,0.0
+Evan McPherson,"Joe Burrow, Tee Higgins, Bengals, Jaylen Warren, Germie Bernard",49400,6,185.0,0.26,0.18,0.24,0.0,0.0,0.0,1.19
+Aaron Rodgers,"Joe Burrow, Chase Brown, Germie Bernard, Darnell Washington, Chris Boswell",48100,8,169.0,0.26,0.28,0.19,0.0,0.19,0.74,0.37
+Rico Dowdle,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Darnell Washington",49600,11,199.0,0.26,0.36,0.56,0.14,0.14,0.14,0.0
+Joe Burrow,"Tee Higgins, Evan McPherson, Rico Dowdle, DK Metcalf, Chris Boswell",49500,7,135.0,0.26,0.22,0.42,0.42,0.21,0.0,0.0
+Aaron Rodgers,"Joe Burrow, Ja'Marr Chase, Samaje Perine, Evan McPherson, Pat Freiermuth",49300,6,165.0,0.26,0.16,0.24,0.0,0.0,0.48,0.71
+Ja'Marr Chase,"Chase Brown, Aaron Rodgers, Jaylen Warren, Darnell Washington, Ben Skowronek",49500,12,173.0,0.26,0.19,0.26,0.26,0.38,0.13,0.26
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Evan McPherson, Rico Dowdle, Darnell Washington",49700,20,171.0,0.26,0.41,0.24,0.48,0.0,0.32,0.24
+Jaylen Warren,"Ja'Marr Chase, Tee Higgins, Samaje Perine, Mike Gesicki, Chris Boswell",50000,7,157.0,0.26,0.1,0.42,0.42,0.0,0.0,0.21
+Tee Higgins,"Evan McPherson, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",50000,29,168.0,0.26,0.39,0.22,0.17,0.56,0.22,0.22
+Evan McPherson,"Joe Burrow, Tee Higgins, Bengals, Jaylen Warren, DK Metcalf",49800,3,180.0,0.25,0.1,0.0,0.0,0.83,0.42,0.42
+Pat Freiermuth,"Ja'Marr Chase, Aaron Rodgers, Jaylen Warren, Germie Bernard, Chris Boswell",48500,2,190.0,0.25,0.15,0.0,0.0,1.11,0.56,0.0
+Rico Dowdle,"Ja'Marr Chase, Samaje Perine, Aaron Rodgers, Jaylen Warren, Germie Bernard",49400,1,181.0,0.25,0.09,0.0,0.0,0.83,0.0,0.83
+Evan McPherson,"Joe Burrow, Tee Higgins, Chase Brown, Jaylen Warren, Ben Skowronek",49200,1,193.0,0.25,0.08,0.0,0.0,0.0,0.0,1.67
+Joe Burrow,"Ja'Marr Chase, Evan McPherson, Bengals, Jaylen Warren, Darnell Washington",49300,26,181.0,0.25,0.28,0.25,0.25,0.0,0.43,0.31
+Tee Higgins,"Joe Burrow, Evan McPherson, Bengals, Jaylen Warren, Pat Freiermuth",49600,7,161.0,0.25,0.26,0.42,0.21,0.0,0.0,0.42
+Joe Burrow,"Chase Brown, Aaron Rodgers, DK Metcalf, Darnell Washington, Chris Boswell",49300,23,156.0,0.25,0.32,0.35,0.21,0.14,0.21,0.21
+Joe Burrow,"Chase Brown, Evan McPherson, Aaron Rodgers, DK Metcalf, Darnell Washington",49500,25,161.0,0.25,0.28,0.32,0.19,0.19,0.19,0.26
+Germie Bernard,"Joe Burrow, Tee Higgins, Evan McPherson, Jaylen Warren, Darnell Washington",49900,19,195.0,0.25,0.37,0.08,0.25,0.58,0.33,0.25
+Tee Higgins,"Chase Brown, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Chris Boswell",49600,6,143.0,0.24,0.27,0.48,0.0,0.0,0.0,0.48
+Aaron Rodgers,"Tee Higgins, Evan McPherson, Jaylen Warren, DK Metcalf, Darnell Washington",49700,11,163.0,0.24,0.28,0.0,0.14,1.25,0.14,0.0
+Chase Brown,"Joe Burrow, Mike Gesicki, Jaylen Warren, DK Metcalf, Darnell Washington",48600,5,164.0,0.24,0.14,0.56,0.0,0.0,0.0,0.28
+Joe Burrow,"Tee Higgins, Chase Brown, Evan McPherson, Bengals, Pat Freiermuth",48500,5,145.0,0.24,0.2,0.56,0.0,0.0,0.0,0.28
+Joe Burrow,"Aaron Rodgers, Jaylen Warren, DK Metcalf, Ben Skowronek, Chris Boswell",49300,7,149.0,0.24,0.2,0.42,0.0,0.0,0.0,0.62
+Ja'Marr Chase,"Chase Brown, Mike Gesicki, Jaylen Warren, Rico Dowdle, Chris Boswell",49900,5,152.0,0.24,0.26,0.0,0.56,0.0,0.28,0.56
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Evan McPherson, Rico Dowdle, Darnell Washington",49900,31,173.0,0.23,0.48,0.36,0.26,0.1,0.1,0.16
+Jaylen Warren,"Tee Higgins, Mike Gesicki, Aaron Rodgers, DK Metcalf, Darnell Washington",49600,6,147.0,0.23,0.25,0.0,0.24,1.19,0.0,0.0
+Jaylen Warren,"Tee Higgins, Samaje Perine, Aaron Rodgers, Germie Bernard, Darnell Washington",48800,6,150.0,0.23,0.12,0.0,0.24,0.48,0.71,0.0
+Chase Brown,"Joe Burrow, Tee Higgins, Bengals, Germie Bernard, Chris Boswell",49600,12,163.0,0.23,0.15,0.13,0.26,0.38,0.26,0.26
+DK Metcalf,"Joe Burrow, Ja'Marr Chase, Bengals, Jaylen Warren, Darnell Washington",49900,6,198.0,0.23,0.12,0.0,0.24,0.71,0.0,0.48
+Ja'Marr Chase,"Tee Higgins, Dohnte Meyers, Evan McPherson, Jaylen Warren, Chris Boswell",49700,10,165.0,0.23,0.14,0.3,0.3,0.0,0.0,0.45
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Samaje Perine, Evan McPherson, Pat Freiermuth",49500,9,159.0,0.22,0.21,0.33,0.17,0.0,0.33,0.17
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Chase Brown, Aaron Rodgers, Chris Boswell",49400,14,214.0,0.22,0.19,0.22,0.22,0.33,0.11,0.22
+Joe Burrow,"Tee Higgins, Samaje Perine, Aaron Rodgers, Pat Freiermuth, Chris Boswell",49300,4,136.0,0.22,0.3,0.33,0.0,0.0,0.33,0.33
+Tee Higgins,"Joe Burrow, Chase Brown, Mike Gesicki, Pat Freiermuth, Chris Boswell",49000,7,148.0,0.22,0.23,0.21,0.42,0.21,0.0,0.21
+Tee Higgins,"Ja'Marr Chase, Evan McPherson, Jaylen Warren, Pat Freiermuth, Darnell Washington",49600,9,171.0,0.22,0.18,0.5,0.0,0.17,0.0,0.17
+Mike Gesicki,"Joe Burrow, Tee Higgins, Chase Brown, Aaron Rodgers, Darnell Washington",49200,13,199.0,0.22,0.36,0.24,0.6,0.0,0.0,0.12
+Chase Brown,"Joe Burrow, Tee Higgins, Bengals, DK Metcalf, Chris Boswell",50000,5,158.0,0.22,0.16,0.28,0.0,0.0,0.0,0.83
+Joe Burrow,"Chase Brown, Bengals, Jaylen Warren, Germie Bernard, Pat Freiermuth",49500,7,151.0,0.22,0.13,0.21,0.42,0.0,0.0,0.42
+Aaron Rodgers,"Chase Brown, Jaylen Warren, Germie Bernard, Pat Freiermuth, Chris Boswell",48100,4,149.0,0.22,0.26,0.33,0.0,0.33,0.33,0.0
+Chase Brown,"Joe Burrow, Jaylen Warren, Rico Dowdle, DK Metcalf, Darnell Washington",49400,4,162.0,0.22,0.16,0.0,0.33,1.0,0.0,0.0
+Joe Burrow,"Chase Brown, Mike Gesicki, Aaron Rodgers, Rico Dowdle, Chris Boswell",48700,4,138.0,0.22,0.28,0.33,0.0,0.0,0.0,0.67
+Ja'Marr Chase,"Chase Brown, Aaron Rodgers, DK Metcalf, Pat Freiermuth, Steelers",49700,7,138.0,0.21,0.13,0.42,0.0,0.42,0.0,0.0
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Germie Bernard, Darnell Washington",50000,18,192.0,0.21,0.24,0.26,0.09,0.09,0.26,0.35
+Jaylen Warren,"Joe Burrow, Chase Brown, Samaje Perine, Germie Bernard, Chris Boswell",49800,14,166.0,0.21,0.19,0.11,0.33,0.22,0.22,0.22
+Darnell Washington,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Rico Dowdle, Germie Bernard",48600,3,189.0,0.21,0.14,0.42,0.0,0.0,0.0,0.42
+Chase Brown,"Joe Burrow, Mike Gesicki, Evan McPherson, Jaylen Warren, Germie Bernard",49800,5,174.0,0.21,0.24,0.28,0.56,0.0,0.0,0.0
+Jaylen Warren,"Tee Higgins, Aaron Rodgers, Germie Bernard, Darnell Washington, Chris Boswell",49400,25,160.0,0.21,0.39,0.19,0.0,0.32,0.45,0.19
+Mike Gesicki,"Tee Higgins, Chase Brown, Evan McPherson, Aaron Rodgers, Jaylen Warren",49800,11,196.0,0.21,0.23,0.28,0.14,0.42,0.0,0.14
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, DK Metcalf, Darnell Washington",50000,7,204.0,0.21,0.14,0.0,0.42,0.0,0.0,0.83
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Bengals, Germie Bernard, Darnell Washington",49900,18,173.0,0.21,0.28,0.26,0.09,0.09,0.35,0.26
+Mike Gesicki,"Ja'Marr Chase, Tee Higgins, Evan McPherson, Aaron Rodgers, Germie Bernard",49800,3,191.0,0.21,0.16,0.42,0.0,0.0,0.42,0.0
+Jaylen Warren,"Chase Brown, Aaron Rodgers, Rico Dowdle, DK Metcalf, Darnell Washington",48400,9,143.0,0.2,0.27,0.0,0.0,1.17,0.0,0.17
+Evan McPherson,"Tee Higgins, Chase Brown, Aaron Rodgers, Jaylen Warren, Darnell Washington",48800,4,190.0,0.2,0.09,0.0,0.0,1.33,0.0,0.0
+Tee Higgins,"Joe Burrow, Evan McPherson, Jaylen Warren, Darnell Washington, Chris Boswell",49600,28,181.0,0.2,0.31,0.17,0.23,0.06,0.11,0.46
+Joe Burrow,"Ja'Marr Chase, Evan McPherson, Rico Dowdle, Germie Bernard, Chris Boswell",49700,11,156.0,0.2,0.27,0.14,0.14,0.0,0.28,0.56
+Jaylen Warren,"Joe Burrow, Evan McPherson, DK Metcalf, Germie Bernard, Chris Boswell",49600,15,161.0,0.2,0.22,0.21,0.1,0.1,0.21,0.42
+Joe Burrow,"Tee Higgins, Chase Brown, Mike Gesicki, Rico Dowdle, Darnell Washington",48700,6,142.0,0.2,0.2,0.0,0.48,0.24,0.48,0.0
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Bengals, Jaylen Warren, Darnell Washington",49500,44,183.0,0.2,0.34,0.26,0.15,0.04,0.22,0.26
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Chase Brown, Bengals, Chris Boswell",49500,6,190.0,0.2,0.13,0.0,0.48,0.0,0.48,0.24
+Ja'Marr Chase,"Tee Higgins, Chase Brown, Evan McPherson, Rico Dowdle, Steelers",49900,9,149.0,0.2,0.12,0.5,0.0,0.0,0.0,0.17
+Joe Burrow,"Ja'Marr Chase, Mike Gesicki, Dohnte Meyers, DK Metcalf, Germie Bernard",49100,2,141.0,0.19,0.18,0.56,0.0,0.0,0.0,0.0
+Steelers,"Tee Higgins, Chase Brown, Evan McPherson, Aaron Rodgers, Jaylen Warren",48300,2,194.0,0.19,0.29,0.0,0.56,0.0,0.0,0.56
+Joe Burrow,"Tee Higgins, Samaje Perine, Dohnte Meyers, Aaron Rodgers, Germie Bernard",49700,8,141.0,0.19,0.33,0.0,0.0,0.0,1.11,0.19
+Joe Burrow,"Tee Higgins, Chase Brown, Samaje Perine, Germie Bernard, Darnell Washington",49700,11,155.0,0.19,0.2,0.28,0.14,0.0,0.42,0.0
+Jaylen Warren,"Ja'Marr Chase, Chase Brown, Mike Gesicki, Germie Bernard, Steelers",49400,2,160.0,0.19,0.09,0.0,0.56,0.0,0.0,0.56
+Jaylen Warren,"Joe Burrow, Mike Gesicki, Evan McPherson, Aaron Rodgers, Chris Boswell",49000,14,166.0,0.19,0.35,0.11,0.0,0.33,0.33,0.33
+Pat Freiermuth,"Joe Burrow, Tee Higgins, Evan McPherson, Jaylen Warren, Germie Bernard",49700,5,197.0,0.19,0.15,0.28,0.28,0.28,0.0,0.0
+Jaylen Warren,"Chase Brown, Aaron Rodgers, Germie Bernard, Pat Freiermuth, Chris Boswell",48400,9,146.0,0.19,0.24,0.33,0.0,0.17,0.0,0.33
+Aaron Rodgers,"Joe Burrow, Tee Higgins, DK Metcalf, Pat Freiermuth, Ben Skowronek",48900,2,139.0,0.19,0.17,0.0,0.56,0.56,0.0,0.0
+Joe Burrow,"Chase Brown, Evan McPherson, Aaron Rodgers, Rico Dowdle, Chris Boswell",49100,11,151.0,0.19,0.36,0.14,0.0,0.14,0.28,0.56
+Joe Burrow,"Chase Brown, Evan McPherson, Aaron Rodgers, Germie Bernard, Darnell Washington",49100,44,166.0,0.18,0.34,0.15,0.15,0.07,0.37,0.22
+Joe Burrow,"Tee Higgins, Evan McPherson, Bengals, DK Metcalf, Germie Bernard",49900,8,142.0,0.18,0.17,0.19,0.0,0.19,0.19,0.37
+Ja'Marr Chase,"Joe Burrow, Samaje Perine, Evan McPherson, Jaylen Warren, Darnell Washington",49900,17,181.0,0.18,0.34,0.09,0.19,0.19,0.28,0.28
+Jaylen Warren,"Chase Brown, Evan McPherson, Aaron Rodgers, DK Metcalf, Chris Boswell",49400,16,158.0,0.18,0.18,0.2,0.1,0.29,0.1,0.2
+Ja'Marr Chase,"Joe Burrow, Samaje Perine, Evan McPherson, Aaron Rodgers, Darnell Washington",49300,19,171.0,0.18,0.23,0.08,0.33,0.08,0.5,0.0
+Mike Gesicki,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Chris Boswell",48400,8,190.0,0.18,0.16,0.0,0.19,0.19,0.56,0.19
+Jaylen Warren,"Joe Burrow, Tee Higgins, Evan McPherson, Pat Freiermuth, Darnell Washington",48800,8,166.0,0.18,0.17,0.19,0.0,0.19,0.0,0.56
+Joe Burrow,"Chase Brown, Bengals, Jaylen Warren, Germie Bernard, Chris Boswell",49900,20,163.0,0.18,0.27,0.24,0.08,0.08,0.24,0.24
+Rico Dowdle,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",48200,4,189.0,0.17,0.33,0.33,0.0,0.33,0.0,0.0
+Samaje Perine,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Aaron Rodgers, Ben Skowronek",50000,2,201.0,0.17,0.07,0.0,0.0,0.0,1.11,0.0
+Ja'Marr Chase,"Chase Brown, Evan McPherson, Aaron Rodgers, Germie Bernard, Steelers",49900,14,160.0,0.17,0.16,0.22,0.22,0.11,0.11,0.11
+Ja'Marr Chase,"Joe Burrow, Aaron Rodgers, Pat Freiermuth, Ben Skowronek, Chris Boswell",48100,4,149.0,0.17,0.09,0.33,0.0,0.0,0.33,0.0
+DK Metcalf,"Tee Higgins, Chase Brown, Dohnte Meyers, Aaron Rodgers, Germie Bernard",48900,2,157.0,0.17,0.06,0.0,0.0,1.11,0.0,0.0
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Darnell Washington, Chris Boswell",47800,6,199.0,0.17,0.13,0.24,0.24,0.24,0.0,0.0
+Chase Brown,"Joe Burrow, Tee Higgins, Evan McPherson, Bengals, Germie Bernard",49800,12,168.0,0.17,0.21,0.26,0.0,0.0,0.13,0.38
+Evan McPherson,"Ja'Marr Chase, Tee Higgins, Aaron Rodgers, Germie Bernard, Pat Freiermuth",49800,2,173.0,0.17,0.13,0.0,0.0,0.0,0.0,1.11
+Ja'Marr Chase,"Chase Brown, Aaron Rodgers, Germie Bernard, Chris Boswell, Steelers",49700,15,155.0,0.16,0.23,0.1,0.21,0.0,0.1,0.42
+Jaylen Warren,"Ja'Marr Chase, Chase Brown, Evan McPherson, Bengals, Germie Bernard",50000,11,175.0,0.16,0.09,0.14,0.14,0.14,0.14,0.28
+Joe Burrow,"Chase Brown, Dohnte Meyers, Evan McPherson, Aaron Rodgers, Germie Bernard",48500,9,154.0,0.16,0.13,0.17,0.0,0.17,0.5,0.0
+Evan McPherson,"Ja'Marr Chase, Tee Higgins, Chase Brown, Jaylen Warren, Ben Skowronek",49600,3,195.0,0.15,0.08,0.0,0.42,0.42,0.0,0.0
+Steelers,"Ja'Marr Chase, Tee Higgins, Chase Brown, Jaylen Warren, Darnell Washington",48700,5,209.0,0.15,0.14,0.0,0.56,0.0,0.0,0.28
+Jaylen Warren,"Joe Burrow, Chase Brown, Evan McPherson, DK Metcalf, Darnell Washington",49600,31,176.0,0.15,0.2,0.16,0.1,0.26,0.05,0.21
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Pat Freiermuth, Ben Skowronek",49400,3,164.0,0.15,0.36,0.0,0.42,0.0,0.42,0.0
+Tee Higgins,"Ja'Marr Chase, Samaje Perine, Evan McPherson, Aaron Rodgers, Pat Freiermuth",49800,4,151.0,0.15,0.13,0.0,0.0,0.33,0.0,0.67
+Joe Burrow,"Tee Higgins, Chase Brown, Bengals, DK Metcalf, Darnell Washington",49700,11,152.0,0.15,0.2,0.0,0.42,0.28,0.0,0.14
+Joe Burrow,"Tee Higgins, Evan McPherson, Bengals, Germie Bernard, Pat Freiermuth",47100,3,130.0,0.15,0.06,0.0,0.42,0.0,0.0,0.42
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Darnell Washington",48400,10,200.0,0.15,0.19,0.15,0.15,0.3,0.15,0.0
+Joe Burrow,"Tee Higgins, Evan McPherson, Jaylen Warren, Darnell Washington, Chris Boswell",49700,37,173.0,0.15,0.36,0.13,0.26,0.04,0.13,0.18
+Dohnte Meyers,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Jaylen Warren, Darnell Washington",49700,5,225.0,0.14,0.13,0.0,0.28,0.28,0.28,0.0
+Chase Brown,"Joe Burrow, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Chris Boswell",47000,10,155.0,0.14,0.1,0.15,0.0,0.0,0.0,0.61
+Joe Burrow,"Chase Brown, Evan McPherson, Jaylen Warren, Germie Bernard, Darnell Washington",49700,37,176.0,0.14,0.2,0.04,0.18,0.13,0.13,0.31
+Aaron Rodgers,"Ja'Marr Chase, Tee Higgins, Samaje Perine, Germie Bernard, Darnell Washington",49900,8,163.0,0.14,0.13,0.0,0.0,0.56,0.19,0.19
+Jaylen Warren,"Chase Brown, Evan McPherson, Aaron Rodgers, Germie Bernard, Steelers",47800,19,153.0,0.14,0.15,0.0,0.08,0.25,0.17,0.42
+Chase Brown,"Joe Burrow, Ja'Marr Chase, Germie Bernard, Darnell Washington, Chris Boswell",49800,21,187.0,0.14,0.2,0.23,0.15,0.0,0.08,0.15
+Ja'Marr Chase,"Tee Higgins, Evan McPherson, Bengals, Jaylen Warren, Steelers",49500,11,159.0,0.14,0.19,0.14,0.14,0.0,0.0,0.42
+Aaron Rodgers,"Ja'Marr Chase, Jaylen Warren, Germie Bernard, Darnell Washington, Steelers",48500,7,169.0,0.14,0.16,0.0,0.21,0.62,0.0,0.0
+Jaylen Warren,"Tee Higgins, Evan McPherson, Aaron Rodgers, Germie Bernard, Darnell Washington",49600,26,165.0,0.13,0.35,0.12,0.0,0.43,0.06,0.06
+Jaylen Warren,"Tee Higgins, Chase Brown, Mike Gesicki, Germie Bernard, Chris Boswell",50000,16,154.0,0.13,0.13,0.1,0.1,0.2,0.1,0.2
+Jaylen Warren,"Ja'Marr Chase, Dohnte Meyers, Aaron Rodgers, Germie Bernard, Chris Boswell",49400,11,164.0,0.13,0.16,0.14,0.0,0.28,0.14,0.14
+Germie Bernard,"Joe Burrow, Ja'Marr Chase, Bengals, Jaylen Warren, Darnell Washington",49300,9,198.0,0.13,0.16,0.0,0.17,0.33,0.0,0.33
+Joe Burrow,"Ja'Marr Chase, Tee Higgins, Dohnte Meyers, Darnell Washington, Chris Boswell",48900,13,166.0,0.13,0.31,0.24,0.24,0.0,0.0,0.0
+Jaylen Warren,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Darnell Washington, Chris Boswell",49800,48,194.0,0.13,0.33,0.1,0.14,0.1,0.1,0.27
+Jaylen Warren,"Joe Burrow, Tee Higgins, Evan McPherson, Bengals, Chris Boswell",49600,22,170.0,0.13,0.3,0.07,0.0,0.14,0.07,0.51
+Jaylen Warren,"Ja'Marr Chase, Chase Brown, Dohnte Meyers, Aaron Rodgers, Darnell Washington",49400,14,179.0,0.12,0.18,0.0,0.0,0.33,0.11,0.33
+Tee Higgins,"Ja'Marr Chase, Aaron Rodgers, Germie Bernard, Darnell Washington, Ben Skowronek",48600,4,158.0,0.12,0.1,0.33,0.0,0.0,0.0,0.0
+Jaylen Warren,"Chase Brown, Evan McPherson, Aaron Rodgers, Germie Bernard, Chris Boswell",49000,32,163.0,0.12,0.18,0.05,0.05,0.4,0.15,0.05
+Jaylen Warren,"Tee Higgins, Aaron Rodgers, Germie Bernard, Darnell Washington, Steelers",48200,5,150.0,0.12,0.18,0.0,0.0,0.56,0.0,0.28
+Joe Burrow,"Chase Brown, Aaron Rodgers, Germie Bernard, Darnell Washington, Chris Boswell",48900,34,161.0,0.12,0.29,0.19,0.05,0.05,0.14,0.1
+Jaylen Warren,"Joe Burrow, Chase Brown, Evan McPherson, Rico Dowdle, Chris Boswell",49200,24,166.0,0.12,0.28,0.2,0.07,0.0,0.07,0.2
+Samaje Perine,"Joe Burrow, Tee Higgins, Chase Brown, Aaron Rodgers, Pat Freiermuth",49600,3,186.0,0.12,0.1,0.0,0.0,0.42,0.42,0.0
+Ja'Marr Chase,"Tee Higgins, Aaron Rodgers, Pat Freiermuth, Darnell Washington, Chris Boswell",49100,10,150.0,0.12,0.13,0.15,0.0,0.0,0.15,0.3
+Darnell Washington,"Joe Burrow, Tee Higgins, Chase Brown, Mike Gesicki, Aaron Rodgers",48600,8,190.0,0.12,0.14,0.19,0.0,0.19,0.0,0.19
+Mike Gesicki,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, Germie Bernard, Darnell Washington",49000,9,210.0,0.12,0.16,0.17,0.17,0.0,0.0,0.17
+Samaje Perine,"Joe Burrow, Ja'Marr Chase, Aaron Rodgers, Rico Dowdle, Germie Bernard",49800,3,189.0,0.12,0.11,0.0,0.0,0.0,0.83,0.0
+Joe Burrow,"Ja'Marr Chase, Bengals, Jaylen Warren, Darnell Washington, Chris Boswell",49100,22,176.0,0.11,0.18,0.0,0.14,0.07,0.29,0.14
+Jaylen Warren,"Joe Burrow, Chase Brown, Evan McPherson, Bengals, Germie Bernard",49600,18,173.0,0.11,0.22,0.18,0.0,0.09,0.18,0.09
+Ja'Marr Chase,"Tee Higgins, Mike Gesicki, Evan McPherson, Germie Bernard, Chris Boswell",48900,16,146.0,0.1,0.12,0.2,0.0,0.1,0.0,0.1
+Chase Brown,"Mike Gesicki, Evan McPherson, Aaron Rodgers, Jaylen Warren, Germie Bernard",48200,7,156.0,0.1,0.07,0.21,0.0,0.21,0.0,0.0
+Jaylen Warren,"Chase Brown, Mike Gesicki, Aaron Rodgers, Germie Bernard, Darnell Washington",47200,13,150.0,0.1,0.1,0.12,0.12,0.24,0.0,0.0
+Joe Burrow,"Ja'Marr Chase, Samaje Perine, Jaylen Warren, Darnell Washington, Chris Boswell",49500,17,174.0,0.1,0.17,0.09,0.19,0.0,0.09,0.09
+Jaylen Warren,"Joe Burrow, Tee Higgins, Germie Bernard, Ben Skowronek, Chris Boswell",49800,4,163.0,0.1,0.14,0.0,0.0,0.0,0.67,0.0
+Joe Burrow,"Chase Brown, Evan McPherson, Jaylen Warren, DK Metcalf, Ben Skowronek",48900,11,156.0,0.1,0.05,0.28,0.0,0.0,0.0,0.0
+Jaylen Warren,"Tee Higgins, Chase Brown, Aaron Rodgers, Pat Freiermuth, Ben Skowronek",49200,5,148.0,0.1,0.11,0.28,0.0,0.0,0.0,0.0
+Jaylen Warren,"Joe Burrow, Chase Brown, Mike Gesicki, DK Metcalf, Darnell Washington",49200,15,163.0,0.09,0.18,0.0,0.31,0.21,0.0,0.0
+Ja'Marr Chase,"Chase Brown, Jaylen Warren, DK Metcalf, Darnell Washington, Steelers",49300,12,160.0,0.09,0.05,0.13,0.13,0.13,0.0,0.0
+Ja'Marr Chase,"Joe Burrow, Bengals, Jaylen Warren, Darnell Washington, Chris Boswell",49300,24,178.0,0.09,0.21,0.13,0.0,0.0,0.07,0.2
+DK Metcalf,"Chase Brown, Evan McPherson, Aaron Rodgers, Jaylen Warren, Rico Dowdle",48900,7,165.0,0.09,0.14,0.0,0.0,0.62,0.0,0.0
+Aaron Rodgers,"Joe Burrow, Chase Brown, Dohnte Meyers, Jaylen Warren, Darnell Washington",48700,11,180.0,0.08,0.23,0.0,0.0,0.42,0.14,0.0
+DK Metcalf,"Ja'Marr Chase, Tee Higgins, Bengals, Jaylen Warren, Steelers",49900,2,174.0,0.08,0.08,0.0,0.0,0.0,0.0,0.56
+Mike Gesicki,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",47000,5,190.0,0.08,0.05,0.0,0.0,0.56,0.0,0.0
+Darnell Washington,"Joe Burrow, Tee Higgins, Chase Brown, Evan McPherson, Jaylen Warren",49600,13,213.0,0.08,0.1,0.12,0.0,0.12,0.12,0.0
+Darnell Washington,"Ja'Marr Chase, Tee Higgins, Chase Brown, Jaylen Warren, Chris Boswell",49800,18,210.0,0.08,0.07,0.0,0.09,0.44,0.0,0.0
+Ja'Marr Chase,"Aaron Rodgers, DK Metcalf, Germie Bernard, Darnell Washington, Chris Boswell",48500,19,145.0,0.08,0.22,0.08,0.17,0.0,0.08,0.0
+Chase Brown,"Tee Higgins, Aaron Rodgers, Rico Dowdle, Germie Bernard, Steelers",48400,2,133.0,0.08,0.06,0.0,0.0,0.0,0.56,0.0
+Ja'Marr Chase,"Joe Burrow, Chase Brown, Samaje Perine, Rico Dowdle, Darnell Washington",49100,6,158.0,0.08,0.17,0.24,0.0,0.0,0.0,0.0
+Jaylen Warren,"Tee Higgins, Chase Brown, Bengals, Germie Bernard, Chris Boswell",49200,10,154.0,0.08,0.05,0.15,0.0,0.15,0.0,0.0
+Aaron Rodgers,"Joe Burrow, Tee Higgins, Rico Dowdle, Darnell Washington, Chris Boswell",48700,8,156.0,0.08,0.29,0.0,0.0,0.56,0.0,0.0
+Joe Burrow,"Chase Brown, Jaylen Warren, Germie Bernard, Darnell Washington, Chris Boswell",49500,43,171.0,0.08,0.17,0.04,0.15,0.0,0.23,0.04
+Joe Burrow,"Tee Higgins, Evan McPherson, Bengals, Jaylen Warren, Darnell Washington",48700,25,165.0,0.07,0.21,0.06,0.0,0.06,0.13,0.13
+Jaylen Warren,"Joe Burrow, Tee Higgins, Mike Gesicki, Evan McPherson, Bengals",49400,14,162.0,0.07,0.33,0.0,0.0,0.0,0.33,0.11
+Tee Higgins,"Ja'Marr Chase, Chase Brown, Bengals, Pat Freiermuth, Chris Boswell",48600,3,150.0,0.06,0.04,0.0,0.0,0.0,0.0,0.42
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Jaylen Warren, Germie Bernard, Darnell Washington",49600,11,209.0,0.06,0.12,0.0,0.0,0.0,0.14,0.28
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Evan McPherson, Darnell Washington, Chris Boswell",49100,41,181.0,0.06,0.2,0.0,0.2,0.0,0.0,0.12
+Chris Boswell,"Ja'Marr Chase, Tee Higgins, Chase Brown, Evan McPherson, Germie Bernard",49500,3,191.0,0.06,0.04,0.0,0.0,0.0,0.0,0.42
+Steelers,"Ja'Marr Chase, Tee Higgins, Evan McPherson, Jaylen Warren, DK Metcalf",49300,3,194.0,0.06,0.13,0.0,0.0,0.0,0.0,0.42
+Tee Higgins,"Joe Burrow, Chase Brown, Rico Dowdle, Darnell Washington, Chris Boswell",48800,7,158.0,0.06,0.18,0.0,0.0,0.21,0.0,0.21
+Aaron Rodgers,"Ja'Marr Chase, Mike Gesicki, Evan McPherson, Jaylen Warren, Chris Boswell",49100,7,171.0,0.06,0.11,0.0,0.0,0.0,0.0,0.42
+Ja'Marr Chase,"Tee Higgins, Bengals, Jaylen Warren, Chris Boswell, Steelers",49300,14,154.0,0.05,0.18,0.0,0.0,0.0,0.0,0.33
+Joe Burrow,"Tee Higgins, Mike Gesicki, DK Metcalf, Darnell Washington, Chris Boswell",47100,6,132.0,0.05,0.06,0.0,0.24,0.0,0.0,0.0
+Joe Burrow,"Ja'Marr Chase, Chase Brown, Pat Freiermuth, Darnell Washington, Chris Boswell",48500,10,164.0,0.05,0.12,0.0,0.15,0.0,0.15,0.0
+Ja'Marr Chase,"Evan McPherson, Jaylen Warren, DK Metcalf, Germie Bernard, Steelers",49500,10,150.0,0.05,0.07,0.15,0.0,0.0,0.0,0.0
+Joe Burrow,"Evan McPherson, Jaylen Warren, DK Metcalf, Germie Bernard, Darnell Washington",48700,16,156.0,0.05,0.08,0.0,0.1,0.2,0.0,0.0
+Evan McPherson,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Darnell Washington, Chris Boswell",48400,6,198.0,0.04,0.09,0.0,0.0,0.0,0.0,0.24
+Chase Brown,"Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Germie Bernard, Pat Freiermuth",49400,6,162.0,0.04,0.14,0.0,0.0,0.0,0.24,0.0
+Tee Higgins,"Chase Brown, Evan McPherson, Aaron Rodgers, DK Metcalf, Darnell Washington",49200,18,155.0,0.04,0.11,0.0,0.0,0.18,0.09,0.0
+Jaylen Warren,"Joe Burrow, Tee Higgins, Samaje Perine, Bengals, Darnell Washington",47400,6,155.0,0.04,0.03,0.0,0.0,0.24,0.0,0.0
+Evan McPherson,"Joe Burrow, Aaron Rodgers, Jaylen Warren, Germie Bernard, Darnell Washington",47600,7,189.0,0.03,0.04,0.0,0.0,0.0,0.0,0.21
+Jaylen Warren,"Ja'Marr Chase, Chase Brown, Evan McPherson, Germie Bernard, Darnell Washington",49600,37,183.0,0.03,0.08,0.04,0.0,0.04,0.04,0.0
+Aaron Rodgers,"Chase Brown, Jaylen Warren, Rico Dowdle, Germie Bernard, Darnell Washington",47700,7,151.0,0.03,0.24,0.0,0.0,0.21,0.0,0.0
+Tee Higgins,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Darnell Washington, Ben Skowronek",48400,12,176.0,0.02,0.19,0.0,0.0,0.0,0.0,0.13
+Rico Dowdle,"Joe Burrow, Tee Higgins, Chase Brown, Germie Bernard, Pat Freiermuth",49400,1,173.0,0.0,0.06,0.0,0.0,0.0,0.0,0.0
+Ben Skowronek,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Jaylen Warren",49000,2,226.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0
+Ben Skowronek,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Germie Bernard",48200,2,208.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0
+Mike Gesicki,"Joe Burrow, Tee Higgins, Jaylen Warren, Rico Dowdle, Chris Boswell",48400,3,179.0,0.0,0.18,0.0,0.0,0.0,0.0,0.0
+Pat Freiermuth,"Joe Burrow, Ja'Marr Chase, Tee Higgins, Mike Gesicki, Evan McPherson",48900,1,194.0,0.0,0.17,0.0,0.0,0.0,0.0,0.0
+Jaylen Warren,"Ja'Marr Chase, Evan McPherson, Aaron Rodgers, Pat Freiermuth, Darnell Washington",47800,11,164.0,0.0,0.05,0.0,0.0,0.0,0.0,0.0
+Ja'Marr Chase,"Joe Burrow, Evan McPherson, Bengals, DK Metcalf, Pat Freiermuth",48300,2,143.0,0.0,0.07,0.0,0.0,0.0,0.0,0.0
+Dohnte Meyers,"Joe Burrow, Chase Brown, Aaron Rodgers, Jaylen Warren, Germie Bernard",49100,6,208.0,0.0,0.03,0.0,0.0,0.0,0.0,0.0
+Samaje Perine,"Joe Burrow, Ja'Marr Chase, Evan McPherson, Jaylen Warren, Germie Bernard",50000,7,214.0,0.0,0.04,0.0,0.0,0.0,0.0,0.0
