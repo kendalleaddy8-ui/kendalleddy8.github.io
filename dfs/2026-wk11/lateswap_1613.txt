@@ -1,0 +1,8 @@
+curl: (35) Recv failure: Connection reset by peer
+games started/final: ['ARI', 'BAL', 'BUF', 'CAR', 'CHI', 'DAL', 'DET', 'HOU', 'IND', 'KC', 'LAC', 'MIA', 'NO', 'NYJ', 'PHI', 'PIT', 'TB', 'TEN']  ·  players locked: 97
+
+Current standing given actual early scores (P top-15 per 1k · P top-150 %):
+  L1 0.00 · 0.12%   L2 0.04 · 0.05%
+L1 swaps: NONE — keep as is   => 0.00 · 0.12%  ($50,000)
+L2 swaps: NONE — keep as is   => 0.04 · 0.05%  ($49,800)
+Pair value 2.1 -> 2.1
