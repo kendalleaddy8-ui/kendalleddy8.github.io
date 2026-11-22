@@ -1,0 +1,8 @@
+games started/final: ['ARI', 'BAL', 'BUF', 'CAR', 'CHI', 'DAL', 'DET', 'HOU', 'IND', 'KC', 'MIA', 'NO', 'PHI', 'PIT', 'TB', 'TEN']  ·  players locked: 97
+Tommy Tremble had no stats (inactive) -> assuming planned swap to Dawson Knox
+
+Current standing given actual early scores (P top-15 per 1k · P top-150 %):
+  L1 0.00 · 0.25%   L2 0.00 · 0.03%
+L1 swaps: NONE — keep as is   => 0.00 · 0.25%  ($49,900)
+L2 swaps: Jonah Coleman -> Breece Hall; Omarion Hampton -> Ashton Jeanty   => 0.12 · 0.09%  ($49,800)
+Pair value 2.8 -> 4.6
