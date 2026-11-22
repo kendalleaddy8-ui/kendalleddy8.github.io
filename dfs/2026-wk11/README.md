@@ -13,3 +13,7 @@ Pair from holdout-validated local search (B-score 42.8 vs 35.7 for v1 pair):
 - L3 (optional, +39% Milly top-150 odds: 1.45% -> 2.02%) Geno / Cook / EJ / Lamb / G. Wilson / Mitchell / Waller / FLEX Hampton / Buccaneers
 - 4pm slate (top-0.1% of 30k field 1.70%): Geno / Coleman / Skattebo / Nabers / G. Wilson / Mitchell / Likely / FLEX Hampton / Broncos
 Pivots: Tremble OUT -> Cade Otton + (Pollard -> Emmett Johnson). Waller OUT -> Cade Otton.
+
+## FINAL v3 (Sun 9:50 AM ET) — Sunday news + 24k/24k sims, 67 local optima from 94 starts
+Dak / Pollard / Hampton / Lamb / Pickens / G. Wilson / Waller / FLEX Tremble / Steelers — holdout top-15 2.38/1k, top-150 1.33%
+(old pick re-scored with Sunday news: 1.29/1k, 0.87%). Pivots: Waller OUT -> Mason Taylor; Tremble OUT -> Dawson Knox; both -> Knox + Mark Andrews.

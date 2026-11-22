@@ -1,0 +1,22 @@
+
+Angle table (best P>=target per QB): Dak Prescott 2.27% · Cam Ward 1.86% · Bo Nix 1.57% · Caleb Williams 1.53% · Trevor Lawrence 1.24% · Geno Smith 1.23% · Jalon Daniels 1.00% · Josh Allen 0.88% · Justin Herbert 0.80% · Bryce Young 0.76% · Patrick Mahomes 0.74% · Jared Goff 0.72%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Carnell Tate, Ladd McConkey, Roman Wilson, Brock Bowers, Darren Waller, Tommy Tremble
+flat 330s
+cal 660s
+chalky 986s
+saved
+missing from pool: {}
+67 distinct local optima from 94 starts. HOLDOUT top-15/1k · top-150% · median · p99
+ 2.38  1.33%  139.5  252.1 $50,000: Dak Prescott, Tony Pollard, Omarion Hampton, CeeDee Lamb, George Pickens, Garrett Wilson, Darren Waller, Tommy Tremble, Steelers
+ 2.21  0.94%  133.9  233.1 $49,900: Geno Smith, Tony Pollard, Omarion Hampton, CeeDee Lamb, Javonte Williams, Garrett Wilson, Elic Ayomanor, Mason Taylor, Chiefs
+ 1.86  1.14%  144.1  249.0 $49,900: Bo Nix, Tony Pollard, Jonah Coleman, Omarion Hampton, CeeDee Lamb, George Pickens, Elic Ayomanor, Evan Engram, Chiefs
+ 1.62  1.27%  140.2  252.3 $50,000: Dak Prescott, Tony Pollard, Cam Skattebo, Omarion Hampton, CeeDee Lamb, George Pickens, Chimere Dike, Darren Waller, Steelers
+ 1.67  1.20%  141.2  256.3 $50,000: Dak Prescott, James Cook III, Tony Pollard, CeeDee Lamb, George Pickens, Tommy Tremble, Elic Ayomanor, Darren Waller, Steelers
+ 1.79  1.05%  138.6  250.6 $50,000: Dak Prescott, Tony Pollard, Bhayshul Tuten, Tommy Tremble, CeeDee Lamb, George Pickens, Jakobi Meyers, Elic Ayomanor, Steelers
+
+Named lineups (holdout):
+ 1.29  0.87%  138.3  249.3  My pick
+ 0.39  0.33%  134.9  247.0  Kendall Dak
+ 0.22  0.16%  123.2  202.2  Kendall Mahomes A
+ 0.08  0.08%  117.5  195.4  Kendall Mahomes B
