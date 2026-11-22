@@ -1,5 +1,5 @@
 Name,Rating,Team,Opponent,Pos,Base,Salary,Spread,Total,OpenTotal,Kick,PROE,Status,Proj,Adj,Implied,Own
-Josh Allen,Good,BUF,MIA,QB,25.1,7700,-16.5,44.5,47.5,1:00,,,24.6,36.9,30.5,15.0
+Josh Allen,Good,BUF,MIA,QB,25.1,7700,-16.5,44.5,47.5,1:00,,,24.65,36.97,30.5,15.0
 Dak Prescott,Great,DAL,TEN,QB,23.7,6700,-8.5,54.5,48.5,1:00,3.0,,24.41,35.4,31.5,20.0
 Trevor Lawrence,Average,JAC,NYG,QB,21.2,6600,-6.0,46.5,46.5,4:25,,,21.2,30.74,26.25,4.3
 Patrick Mahomes,Great,KC,ARI,QB,23.5,6500,-16.5,40.5,44.5,1:00,,,23.61,35.41,28.5,10.0
@@ -18,26 +18,26 @@ J.J. McCarthy,Average,NYG,JAC,QB,15.1,4800,6.0,46.5,46.5,4:25,,,15.1,21.89,20.25
 Joe Milton III,Shaky,PHI,PIT,QB,13.7,4700,3.5,37.5,42.5,1:00,,,13.43,19.47,17.0,2.0
 Kyle McCord,Poor,MIA,BUF,QB,11.3,4500,16.5,44.5,47.5,1:00,,,11.07,16.06,14.0,1.8
 Jalon Daniels,Average,TB,DET,QB,13.2,4300,5.5,45.5,49.5,1:00,,,12.94,18.76,20.0,1.6
-Jahmyr Gibbs,Average,DET,TB,RB,23.3,10000,-5.5,45.5,49.5,1:00,,,23.52,35.28,25.5,15.0
-James Cook III,Great,BUF,MIA,RB,22.8,7900,-16.5,44.5,47.5,1:00,,,26.35,39.52,30.5,25.0
-Chuba Hubbard,Good,CAR,BAL,RB,21.0,7500,-3.0,43.5,46.5,1:00,,,20.58,30.87,23.25,5.4
-Javonte Williams,Great,DAL,TEN,RB,20.7,7300,-8.5,54.5,48.5,1:00,3.0,,22.6,33.9,31.5,15.0
-Bucky Irving,Good,TB,DET,RB,18.1,7000,5.5,45.5,49.5,1:00,,,15.96,23.95,20.0,4.8
-D'Andre Swift,Average,CHI,NO,RB,17.4,6900,-11.5,48.5,46.5,1:00,,,17.52,26.28,30.0,10.0
-Bhayshul Tuten,Good,JAC,NYG,RB,17.9,6800,-6.0,46.5,46.5,4:25,,,18.44,27.66,26.25,4.6
-Derrick Henry,Average,BAL,CAR,RB,15.3,6700,3.0,43.5,46.5,1:00,,,14.99,22.49,20.25,4.4
+Jahmyr Gibbs,Average,DET,TB,RB,23.3,10000,-5.5,45.5,49.5,1:00,,,24.2,36.3,25.5,15.0
+James Cook III,Great,BUF,MIA,RB,22.8,7900,-16.5,44.5,47.5,1:00,,,21.92,32.88,30.5,25.0
+Chuba Hubbard,Good,CAR,BAL,RB,21.0,7500,-3.0,43.5,46.5,1:00,,,18.67,28.0,23.25,5.4
+Javonte Williams,Great,DAL,TEN,RB,20.7,7300,-8.5,54.5,48.5,1:00,3.0,,19.66,29.49,31.5,15.0
+Bucky Irving,Good,TB,DET,RB,18.1,7000,5.5,45.5,49.5,1:00,,,14.63,21.95,20.0,4.8
+D'Andre Swift,Average,CHI,NO,RB,17.4,6900,-11.5,48.5,46.5,1:00,,,14.5,21.75,30.0,10.0
+Bhayshul Tuten,Good,JAC,NYG,RB,17.9,6800,-6.0,46.5,46.5,4:25,,,17.18,25.77,26.25,4.6
+Derrick Henry,Average,BAL,CAR,RB,15.3,6700,3.0,43.5,46.5,1:00,,,14.84,22.27,20.25,4.4
 Jaylen Warren,Average,PIT,PHI,RB,16.6,6600,-3.5,37.5,42.5,1:00,,,16.76,25.13,20.5,4.3
-Tony Pollard,Great,TEN,DAL,RB,19.6,6500,8.5,54.5,48.5,1:00,,,19.69,29.53,23.0,10.0
-Jonah Coleman,Great,DEN,LV,RB,20.2,6300,-10.0,40.5,41.5,4:25,,,21.41,32.12,25.25,35.0
+Tony Pollard,Great,TEN,DAL,RB,19.6,6500,8.5,54.5,48.5,1:00,,,18.98,28.47,23.0,10.0
+Jonah Coleman,Great,DEN,LV,RB,20.2,6300,-10.0,40.5,41.5,4:25,,,18.59,27.88,25.25,35.0
 Saquon Barkley,Average,PHI,PIT,RB,12.5,6100,3.5,37.5,42.5,1:00,,,12.25,18.38,17.0,3.7
-Emmett Johnson,Great,KC,ARI,RB,21.2,6000,-16.5,40.5,44.5,1:00,,,22.68,34.02,28.5,65.0
+Emmett Johnson,Great,KC,ARI,RB,21.2,6000,-16.5,40.5,44.5,1:00,,,19.67,29.5,28.5,65.0
 Breece Hall,Average,NYJ,LAC,RB,13.5,5900,3.5,41.5,41.5,4:05,,,13.5,20.25,19.0,3.5
-Cam Skattebo,Good,NYG,JAC,RB,15.2,5800,6.0,46.5,46.5,4:25,,,15.2,22.8,20.25,3.4
-Ollie Gordon II,Good,MIA,BUF,RB,14.6,5600,16.5,44.5,47.5,1:00,,,13.16,19.75,14.0,3.1
+Cam Skattebo,Good,NYG,JAC,RB,15.2,5800,6.0,46.5,46.5,4:25,,,15.55,23.32,20.25,3.4
+Ollie Gordon II,Good,MIA,BUF,RB,14.6,5600,16.5,44.5,47.5,1:00,,,13.12,19.69,14.0,3.1
 Ashton Jeanty,Average,LV,DEN,RB,14.1,5500,10.0,40.5,41.5,4:25,,,12.97,19.46,15.25,3.0
-Kyle Monangai,Shaky,CHI,NO,RB,9.1,5400,-11.5,48.5,46.5,1:00,,,9.1,13.65,30.0,2.9
+Kyle Monangai,Shaky,CHI,NO,RB,9.1,5400,-11.5,48.5,46.5,1:00,,,9.35,14.02,30.0,2.9
 Travis Etienne Jr.,Average,NO,CHI,RB,11.5,5300,11.5,48.5,46.5,1:00,,,10.16,15.24,18.5,2.8
-Omarion Hampton,Good,LAC,NYJ,RB,14.3,5200,-3.5,41.5,41.5,4:05,,,14.14,21.21,22.5,2.6
+Omarion Hampton,Good,LAC,NYJ,RB,14.3,5200,-3.5,41.5,41.5,4:05,,,14.0,21.0,22.5,2.6
 Alvin Kamara,Shaky,NO,CHI,RB,8.1,5100,11.5,48.5,46.5,1:00,,,7.78,11.66,18.5,2.5
 Rico Dowdle,Average,PIT,PHI,RB,9.4,5100,-3.5,37.5,42.5,1:00,,,9.21,13.82,20.5,2.5
 Mike Washington Jr.,Shaky,LV,DEN,RB,6.6,5000,10.0,40.5,41.5,4:25,,,6.6,9.9,15.25,2.4
@@ -47,22 +47,22 @@ Braelon Allen,Shaky,NYJ,LAC,RB,7.8,4900,3.5,41.5,41.5,4:05,,,7.8,11.7,19.0,2.3
 Chris Rodriguez Jr.,Poor,JAC,NYG,RB,6.0,4800,-6.0,46.5,46.5,4:25,,,6.0,9.0,26.25,2.2
 Kimani Vidal,Shaky,LAC,NYJ,RB,7.1,4700,-3.5,41.5,41.5,4:05,,,6.82,10.22,22.5,2.0
 Justice Hill,Average,BAL,CAR,RB,8.4,4700,3.0,43.5,46.5,1:00,,,8.23,12.35,20.25,2.0
-J.K. Dobbins,Average,DEN,LV,RB,8.8,4600,-10.0,40.5,41.5,4:25,,,8.8,13.2,25.25,1.9
+J.K. Dobbins,Average,DEN,LV,RB,8.8,4600,-10.0,40.5,41.5,4:25,,,8.1,12.16,25.25,1.9
 Bam Knight,Average,ARI,KC,RB,7.6,4400,16.5,40.5,44.5,1:00,,,6.85,10.28,12.0,1.7
 Keaton Mitchell,Average,LAC,NYJ,RB,6.7,4200,-3.5,41.5,41.5,4:05,,,6.43,9.65,22.5,1.5
-CeeDee Lamb,Great,DAL,TEN,WR,23.8,8800,-8.5,54.5,48.5,1:00,3.0,,26.26,44.64,31.5,35.0
+CeeDee Lamb,Great,DAL,TEN,WR,23.8,8800,-8.5,54.5,48.5,1:00,3.0,,25.12,42.71,31.5,35.0
 Amon-Ra St. Brown,Average,DET,TB,WR,18.8,8200,-5.5,45.5,49.5,1:00,,,18.42,31.32,25.5,15.0
 Zay Flowers,Shaky,BAL,CAR,WR,14.9,7400,3.0,43.5,46.5,1:00,,,14.6,24.09,20.25,5.3
 Chris Olave,Average,NO,CHI,WR,14.9,7200,11.5,48.5,46.5,1:00,,,13.66,22.53,18.5,5.0
 Malik Nabers,Good,NYG,JAC,WR,17.1,7100,6.0,46.5,46.5,4:25,,,17.1,28.21,20.25,4.9
 Tetairoa McMillan,Average,CAR,BAL,WR,14.5,6900,-3.0,43.5,46.5,1:00,,,14.21,23.45,23.25,4.7
-George Pickens,Great,DAL,TEN,WR,16.4,6800,-8.5,54.5,48.5,1:00,3.0,,17.92,29.57,31.5,24.0
-Parker Washington,Good,JAC,NYG,WR,16.1,6700,-6.0,46.5,46.5,4:25,,,16.1,26.57,26.25,4.4
+George Pickens,Great,DAL,TEN,WR,16.4,6800,-8.5,54.5,48.5,1:00,3.0,,18.49,30.52,31.5,24.0
+Parker Washington,Good,JAC,NYG,WR,16.1,6700,-6.0,46.5,46.5,4:25,,,15.44,25.48,26.25,4.4
 DeVonta Smith,Average,PHI,PIT,WR,13.5,6500,3.5,37.5,42.5,1:00,,,13.23,21.83,17.0,4.2
 Garrett Wilson,Good,NYJ,LAC,WR,14.8,6400,3.5,41.5,41.5,4:05,,,15.39,25.4,19.0,10.0
 Luther Burden III,Great,CHI,NO,WR,15.8,6300,-11.5,48.5,46.5,1:00,,,15.17,25.03,30.0,4.0
 Rashee Rice,Average,KC,ARI,WR,13.2,6100,-16.5,40.5,44.5,1:00,,,12.73,21.0,28.5,3.7
-DJ Moore,Good,BUF,MIA,WR,14.2,6000,-16.5,44.5,47.5,1:00,,,13.36,22.04,30.5,3.6
+DJ Moore,Good,BUF,MIA,WR,14.2,6000,-16.5,44.5,47.5,1:00,,,13.13,21.67,30.5,3.6
 Jameson Williams,Shaky,DET,TB,WR,11.6,5900,-5.5,45.5,49.5,1:00,,,11.37,18.76,25.5,3.5
 Jalen Coker,Poor,CAR,BAL,WR,9.0,5800,-3.0,43.5,46.5,1:00,,,8.82,14.55,23.25,3.4
 Jaylen Waddle,Good,DEN,LV,WR,13.0,5700,-10.0,40.5,41.5,4:25,,,12.48,20.59,25.25,3.2
@@ -78,7 +78,7 @@ Malik Washington,Poor,MIA,BUF,WR,7.8,4900,16.5,44.5,47.5,1:00,,,7.19,11.86,14.0,
 Adonai Mitchell,Good,NYJ,LAC,WR,11.1,4900,3.5,41.5,41.5,4:05,,,11.1,18.31,19.0,2.3
 Tre Tucker,Shaky,LV,DEN,WR,8.4,4800,10.0,40.5,41.5,4:25,,,7.9,13.03,15.25,2.2
 Devaughn Vele,Poor,NO,CHI,WR,6.2,4700,11.5,48.5,46.5,1:00,,,5.68,9.38,18.5,2.0
-Courtland Sutton,Good,DEN,LV,WR,10.5,4700,-10.0,40.5,41.5,4:25,,,10.08,16.63,25.25,2.0
+Courtland Sutton,Good,DEN,LV,WR,10.5,4700,-10.0,40.5,41.5,4:25,,,9.89,16.32,25.25,2.0
 Rome Odunze,Great,CHI,NO,WR,11.9,4600,-11.5,48.5,46.5,1:00,,,11.42,18.85,30.0,1.9
 Makai Lemon,Poor,PHI,PIT,WR,5.8,4600,3.5,37.5,42.5,1:00,,,5.68,9.38,17.0,1.9
 Quentin Johnston,Poor,LAC,NYJ,WR,6.2,4500,-3.5,41.5,41.5,4:05,,,5.89,9.72,22.5,1.8

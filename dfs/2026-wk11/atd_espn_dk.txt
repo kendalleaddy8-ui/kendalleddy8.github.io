@@ -1,0 +1,60 @@
+Category | Record | Unit change
+Spread | 5-9 | -4.4
+Total | 1-2 | -1.1
+Passing props | 8-5 | +3.5
+Receiving props | 6-12 | -6.6
+Rushing props | 8-2 | +5.3
+Rushing and receiving props | 0-1 | -1.0
+Touchdown props | 1-2 | -1.1
+
+Overall | 29-33 | -5.6
+Category | Record | Unit change
+Moneyline | 1-2 | -1.1
+Spread | 7-3 | +3.2
+Total | 1-8 | -7.1
+Passing props | 0-2 | -2.0
+Receiving props | 4-8 | -4.4
+Rushing props | 5-4 | +0.4
+Rushing and receiving props | 1-2 | -1.1
+Touchdown props | 2-6 | -1.1
+Teasers | 5-0 | +3.5
+Parlays | 0-1 | -1.0
+
+Overall | 26-36 | -10.5
+Category | Record | Unit change
+Sacks | 62-45 | +16.3
+Tackles | 29-17 | +8.1
+Passing props | 3-7 | -4.1
+Receiving props | 5-4 | +2.1
+Touchdown props | 3-5 | +14.0
+Game props | 9-3 | +0.7
+
+Overall | 111-81 | +37.1
+PLAYER | IMPLIED ODDS | MONEYLINE
+James Cook III, BUF vs. MIA | -519 | -170
+Emmett Johnson, KC vs. ARI | -487 | -235
+Javonte Williams, DAL vs. TEN | -468 | -235
+D'Andre Swift, CHI vs. NO | -383 | -155
+Jonah Coleman, DEN vs. LV | -330 | -145
+Chuba Hubbard, CAR vs. BAL | -251 | -135
+Ja'Marr Chase, CIN vs. WAS | -234 | -145
+CeeDee Lamb, DAL vs. TEN | -213 | -165
+Christian McCaffrey, SF vs. MIN | -190 | -165
+Jahmyr Gibbs, DET vs. TB | -171 | -260
+Josh Allen, BUF vs. MIA | -161 | -190
+Bhayshul Tuten, JAX vs. NYG | -160 | -105
+Bucky Irving, TB vs. DET | -157 | +115
+Tony Pollard, TEN vs. DAL | -150 | -125
+Derrick Henry, BAL vs. CAR | -124 | -130
+Parker Washington, JAX vs. NYG | +104 | +135
+George Pickens, DAL vs. TEN | +115 | -125
+Justin Jefferson, MIN vs. SF | +117 | +115
+Omarion Hampton, LAC vs. NYJ | +122 | +120
+Tee Higgins, CIN vs. WAS | +131 | +105
+Cam Skattebo, NYG vs. JAX | +133 | +100
+Chase Brown, CIN vs. WSH | +138 | -135
+Ollie Gordon II, MIA vs. BUF | +144 | +135
+Kyle Monangai, CHI vs. NO | +158 | +125
+Courtland Sutton, DEN vs. LV | +158 | +165
+J.K. Dobbins, DEN vs. LV | +166 | +260
+DJ Moore, BUF vs. MIA | +166 | +180

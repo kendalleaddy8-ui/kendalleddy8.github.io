@@ -59,8 +59,12 @@ T_A = {s: Z[f"A_{s}"] for s in SC}; T_B = {s: Z[f"B_{s}"] for s in SC}; SA, SB =
 cur1 = ["Geno Smith","James Cook III","Javonte Williams","Omarion Hampton","CeeDee Lamb","Adonai Mitchell","Rome Odunze","Mason Taylor","Steelers"]
 cur2 = ["Dak Prescott","Tony Pollard","Jonah Coleman","CeeDee Lamb","George Pickens","Elic Ayomanor","Cade Otton","Gunnar Helm","Chiefs"]
 starts = [("current", cur1, cur2)]
-fin = pd.read_pickle("field_final.pkl").sort_values("p15", ascending=False)
-tops = [list(names[list(l)]) for l in fin.lu.head(8)]
+C = [list(c) for c in pd.read_pickle("cands_run.pkl")[1] if not (set(names[list(c)]) & BAN)]
+def single_obj(L):
+    a = SA[:, L].sum(1); return np.mean([(a >= T_A[s][:, 1]).mean() + W15 * (a >= T_A[s][:, 0]).mean() for s in SC])
+C.sort(key=single_obj, reverse=True)
+print("top single candidates (set A):"); [print(f"  {single_obj(c)*1e3:.2f}", ", ".join(names[c])) for c in C[:8]]
+tops = [list(names[c]) for c in C[:8]]
 for a in range(len(tops)):
     for b in range(a + 1, len(tops)):
         if ok_pair([ix[n] for n in tops[a]], [ix[n] for n in tops[b]]): starts.append((f"fin{a}+{b}", tops[a], tops[b]))

@@ -1,29 +1,40 @@
 Name,Base,Mult,Own,Status,Tag,Note
-Emmett Johnson,,1.03,65,,leadRB,Walker OUT 2nd straight; 28/30 RB touches last wk; ARI faces 26.9 RB carries/g + 50 RZ carries; own 55-80%
-Jonah Coleman,,,35,,,DK buzz red hot (late window 4:25)
-CeeDee Lamb,,1.04,35,,alphaWR,TEN allows league-high 204.6 WR yds/g; 11+ tgts 5 straight; Ferguson OUT; own 30-39%
-George Pickens,,1.03,24,,,18 tgts/3 TD last wk; Ferguson OUT; own 24%
-Dak Prescott,,,20,,,DK buzz red hot; DAL top-5 PROE
-Cam Ward,,1.03,15,,rushQB,DAL allows 252 pass yds + 26.3 QB rush yds/g
-Josh Allen,,,15,,rushQB,
-James Cook III,,1.03,25,,,MIA 109.9 RB rush yds/g (trench auto adds BUF run edge)
-Javonte Williams,,,15,,,
-Amon-Ra St. Brown,,,15,,,
-Jordyn Tyson,,,15,,,72.1% routes wk10; cleared
-Colston Loveland,,1.05,15,,,NO 5th-most TE yds; 86% snaps; Kmet IR
-Isaiah Likely,,,15,,,11+ tgts in 3 of 4
-D'Andre Swift,,0.95,10,,,NO cleanest all-purpose RB DvP (+) but Monangai back from turf toe (-)
-Caleb Williams,,,8,,,DK fringe buzz
-Cade Otton,,1.08,8,,,DET allows most TE yds (81.3) + 10 tgts/g; 8 tgts last game
-Garrett Wilson,,1.04,10,,,37% TS last 3; LAC 9th-most WR yds
-Tony Pollard,,1.06,10,,,DAL among worst vs RB (DK GPP pick)
-Bucky Irving,,0.90,,,,Bowles: will lessen the load after bye; DET 29th RB rush yds allowed
+Emmett Johnson,,0.893,65.0,,leadRB,"Walker OUT 2nd straight; 28/30 RB touches last wk; ARI faces 26.9 RB carries/g + 50 RZ carries; own 55-80% | ATD mkt -235 vs Clay -487: -2.8 DK pts (70% market, 5% vig)"
+Jonah Coleman,,0.868,35.0,,,"DK buzz red hot (late window 4:25) | ATD mkt -145 vs Clay -330: -2.7 DK pts (70% market, 5% vig)"
+CeeDee Lamb,,0.995,35.0,,alphaWR,"TEN allows league-high 204.6 WR yds/g; 11+ tgts 5 straight; Ferguson OUT; own 30-39% | ATD mkt -165 vs Clay -213: -1.0 DK pts (70% market, 5% vig)"
+George Pickens,,1.063,24.0,,,"18 tgts/3 TD last wk; Ferguson OUT; own 24% | ATD mkt -125 vs Clay +115: +0.5 DK pts (70% market, 5% vig)"
+Dak Prescott,,,20.0,,,DK buzz red hot; DAL top-5 PROE
+Cam Ward,,1.03,15.0,,rushQB,DAL allows 252 pass yds + 26.3 QB rush yds/g
+Josh Allen,,1.002,15.0,,rushQB," | ATD mkt -190 vs Clay -161: +0.1 DK pts (70% market, 5% vig)"
+James Cook III,,0.857,25.0,,,"MIA 109.9 RB rush yds/g (trench auto adds BUF run edge) | ATD mkt -170 vs Clay -519: -3.8 DK pts (70% market, 5% vig)"
+Javonte Williams,,0.87,15.0,,," | ATD mkt -235 vs Clay -468: -2.7 DK pts (70% market, 5% vig)"
+Amon-Ra St. Brown,,,15.0,,,
+Jordyn Tyson,,,15.0,,,72.1% routes wk10; cleared
+Colston Loveland,,1.05,15.0,,,NO 5th-most TE yds; 86% snaps; Kmet IR
+Isaiah Likely,,,15.0,,,11+ tgts in 3 of 4
+D'Andre Swift,,0.786,10.0,,,"NO cleanest all-purpose RB DvP (+) but Monangai back from turf toe (-) | ATD mkt -155 vs Clay -383: -3.0 DK pts (70% market, 5% vig)"
+Caleb Williams,,,8.0,,,DK fringe buzz
+Cade Otton,,1.08,8.0,,,DET allows most TE yds (81.3) + 10 tgts/g; 8 tgts last game
+Garrett Wilson,,1.04,10.0,,,37% TS last 3; LAC 9th-most WR yds
+Tony Pollard,,1.022,10.0,,,"DAL among worst vs RB (DK GPP pick) | ATD mkt -125 vs Clay -150: -0.7 DK pts (70% market, 5% vig)"
+Bucky Irving,,0.825,,,,"Bowles: will lessen the load after bye; DET 29th RB rush yds allowed | ATD mkt +115 vs Clay -157: -1.5 DK pts (70% market, 5% vig)"
 Baker Mayfield,,0.95,,,,Q foot/ankle; expected to start
 Ladd McConkey,,0.85,,,,Q back spasms; inactive MNF; no game since Wk8
 Darren Waller,,0.95,,,,Q knee; says ready
-Brock Bowers,,0.90,,,,Q ankle; availability up in the air (4:25 - late swap)
+Brock Bowers,,0.9,,,,Q ankle; availability up in the air (4:25 - late swap)
 Trey McBride,,0.92,,,,ARI QB Josh Johnson (40) starts; Beck OUT
-Chiefs,,1.10,15,,,vs 4th-string QB Josh Johnson
-Patrick Mahomes,,,10,,rushQB,
-Jahmyr Gibbs,,,15,,,
+Chiefs,,1.1,15.0,,,vs 4th-string QB Josh Johnson
+Patrick Mahomes,,,10.0,,rushQB,
+Jahmyr Gibbs,,1.029,15.0,,," | ATD mkt -260 vs Clay -171: +0.7 DK pts (70% market, 5% vig)"
 Omar Cooper Jr.,,,,,exclude,user excludes (also OUT)
+Chuba Hubbard,,0.907,,,,"ATD mkt -135 vs Clay -251: -2.0 DK pts (70% market, 5% vig)"
+Bhayshul Tuten,,0.932,,,,"ATD mkt -105 vs Clay -160: -1.2 DK pts (70% market, 5% vig)"
+Derrick Henry,,0.99,,,,"ATD mkt -130 vs Clay -124: -0.2 DK pts (70% market, 5% vig)"
+Parker Washington,,0.959,,,,"ATD mkt +135 vs Clay +104: -0.7 DK pts (70% market, 5% vig)"
+Omarion Hampton,,0.99,,,,"ATD mkt +120 vs Clay +122: -0.1 DK pts (70% market, 5% vig)"
+Cam Skattebo,,1.023,,,,"ATD mkt +100 vs Clay +133: +0.4 DK pts (70% market, 5% vig)"
+Ollie Gordon II,,0.997,,,,"ATD mkt +135 vs Clay +144: -0.0 DK pts (70% market, 5% vig)"
+Kyle Monangai,,1.027,,,,"ATD mkt +125 vs Clay +158: +0.2 DK pts (70% market, 5% vig)"
+Courtland Sutton,,0.981,,,,"ATD mkt +165 vs Clay +158: -0.2 DK pts (70% market, 5% vig)"
+J.K. Dobbins,,0.921,,,,"ATD mkt +260 vs Clay +166: -0.7 DK pts (70% market, 5% vig)"
+DJ Moore,,0.983,,,,"ATD mkt +180 vs Clay +166: -0.2 DK pts (70% market, 5% vig)"
