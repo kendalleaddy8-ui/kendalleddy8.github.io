@@ -5,7 +5,7 @@ import numpy as np
 
 def sample_field(P, n, seed=1, stack_boost=4.0, bring_boost=1.6, min_sal=48500, batch=40000):
     rng = np.random.default_rng(seed); N = len(P)
-    pos = P.Pos.values; team = P.Team.values; opp = P.Opponent.values; sal = P.Salary.values
+    pos = P.Pos.to_numpy(dtype=object); team = P.Team.to_numpy(dtype=object); opp = P.Opponent.to_numpy(dtype=object); sal = P.Salary.to_numpy(dtype=float)
     w = np.maximum(P.Own.values.astype(float), 0.3)
     idx = {k: np.where(pos == k)[0] for k in ("QB", "RB", "WR", "TE", "DST")}
     flex = np.where(np.isin(pos, ["RB", "WR", "TE"]))[0]

@@ -1,0 +1,25 @@
+69 finalists
+  scenario flat done (72s)
+calibrated own, top by position: QB: Dak Prescott 20, Bo Nix 16, Josh Allen 15, Cam Ward 15 | RB: Emmett Johnson 65, Jonah Coleman 35, James Cook III 25, Jahmyr Gibbs 15 | WR: CeeDee Lamb 35, Malik Nabers 26, George Pickens 24, Parker Washi
+  scenario calibrated done (144s)
+  scenario chalky done (219s)
+p1 = wins/10k · p15 = top-15 per 1k (avg of 3 own scenarios) · p15_min = worst scenario · p150 = top-0.1% %
+tag              qb   sal  own_cal   p1  p15  p15_min  p150                                                                                                                                     name
+         Geno Smith 49900    147.3 2.00 1.13      1.1  0.57            Geno Smith, Chuba Hubbard, Tony Pollard, Emmett Johnson, Garrett Wilson, Ladd McConkey, Adonai Mitchell, Travis Kelce, Chiefs
+         Geno Smith 50000    120.7 1.00 1.10      0.9  0.76         Geno Smith, James Cook III, Javonte Williams, Omarion Hampton, CeeDee Lamb, Adonai Mitchell, Rome Odunze, Mason Taylor, Steelers
+             Bo Nix 50000    111.8 2.00 1.00      0.9  0.57               Bo Nix, Javonte Williams, Bhayshul Tuten, Omarion Hampton, CeeDee Lamb, Courtland Sutton, Rome Odunze, Evan Engram, Chiefs
+    Trevor Lawrence 49600    153.5 0.00 0.97      0.9  0.58 Trevor Lawrence, James Cook III, Tony Pollard, Emmett Johnson, Luther Burden III, Jakobi Meyers, Malachi Fields, Brenton Strange, Chiefs
+     Caleb Williams 49500    110.1 0.67 0.97      0.9  0.58        Caleb Williams, James Cook III, Javonte Williams, Tony Pollard, Rome Odunze, Jakobi Meyers, Tez Johnson, Colston Loveland, Chiefs
+    Trevor Lawrence 49800    110.8 0.67 0.97      0.7  0.56   Trevor Lawrence, James Cook III, Tony Pollard, Cam Skattebo, Parker Washington, Jordyn Tyson, Elic Ayomanor, Brenton Strange, Steelers
+         Jared Goff 49900     87.6 0.33 0.97      0.7  0.39           Jared Goff, James Cook III, Javonte Williams, Tony Pollard, Jameson Williams, Emeka Egbuka, Tez Johnson, Sam LaPorta, Steelers
+         Jared Goff 50000     88.9 0.67 0.90      0.8  0.38          Jared Goff, James Cook III, Javonte Williams, Amon-Ra St. Brown, Emeka Egbuka, Chimere Dike, Sam LaPorta, Darren Waller, Chiefs
+             Bo Nix 50000    125.3 0.00 0.83      0.6  0.62         Bo Nix, James Cook III, Javonte Williams, CeeDee Lamb, Jaylen Waddle, Courtland Sutton, Brevyn Spann-Ford, Tommy Tremble, Chiefs
+    Trevor Lawrence 49900    148.1 0.00 0.83      0.8  0.58      Trevor Lawrence, James Cook III, Emmett Johnson, Cam Skattebo, Garrett Wilson, DK Metcalf, Jakobi Meyers, Brenton Strange, Steelers
+       Dak Prescott 49900    161.8 1.00 0.80      0.7  0.64               Dak Prescott, Tony Pollard, Jonah Coleman, CeeDee Lamb, George Pickens, Adonai Mitchell, Cade Otton, Gunnar Helm, Steelers
+     Caleb Williams 49900    152.8 0.00 0.80      0.7  0.44       Caleb Williams, Javonte Williams, Bhayshul Tuten, Emmett Johnson, DK Metcalf, Rome Odunze, Jakobi Meyers, Colston Loveland, Chiefs
+           Cam Ward 49500    187.6 0.00 0.77      0.7  0.69            Cam Ward, James Cook III, Javonte Williams, Emmett Johnson, CeeDee Lamb, Malachi Fields, Elic Ayomanor, Gunnar Helm, Steelers
+       Dak Prescott 49500    203.0 1.00 0.77      0.6  0.54             Dak Prescott, James Cook III, Jonah Coleman, Emmett Johnson, CeeDee Lamb, Rome Odunze, Chimere Dike, Brevyn Spann-Ford, Jets
+    Trevor Lawrence 49600    115.5 1.67 0.77      0.7  0.48           Trevor Lawrence, James Cook III, Tony Pollard, Jonah Coleman, DJ Moore, Jakobi Meyers, Malachi Fields, Brenton Strange, Chiefs
+      tag              qb   sal  own_cal  p1  p15  p15_min  p150                                                                                                                              name
+Kendall B Patrick Mahomes 49900    136.9 0.0 0.17      0.1  0.19      Patrick Mahomes, Jahmyr Gibbs, Emmett Johnson, Josh Downs, Tez Johnson, Jordyn Tyson, Colston Loveland, Tony Pollard, Giants
+Kendall A Patrick Mahomes 49900    168.8 0.0 0.00      0.0  0.09 Patrick Mahomes, Emmett Johnson, D'Andre Swift, CeeDee Lamb, George Pickens, Jordyn Tyson, Darren Waller, C. Allen (KC), Panthers
