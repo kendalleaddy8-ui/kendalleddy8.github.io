@@ -4,7 +4,7 @@ from validate import validate, slots_ok
 pool = pd.read_pickle("cands_run.pkl")[0].reset_index(drop=True); C = pd.read_pickle("cands_run.pkl")[1]
 Z = np.load("/tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wk11_thr.npz")
 SC = ["flat", "cal", "chalky"]; names = pool.Name.to_numpy(object); sal = pool.Salary.to_numpy(float); pos = pool.Pos.to_numpy(object)
-BAN = {"Ladd McConkey", "Jalon Daniels", "Omar Cooper Jr."}; W15 = 10.0
+BAN = {"Jalon Daniels", "Omar Cooper Jr."}; W15 = 10.0
 best = pd.read_pickle("improve_best.pkl"); P1, P2 = best[1]
 def hits(S, T, L): a = S[:, L].sum(1); return {s: (a >= T[s][:, 0], a >= T[s][:, 1]) for s in SC}
 def union_val(S, T, Ls):

@@ -11,7 +11,7 @@ pool = pd.concat([pool, row.to_frame().T], ignore_index=True)
 for c in ("Salary", "Proj", "Own", "Spread", "Total"): pool[c] = pd.to_numeric(pool[c])
 k = 7.0 / float(pool.loc[sh, "Proj"]); SA = np.hstack([SA, SA[:, [sh]] * k]); SB = np.hstack([SB, SB[:, [sh]] * k])
 names = pool.Name.to_numpy(object); sal = pool.Salary.to_numpy(float); pos = pool.Pos.to_numpy(object); ix = {n: i for i, n in enumerate(names)}
-BAN = {"Ladd McConkey", "Jalon Daniels", "Omar Cooper Jr."}; allowed = np.array([n not in BAN for n in names]); W15 = 10.0
+BAN = {"Jalon Daniels", "Omar Cooper Jr."}; allowed = np.array([n not in BAN for n in names]); W15 = 10.0
 def obj(S, T, L): a = S[:, L].sum(1); return np.mean([(a >= T[s][:, 1]).mean() + W15 * (a >= T[s][:, 0]).mean() for s in SC])
 def metr(S, T, L):
     a = S[:, L].sum(1); return np.mean([(a >= T[s][:, 0]).mean() for s in SC]) * 1e3, np.mean([(a >= T[s][:, 1]).mean() for s in SC]) * 100, np.median(a), np.percentile(a, 99)

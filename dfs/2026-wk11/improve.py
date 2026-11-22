@@ -5,7 +5,7 @@ pool = pd.read_pickle("cands_run.pkl")[0].reset_index(drop=True)
 Z = np.load("/tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wk11_thr.npz")
 SC = ["flat", "cal", "chalky"]; ix = {n: i for i, n in enumerate(pool.Name)}
 sal = pool.Salary.to_numpy(float); pos = pool.Pos.to_numpy(object); names = pool.Name.to_numpy(object)
-BAN = {"Ladd McConkey", "Jalon Daniels", "Omar Cooper Jr."}
+BAN = {"Jalon Daniels", "Omar Cooper Jr."}
 allowed = np.array([n not in BAN for n in names])
 W15 = 10.0                                                    # top-15 weighted 10x vs top-150 (similar event counts)
 

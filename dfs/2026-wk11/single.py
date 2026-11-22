@@ -4,7 +4,7 @@ from validate import validate, slots_ok
 pool = pd.read_pickle("cands_run.pkl")[0].reset_index(drop=True); C = pd.read_pickle("cands_run.pkl")[1]
 Z = np.load("/tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wk11_thr.npz")
 SC = ["flat", "cal", "chalky"]; names = pool.Name.to_numpy(object); sal = pool.Salary.to_numpy(float); pos = pool.Pos.to_numpy(object)
-ix = {n: i for i, n in enumerate(names)}; BAN = {"Ladd McConkey", "Jalon Daniels", "Omar Cooper Jr."}; W15 = 10.0
+ix = {n: i for i, n in enumerate(names)}; BAN = {"Jalon Daniels", "Omar Cooper Jr."}; W15 = 10.0
 allowed = np.array([n not in BAN for n in names])
 SA, SB = Z["SA"], Z["SB"]; TA = {s: Z[f"A_{s}"] for s in SC}; TB = {s: Z[f"B_{s}"] for s in SC}
 def obj(S, T, L):
