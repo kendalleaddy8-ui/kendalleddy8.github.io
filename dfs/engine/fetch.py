@@ -22,10 +22,13 @@ def espn(src):
 
 def text(src):
     t = open(src, encoding="utf-8", errors="ignore").read()
-    m = re.search(r"<article.*?</article>", t, re.S); body = m.group(0) if m else t
-    body = re.sub(r"<(script|style|aside|nav|figure)[^>]*>.*?</\1>", " ", body, flags=re.S)
-    lines = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", body)).splitlines()]
-    return "\n".join(l for l in lines if len(l) > 2)
+    def clean(body):
+        body = re.sub(r"<(script|style|aside|nav|figure)[^>]*>.*?</\1>", " ", body, flags=re.S)
+        lines = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", body)).splitlines()]
+        return "\n".join(l for l in lines if len(l) > 2)
+    m = re.search(r"<article.*?</article>", t, re.S)
+    out = clean(m.group(0)) if m else ""
+    return out if len(out.split()) > 150 else clean(t)          # ESPN pages: <article> can be empty
 
 POS = r"(?:QB|RB|WR|TE|FB|K)"
 def injuries(src):

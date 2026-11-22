@@ -1,0 +1,38 @@
+142 players · 720 candidates · target 230.0 · P(>=1 hits) 5.37%
+
+LINEUP 1: $49,800 · med 146.3 · p99 257.7 · P>=230 2.86% · own~186%
+   WR  CeeDee Lamb            DAL vs TEN $8,800 proj  26.3 1:00 
+   WR  George Pickens         DAL vs TEN $6,800 proj  17.9 1:00 
+   QB  Dak Prescott           DAL vs TEN $6,700 proj  24.4 1:00 
+   RB  Jonah Coleman          DEN vs LV  $6,300 proj  21.4 4:25 
+   RB  Emmett Johnson         KC  vs ARI $6,000 proj  22.7 1:00 
+   TE  Travis Kelce           KC  vs ARI $4,700 proj  11.8 1:00 
+   WR  Elic Ayomanor          TEN vs DAL $3,700 proj   9.3 1:00 
+   TE  Mark Andrews           BAL vs CAR $3,500 proj   7.6 1:00 
+   DST Steelers               PIT vs PHI $3,300 proj  11.8 1:00 
+
+LINEUP 2: $49,900 · med 147.5 · p99 250.4 · P>=230 2.39% · own~151%
+   WR  CeeDee Lamb            DAL vs TEN $8,800 proj  26.3 1:00 
+   RB  James Cook III         BUF vs MIA $7,900 proj  26.4 1:00 
+   RB  Emmett Johnson         KC  vs ARI $6,000 proj  22.7 1:00 
+   WR  Jaylen Waddle          DEN vs LV  $5,700 proj  12.5 4:25 
+   QB  Bo Nix                 DEN vs LV  $5,600 proj  22.3 4:25 
+   TE  Colston Loveland       CHI vs NO  $5,100 proj  13.8 1:00 
+   WR  Jakobi Meyers          JAC vs NYG $4,500 proj  11.2 4:25 
+   DST Steelers               PIT vs PHI $3,300 proj  11.8 1:00 
+   TE  Evan Engram            DEN vs LV  $3,000 proj   6.5 4:25 
+
+LINEUP 3: $50,000 · med 138.0 · p99 232.9 · P>=230 1.14% · own~114%
+   RB  James Cook III         BUF vs MIA $7,900 proj  26.4 1:00 
+   RB  Javonte Williams       DAL vs TEN $7,300 proj  22.6 1:00 
+   WR  Malik Nabers           NYG vs JAC $7,100 proj  17.1 4:25 
+   RB  Jonah Coleman          DEN vs LV  $6,300 proj  21.4 4:25 
+   TE  Isaiah Likely          NYG vs JAC $5,600 proj  13.6 4:25 
+   QB  Cam Ward               TEN vs DAL $5,500 proj  19.7 1:00 
+   WR  Elic Ayomanor          TEN vs DAL $3,700 proj   9.3 1:00 
+   WR  Chimere Dike           TEN vs DAL $3,500 proj   7.1 1:00 
+   DST Panthers               CAR vs BAL $3,100 proj   6.5 1:00 
+
+Angle table (best P>=target per QB): Dak Prescott 2.86% · Cam Ward 2.58% · Bo Nix 2.39% · Caleb Williams 1.98% · J.J. McCarthy 1.88% · Patrick Mahomes 1.81% · Geno Smith 1.47% · Trevor Lawrence 1.27% · Fernando Mendoza 1.27% · Jared Goff 1.21% · Bryce Young 1.19% · Jalon Daniels 1.17%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Carnell Tate, Ladd McConkey, Roman Wilson, Brock Bowers, Darren Waller, Tommy Tremble

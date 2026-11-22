@@ -62,3 +62,33 @@ if __name__ == "__main__":
     d = build(pd.read_csv(a.pool), pd.read_csv(a.inj), pd.read_csv(a.lines), ov)
     d.to_csv(a.out, index=False)
     print(f"{len(d)} players -> {a.out}  (removed OUT/IR/D; statuses kept: {d.Status.replace('', 'OK').value_counts().to_dict()})")
+
+# ---- ownership model (Week 11): replaces the weak salary heuristic for players without an explicit Own ----
+POS_TOTAL = {"QB": 100.0, "RB": 235.0, "WR": 345.0, "TE": 120.0, "DST": 100.0}     # DK classic slot usage incl. FLEX
+POS_TEMP = {"QB": 1.4, "RB": 1.5, "WR": 1.3, "TE": 1.4, "DST": 0.9}
+POS_CAP = {"QB": 22.0, "RB": 40.0, "WR": 30.0, "TE": 28.0, "DST": 20.0}           # cap for modelled (non-explicit) players
+
+def estimate_own(d, explicit=None, temp_scale=1.0):
+    """Per position: score = 0.6*z(Proj) + 0.4*z(points per $1k); own ∝ exp(temp*score), scaled to the position's
+    slot usage, capped (excess redistributed). Players in `explicit` (name -> own%) keep their value.
+    temp_scale <1 = flatter field, >1 = chalkier field (use both to test robustness)."""
+    import numpy as np
+    explicit = explicit or {}; d = d.copy(); out = np.zeros(len(d))
+    for pos, tot in POS_TOTAL.items():
+        m = (d.Pos == pos).values
+        if not m.any(): continue
+        pr = d.Proj.values[m].astype(float); val = pr / (d.Salary.values[m] / 1000.0)
+        z = lambda x: (x - x.mean()) / (x.std() + 1e-9)
+        w = np.exp(POS_TEMP[pos] * temp_scale * (0.6 * z(pr) + 0.4 * z(val)))
+        names = d.Name.values[m]; fixed = np.array([n in explicit for n in names])
+        left = max(tot - sum(explicit[n] for n in names[fixed]), tot * 0.15)
+        o = np.array([explicit.get(n, 0.0) for n in names], float); free = ~fixed
+        for _ in range(20):                                          # water-filling under the cap
+            capped = free & (o >= POS_CAP[pos])
+            rest = free & ~capped
+            if not rest.any(): break
+            o[rest] = w[rest] / w[rest].sum() * (left - o[capped].sum())
+            if (o[rest] <= POS_CAP[pos] + 1e-9).all(): break
+            o[rest & (o > POS_CAP[pos])] = POS_CAP[pos]
+        out[m] = o
+    d["Own"] = np.round(out, 1); return d
