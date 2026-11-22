@@ -48,3 +48,14 @@ def rank_vs_field(S, F, lineups, places=(1, 15, 150), chunk=40):
             res[p] += (ours > thr).sum(0) if p == 1 else (ours >= thr).sum(0)
         n += len(s)
     return {p: v / n for p, v in res.items()}
+
+def field_thresholds(S, F, places=(15, 150), chunk=40):
+    """Per-sim score needed to reach each place vs field F: array (sims, len(places)). Precompute once,
+    then any lineup's P(place) = mean(sum(S[:, lineup]) >= thr) — cheap enough for local search."""
+    kmax = max(places); out = np.zeros((len(S), len(places)), np.float32)
+    for a in range(0, len(S), chunk):
+        s = S[a:a + chunk].astype(np.float32); fs = np.zeros((len(s), len(F)), np.float32)
+        for k in range(F.shape[1]): fs += s[:, F[:, k]]
+        top = -np.partition(-fs, kmax - 1, axis=1)[:, :kmax]; top.sort(1); top = top[:, ::-1]
+        out[a:a + len(s)] = top[:, [p - 1 for p in places]]
+    return out
