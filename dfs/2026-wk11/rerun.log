@@ -1,0 +1,29 @@
+
+Angle table (best P>=target per QB): Dak Prescott 2.33% · Cam Ward 2.19% · Caleb Williams 1.64% · Bo Nix 1.62% · Patrick Mahomes 1.41% · J.J. McCarthy 1.23% · Geno Smith 1.15% · Bryce Young 0.98% · Jalon Daniels 0.85% · Justin Herbert 0.76% · Trevor Lawrence 0.71% · Aaron Rodgers 0.66%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Carnell Tate, Ladd McConkey, Roman Wilson, Brock Bowers, Darren Waller, Tommy Tremble
+flat 155s
+cal 314s
+chalky 471s
+saved
+top single candidates (set A):
+  23.06 Bryce Young, Javonte Williams, Tony Pollard, Omarion Hampton, CeeDee Lamb, Tetairoa McMillan, Ja'Kobi Lane, Tommy Tremble, Steelers
+  22.78 Dak Prescott, Bhayshul Tuten, Jaylen Warren, CeeDee Lamb, George Pickens, Elic Ayomanor, Darren Waller, Tommy Tremble, Chiefs
+  22.17 Dak Prescott, Jahmyr Gibbs, Tony Pollard, CeeDee Lamb, DK Metcalf, Tez Johnson, Brevyn Spann-Ford, Tommy Tremble, Steelers
+  21.25 Bo Nix, Jahmyr Gibbs, Tony Pollard, Omarion Hampton, Malik Nabers, Courtland Sutton, Jakobi Meyers, Evan Engram, Steelers
+  21.17 Dak Prescott, Tony Pollard, Emmett Johnson, Ashton Jeanty, CeeDee Lamb, George Pickens, Jalen Nailor, Cade Otton, Steelers
+  19.78 Bo Nix, Javonte Williams, Tony Pollard, Ollie Gordon II, George Pickens, Jaylen Waddle, Emeka Egbuka, Evan Engram, Chiefs
+  18.28 Geno Smith, Chuba Hubbard, Tony Pollard, Omarion Hampton, Garrett Wilson, Carnell Tate, Adonai Mitchell, Colston Loveland, Steelers
+  17.28 Trevor Lawrence, Chuba Hubbard, D'Andre Swift, Cam Skattebo, Garrett Wilson, Adonai Mitchell, Jakobi Meyers, Brenton Strange, Steelers
+start current    optimized A 48.03 · holdout B 39.58 (start on B 35.69)
+start fin0+5     optimized A 50.03 · holdout B 42.83 (start on B 37.00)
+start fin1+3     optimized A 49.83 · holdout B 36.69 (start on B 33.72)
+start fin1+6     optimized A 51.94 · holdout B 39.22 (start on B 31.22)
+start fin1+7     optimized A 57.58 · holdout B 35.94 (start on B 26.14)
+start fin2+5     optimized A 49.56 · holdout B 32.33 (start on B 28.00)
+
+BEST by holdout: fin0+5  B-score 42.83 vs current pair on B 35.69
+L1 $50,000 holdout p15 1.86/1k p150 0.74%: Bryce Young, Javonte Williams, Tony Pollard, Omarion Hampton, CeeDee Lamb, Tetairoa McMillan, Ja'Kobi Lane, Tommy Tremble, Steelers
+L2 $50,000 holdout p15 0.97/1k p150 0.72%: Bo Nix, Javonte Williams, Tony Pollard, Cam Skattebo, George Pickens, Jaylen Waddle, DK Metcalf, Evan Engram, Chiefs
+current L1 holdout p15 1.22/1k p150 0.65%
+current L2 holdout p15 0.83/1k p150 0.86%
