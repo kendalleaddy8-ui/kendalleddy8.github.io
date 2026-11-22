@@ -39,6 +39,8 @@ def build(pool, inj, lines, ov, trenches=None):
             if proe >= 3 and r.Pos in ("WR", "TE"): p *= 1.03
             if proe <= -4.5: p *= 0.97 if r.Pos in ("WR", "TE") else 1.02 if r.Pos == "RB" else 1
         if r.Pos != "DST" and pd.notna(r.get("Pace", np.nan)): p *= float(r.Pace)   # coaching pace multiplier (lines.csv)
+        wx = {"QB": "WxPass", "WR": "WxPass", "TE": "WxPass", "RB": "WxRun", "DST": "WxDST"}.get(r.Pos)  # weather (lines.csv)
+        if wx and pd.notna(r.get(wx, np.nan)): p *= float(r[wx])
         if r.Pos != "DST" and pd.notna(r.get("OpenTotal", np.nan)):         # Vegas money signal
             mv = r.Total - r.OpenTotal; p *= 1.03 if mv >= 3 else 0.98 if mv <= -3 else 1
         p *= float(g(r.Name, "Mult", 1.0))
