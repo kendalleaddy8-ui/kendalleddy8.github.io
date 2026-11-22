@@ -1,0 +1,4 @@
+HOLDOUT  pair: top-15 2.83/1k  top-150 1.45%
+HOLDOUT  pair+3rd: top-15 4.11/1k  top-150 2.02%   (gain +39% on top-150)
+3rd alone: top-15 1.28/1k  top-150 0.57%  (random entry baseline: 0.01/1k, 0.10%)
+3rd lineup $50,000: Geno Smith, James Cook III, Emmett Johnson, Omarion Hampton, CeeDee Lamb, Garrett Wilson, Adonai Mitchell, Darren Waller, Buccaneers
