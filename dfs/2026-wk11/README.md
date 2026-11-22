@@ -22,3 +22,6 @@ Dak / Pollard / Hampton / Lamb / Pickens / G. Wilson / Waller / FLEX Tremble / S
 L1 Dak / Pollard / Hampton / Lamb / Pickens / G. Wilson / Waller / FLEX Tremble / Steelers (alone 2.38/1k, 1.33%)
 L2 Bo Nix / Pollard / Coleman / Lamb / Pickens / Ayomanor / Engram / FLEX Hampton / Chiefs (alone 1.86/1k, 1.14%)
 Shares 4 (Pollard, Hampton, Lamb, Pickens): concentration on DAL-TEN beats best <=3-shared pair (3.25/1k, 1.93%). Q-TE hedge: CAR TEs only in L1.
+
+## 4PM-ONLY (Sun 2:05 PM ET) — 30k-entry field x3 ownership scenarios, 15k/15k sims, 22 local optima
+Nix / Coleman / Tuten / G. Wilson / Waddle / Mitchell / Likely / FLEX Skattebo / Jets — holdout P(1st) 34.7/10k, top-3 6.89/1k, top-0.1% 3.06%

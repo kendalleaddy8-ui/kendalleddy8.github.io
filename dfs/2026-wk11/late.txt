@@ -1,3 +1,27 @@
-P(1st) 12.5/10k · top-3 3.11/1k · top-0.1% 1.70% · $49,800 · PASS: Malik Nabers, Garrett Wilson, Jonah Coleman, Cam Skattebo, Isaiah Likely, Omarion Hampton, Geno Smith, Adonai Mitchell, Broncos
-P(1st) 7.8/10k · top-3 2.72/1k · top-0.1% 1.55% · $49,100 · PASS: Bhayshul Tuten, Garrett Wilson, Breece Hall, Cam Skattebo, Jaylen Waddle, Bo Nix, Isaiah Likely, Courtland Sutton, Jets
-P(1st) 4.4/10k · top-3 2.03/1k · top-0.1% 1.39% · $49,900 · PASS: Bhayshul Tuten, Parker Washington, Garrett Wilson, Cam Skattebo, Jaylen Waddle, Bo Nix, Isaiah Likely, Courtland Sutton, Jets
+46 players · 432 candidates · target 180.0 · P(>=1 hits) 8.31%
+
+LINEUP 1: $49,800 · med 123.9 · p99 216.2 · P>=180 5.27% · own~47%
+   WR  Malik Nabers           NYG vs JAC $7,100 proj  16.2 4:25 
+   RB  Bhayshul Tuten         JAC vs NYG $6,800 proj  16.6 4:25 
+   WR  Garrett Wilson         NYJ vs LAC $6,400 proj  15.4 4:05 
+   RB  Cam Skattebo           NYG vs JAC $5,800 proj  15.9 4:25 
+   WR  Jaylen Waddle          DEN vs LV  $5,700 proj  13.0 4:25 
+   QB  Bo Nix                 DEN vs LV  $5,600 proj  23.6 4:25 
+   TE  Isaiah Likely          NYG vs JAC $5,600 proj  12.9 4:25 
+   WR  Pat Bryant             DEN vs LV  $4,200 proj   8.1 4:25 
+   DST Jets                   NYJ vs LAC $2,600 proj   7.9 4:05 
+
+LINEUP 2: $50,000 · med 122.0 · p99 207.1 · P>=180 4.29% · own~71%
+   WR  Parker Washington      JAC vs NYG $6,700 proj  14.7 4:25 
+   QB  Trevor Lawrence        JAC vs NYG $6,600 proj  20.1 4:25 
+   RB  Jonah Coleman          DEN vs LV  $6,300 proj  18.8 4:25 
+   RB  Cam Skattebo           NYG vs JAC $5,800 proj  15.9 4:25 
+   WR  Jaylen Waddle          DEN vs LV  $5,700 proj  13.0 4:25 
+   TE  Isaiah Likely          NYG vs JAC $5,600 proj  12.9 4:25 
+   RB  Omarion Hampton        LAC vs NYJ $5,200 proj  14.0 4:05 
+   WR  Jakobi Meyers          JAC vs NYG $4,500 proj  10.6 4:25 
+   DST Broncos                DEN vs LV  $3,600 proj   7.4 4:25 
+
+Angle table (best P>=target per QB): Bo Nix 5.27% · Trevor Lawrence 4.97% · Geno Smith 4.55% · J.J. McCarthy 4.23% · Fernando Mendoza 3.68% · Justin Herbert 2.54%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Ladd McConkey, Brock Bowers
