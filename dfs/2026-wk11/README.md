@@ -17,3 +17,8 @@ Pivots: Tremble OUT -> Cade Otton + (Pollard -> Emmett Johnson). Waller OUT -> C
 ## FINAL v3 (Sun 9:50 AM ET) — Sunday news + 24k/24k sims, 67 local optima from 94 starts
 Dak / Pollard / Hampton / Lamb / Pickens / G. Wilson / Waller / FLEX Tremble / Steelers — holdout top-15 2.38/1k, top-150 1.33%
 (old pick re-scored with Sunday news: 1.29/1k, 0.87%). Pivots: Waller OUT -> Mason Taylor; Tremble OUT -> Dawson Knox; both -> Knox + Mark Andrews.
+
+## FINAL PAIR (Sun 11:45 AM ET) — pair search on 24k/24k sims, holdout union top-15 4.21/1k, top-150 2.38%
+L1 Dak / Pollard / Hampton / Lamb / Pickens / G. Wilson / Waller / FLEX Tremble / Steelers (alone 2.38/1k, 1.33%)
+L2 Bo Nix / Pollard / Coleman / Lamb / Pickens / Ayomanor / Engram / FLEX Hampton / Chiefs (alone 1.86/1k, 1.14%)
+Shares 4 (Pollard, Hampton, Lamb, Pickens): concentration on DAL-TEN beats best <=3-shared pair (3.25/1k, 1.93%). Q-TE hedge: CAR TEs only in L1.
