@@ -14,7 +14,7 @@ explicit.update({"C. Allen (KC)": 0.5, "Jalon Daniels": 0.0})
 # candidate set: stage-1 top 40 by p15 and by p150 (from the first field run) + Kendall's
 cand = pd.concat([allR.sort_values("p15", ascending=False).head(40), allR.sort_values("p150", ascending=False).head(40), allR[allR.tag != ""]]).drop_duplicates("name")
 L = list(cand.lu); print(f"{len(L)} finalists")
-S = simulate(pool, 20000, seed=2026)
+S = simulate(pool, 10000, seed=2026)
 res = []
 for k, ts in [("flat", 0.7), ("calibrated", 1.0), ("chalky", 1.35)]:
     P2 = estimate_own(pool, explicit, temp_scale=ts)
