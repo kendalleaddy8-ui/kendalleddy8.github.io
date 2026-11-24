@@ -1,21 +1,20 @@
 Name,Pos,Team,Opponent,Salary,Proj,Own,CptOwn,FieldOnly,Note
-Joe Burrow,QB,CIN,WAS,11000,24.8,55,22,0,props 302.5 yds / 2.5 TD (over -129); 20 TD since Wk5; DK captain pick
-Ja'Marr Chase,WR,CIN,WAS,11600,24.0,60,24,0,props 100.5 yds / 8.5 rec; 14 tgt/g last 3; ATD -145
-Tee Higgins,WR,CIN,WAS,10600,16.8,40,8,0,props 74.5 yds / 5.5 rec; ATD +105
-Jayden Daniels,QB,WAS,CIN,10000,20.5,50,15,0,props 222.5 pass / 41.5 rush / 1.5 TD
-Chase Brown,RB,CIN,WAS,9400,19.0,40,10,0,props 43.5 rush + 27.5 rec; ATD -135; WAS last in EPA/rush
-Stefon Diggs,WR,WAS,CIN,8400,11.5,25,3,0,props 51.5 yds / 4.5 rec; DK fade (CIN 1 WR >80 yds all year)
-Rachaad White,RB,WAS,CIN,6200,7.0,12,1,0,committee
-Jacory Croskey-Merritt,RB,WAS,CIN,5800,11.0,25,3,0,"off IR, 3 full practices, expected starter; CIN 29th EPA/rush"
+Joe Burrow,QB,CIN,WAS,11000,24.8,55,22.0,0,props 302.5 yds / 2.5 TD (over -129); 20 TD since Wk5; DK captain pick
+Ja'Marr Chase,WR,CIN,WAS,11600,24.0,60,24.0,0,props 100.5 yds / 8.5 rec; 14 tgt/g last 3; ATD -145
+Tee Higgins,WR,CIN,WAS,10600,16.8,40,8.0,0,props 74.5 yds / 5.5 rec; ATD +105
+Jayden Daniels,QB,WAS,CIN,10000,20.5,50,15.0,0,props 222.5 pass / 41.5 rush / 1.5 TD
+Chase Brown,RB,CIN,WAS,9400,19.0,40,10.0,0,props 43.5 rush + 27.5 rec; ATD -135; WAS last in EPA/rush
+Stefon Diggs,WR,WAS,CIN,8400,11.5,25,3.0,0,props 51.5 yds / 4.5 rec; DK fade (CIN 1 WR >80 yds all year)
+Rachaad White,RB,WAS,CIN,6200,7.0,12,1.0,0,committee
+Jacory Croskey-Merritt,RB,WAS,CIN,5800,11.0,25,3.0,0,"off IR, 3 full practices, expected starter; CIN 29th EPA/rush"
 Austin Ekeler,RB,WAS,CIN,5200,5.0,8,0.5,0,committee
-Samaje Perine,RB,CIN,WAS,4400,6.0,18,1,0,11 RZ rush att since Wk5 (vulture)
+Samaje Perine,RB,CIN,WAS,4400,6.0,18,1.0,0,11 RZ rush att since Wk5 (vulture)
 J. Endries,TE,CIN,WAS,600,1.5,10,0.3,0,min punt (Kendall screen)
 D. Neal,RB,WAS,CIN,200,0.5,6,0.2,0,min punt (Kendall screen)
-Antonio Williams (est),WR,WAS,CIN,5000,8.4,25,2,1,FIELD-ONLY est salary; props 36.5 yds / 3.5 rec
-Chig Okonkwo (est),TE,WAS,CIN,5600,10.3,22,2,1,FIELD-ONLY est; props 42.5 yds / 4.5 rec
-Mike Gesicki (est),TE,CIN,WAS,4000,6.7,15,1,1,FIELD-ONLY est; props 26.5 / 2.5
-CIN K (est),K,CIN,WAS,4600,8.5,25,1,1,FIELD-ONLY est
-WAS K (est),K,WAS,CIN,4200,7.0,18,0.5,1,FIELD-ONLY est
-CIN DST (est),DST,CIN,WAS,4000,6.5,20,0.5,1,FIELD-ONLY est
-WAS DST (est),DST,WAS,CIN,3400,4.5,12,0.3,1,FIELD-ONLY est
-Treylon Burks (est),WR,WAS,CIN,3000,5.5,8,0.3,1,FIELD-ONLY est
+Mike Gesicki (est),TE,CIN,WAS,4000,6.7,15,1.0,1,FIELD-ONLY est; props 26.5 / 2.5
+Antonio Williams,WR,WAS,CIN,6800,8.6,20,1.5,0,"DK $6,800 (RotoWire/lineups.com); props 36.5 yds / 3.5 rec; McLaurin out"
+Chig Okonkwo,TE,WAS,CIN,4000,10.0,30,2.0,0,"DK $4,000 (2 sources); props 42.5 yds / 4.5 rec; Daniels target near goal line"
+Evan McPherson,K,CIN,WAS,5400,9.0,25,1.0,0,"DK $5,400; CIN implied ~30"
+Drew Stevens,K,WAS,CIN,5000,7.5,18,0.5,0,"DK $5,000"
+Bengals,DST,CIN,WAS,4600,6.0,18,0.5,0,"DK $4,600 (DK Network); WAS blitz-heavy D; Daniels mobile"
+Commanders,DST,WAS,CIN,4000,4.0,10,0.3,0,"DK $4,000 (DK Network); Burrow 1 INT-ish"
