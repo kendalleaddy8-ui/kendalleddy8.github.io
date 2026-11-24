@@ -4,7 +4,7 @@ lines.csv:     Team,Opponent,Spread,Total,OpenTotal,Kick,PROE      (one row per 
 overrides.csv: Name,Base,Mult,Own,Status,Tag,Note   (any blank; Tag in {rushQB, alphaWR, leadRB, exclude})
 """
 import argparse, numpy as np, pandas as pd
-EXCLUDE_ALWAYS = {"Omar Cooper Jr."}
+EXCLUDE_ALWAYS = set()   # (Omar Cooper Jr. exclusion was one game only — removed Wk11 MNF)
 VOL = {"QB": 1.45, "RB": 1.5, "WR": 1.65, "TE": 1.6, "DST": 2.0}
 
 def build(pool, inj, lines, ov, trenches=None):

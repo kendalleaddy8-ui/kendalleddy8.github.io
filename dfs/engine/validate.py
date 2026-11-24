@@ -1,6 +1,6 @@
 """Hard-rule validator (handbook §15). validate(lineups, pool) -> list of (lineup#, problem). Empty = pass."""
 from collections import Counter
-EXCLUDE_ALWAYS = {"Omar Cooper Jr."}
+EXCLUDE_ALWAYS = set()   # (Omar Cooper Jr. exclusion was one game only — removed Wk11 MNF)
 def slots_ok(pos):
     c = Counter(pos)
     return (c["QB"] == 1 and c["DST"] == 1 and 2 <= c["RB"] <= 3 and 3 <= c["WR"] <= 4 and 1 <= c["TE"] <= 2

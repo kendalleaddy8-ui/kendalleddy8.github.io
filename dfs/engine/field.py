@@ -5,7 +5,7 @@ import numpy as np, pandas as pd
 
 def sample_field(P, n_entries, seed=1, min_sal=46000, batch=200000):
     rng = np.random.default_rng(seed); N = len(P)
-    sal = P.Salary.values; team = P.Team.values; pos = P.Pos.values; opp = P.Opponent.values
+    sal = P.Salary.to_numpy(float); team = P.Team.to_numpy(object); pos = P.Pos.to_numpy(object); opp = P.Opponent.to_numpy(object)
     cpt_p = P.CptOwn.values / P.CptOwn.sum(); flex_w = np.maximum(P.Own.values - P.CptOwn.values, 0.1)
     out = []
     while sum(len(o) for o in out) < n_entries:
