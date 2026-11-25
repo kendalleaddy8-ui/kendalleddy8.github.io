@@ -20,8 +20,8 @@ def dst_proj(opp_imp, team):                     # wk11 fit: ~6.5 at 20 implied,
 
 # manual priors for players with no ESPN history on these teams / role changes (sources in Note)
 MANUAL = {
-    "Kenneth Walker III": 20.0,   # wk10 27.9 at 25.5 implied; groin, limited Tue; FP 19.9 -> haircut for EJ share
-    "Emmett Johnson": 9.0,        # 23-105-1 with Walker out wk11; if Walker plays he is the change-up (wk9-10: 6.5-7.6)
+    "Kenneth Walker III": 19.0,   # wk10 27.9 at 25.5 implied; groin, limited Tue; FP 19.9 -> haircut for EJ share
+    "Emmett Johnson": 9.5,        # 23-105-1 with Walker out wk11; if Walker plays he is the change-up (wk9-10: 6.5-7.6)
     "Patrick Mahomes II": 18.5,   # wk10 19.1 @25.5, wk11 23.5 @28.5 -> 22.25 implied; FP < 18.05 (not top 10)
     "Dontayvion Wicks": 4.5,      # salary -$1,300, unranked by FP ECR -> role collapse
     "Darius Cooper": 6.5, "Will Shipley": 6.0, "Tank Bigsby": 3.5, "KaVontae Turpin": 4.5,
