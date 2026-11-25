@@ -42,3 +42,19 @@ print("portfolio | Milton lineups | base world (final set C) | Milton-boom world
 for k, nm, b, s, Ls in sorted(rows, key=lambda r: -(r[2] + r[3])):
     print(f"  start {k:2d} | {nm} | {b*1e3:6.1f} | {s*1e3:6.1f} | " + " // ".join(n for L in Ls for n in names[L] if pool.Pos[list(L)].eq("QB").any() and n in set(pool.Name[pool.Pos == "QB"])))
 pd.to_pickle(rows, os.path.join(W, f"milton_{TAG}.pkl"))
+
+# ---- 2-Milton test: replace each lineup of the best portfolio with the best Milton candidate (distinct-QB rule relaxed) ----
+from validate import validate
+C = [list(c) for c in pd.read_pickle(os.path.join(W, "cands_run.pkl"))[1] if mi in c]
+best = R["res"][0][2]; b0 = (obj(SCS, TC, best), obj(SM, TM, best))
+print(f"\nbest portfolio: base {b0[0]*1e3:.1f} · boom {b0[1]*1e3:.1f}")
+for k in range(3):
+    if mi in best[k]: continue
+    keep = [best[j] for j in range(3) if j != k]; sc = []
+    for c in C:
+        Ls = keep + [c]; e = [x for x in validate([tuple(names[L]) for L in Ls], pool, max_shared=4) if "QB" not in str(x)]
+        if e: continue
+        sc.append((obj(SCS, TC, Ls), obj(SM, TM, Ls), c))
+    sc.sort(key=lambda r: -(r[0] + r[1]))
+    for bb, bm, c in sc[:2]:
+        print(f"  replace L{k+1} ({[n for n in names[best[k]] if pool.Pos[list(pool.Name).index(n)]=='QB'][0]}) with 2nd Milton: base {bb*1e3:.1f} · boom {bm*1e3:.1f} :: " + ", ".join(names[c]))

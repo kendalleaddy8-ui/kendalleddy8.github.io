@@ -6,3 +6,14 @@ Field: 150k entries x 3 samples, top-15/top-150 thresholds (`tg_prep.py`); 3-lin
 
 Portfolio (holdout): P(any top-150) ~1.3% · P(any top-15) ~0.18% (random 3 entries ~0.30% / 0.03%).
 Re-run Wed 6:30 PM ET with the ESPN table, final injury designations (Walker, Ferguson, Kincaid), and the Buffalo weather.
+
+## v3 (Tue night, after Kendall: "do better, x100, outside the box")
+Upgrades: DvP layer (FantasyPros points-allowed: DAL D #4 QB / #1 RB / #3 WR allowed, BUF stingy vs QB, KC fewest to WRs,
+DET most TE yds, DET D without Hutchinson/Campbell), Walker-in and Walker-out worlds, ownership noise (3 fields, sigma .30), projection noise
+on holdout sets B and C (sigma .12), 50k sims x 3 sets, 1,142 candidates incl. forced hunch builds, iterated local search (10 starts x 4 kicks),
+robust pick by mean(B,C) (`robust_pick.py`), Milton-boom stress test (`milton_stress.py`).
+
+Final (Walker plays) = `lineups_v3.csv`: Dak/PHI-DAL game stack · Milton+Smith+Goedert · Goff+ARSB+LaPorta. #1 on mean(B,C) 45.6 AND #1 in the Milton-boom world.
+- Kendall's Gibbs+Walker portfolio: 43.2 (close 2nd, ~5% worse). Gibbs+Walker+E.Johnson: 30.6. Gibbs+E.Johnson: 25.5.
+- 2nd Milton lineup instead of Goff: A 35.8 vs 35.1, B 29.9 vs 42.1 -> rejected (C-only win was selection bias).
+- Walker OUT before lock -> use wout portfolio "search1" (most robust: mean 38.0, worst 34.7). Walker game-time -> keep v3, late-swap Walker -> Emmett Johnson (KC 8:20).
