@@ -17,3 +17,9 @@ Final (Walker plays) = `lineups_v3.csv`: Dak/PHI-DAL game stack · Milton+Smith+
 - Kendall's Gibbs+Walker portfolio: 43.2 (close 2nd, ~5% worse). Gibbs+Walker+E.Johnson: 30.6. Gibbs+E.Johnson: 25.5.
 - 2nd Milton lineup instead of Goff: A 35.8 vs 35.1, B 29.9 vs 42.1 -> rejected (C-only win was selection bias).
 - Walker OUT before lock -> use wout portfolio "search1" (most robust: mean 38.0, worst 34.7). Walker game-time -> keep v3, late-swap Walker -> Emmett Johnson (KC 8:20).
+
+## v4 FINAL (engine v4: script/backfield/vulture sim, dup-aware top-3/15/150 objective, rain+wind BUF, 6-world tie-breaker)
+Walker plays -> `lineups_finalist1.csv` (6-world mean 102.1, Milton-boom 111.4 = best of all; includes Gibbs+Walker and Milton+Lamb).
+Walker OUT before lock -> `wout/lineups_PICK.csv` (77.5, most robust). Walker game-time -> keep finalist1; FLEX Walker -> Emmett Johnson at 8:05.
+Cash odds (synthetic field, optimistic vs a real sharp field): P(>=1 of 3 cashes) 73% (finalist1) / 74% (wout).
+Search pick (v4) placed 5th of 10 on the 6-world regrade: lesson 26 again, regrade.py is now mandatory.

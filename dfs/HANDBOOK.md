@@ -296,6 +296,9 @@ python3 run_week.py $W --n 3 --target 200 --cands 900 --shared 4 --qbs "<every Q
 python3 $W/gen_hunch.py $W              # forced builds: Kendall's hunches + DvP angles (copy from 2026-wk12-tg)
 python3 fieldprep.py $W thr.npz         # 3 sim sets x 3 noisy-ownership fields, places 3/15/150, fields saved
 python3 portfolio.py $W thr.npz --n 3 --tag v4 --starts 12 --hunch "A+B" --force "Name"
+python3 regrade.py $W thr.npz v4        # MANDATORY tie-breaker: 4 new projection-noise worlds; final = best 6-world mean
+python3 stress.py $W thr.npz v4 --boost "Name:1.15"   # Kendall's 'X has a day' world
+python3 cashline.py $W thr.npz lineups_<pick>.csv      # P(cash) for the self-evaluation
 ```
 Run every injury fork as its own folder (e.g. `wout/` = Walker OUT) and give Kendall both portfolios plus the swap rule.
 
