@@ -1,0 +1,73 @@
+[v3] 43 players, 1142 candidates
+top singles (A: top-15 per 1k / top-150 %):
+   1.07  0.73%  CeeDee Lamb, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Colston Loveland, Dallas Goedert, Bills
+   1.10  0.50%  Jahmyr Gibbs, CeeDee Lamb, D'Andre Swift, Joe Milton III, Luther Burden III, Rome Odunze, Dallas Goedert, Darius Cooper, Bills
+   0.86  0.68%  CeeDee Lamb, Javonte Williams, D'Andre Swift, Joe Milton III, DeVonta Smith, George Pickens, Rome Odunze, Dallas Goedert, Bills
+   0.92  0.58%  Jahmyr Gibbs, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Sam LaPorta, Darius Cooper, Bills
+   0.92  0.54%  Jahmyr Gibbs, Amon-Ra St. Brown, Javonte Williams, Joe Milton III, DeVonta Smith, Rome Odunze, Sam LaPorta, Darius Cooper, Bills
+   0.87  0.57%  CeeDee Lamb, James Cook III, D'Andre Swift, Joe Milton III, DeVonta Smith, George Pickens, Dallas Goedert, Ryan Flournoy, Bears
+   0.88  0.55%  Jahmyr Gibbs, CeeDee Lamb, D'Andre Swift, Joe Milton III, DeVonta Smith, Rome Odunze, Sam LaPorta, Dallas Goedert, Chiefs
+   0.82  0.59%  CeeDee Lamb, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Rome Odunze, Dallas Goedert, Bills
+start 0: A 40.5 -> 40.5 · holdout B 40.6
+start 1: A 32.2 -> 34.6 · holdout B 27.7
+start 2: A 28.0 -> 30.6 · holdout B 26.1
+start 3: A 29.9 -> 33.7 · holdout B 16.8
+start 4: A 30.2 -> 31.8 · holdout B 29.7
+start 5: A 31.9 -> 32.3 · holdout B 27.3
+start 6: A 32.7 -> 35.0 · holdout B 42.1
+start 7: A 31.1 -> 33.1 · holdout B 26.3
+start 8: A 30.1 -> 37.4 · holdout B 29.0
+start 9: A 28.6 -> 28.8 · holdout B 26.9
+  top by B 42.1 -> final C 49.1
+  top by B 40.6 -> final C 36.0
+  top by B 29.7 -> final C 39.1
+  top by B 29.0 -> final C 45.7
+  top by B 27.7 -> final C 34.5
+
+HUNCH Jahmyr Gibbs + Kenneth Walker III: best single holdout top-15 0.39/1k · top-150 0.25% :: Jahmyr Gibbs, Kenneth Walker III, Javonte Williams, Joe Milton III, DeVonta Smith, Sam LaPorta, Ryan Flournoy, Darius Cooper, Lions
+   portfolio WITH this lineup: final-set score 43.7 vs best 49.1
+
+HUNCH Jahmyr Gibbs + Kenneth Walker III + Emmett Johnson: best single holdout top-15 0.09/1k · top-150 0.04% :: Jahmyr Gibbs, Kenneth Walker III, Joe Milton III, Rashee Rice, Emmett Johnson, Dallas Goedert, Ryan Flournoy, Keon Coleman, Lions
+   portfolio WITH this lineup: final-set score 27.3 vs best 49.1
+
+HUNCH Jahmyr Gibbs + Emmett Johnson: best single holdout top-15 0.02/1k · top-150 0.02% :: Jahmyr Gibbs, Caleb Williams, Amon-Ra St. Brown, Colston Loveland, Rome Odunze, Sam LaPorta, Emmett Johnson, Xavier Worthy, Eagles
+   portfolio WITH this lineup: final-set score 34.8 vs best 49.1
+
+BEST portfolio holdout B 42.1 (A 35.0) · FINAL set C 49.1
+  f1: P(any top-15) 0.21% · P(any top-150) 1.44%
+  f2: P(any top-15) 0.34% · P(any top-150) 1.87%
+  f3: P(any top-15) 0.38% · P(any top-150) 2.05%
+
+L1 $49,900 proj 126.4 own 204% · top-15 1.49/1k · top-150 0.75%
+   RB  Jahmyr Gibbs           DET $9,500  25.2 own 48.0% 1:00
+   RB  James Cook III         BUF $7,400  19.6 own 30.0% 8:20
+   QB  Dak Prescott           DAL $6,400  21.6 own 22.0% 4:30
+   WR  George Pickens         DAL $6,300  16.6 own 30.0% 4:30
+   WR  DeVonta Smith          PHI $5,900  15.2 own 25.0% 4:30
+   WR  Ryan Flournoy          DAL $4,300   9.7 own 18.0% 4:30
+   TE  Dallas Goedert         PHI $4,100   8.7 own 14.0% 4:30
+   WR  Darius Cooper          PHI $3,600   6.3 own  5.0% 4:30
+   DST Lions                  DET $2,400   3.4 own 12.0% 1:00
+
+L2 $49,400 proj 131.6 own 224% · top-15 1.19/1k · top-150 0.66%
+   RB  Kenneth Walker III     KC $8,700  19.7 own 28.0% 8:20
+   RB  Javonte Williams       DAL $6,800  19.8 own 42.0% 4:30
+   RB  D'Andre Swift          CHI $6,200  18.3 own 35.0% 1:00
+   WR  Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   WR  DeVonta Smith          PHI $5,900  15.2 own 25.0% 4:30
+   QB  Joe Milton III         PHI $4,600  17.3 own 14.0% 4:30
+   WR  Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE  Dallas Goedert         PHI $4,100   8.7 own 14.0% 4:30
+   DST Chiefs                 KC $2,600   4.3 own 14.0% 8:20
+
+L3 $49,900 proj 133.8 own 247% · top-15 0.44/1k · top-150 0.38%
+   WR  Amon-Ra St. Brown      DET $7,700  19.8 own 38.0% 1:00
+   RB  Javonte Williams       DAL $6,800  19.8 own 42.0% 4:30
+   RB  D'Andre Swift          CHI $6,200  18.3 own 35.0% 1:00
+   WR  Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   RB  Saquon Barkley         PHI $5,800  13.4 own 20.0% 4:30
+   QB  Jared Goff             DET $5,600  18.0 own 16.0% 1:00
+   WR  Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE  Sam LaPorta            DET $4,200  10.5 own 26.0% 1:00
+   DST Bills                  BUF $3,100   5.8 own 18.0% 8:20
+VALIDATOR: PASS

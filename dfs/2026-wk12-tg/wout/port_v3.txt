@@ -1,0 +1,67 @@
+[v3] 42 players, 1105 candidates
+top singles (A: top-15 per 1k / top-150 %):
+   1.29  0.85%  CeeDee Lamb, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Colston Loveland, Dallas Goedert, Bills
+   1.17  0.65%  CeeDee Lamb, Dak Prescott, Amon-Ra St. Brown, D'Andre Swift, Saquon Barkley, Rome Odunze, Sam LaPorta, Ryan Flournoy, Chiefs
+   1.13  0.68%  Jahmyr Gibbs, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Sam LaPorta, Darius Cooper, Bills
+   1.08  0.65%  Jahmyr Gibbs, CeeDee Lamb, D'Andre Swift, Joe Milton III, DeVonta Smith, Rome Odunze, Dallas Goedert, Ryan Flournoy, Chiefs
+   1.09  0.63%  Jahmyr Gibbs, James Cook III, D'Andre Swift, Joe Milton III, DeVonta Smith, Rome Odunze, Dallas Goedert, Ryan Flournoy, Bills
+   1.07  0.63%  James Cook III, Javonte Williams, D'Andre Swift, Joe Milton III, Luther Burden III, DeVonta Smith, Jameson Williams, Dallas Goedert, Bills
+   1.05  0.64%  Jahmyr Gibbs, Amon-Ra St. Brown, Javonte Williams, Joe Milton III, DeVonta Smith, Rome Odunze, Sam LaPorta, Dallas Goedert, Chiefs
+   1.07  0.62%  Jahmyr Gibbs, Amon-Ra St. Brown, Javonte Williams, Joe Milton III, DeVonta Smith, Rome Odunze, Sam LaPorta, Darius Cooper, Bills
+start 0: A 51.8 -> 51.8 · holdout B 41.4
+start 1: A 32.4 -> 33.1 · holdout B 40.6
+start 2: A 31.6 -> 34.4 · holdout B 24.4
+start 3: A 37.2 -> 37.6 · holdout B 27.7
+start 4: A 32.9 -> 36.2 · holdout B 45.9
+start 5: A 34.2 -> 38.6 · holdout B 28.6
+start 6: A 35.5 -> 42.4 · holdout B 38.9
+start 7: A 36.6 -> 37.7 · holdout B 34.8
+start 8: A 31.6 -> 32.4 · holdout B 37.4
+start 9: A 32.1 -> 35.8 · holdout B 29.8
+  top by B 45.9 -> final C 28.4
+  top by B 41.4 -> final C 34.7
+  top by B 40.6 -> final C 25.9
+  top by B 38.9 -> final C 25.9
+  top by B 37.4 -> final C 13.2
+
+HUNCH Jahmyr Gibbs + Emmett Johnson: best single holdout top-15 0.37/1k · top-150 0.22% :: Jahmyr Gibbs, Javonte Williams, Joe Milton III, DeVonta Smith, Colston Loveland, Rome Odunze, Emmett Johnson, Makai Lemon, Chiefs
+   portfolio WITH this lineup: final-set score 29.2 vs best 28.4
+
+BEST portfolio holdout B 45.9 (A 36.2) · FINAL set C 28.4
+  f1: P(any top-15) 0.16% · P(any top-150) 1.12%
+  f2: P(any top-15) 0.19% · P(any top-150) 1.11%
+  f3: P(any top-15) 0.18% · P(any top-150) 0.98%
+
+L1 $49,700 proj 133.2 own 238% · top-15 1.08/1k · top-150 0.61%
+   RB  James Cook III         BUF $7,400  19.6 own 26.0% 8:20
+   RB  Javonte Williams       DAL $6,800  19.8 own 38.0% 4:30
+   RB  D'Andre Swift          CHI $6,200  18.3 own 30.0% 1:00
+   WR  Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   WR  Jameson Williams       DET $5,700  12.1 own 20.0% 1:00
+   QB  Jared Goff             DET $5,600  18.0 own 16.0% 1:00
+   WR  Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE  Sam LaPorta            DET $4,200  10.5 own 26.0% 1:00
+   DST Cowboys                DAL $3,300   6.7 own 30.0% 4:30
+
+L2 $49,800 proj 131.2 own 234% · top-15 0.41/1k · top-150 0.25%
+   WR  Amon-Ra St. Brown      DET $7,700  19.8 own 38.0% 1:00
+   RB  Emmett Johnson         KC $7,200  18.2 own 50.0% 8:20
+   RB  D'Andre Swift          CHI $6,200  18.3 own 30.0% 1:00
+   WR  DeVonta Smith          PHI $5,900  15.2 own 25.0% 4:30
+   QB  Caleb Williams         CHI $5,800  21.2 own 21.0% 1:00
+   RB  Saquon Barkley         PHI $5,800  13.4 own 20.0% 4:30
+   WR  Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE  Dallas Goedert         PHI $4,100   8.7 own 14.0% 4:30
+   DST Chiefs                 KC $2,600   4.3 own 14.0% 8:20
+
+L3 $49,800 proj 132.8 own 229% · top-15 0.28/1k · top-150 0.21%
+   WR  Amon-Ra St. Brown      DET $7,700  19.8 own 38.0% 1:00
+   RB  James Cook III         BUF $7,400  19.6 own 26.0% 8:20
+   RB  Javonte Williams       DAL $6,800  19.8 own 38.0% 4:30
+   WR  Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   WR  DeVonta Smith          PHI $5,900  15.2 own 25.0% 4:30
+   QB  Joe Milton III         PHI $4,600  17.3 own 14.0% 4:30
+   TE  Sam LaPorta            DET $4,200  10.5 own 26.0% 1:00
+   TE  Dallas Goedert         PHI $4,100   8.7 own 14.0% 4:30
+   DST Bills                  BUF $3,100   5.8 own 18.0% 8:20
+VALIDATOR: PASS
