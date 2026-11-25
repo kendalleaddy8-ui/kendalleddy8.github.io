@@ -23,3 +23,11 @@ Walker plays -> `lineups_finalist1.csv` (6-world mean 102.1, Milton-boom 111.4 =
 Walker OUT before lock -> `wout/lineups_PICK.csv` (77.5, most robust). Walker game-time -> keep finalist1; FLEX Walker -> Emmett Johnson at 8:05.
 Cash odds (synthetic field, optimistic vs a real sharp field): P(>=1 of 3 cashes) 73% (finalist1) / 74% (wout).
 Search pick (v4) placed 5th of 10 on the 6-world regrade: lesson 26 again, regrade.py is now mandatory.
+
+## WEDNESDAY FINAL (6:30 PM run) — `wed/lineups_FINAL.csv`
+News: Walker OUT (E. Johnson leads), KC LT Jaylon Moore OUT, PHI CB Jonathan Jones OUT, Kincaid/Benford Q, Ferguson DNP all week.
+Lines: CHI -1.5 (from -2.5), KC-BUF 46.5 (from 47.5; opened 49.5, rain). Projections: Mike Clay Week 12 Fantasy Playbook (ESPN),
+team totals halfway to Vegas; DvP multipliers removed (Clay prices matchups), weather at half strength.
+Pick = regrade finalist2: 6-world mean 69.6 (best), worst 48.9 (best), Milton-boom 85.4 (best). Search pick was 7th (58.1).
+L1 Goff/CHI-DET game stack + Lamb · L2 Milton + Gibbs + E. Johnson/Kelce/Moore (rain game) · L3 Caleb + Gibbs + Lamb.
+P(>=1 cashes) 75% synthetic field (real field sharper: expect ~60-70%). Validator PASS, salaries match.

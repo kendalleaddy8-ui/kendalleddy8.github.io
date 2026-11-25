@@ -1,0 +1,55 @@
+[v4] 42 players · 1161 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 85.8 · B 59.8 · C 42.2 · mean(B,C) 51.0
+start 1: A 58.3 · B 43.7 · C 29.0 · mean(B,C) 36.3
+start 2: A 79.9 · B 42.7 · C 82.6 · mean(B,C) 62.6
+start 3: A 85.9 · B 50.1 · C 48.8 · mean(B,C) 49.4
+start 4: A 75.5 · B 87.5 · C 39.9 · mean(B,C) 63.7
+start 5: A 59.3 · B 43.6 · C 38.9 · mean(B,C) 41.3
+start 6: A 83.4 · B 41.2 · C 62.6 · mean(B,C) 51.9
+start 7: A 83.9 · B 44.7 · C 47.8 · mean(B,C) 46.2
+start 8: A 67.9 · B 37.8 · C 30.7 · mean(B,C) 34.2
+start 9: A 88.3 · B 63.9 · C 59.3 · mean(B,C) 61.6
+start 10: A 87.7 · B 49.2 · C 35.9 · mean(B,C) 42.5
+start 11: A 68.9 · B 41.5 · C 52.7 · mean(B,C) 47.1
+
+PICK (best mean B,C): A 75.5 B 87.5 C 39.9
+TEST Jahmyr Gibbs+Emmett Johnson: A 76.9 B 96.1 C 32.5 · mean(B,C) 64.3 vs pick 63.7
+TEST CeeDee Lamb: A 69.6 B 97.0 C 36.0 · mean(B,C) 66.5 vs pick 63.7
+TEST Joe Milton III+CeeDee Lamb: A 68.5 B 89.5 C 37.0 · mean(B,C) 63.3 vs pick 63.7
+TEST Josh Allen: A 76.6 B 87.4 C 47.1 · mean(B,C) 67.2 vs pick 63.7
+TEST Colston Loveland: A 70.4 B 77.5 C 36.5 · mean(B,C) 57.0 vs pick 63.7
+
+L1 $49,800 proj 130.4 own 210% · top-3 2.07/10k · top-15 0.63/1k · top-150 0.36% · field dups [0, 0, 0]
+   QB   Caleb Williams         CHI $5,800  18.9 own 15.0% 1:00
+   RB   Jahmyr Gibbs           DET $9,500  26.9 own 44.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  16.4 own 28.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  14.3 own 26.0% 4:30
+   WR   Darius Cooper          PHI $3,600   7.9 own  5.0% 4:30
+   TE   Travis Kelce           KC $4,900  10.1 own 22.0% 8:20
+   FLEX Javonte Williams       DAL $6,800  18.4 own 38.0% 4:30
+   DST  Chiefs                 KC $2,600   5.3 own 14.0% 8:20
+
+L2 $49,900 proj 128.7 own 221% · top-3 1.87/10k · top-15 0.47/1k · top-150 0.41% · field dups [0, 0, 1]
+   QB   Jared Goff             DET $5,600  17.9 own 16.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  16.4 own 28.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  13.8 own 20.0% 4:30
+   WR   Amon-Ra St. Brown      DET $7,700  18.8 own 36.0% 1:00
+   WR   Luther Burden III      CHI $6,000  15.1 own 26.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   TE   Sam LaPorta            DET $4,200  10.9 own 25.0% 1:00
+   FLEX Javonte Williams       DAL $6,800  18.4 own 38.0% 4:30
+   DST  Bills                  BUF $3,100   5.1 own 14.0% 8:20
+
+L3 $49,900 proj 127.0 own 230% · top-3 0.67/10k · top-15 0.27/1k · top-150 0.22% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  16.4 own 12.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  26.9 own 44.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  13.8 own 20.0% 4:30
+   WR   CeeDee Lamb            DAL $8,300  21.3 own 42.0% 4:30
+   WR   Ryan Flournoy          DAL $4,300   8.1 own 18.0% 4:30
+   WR   Darius Cooper          PHI $3,600   7.9 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  10.9 own 25.0% 1:00
+   FLEX Emmett Johnson         KC $7,200  17.2 own 50.0% 8:20
+   DST  Lions                  DET $2,400   4.5 own 14.0% 1:00
+exposure: Jahmyr Gibbs 2/3, Javonte Williams 2/3, D'Andre Swift 2/3, Rome Odunze 2/3, Darius Cooper 2/3, Saquon Barkley 2/3, Sam LaPorta 2/3
+VALIDATOR: PASS
