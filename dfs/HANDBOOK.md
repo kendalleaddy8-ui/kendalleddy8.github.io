@@ -241,7 +241,7 @@ Each of your 1–3 lineups tells a **different story**.
 - **No offensive player against your own DST.**
 - **QB + ≥1 own pass catcher**, and ≥2 when the team has two viable ones.
 - **Bring-back required** unless the QB's team is favored by 9 or more.
-- Nobody OUT, IR or Doubtful. Omar Cooper Jr. never.
+- Nobody OUT, IR or Doubtful. 
 - Across lineups: **a different QB in each lineup**, at most 3–4 shared players per pair, and nobody in every lineup (3+ lineups).
 
 ### 7.2 Strong defaults (break only with a stated reason)
@@ -379,6 +379,9 @@ Each of your 1–3 lineups tells a **different story**.
 | 19 | 9 SNF | The field sim showed Kendall's chalk showdown build would be duplicated ~35 times (P(1st) 0.24 per 10k) vs 8.7 per 10k for a Burden-CPT build; a DST-captain 'edge' disappeared once the DST tail was made realistic (CV 0.85→0.60) | Rank GPP lineups by **P(1st) against a simulated field**, not raw ceiling. Always re-run with conservative DST/K variance before trusting a DST/K-captain result. Field-only filler players (estimated) are allowed to make the field realistic, never in our lineup |
 | 20 | 10 | **Kendall's own Milly lineup: 191.76 pts, 19,467th, cashed $37.50** (projected 141). Hits: McCaffrey 49.3 (proj 24.2), Emmett Johnson 38.1 (proj 16.0, the role-change override was right), Purdy 34.7 (SF–DAL 55.5 total went 46–40). Ownership: our projections said 140% total, actual was 208%. Jefferson 41% vs 22% proj (target-funnel chalk), Tank Dell 17% vs 1.5% (default heuristic), EJ 65% vs 50% | Chalk built on role changes and target funnels runs **hotter** than projected, so push those up 10–20 points. The salary-based default ownership badly underrates value plays, so it was replaced in Week 11 by `estimate_own()` (projection + points-per-dollar model with caps). Highest-total shootouts (SF–DAL) deliver the QB/RB ceilings: keep one lineup on the top-total game |
 | 21 | 10 | **2nd lineup: 155.70, 73,752nd, $0.** Bryce Young + Waller + Hubbard (CAR, 23.5 implied): Hubbard 34.2 took the rushing TDs while Young (8.1) and Waller (4.4) busted. Lineup 1's Purdy + McCaffrey in a 55.5-total shootout worked. Tank Dell (17% owned, 5.1) was in **both** lineups. Dolphins DST 12.0 at 8.8% was a good call | **QB + own RB only when the RB has a real receiving role AND the game total is ~50+**; never QB+RB+TE from one team in a mid-total game (rushing TDs eat the passing TDs). A punt in both of a 2-lineup portfolio doubles the damage when it busts, so vary the cheap WR/TE spots across lineups |
+| 22 | 11 | **Kendall's Dak lineup 175.10 (cashed $40) beat all of ours (146–163).** Same Dak+Lamb+Pickens core (98.9 pts); he kept chalk EJ (27.3), we faded him on market TD odds. Our cheap Q TEs (Waller 7.2, Tremble 2.8) and G. Wilson 6.9 busted. Late swap Coleman→Hall/Jeanty cost 1.3 | Market TD calibration trims chalk projections but **don't fade a chalk workhorse RB in a smash spot purely on ownership** (Lesson 1 again). Avoid two questionable same-team punts in one lineup. Kendall's own builds are now 3-for-4 on cashing core reads: score them first, change only with a clear edge |
+| 23 | 11 MNF | Okonkwo-CPT 'edge' (27 wins/10k, 0 dupes) vanished when the field was resampled (4 dupes, 5 wins/10k) | **Duplicate counts from one sampled field are noise for rare lineups.** Average dupes over ≥3 field samples (or use expected dupes = N × P(lineup)) before trusting a uniqueness edge |
+| 24 | 11 | Omar Cooper Jr. exclusion was for one game only | Removed from engine and checklist (Kendall, Wk11 MNF) |
 | 18 | 9 | **Partial results (Kendall's own cards):** Walker 39.3 and Shedeur 22.7 (Kendall hunches ✅) · Willis 4.8, Gibbs 13.4, Dulcich 3.4, Judkins 5.5 · Jeudy 5.7, Cody White 0.0 (unverified player, as flagged) | **Trench model A beat the sim on Willis** → when the trench layer and Vegas disagree on a QB, trust the trench read. Kendall's QB/RB hunches went 2-for-2: give hunch angles at least one lineup |
 
 ---
@@ -386,7 +389,7 @@ Each of your 1–3 lineups tells a **different story**.
 ## 15. Kendall's profile & output format
 
 - **Goal:** win large-field GPPs with 1–3 lineups. Wants every angle: film-style reasoning, coaching tendencies, trenches, Vegas (including money movement), DK Network, stats.
-- **Likes:** workhorse RBs (Gibbs, Walker, McCaffrey), contrarian QBs (Shedeur, Milton, Lock, McCarthy), sleepers with history (Jeudy–Shedeur). **Always excludes Omar Cooper Jr.**
+- **Likes:** workhorse RBs (Gibbs, Walker, McCaffrey), contrarian QBs (Shedeur, Milton, Lock, McCarthy), sleepers with history (Jeudy–Shedeur).
 - **Output order:**
   1. Self-evaluation (§12)
   2. **Best overall lineup**
@@ -409,7 +412,6 @@ Each of your 1–3 lineups tells a **different story**.
 - [ ] Different stories and QBs across lineups · overlap ≤3–4 · nobody in all 3
 - [ ] Total ownership in the contest range · ≥1 leverage spot per lineup
 - [ ] Kickoff times listed · late players in FLEX
-- [ ] Omar Cooper Jr. excluded
 
 ---
 
