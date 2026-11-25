@@ -1,0 +1,54 @@
+[v4] 43 players · 1168 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 89.5 · B 46.3 · C 93.2 · mean(B,C) 69.7
+start 1: A 66.6 · B 48.5 · C 49.1 · mean(B,C) 48.8
+start 2: A 79.3 · B 52.5 · C 83.8 · mean(B,C) 68.2
+start 3: A 64.2 · B 75.6 · C 58.3 · mean(B,C) 66.9
+start 4: A 92.6 · B 57.1 · C 94.3 · mean(B,C) 75.7
+start 5: A 77.9 · B 56.9 · C 92.3 · mean(B,C) 74.6
+start 6: A 80.6 · B 76.4 · C 65.2 · mean(B,C) 70.8
+start 7: A 76.8 · B 49.9 · C 79.9 · mean(B,C) 64.9
+start 8: A 69.2 · B 69.1 · C 89.8 · mean(B,C) 79.5
+start 9: A 65.3 · B 22.8 · C 38.3 · mean(B,C) 30.5
+start 10: A 79.9 · B 29.9 · C 76.2 · mean(B,C) 53.0
+start 11: A 52.3 · B 41.1 · C 51.8 · mean(B,C) 46.4
+
+PICK (best mean B,C): A 69.2 B 69.1 C 89.8
+TEST Jahmyr Gibbs+Kenneth Walker III: A 78.6 B 65.4 C 85.4 · mean(B,C) 75.4 vs pick 79.5
+TEST Jahmyr Gibbs+Kenneth Walker III+Emmett Johnson: A 44.5 B 69.7 C 30.9 · mean(B,C) 50.3 vs pick 79.5
+TEST CeeDee Lamb: A 78.8 B 74.9 C 88.1 · mean(B,C) 81.5 vs pick 79.5
+TEST Joe Milton III+CeeDee Lamb: A 67.2 B 90.7 C 43.1 · mean(B,C) 66.9 vs pick 79.5
+
+L1 $49,900 proj 135.2 own 231% · top-3 7.47/10k · top-15 2.21/1k · top-150 1.17% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  17.3 own 14.0% 4:30
+   RB   D'Andre Swift          CHI $6,200  18.3 own 35.0% 1:00
+   RB   James Cook III         BUF $7,400  20.0 own 30.0% 8:20
+   WR   Amon-Ra St. Brown      DET $7,700  19.8 own 38.0% 1:00
+   WR   Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE   Dallas Goedert         PHI $4,100   8.7 own 14.0% 4:30
+   FLEX George Pickens         DAL $6,300  16.6 own 30.0% 4:30
+   DST  Bills                  BUF $3,100   6.2 own 18.0% 8:20
+
+L2 $50,000 proj 136.0 own 257% · top-3 2.33/10k · top-15 0.71/1k · top-150 0.60% · field dups [0, 0, 2]
+   QB   Caleb Williams         CHI $5,800  21.2 own 21.0% 1:00
+   RB   Javonte Williams       DAL $6,800  19.8 own 42.0% 4:30
+   RB   James Cook III         BUF $7,400  20.0 own 30.0% 8:20
+   WR   Amon-Ra St. Brown      DET $7,700  19.8 own 38.0% 1:00
+   WR   Luther Burden III      CHI $6,000  16.2 own 30.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.2 own 22.0% 1:00
+   TE   Sam LaPorta            DET $4,200  10.5 own 26.0% 1:00
+   FLEX Ryan Flournoy          DAL $4,300   9.7 own 18.0% 4:30
+   DST  Cowboys                DAL $3,300   6.7 own 30.0% 4:30
+
+L3 $49,800 proj 128.0 own 213% · top-3 1.20/10k · top-15 0.43/1k · top-150 0.21% · field dups [0, 1, 0]
+   QB   Dak Prescott           DAL $6,400  21.6 own 22.0% 4:30
+   RB   D'Andre Swift          CHI $6,200  18.3 own 35.0% 1:00
+   RB   Kenneth Walker III     KC $8,700  20.1 own 28.0% 8:20
+   WR   Kalif Raymond          CHI $3,500   6.8 own  8.0% 1:00
+   WR   George Pickens         DAL $6,300  16.6 own 30.0% 4:30
+   WR   Darius Cooper          PHI $3,600   6.3 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  10.5 own 26.0% 1:00
+   FLEX CeeDee Lamb            DAL $8,300  23.2 own 45.0% 4:30
+   DST  Chiefs                 KC $2,600   4.6 own 14.0% 8:20
+exposure: Amon-Ra St. Brown 2/3, James Cook III 2/3, Luther Burden III 2/3, Rome Odunze 2/3, Sam LaPorta 2/3, D'Andre Swift 2/3, George Pickens 2/3
+VALIDATOR: PASS
