@@ -1,4 +1,4 @@
-# NFL DFS GPP Handbook v3 — Kendall × Claude
+# NFL DFS GPP Handbook v4 — Kendall × Claude
 **DraftKings Classic & Showdown · 2026–27 season · large-field GPPs (Millionaire Maker, $20 TNF/MNF showdowns) · 1–3 lineups**
 
 > **How to use:** paste this whole file into a new chat at the start of each slate, along with the kickoff prompt in §0.
@@ -288,6 +288,49 @@ Each of your 1–3 lineups tells a **different story**.
 
 **Two-model rule:** show both the deterministic ceiling optimizer (model A, `2026-wk09/model.py` style) and the sim portfolio (model B). Where they agree = core. Where they disagree = decide with football reasoning plus Kendall's read.
 
+### 8A. Engine v4 — the full stack (built Thanksgiving 2026; use every slate)
+
+**Run order** (`W=../2026-wkNN`, from `engine/`):
+```
+python3 run_week.py $W --n 3 --target 200 --cands 900 --shared 4 --qbs "<every QB>" --tag run   # candidates
+python3 $W/gen_hunch.py $W              # forced builds: Kendall's hunches + DvP angles (copy from 2026-wk12-tg)
+python3 fieldprep.py $W thr.npz         # 3 sim sets x 3 noisy-ownership fields, places 3/15/150, fields saved
+python3 portfolio.py $W thr.npz --n 3 --tag v4 --starts 12 --hunch "A+B" --force "Name"
+```
+Run every injury fork as its own folder (e.g. `wout/` = Walker OUT) and give Kendall both portfolios plus the swap rule.
+
+**What the sim models (`sim.py`, SCRIPT layers on by default):**
+- Game environment (shootout vs slog), team pass/rush success, own noise. Lognormal with mean = Proj.
+- **Game script:** the leading team's RBs and DST go up. The trailing team's QB/WR/TE get garbage-time volume.
+- **Backfield split:** same-team RBs are about −0.10 correlated (the Walker/Johnson lesson).
+- **Target competition:** a zero-sum component among a team's WR/TE.
+- **QB goal-line vulture:** for teams in `QBRUN` (edit per slate: Allen, Milton, Caleb, Hurts, Lamar, Daniels…), the lead RB loses TD equity to the QB.
+
+**What the objective rewards (`portfolio.py`):**
+- P(best lineup reaches top-3 / top-15 / top-150), weighted 40 / 10 / 1. Top-3 stands in for 1st place, which is too rare to simulate.
+- Each hit is divided by (1 + exact duplicates in the synthetic field). A duplicated lineup splits the prize.
+- Ownership noise: 3 fields with σ 0.30 on every explicit Own.
+- Projection noise: holdout sets B and C, σ 0.12.
+- Pick = best mean(B, C) over 12 iterated-local-search starts. **Never pick on one holdout set** (lesson 26).
+- Hunch tests: lock Kendall's players, re-optimize the rest, and report the score vs the pick.
+- Slot order puts the latest-kicking flex-eligible player in FLEX, for late swap.
+
+**Angle checklist (every slate; each angle → a number, a multiplier or a lock test):**
+
+| Layer | Source | How it enters |
+|---|---|---|
+| Vegas implied totals, spread, open → now movement | ESPN odds page | `lines.csv` (OpenTotal ±3 → ±3%/−2%) |
+| Injuries / role changes / snap shares | DK Network report + player articles | Status, Base, separate fork folders |
+| DvP: points allowed by position | FantasyPros `nfl/points-allowed.php` (free rows) + ESPN notes | `overrides.Mult` 0.93–1.10 |
+| Coaching: play-caller, PROE, pace, 4th-down aggression, revenge/scheme familiarity, short week | articles + coach history | `lines.csv` PROE/Pace + Mult ≤ ±3% |
+| Weather: rain, wind (gusts ≥ 20 = real), cold; domes neutral | web search, NWS | `lines.csv` WxPass/WxRun/WxDST (wk12 BUF rain/gusts: 0.91 / 1.03 / 1.08) |
+| Trenches: pass-pro / run-block edges | 4for4-type notes | `trenches.csv` |
+| Props / ATD market vs projection | ESPN Clay vs DK market | ΔDK = 0.7·6·(λ_mkt − λ_proj) |
+| Ownership (explicit for every player ≥ $4k on short slates) | judgment + field chatter | `overrides.Own` + σ 0.30 noise |
+| Field: size, stacking habits, duplicates | `field_classic.sample_field` | `fieldprep.py` |
+| Late swap: staggered kicks | `lateswap.py` | latest player in FLEX; re-run after each window |
+| Stress tests: "X has a day" (mean ×1.15, fatter tail) | `2026-wk12-tg/milton_stress.py` pattern | the pick must stay top in the stress world too |
+
 ---
 
 ## 9. Portfolio for 1–3 lineups
@@ -338,7 +381,7 @@ Each of your 1–3 lineups tells a **different story**.
 4. **Soft-rule deviations** (§7.2), each with its reason.
 5. **Adversarial pass:** how does each lineup lose? Name the most fragile piece and any cheap hedge.
 6. **Requested angles:** every player/QB Kendall named has a number in the angle table, and is either in the portfolio or listed as an alternate with a reason.
-7. **Blind spots, stated plainly:** heuristic ownership, CVs/correlations not yet calibrated, TD scoring lumpier than the lognormal shows, no field simulation, how much results depend on search breadth.
+7. **Blind spots, stated plainly:** heuristic ownership, CVs/correlations not yet calibrated, TD scoring lumpier than the lognormal shows, projections that are proxies when no ESPN table exists, B-vs-C holdout disagreement (report both), how much results depend on search breadth.
 8. **What changed because of this review.** If nothing changed, say why.
 
 ---
@@ -383,6 +426,8 @@ Each of your 1–3 lineups tells a **different story**.
 | 23 | 11 MNF | Okonkwo-CPT 'edge' (27 wins/10k, 0 dupes) vanished when the field was resampled (4 dupes, 5 wins/10k) | **Duplicate counts from one sampled field are noise for rare lineups.** Average dupes over ≥3 field samples (or use expected dupes = N × P(lineup)) before trusting a uniqueness edge |
 | 24 | 11 | Omar Cooper Jr. exclusion was for one game only | Removed from engine and checklist (Kendall, Wk11 MNF) |
 | 25 | 12 TG | Short slates (≤3 games): `estimate_own` caps saturate (every RB 40%, every WR 30%), and FantasyPros only gives out its top-10 projections | Set explicit Own for every player ≥$4k in overrides. Build the Base from prior ESPN Base × (implied now / implied then)^0.85, blended 35% with FP top-10 (`2026-wk12-tg/build_pool.py`). Swap in the ESPN table once it's published |
+| 26 | 12 TG | The holdout winner on set B was mid-pack on set C. Projection noise dominates the ranking | Pick by mean(B, C) over all finalists and report the worst case. A tweak that only wins on the set used to find it (the 2nd-Milton swap) is rejected |
+| 27 | 12 TG | The old sim made same-team RBs (Walker/E. Johnson) positively correlated and ignored game script, QB vultures and duplicate prize-splitting | sim SCRIPT layers + dup-aware, top-3-weighted objective (`portfolio.py`) are the default from Wk12 on |
 | 18 | 9 | **Partial results (Kendall's own cards):** Walker 39.3 and Shedeur 22.7 (Kendall hunches ✅) · Willis 4.8, Gibbs 13.4, Dulcich 3.4, Judkins 5.5 · Jeudy 5.7, Cody White 0.0 (unverified player, as flagged) | **Trench model A beat the sim on Willis** → when the trench layer and Vegas disagree on a QB, trust the trench read. Kendall's QB/RB hunches went 2-for-2: give hunch angles at least one lineup |
 
 ---

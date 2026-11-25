@@ -13,21 +13,58 @@ CV = {"QB": 0.40, "RB": 0.55, "WR": 0.65, "TE": 0.70, "DST": 0.85, "K": 0.55}   
 # share of each player's variance coming from: game environment, team pass/rush script, own noise
 W = {"QB": (0.30, 0.55), "WR": (0.20, 0.45), "TE": (0.20, 0.40), "RB": (0.20, 0.35), "DST": (0.25, 0.0), "K": (0.15, 0.30)}
 
-def simulate(pool, sims=20000, seed=7):
+QBRUN = {"BUF", "PHI", "CHI"}   # teams whose QB steals goal-line TDs (Allen, Milton, Caleb) — edit per slate
+SCRIPT = True   # v4 layers (Thanksgiving 2026): game script, backfield/target shares, QB goal-line vulture
+
+def simulate(pool, sims=20000, seed=7, script=None):
+    """script layers (default SCRIPT):
+      game script: per-game margin M (driven by the two offenses' success + noise). Leading team's RBs and DST up
+        (clock-killing carries, desperation-pass sacks/INTs); trailing team's QB/WR/TE get garbage-time volume.
+      backfield share: zero-sum split between a team's RBs (lead RB vs the rest) -> same-team RBs NEGATIVELY correlated.
+      target share: zero-sum component among a team's WR/TE (they compete for the same targets).
+      QB vulture: rushing QBs (tag rushQB in pool.Tag, or a QB with Base>=20 who runs: Allen/Milton/Caleb via QBRUN) steal
+        goal-line TDs from the lead RB."""
+    script = SCRIPT if script is None else script
     rng = np.random.default_rng(seed)
     teams = sorted(set(pool.Team)); games = sorted({tuple(sorted(p)) for p in zip(pool.Team, pool.Opponent)})
     G = {g: rng.standard_normal(sims) for g in games}                 # shootout vs. slog
     TP = {t: rng.standard_normal(sims) for t in teams}                # team passing success
     TR = {t: 0.35 * TP[t] + np.sqrt(1 - .35**2) * rng.standard_normal(sims) for t in teams}  # rushing (some shared TD equity)
+    lead = {}
+    if script:
+        for a, b in games:
+            d = (TP[a] + TR[a]) - (TP[b] + TR[b]); d = d / d.std()
+            M = 0.7 * d + np.sqrt(1 - .49) * rng.standard_normal(sims)
+            lead[a], lead[b] = M, -M
+        BF = {t: rng.standard_normal(sims) for t in teams}            # backfield share
+        VU = {t: rng.standard_normal(sims) for t in teams}            # QB goal-line vulture
+        P = pool.reset_index(drop=True)
+        rbs = {t: P[(P.Team == t) & (P.Pos == "RB")].sort_values("Proj", ascending=False).index.tolist() for t in teams}
+        rushqb = {t: any(((P.Team == t) & (P.Pos == "QB") & P.get("Tag", pd.Series("", index=P.index)).astype(str).str.contains("rushQB")))
+                  or t in QBRUN for t in teams}
+        rec = {t: P[(P.Team == t) & P.Pos.isin(["WR", "TE"])].index.tolist() for t in teams}
+        TS = {t: rng.standard_normal((sims, len(rec[t]))) for t in teams}
+        TS = {t: (v - v.mean(1, keepdims=True)) for t, v in TS.items()}   # zero-sum across the team's receivers
     out = np.empty((sims, len(pool)))
     for j, r in enumerate(pool.itertuples()):
         g = G[tuple(sorted((r.Team, r.Opponent)))]; wg, wt = W[r.Pos]
         if r.Pos == "DST":   # DST: hurt by shootouts and by the opponent's offense playing well
             z = -wg * g - 0.45 * (TP[r.Opponent] + TR[r.Opponent]) / np.sqrt(2 + 2 * .35)
             wt = 0.45
+            if script: z = z + 0.25 * lead[r.Team]
         else:
             team = TR[r.Team] if r.Pos == "RB" else TP[r.Team]
             z = wg * g + wt * team
+            if script:
+                if r.Pos == "RB":
+                    z = z + 0.25 * lead[r.Team]
+                    if rbs[r.Team] and j == rbs[r.Team][0]:
+                        z = z + 0.60 * BF[r.Team] - (0.30 * VU[r.Team] if rushqb[r.Team] else 0)
+                    else: z = z - 0.85 * BF[r.Team]
+                else:
+                    z = z - 0.12 * lead[r.Team]
+                    if r.Pos == "QB" and rushqb[r.Team]: z = z + 0.20 * VU[r.Team]
+                    if r.Pos in ("WR", "TE") and j in rec[r.Team]: z = z + 0.30 * TS[r.Team][:, rec[r.Team].index(j)]
         z = z + np.sqrt(max(1 - wg**2 - wt**2, 0.05)) * rng.standard_normal(sims)
         z = z / z.std()
         s = np.sqrt(np.log(1 + CV[r.Pos] ** 2))                       # lognormal with MEAN = Proj
