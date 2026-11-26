@@ -1,0 +1,54 @@
+[v4] 55 players · 1804 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 171.1 · B 217.9 · C 120.2 · mean(B,C) 169.0
+start 1: A 129.4 · B 91.3 · C 131.1 · mean(B,C) 111.2
+start 2: A 138.1 · B 138.4 · C 147.5 · mean(B,C) 143.0
+start 3: A 124.5 · B 97.3 · C 117.5 · mean(B,C) 107.4
+start 4: A 132.3 · B 102.3 · C 128.4 · mean(B,C) 115.3
+start 5: A 112.3 · B 83.5 · C 102.1 · mean(B,C) 92.8
+start 6: A 119.8 · B 67.2 · C 135.7 · mean(B,C) 101.5
+start 7: A 160.1 · B 114.4 · C 130.2 · mean(B,C) 122.3
+start 8: A 133.1 · B 104.4 · C 100.8 · mean(B,C) 102.6
+start 9: A 136.0 · B 60.4 · C 99.7 · mean(B,C) 80.0
+start 10: A 128.9 · B 91.6 · C 111.6 · mean(B,C) 101.6
+start 11: A 129.2 · B 91.5 · C 100.0 · mean(B,C) 95.7
+start 12: A 101.4 · B 74.1 · C 127.5 · mean(B,C) 100.8
+start 13: A 133.3 · B 112.1 · C 163.4 · mean(B,C) 137.8
+start 14: A 116.4 · B 80.3 · C 97.9 · mean(B,C) 89.1
+start 15: A 107.9 · B 95.8 · C 109.6 · mean(B,C) 102.7
+
+PICK (best mean B,C): A 171.1 B 217.9 C 120.2
+
+L1 $49,900 proj 120.9 own 195% · top-3 5.60/10k · top-15 2.14/1k · top-150 1.28% · field dups [0, 0, 0]
+   QB   Jared Goff             DET $5,600  17.9 own 16.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  13.8 own 20.0% 4:30
+   RB   James Cook III         BUF $7,400  14.9 own 24.0% 8:20
+   WR   Luther Burden III      CHI $6,000  15.1 own 26.0% 1:00
+   WR   Jameson Williams       DET $5,700  13.0 own 20.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   TE   Colston Loveland       CHI $5,000  11.7 own 25.0% 1:00
+   FLEX Amon-Ra St. Brown      DET $7,700  18.8 own 36.0% 1:00
+   DST  Eagles                 PHI $2,200   3.4 own 10.0% 4:30
+
+L2 $50,000 proj 132.2 own 238% · top-3 3.93/10k · top-15 1.40/1k · top-150 0.85% · field dups [0, 0, 0]
+   QB   Caleb Williams         CHI $5,800  18.9 own 15.0% 1:00
+   RB   Jahmyr Gibbs           DET $9,500  26.9 own 44.0% 1:00
+   RB   Javonte Williams       DAL $6,800  18.4 own 38.0% 4:30
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   Kalif Raymond          CHI $3,500   8.0 own  8.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  14.3 own 26.0% 4:30
+   TE   Sam LaPorta            DET $4,200  10.9 own 25.0% 1:00
+   FLEX Emmett Johnson         KC $7,200  17.2 own 50.0% 8:20
+   DST  Chiefs                 KC $2,600   5.3 own 14.0% 8:20
+
+L3 $49,900 proj 131.5 own 218% · top-3 2.53/10k · top-15 0.89/1k · top-150 0.67% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  16.4 own 12.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  26.9 own 44.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  16.4 own 28.0% 1:00
+   WR   Luther Burden III      CHI $6,000  15.1 own 26.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  14.3 own 26.0% 4:30
+   WR   Darius Cooper          PHI $3,600   7.9 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  10.9 own 25.0% 1:00
+   FLEX Javonte Williams       DAL $6,800  18.4 own 38.0% 4:30
+   DST  Bills                  BUF $3,100   5.1 own 14.0% 8:20
+exposure: Jahmyr Gibbs 2/3, Javonte Williams 2/3, Luther Burden III 2/3, DeVonta Smith 2/3, Sam LaPorta 2/3, Rome Odunze 2/3
+VALIDATOR: PASS
