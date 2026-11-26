@@ -44,3 +44,6 @@ f3 317s median top-3/15/150: [190.1 185.1 176.1]
 saved /tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wed3m_v4.npz
 [v4] 55 players · 1778 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
 start 0: A 173.7 · B 136.1 · C 156.1 · mean(B,C) 146.1
+start 1: A 165.9 · B 120.0 · C 165.8 · mean(B,C) 142.9
+start 2: A 179.7 · B 89.0 · C 118.4 · mean(B,C) 103.7
+start 3: A 168.9 · B 89.7 · C 161.3 · mean(B,C) 125.5
