@@ -40,3 +40,7 @@ Questionable in pool (have a pivot): Dalton Kincaid, Noah Gray
 1163 -> 1778 candidates
 f1 108s median top-3/15/150: [189.9 184.8 175.7]
 f2 212s median top-3/15/150: [190.  185.1 176.1]
+f3 317s median top-3/15/150: [190.1 185.1 176.1]
+saved /tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wed3m_v4.npz
+[v4] 55 players · 1778 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 173.7 · B 136.1 · C 156.1 · mean(B,C) 146.1
