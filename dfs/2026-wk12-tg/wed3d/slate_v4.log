@@ -112,3 +112,52 @@ exposure: Jahmyr Gibbs 2/3, CeeDee Lamb 2/3, Amon-Ra St. Brown 2/3, Darius Coope
 VALIDATOR: PASS
 world N1 ready
 world N2 ready
+world N3 ready
+world N4 ready
+world N5 ready
+world N6 ready
+world N7 ready
+
+mean over 10 projection-noise worlds (± s.e.), worst:
+  finalist3                                         171.4 ± 14.0 · worst  76.5 · Joe Milton III / Caleb Williams / Jared Goff
+  PICK                                              157.6 ± 16.9 · worst  78.9 · Joe Milton III / Caleb Williams / Jared Goff
+  finalist2                                         156.1 ± 18.4 · worst  55.7 · Joe Milton III / Jared Goff / Dak Prescott
+  finalist1                                         139.0 ± 12.7 · worst  51.2 · Joe Milton III / Dak Prescott / Jared Goff
+  TEST CeeDee Lamb                                  139.0 ± 12.7 · worst  51.2 · Dak Prescott / Jared Goff / Joe Milton III
+  TEST Joe Milton III+CeeDee Lamb                   139.0 ± 12.7 · worst  51.2 · Dak Prescott / Jared Goff / Joe Milton III
+  TEST Jahmyr Gibbs+Emmett Johnson                  127.4 ± 11.1 · worst  78.1 · Dak Prescott / Jared Goff / Joe Milton III
+  TEST Colston Loveland                             127.4 ± 11.1 · worst  78.1 · Dak Prescott / Jared Goff / Joe Milton III
+  finalist5                                         117.1 ± 16.3 · worst  54.8 · Joe Milton III / Dak Prescott / Jared Goff
+  finalist4                                         114.4 ± 10.1 · worst  64.6 · Joe Milton III / Caleb Williams / Jared Goff
+  TEST Josh Allen                                   105.5 ± 12.8 · worst  62.5 · Dak Prescott / Caleb Williams / Josh Allen
+stress world: {'Joe Milton III': 1.15, 'DeVonta Smith': 1.05, 'Dallas Goedert': 1.05} (fat +0.15) — base = final set C
+  PICK                                          base  183.2 · stress  175.9
+  finalist1                                     base  191.6 · stress  148.5
+  finalist2                                     base  127.0 · stress  165.0
+  finalist3                                     base  130.2 · stress  172.2
+  finalist4                                     base  155.7 · stress  137.0
+  finalist5                                     base  168.9 · stress  156.4
+  TEST Jahmyr Gibbs+Emmett Johnson              base  181.3 · stress  146.9
+  TEST CeeDee Lamb                              base  183.2 · stress  175.9
+  TEST Joe Milton III+CeeDee Lamb               base  183.2 · stress  175.9
+  TEST Josh Allen                               base  139.1 · stress  119.9
+  TEST Colston Loveland                         base  181.3 · stress  146.9
+# Self-evaluation — lineups_FINAL.csv
+
+| Check | Result |
+|---|---|
+| validator | PASS |
+| salary_match | PASS |
+| injury_flags | none |
+| QBs | Joe Milton III / Caleb Williams / Jared Goff |
+| DSTs | Chiefs / Bills / Cowboys |
+| exposure 2+ | {'Jahmyr Gibbs': 2, "D'Andre Swift": 2, 'Luther Burden III': 2, 'Rome Odunze': 2, 'DeVonta Smith': 2, 'Javonte Williams': 2} |
+| P(>=1 cashes) | 77.6% (cash line 132.6) |
+
+| L | $ | proj | top-3/10k | top-15/1k | top-150 % | cash % | dups |
+|---|---|---|---|---|---|---|---|
+| 1 | 49,700 | 135.9 | 7.67 | 2.24 | 1.16 | 43.1 | [0, 0, 0] |
+| 2 | 50,000 | 133.2 | 4.0 | 1.64 | 0.91 | 44.0 | [0, 0, 0] |
+| 3 | 49,600 | 129.9 | 2.27 | 0.91 | 0.61 | 41.1 | [0, 0, 0] |
+
+**Warnings:** none

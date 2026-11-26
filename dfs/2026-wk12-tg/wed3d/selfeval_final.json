@@ -1,0 +1,107 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [],
+ "exposure": {
+  "D'Andre Swift": 2,
+  "Javonte Williams": 2,
+  "Amon-Ra St. Brown": 2,
+  "Luther Burden III": 2,
+  "Rome Odunze": 2,
+  "Sam LaPorta": 2,
+  "Jahmyr Gibbs": 2
+ },
+ "qbs": [
+  "Jared Goff",
+  "Caleb Williams",
+  "Joe Milton III"
+ ],
+ "dsts": [
+  "Cowboys",
+  "Chiefs",
+  "Bills"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   44.5,
+   39.8,
+   38.8
+  ],
+  "any_pct": 73.0,
+  "cash_line": 132.6,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49900,
+   "proj": 129.8,
+   "own_sum": 235.0,
+   "top3_per10k": 5.27,
+   "top15_per1k": 1.81,
+   "top150_pct": 0.99,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "DJ Moore",
+    "Cowboys"
+   ],
+   "cash_pct": 44.5
+  },
+  {
+   "lineup": 2,
+   "salary": 50000,
+   "proj": 130.9,
+   "own_sum": 197.0,
+   "top3_per10k": 2.33,
+   "top15_per1k": 1.01,
+   "top150_pct": 0.68,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Saquon Barkley",
+    "Travis Kelce",
+    "Chiefs"
+   ],
+   "cash_pct": 39.8
+  },
+  {
+   "lineup": 3,
+   "salary": 49900,
+   "proj": 135.3,
+   "own_sum": 218.0,
+   "top3_per10k": 2.53,
+   "top15_per1k": 0.96,
+   "top150_pct": 0.72,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 38.8
+  }
+ ],
+ "portfolio_grade": {
+  "A": 149.8,
+  "B": 148.0,
+  "C": 102.1
+ }
+}

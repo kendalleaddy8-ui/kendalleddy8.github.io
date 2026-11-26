@@ -1,0 +1,140 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [],
+ "exposure": {
+  "Jahmyr Gibbs": 2,
+  "D'Andre Swift": 2,
+  "Luther Burden III": 2,
+  "Rome Odunze": 2,
+  "DeVonta Smith": 2,
+  "Javonte Williams": 2
+ },
+ "qbs": [
+  "Joe Milton III",
+  "Caleb Williams",
+  "Jared Goff"
+ ],
+ "dsts": [
+  "Chiefs",
+  "Bills",
+  "Cowboys"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   43.1,
+   44.0,
+   41.1
+  ],
+  "any_pct": 77.6,
+  "cash_line": 132.6,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49700,
+   "proj": 135.9,
+   "own_sum": 211.0,
+   "top3_per10k": 7.67,
+   "top15_per1k": 2.24,
+   "top150_pct": 1.16,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "DeVonta Smith",
+    "Dallas Goedert",
+    "George Pickens",
+    "Chiefs"
+   ],
+   "cash_pct": 43.1
+  },
+  {
+   "lineup": 2,
+   "salary": 50000,
+   "proj": 133.2,
+   "own_sum": 205.0,
+   "top3_per10k": 4.0,
+   "top15_per1k": 1.64,
+   "top150_pct": 0.91,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 44.0
+  },
+  {
+   "lineup": 3,
+   "salary": 49600,
+   "proj": 129.9,
+   "own_sum": 233.0,
+   "top3_per10k": 2.27,
+   "top15_per1k": 0.91,
+   "top150_pct": 0.61,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "CeeDee Lamb",
+    "Cowboys"
+   ],
+   "cash_pct": 41.1
+  }
+ ],
+ "portfolio_grade": {
+  "A": 182.4,
+  "B": 154.9,
+  "C": 130.2
+ },
+ "regrade": [
+  [
+   "finalist3",
+   171.4,
+   76.5
+  ],
+  [
+   "PICK",
+   157.6,
+   78.9
+  ],
+  [
+   "finalist2",
+   156.1,
+   55.7
+  ],
+  [
+   "finalist1",
+   139.0,
+   51.2
+  ],
+  [
+   "TEST CeeDee Lamb",
+   139.0,
+   51.2
+  ],
+  [
+   "TEST Joe Milton III+CeeDee Lamb",
+   139.0,
+   51.2
+  ]
+ ]
+}
