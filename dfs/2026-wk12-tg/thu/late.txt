@@ -1,0 +1,27 @@
+39 players · 166 candidates · target 150.0 · P(>=1 hits) 23.61%
+
+LINEUP 1: $49,500 · med 120.0 · p99 216.7 · P>=150 18.00% · own~231%
+   WR  CeeDee Lamb            DAL vs PHI $8,300 proj  22.2 4:30 
+   RB  Emmett Johnson         KC  vs BUF $7,200 proj  17.3 8:20 
+   RB  Javonte Williams       DAL vs PHI $6,800 proj  17.1 4:30 
+   WR  George Pickens         DAL vs PHI $6,300 proj  16.3 4:30 
+   WR  DeVonta Smith          PHI vs DAL $5,900 proj  15.7 4:30 
+   QB  Joe Milton III         PHI vs DAL $4,600 proj  17.7 4:30 
+   TE  Dallas Goedert         PHI vs DAL $4,100 proj   8.3 4:30 
+   WR  Xavier Worthy          KC  vs BUF $3,700 proj   6.1 8:20 
+   DST Chiefs                 KC  vs BUF $2,600 proj   5.4 8:20 
+
+LINEUP 2: $49,900 · med 115.4 · p99 214.7 · P>=150 15.05% · own~188%
+   WR  CeeDee Lamb            DAL vs PHI $8,300 proj  22.2 4:30 
+   RB  James Cook III         BUF vs KC  $7,400 proj  15.3 8:20 
+   QB  Dak Prescott           DAL vs PHI $6,400 proj  20.7 4:30 
+   WR  George Pickens         DAL vs PHI $6,300 proj  16.3 4:30 
+   WR  DeVonta Smith          PHI vs DAL $5,900 proj  15.7 4:30 
+   RB  Saquon Barkley         PHI vs DAL $5,800 proj  14.2 4:30 
+   WR  Darius Cooper          PHI vs DAL $3,600 proj   8.5 4:30 
+   DST Bills                  BUF vs KC  $3,100 proj   5.2 8:20 
+   TE  Dawson Knox            BUF vs KC  $3,100 proj   3.8 8:20 
+
+Angle table (best P>=target per QB): Joe Milton III 18.00% · Dak Prescott 17.36% · Josh Allen 8.02% · Patrick Mahomes II 6.78%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Dalton Kincaid, Noah Gray
