@@ -146,3 +146,4 @@ Warm full run: 4 workers x 5 starts, all lineups unlocked, seeded from every str
 
 ## 10. GAME-DAY FINAL (Thu 10:15 AM): `2026-wk12-tg/thu/ENTRY_SHEET.csv`
 Rebuilt on Thursday news (totals CHI-DET 56.5, PHI-DAL 49.5, KC-BUF 45.5; CHI CB Gordon OUT; DAL S Locke OUT), 24 + 20 warm searches seeded from all prior bests, 8-world fresh grade: 560.7, top-3 33.75/10k, top-15 10.42/1k, P(>=1 cash) 90%. Overnight run: container restarted mid-run; the 48 unconstrained searches completed, the roles phase was rerun this morning.
+- 11:40 AM check: all rostered players active (LaPorta active; Benedet LT plays). DET S Clark + DE Wonnum OUT, CHI S Hicks OUT (same direction as model, no rerun). DAL -9.5. Late-swap checks scheduled 4:12 PM and 8:03 PM ET.
