@@ -143,3 +143,6 @@ Fresh-world test: 413.8 vs 393.3, top-3 24.0 vs 22.7 per 10k. Caleb in 2 lineups
 
 ## 9. ULTIMATE FINAL ENTRY (Thu ~12:30 AM): `wed3d/ENTRY_SHEET.csv` (= ult_w0_0)
 Warm full run: 4 workers x 5 starts, all lineups unlocked, seeded from every strong lineup, million objective, dup-QB allowed. Fresh-world test vs previous entry: 537.4 vs 422.1, top-3 31.5 vs 24.5 per 10k, top-15 10.4 vs 8.3 per 1k, worst 337.5 vs 264.3. P(>=1 cash) 81%. Kincaid (Q) in #5: late-swap pivot Spann-Ford or Noah Gray.
+
+## 10. GAME-DAY FINAL (Thu 10:15 AM): `2026-wk12-tg/thu/ENTRY_SHEET.csv`
+Rebuilt on Thursday news (totals CHI-DET 56.5, PHI-DAL 49.5, KC-BUF 45.5; CHI CB Gordon OUT; DAL S Locke OUT), 24 + 20 warm searches seeded from all prior bests, 8-world fresh grade: 560.7, top-3 33.75/10k, top-15 10.42/1k, P(>=1 cash) 90%. Overnight run: container restarted mid-run; the 48 unconstrained searches completed, the roles phase was rerun this morning.
