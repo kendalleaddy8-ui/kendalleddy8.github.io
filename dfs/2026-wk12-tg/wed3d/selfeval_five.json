@@ -1,0 +1,168 @@
+{
+ "lineups": 5,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [
+  "same cheap punt in 2+ lineups (lesson 21 says vary them): ['Darius Cooper']",
+  "L4: Lions DST faces CHI implied 28.5 (cheap-salary punt?)",
+  "L5: Eagles DST faces DAL implied 28.0 (cheap-salary punt?)"
+ ],
+ "exposure": {
+  "Jahmyr Gibbs": 4,
+  "Rome Odunze": 3,
+  "DeVonta Smith": 3,
+  "Darius Cooper": 3,
+  "Saquon Barkley": 3,
+  "D'Andre Swift": 2,
+  "Javonte Williams": 2,
+  "Sam LaPorta": 2,
+  "CeeDee Lamb": 2
+ },
+ "qbs": [
+  "Jared Goff",
+  "Caleb Williams",
+  "Joe Milton III",
+  "Dak Prescott",
+  "Josh Allen"
+ ],
+ "dsts": [
+  "Cowboys",
+  "Bills",
+  "Chiefs",
+  "Lions",
+  "Eagles"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   41.1,
+   44.0,
+   53.2,
+   30.0,
+   31.2
+  ],
+  "any_pct": 91.4,
+  "cash_line": 132.6,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49600,
+   "proj": 129.9,
+   "own_sum": 233.0,
+   "top3_per10k": 2.27,
+   "top15_per1k": 0.91,
+   "top150_pct": 0.61,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "CeeDee Lamb",
+    "Cowboys"
+   ],
+   "cash_pct": 41.1
+  },
+  {
+   "lineup": 2,
+   "salary": 50000,
+   "proj": 133.2,
+   "own_sum": 205.0,
+   "top3_per10k": 4.0,
+   "top15_per1k": 1.64,
+   "top150_pct": 0.91,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Saquon Barkley",
+    "Bills"
+   ],
+   "cash_pct": 44.0
+  },
+  {
+   "lineup": 3,
+   "salary": 50000,
+   "proj": 136.9,
+   "own_sum": 211.0,
+   "top3_per10k": 11.33,
+   "top15_per1k": 3.56,
+   "top150_pct": 1.52,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "Darius Cooper",
+    "Brevyn Spann-Ford",
+    "CeeDee Lamb",
+    "Chiefs"
+   ],
+   "cash_pct": 53.2
+  },
+  {
+   "lineup": 4,
+   "salary": 49500,
+   "proj": 126.7,
+   "own_sum": 201.0,
+   "top3_per10k": 2.4,
+   "top15_per1k": 0.96,
+   "top150_pct": 0.49,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Dak Prescott",
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "Ryan Flournoy",
+    "Darius Cooper",
+    "James Cook III"
+   ],
+   "cash_pct": 30.0
+  },
+  {
+   "lineup": 5,
+   "salary": 50000,
+   "proj": 121.2,
+   "own_sum": 186.0,
+   "top3_per10k": 1.93,
+   "top15_per1k": 0.81,
+   "top150_pct": 0.54,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Josh Allen",
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "DJ Moore",
+    "Travis Kelce",
+    "Khalil Shakir",
+    "Eagles"
+   ],
+   "cash_pct": 31.2
+  }
+ ],
+ "portfolio_grade": {
+  "A": 224.7,
+  "B": 128.1,
+  "C": 206.4
+ }
+}

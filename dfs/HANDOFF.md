@@ -127,3 +127,12 @@ Paste this into a fresh chat with "Read dfs/HANDOFF.md, dfs/HANDBOOK.md and dfs/
 - Exposure: Swift, Javonte, Lamb, Gibbs, Odunze and Cooper each in 2/3.
 - Watch at 11:40 AM: Swift, Gibbs, Barkley, Lamb, Cooper, Spann-Ford (Ferguson OUT assumed).
 - New tool tonight: `engine/fairtest.py` grades lineup sets on fresh worlds no search has seen. Use it for the final call between finalists.
+
+## 7. UPDATE: Kendall added 2 lineups (5 total)
+Lineups 1–3 = `lineups_MILLION.csv` (locked, already entered). New 4–5 = `wed3d/lineups_ADD2_NEW.csv`; all 5 = `wed3d/lineups_FIVE_FINAL.csv`.
+| # | QB | RB | RB | WR | WR | WR | TE | FLEX | DST |
+|---|---|---|---|---|---|---|---|---|---|
+| 4 | Dak | Gibbs | Barkley | D. Smith | Flournoy | D. Cooper | LaPorta | Cook | Lions |
+| 5 | Allen | Gibbs | Barkley | Odunze | D. Smith | DJ Moore | Kelce | Shakir | Eagles |
+- Fresh-world test: 5-set score 203.3 (worst 124.7), P(any top-3) 22.2/10k, top-15 7.47/1k, P(>=1 cash) 91% in sim, vs the 3-set 166.5 / 18.5 / 6.07 / 83%. All 3 parallel workers converged to the same pair.
+- Warnings: Cooper 3/5, Gibbs 4/5. The cheap Lions/Eagles DSTs face 28+ implied, but forced by the no-shared-DST rule; the shared-Chiefs alternative tested worse (202.2).
