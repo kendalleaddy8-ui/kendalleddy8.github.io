@@ -1,0 +1,53 @@
+{
+ "n": 3,
+ "tag": "v4",
+ "cands": 1200,
+ "shared": 4,
+ "starts": 24,
+ "qbs": [
+  "Josh Allen",
+  "Dak Prescott",
+  "Caleb Williams",
+  "Jared Goff",
+  "Patrick Mahomes II",
+  "Joe Milton III"
+ ],
+ "locks": [
+  "Jahmyr Gibbs+Emmett Johnson",
+  "CeeDee Lamb",
+  "Joe Milton III+CeeDee Lamb",
+  "Joe Milton III+DeVonta Smith",
+  "Josh Allen",
+  "Patrick Mahomes II",
+  "Saquon Barkley",
+  "Colston Loveland",
+  "Brevyn Spann-Ford",
+  "KaVontae Turpin",
+  "Cyrus Allen",
+  "Dontayvion Wicks",
+  "Ty Johnson",
+  "Darius Cooper",
+  "Kalif Raymond",
+  "Makai Lemon",
+  "Xavier Worthy",
+  "Keon Coleman"
+ ],
+ "hunch": [
+  "Jahmyr Gibbs+Emmett Johnson"
+ ],
+ "force": [
+  "CeeDee Lamb",
+  "Joe Milton III+CeeDee Lamb",
+  "Josh Allen",
+  "Colston Loveland"
+ ],
+ "stress": [
+  [
+   "Joe Milton III:1.15",
+   "DeVonta Smith:1.05",
+   "Dallas Goedert:1.05"
+  ]
+ ],
+ "salaries": "../fp_salaries.csv",
+ "min_base": 3.5
+}

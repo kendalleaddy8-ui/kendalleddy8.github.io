@@ -336,6 +336,7 @@ Run every injury fork as its own folder (e.g. `wout/` = Walker OUT) and give Ken
 | Late swap: staggered kicks | `lateswap.py` | latest player in FLEX; re-run after each window |
 | Trench win rates: each OL vs the opposing DL (PBWR vs PRWR, RBWR vs RSWR ranks) | ESPN 'win rates' page (`espn.com/nfl/story/_/id/49742016/...`) | `trenches.csv` edges −2..+2, plus late OL/DL injury news |
 | WR vs CB (shadow coverage, slot/outside) + scheme vs scheme (recent-5-week defense, post-bye changes) | Clay playbook MATCHUP column + ESPN Matchup Rankings (Cockcroft) | residual Mult: Great +3 / Good +1.5 / Shaky −1.5 / Poor −3%, ±2% for independent upgrades |
+| DST vs offense: opposing QB turnover/sack rate, OL injuries, weather fumbles, pass rush vs pass pro | game logs, ESPN win rates, injury report | DST Mult ±3–5% (on top of the implied-total formula) |
 | TE vs LB/S coverage (TE yds/targets allowed, coverage LB/S injuries) | FantasyPros points allowed + injury reports | residual Mult ±2–4% |
 | Stress tests: "X has a day" (mean ×1.15, fatter tail) | `2026-wk12-tg/milton_stress.py` pattern | the pick must stay top in the stress world too |
 
