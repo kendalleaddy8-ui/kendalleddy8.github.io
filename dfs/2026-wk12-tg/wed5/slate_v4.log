@@ -1,1 +1,63 @@
 WARNING overrides with no salary-table match (no-op, verify name/salary): ['Jake Ferguson']
+55 players · 1176 candidates · target 200.0 · P(>=1 hits) 7.41%
+
+LINEUP 1: $50,000 · med 128.0 · p99 222.0 · P>=200 2.88% · own~224%
+   RB  Jahmyr Gibbs           DET vs CHI $9,500 proj  26.9 1:00 
+   WR  CeeDee Lamb            DAL vs PHI $8,300 proj  21.3 4:30 
+   RB  Javonte Williams       DAL vs PHI $6,800 proj  18.4 4:30 
+   WR  DeVonta Smith          PHI vs DAL $5,900 proj  14.3 4:30 
+   QB  Joe Milton III         PHI vs DAL $4,600 proj  16.4 4:30 
+   WR  Rome Odunze            CHI vs DET $4,500 proj  12.3 1:00 
+   TE  Sam LaPorta            DET vs CHI $4,200 proj  10.9 1:00 
+   WR  Darius Cooper          PHI vs DAL $3,600 proj   7.9 4:30 
+   DST Chiefs                 KC  vs BUF $2,600 proj   5.3 8:20 
+
+LINEUP 2: $49,900 · med 124.9 · p99 217.4 · P>=200 2.35% · own~231%
+   WR  Amon-Ra St. Brown      DET vs CHI $7,700 proj  18.8 1:00 
+   RB  Javonte Williams       DAL vs PHI $6,800 proj  18.4 4:30 
+   WR  George Pickens         DAL vs PHI $6,300 proj  15.7 4:30 
+   RB  D'Andre Swift          CHI vs DET $6,200 proj  16.4 1:00 
+   WR  Luther Burden III      CHI vs DET $6,000 proj  15.1 1:00 
+   QB  Jared Goff             DET vs CHI $5,600 proj  17.9 1:00 
+   WR  Rome Odunze            CHI vs DET $4,500 proj  12.3 1:00 
+   TE  Sam LaPorta            DET vs CHI $4,200 proj  10.9 1:00 
+   DST Chiefs                 KC  vs BUF $2,600 proj   5.3 8:20 
+
+LINEUP 3: $50,000 · med 121.3 · p99 213.5 · P>=200 2.04% · own~234%
+   RB  Jahmyr Gibbs           DET vs CHI $9,500 proj  26.9 1:00 
+   RB  Emmett Johnson         KC  vs BUF $7,200 proj  17.2 8:20 
+   WR  Luther Burden III      CHI vs DET $6,000 proj  15.1 1:00 
+   QB  Caleb Williams         CHI vs DET $5,800 proj  18.9 1:00 
+   WR  Jameson Williams       DET vs CHI $5,700 proj  13.0 1:00 
+   WR  Rome Odunze            CHI vs DET $4,500 proj  12.3 1:00 
+   TE  Sam LaPorta            DET vs CHI $4,200 proj  10.9 1:00 
+   WR  Keon Coleman           BUF vs KC  $3,800 proj   6.1 8:20 
+   DST Cowboys                DAL vs PHI $3,300 proj   6.9 4:30 
+
+LINEUP 4: $50,000 · med 120.5 · p99 213.0 · P>=200 1.81% · own~224%
+   WR  CeeDee Lamb            DAL vs PHI $8,300 proj  21.3 4:30 
+   QB  Dak Prescott           DAL vs PHI $6,400 proj  19.9 4:30 
+   WR  George Pickens         DAL vs PHI $6,300 proj  15.7 4:30 
+   RB  D'Andre Swift          CHI vs DET $6,200 proj  16.4 1:00 
+   RB  Saquon Barkley         PHI vs DAL $5,800 proj  13.8 4:30 
+   TE  Colston Loveland       CHI vs DET $5,000 proj  11.7 1:00 
+   TE  Travis Kelce           KC  vs BUF $4,900 proj  10.1 8:20 
+   WR  Rome Odunze            CHI vs DET $4,500 proj  12.3 1:00 
+   DST Chiefs                 KC  vs BUF $2,600 proj   5.3 8:20 
+
+LINEUP 5: $49,500 · med 116.0 · p99 195.6 · P>=200 0.78% · own~208%
+   RB  Jahmyr Gibbs           DET vs CHI $9,500 proj  26.9 1:00 
+   RB  Javonte Williams       DAL vs PHI $6,800 proj  18.4 4:30 
+   RB  D'Andre Swift          CHI vs DET $6,200 proj  16.4 1:00 
+   QB  Patrick Mahomes II     KC  vs BUF $6,000 proj  16.1 8:20 
+   WR  DJ Moore               BUF vs KC  $5,600 proj  12.1 8:20 
+   TE  Travis Kelce           KC  vs BUF $4,900 proj  10.1 8:20 
+   WR  Xavier Worthy          KC  vs BUF $3,700 proj   6.1 8:20 
+   WR  Kalif Raymond          CHI vs DET $3,500 proj   8.0 1:00 
+   DST Cowboys                DAL vs PHI $3,300 proj   6.9 4:30 
+
+Angle table (best P>=target per QB): Joe Milton III 2.88% · Caleb Williams 2.54% · Jared Goff 2.35% · Dak Prescott 2.10% · Patrick Mahomes II 1.27% · Josh Allen 1.00%
+VALIDATOR: PASS
+Questionable in pool (have a pivot): Dalton Kincaid, Noah Gray
+1176 -> 1804 candidates
+f1 108s median top-3/15/150: [185.8 180.9 171.9]
