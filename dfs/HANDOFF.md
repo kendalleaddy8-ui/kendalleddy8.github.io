@@ -139,3 +139,4 @@ Lineups 1–3 = `lineups_MILLION.csv` (locked, already entered). New 4–5 = `we
 
 ## 8. FINAL ENTRY (Thu 12 AM): engine #1-4 + Kendall K4 replacing the Allen lineup
 Fresh-world test: 413.8 vs 393.3, top-3 24.0 vs 22.7 per 10k. Caleb in 2 lineups (rule waived on numbers). `wed3d/ENTRY_SHEET.csv`.
+- Update: #3 DeVonta Smith -> George Pickens (fresh-world 401.8 vs 401.2; removes 0% Pickens exposure; Dak+Pickens stack).
