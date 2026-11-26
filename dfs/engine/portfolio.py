@@ -92,13 +92,13 @@ class Port:
 def main():
     a = argparse.ArgumentParser(); a.add_argument("week"); a.add_argument("npz"); a.add_argument("--n", type=int, default=3)
     a.add_argument("--tag", default="v4"); a.add_argument("--starts", type=int, default=10); a.add_argument("--shared", type=int, default=4)
-    a.add_argument("--hunch", action="append", default=[]); a.add_argument("--force", action="append", default=[])
+    a.add_argument("--seed0", type=int, default=0); a.add_argument("--hunch", action="append", default=[]); a.add_argument("--force", action="append", default=[])
     a = a.parse_args(); P = Port(a.week, a.npz, a.shared); P.n = a.n; log = []
     say = lambda *x: (print(*x, flush=True), log.append(" ".join(map(str, x))))
     so = lambda L: sum(WP[p] * v for p, v in P.single("A", L).items()); P.C.sort(key=so, reverse=True)
     say(f"[{a.tag}] {len(P.pool)} players · {len(P.C)} candidates · places {P.places} weights {list(P.w)} · dup-aware")
     res = []
-    for st in range(a.starts):
+    for st in range(a.seed0, a.seed0 + a.starts):
         rng = np.random.default_rng(st); order = list(range(len(P.C))) if st == 0 else list(rng.permutation(min(200, len(P.C)))) + list(range(len(P.C)))
         g = P.greedy(order=order)
         if not g: continue
