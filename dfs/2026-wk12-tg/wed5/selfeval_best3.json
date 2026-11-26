@@ -1,0 +1,113 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [
+  "same cheap punt in 2+ lineups (lesson 21 says vary them): ['Darius Cooper']"
+ ],
+ "exposure": {
+  "D'Andre Swift": 2,
+  "Javonte Williams": 2,
+  "Rome Odunze": 2,
+  "DJ Moore": 2,
+  "Jahmyr Gibbs": 2,
+  "DeVonta Smith": 2,
+  "Darius Cooper": 2
+ },
+ "qbs": [
+  "Jared Goff",
+  "Joe Milton III",
+  "Josh Allen"
+ ],
+ "dsts": [
+  "Cowboys",
+  "Bills",
+  "Lions"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   47.5,
+   40.0,
+   25.4
+  ],
+  "any_pct": 74.4,
+  "cash_line": 129.5,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49900,
+   "proj": 128.8,
+   "own_sum": 235.0,
+   "top3_per10k": 6.67,
+   "top15_per1k": 2.32,
+   "top150_pct": 1.26,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "DJ Moore",
+    "Cowboys"
+   ],
+   "cash_pct": 47.5
+  },
+  {
+   "lineup": 2,
+   "salary": 49200,
+   "proj": 129.4,
+   "own_sum": 210.0,
+   "top3_per10k": 4.67,
+   "top15_per1k": 1.65,
+   "top150_pct": 0.89,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 40.0
+  },
+  {
+   "lineup": 3,
+   "salary": 49300,
+   "proj": 115.7,
+   "own_sum": 177.0,
+   "top3_per10k": 1.0,
+   "top15_per1k": 0.41,
+   "top150_pct": 0.35,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Josh Allen",
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "DJ Moore",
+    "Travis Kelce",
+    "Khalil Shakir"
+   ],
+   "cash_pct": 25.4
+  }
+ ],
+ "portfolio_grade": {
+  "A": 119.9,
+  "B": 116.8,
+  "C": 118.0
+ }
+}

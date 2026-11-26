@@ -1,0 +1,199 @@
+{
+ "lineups": 5,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [
+  "same cheap punt in 2+ lineups (lesson 21 says vary them): ['Darius Cooper']"
+ ],
+ "exposure": {
+  "D'Andre Swift": 4,
+  "Darius Cooper": 4,
+  "Javonte Williams": 3,
+  "DeVonta Smith": 3,
+  "Rome Odunze": 3,
+  "Jahmyr Gibbs": 3,
+  "Luther Burden III": 2,
+  "Amon-Ra St. Brown": 2,
+  "Sam LaPorta": 2,
+  "DJ Moore": 2,
+  "Saquon Barkley": 2
+ },
+ "qbs": [
+  "Dak Prescott",
+  "Jared Goff",
+  "Joe Milton III",
+  "Caleb Williams",
+  "Josh Allen"
+ ],
+ "dsts": [
+  "Chiefs",
+  "Cowboys",
+  "Bills",
+  "Eagles",
+  "Lions"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   44.4,
+   47.5,
+   40.0,
+   42.7,
+   25.4
+  ],
+  "any_pct": 89.0,
+  "cash_line": 129.5,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49900,
+   "proj": 126.6,
+   "own_sum": 217.0,
+   "top3_per10k": 5.73,
+   "top15_per1k": 2.2,
+   "top150_pct": 1.12,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Dak Prescott",
+    "Javonte Williams",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Dallas Goedert",
+    "CeeDee Lamb",
+    "Chiefs"
+   ],
+   "cash_pct": 44.4
+  },
+  {
+   "lineup": 2,
+   "salary": 49900,
+   "proj": 128.8,
+   "own_sum": 235.0,
+   "top3_per10k": 6.67,
+   "top15_per1k": 2.32,
+   "top150_pct": 1.26,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "DJ Moore",
+    "Cowboys"
+   ],
+   "cash_pct": 47.5
+  },
+  {
+   "lineup": 3,
+   "salary": 49200,
+   "proj": 129.4,
+   "own_sum": 210.0,
+   "top3_per10k": 4.67,
+   "top15_per1k": 1.65,
+   "top150_pct": 0.89,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 40.0
+  },
+  {
+   "lineup": 4,
+   "salary": 49500,
+   "proj": 129.1,
+   "own_sum": 201.0,
+   "top3_per10k": 4.07,
+   "top15_per1k": 1.47,
+   "top150_pct": 0.87,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Darius Cooper",
+    "Saquon Barkley",
+    "Eagles"
+   ],
+   "cash_pct": 42.7
+  },
+  {
+   "lineup": 5,
+   "salary": 49300,
+   "proj": 115.7,
+   "own_sum": 177.0,
+   "top3_per10k": 1.0,
+   "top15_per1k": 0.41,
+   "top150_pct": 0.35,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Josh Allen",
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "DJ Moore",
+    "Travis Kelce",
+    "Khalil Shakir"
+   ],
+   "cash_pct": 25.4
+  }
+ ],
+ "portfolio_grade": {
+  "A": 215.4,
+  "B": 210.7,
+  "C": 212.8
+ },
+ "regrade": [
+  [
+   "PICK",
+   251.4,
+   210.2
+  ],
+  [
+   "TEST Josh Allen",
+   251.4,
+   210.2
+  ],
+  [
+   "TEST Colston Loveland",
+   251.4,
+   210.2
+  ],
+  [
+   "finalist1",
+   242.2,
+   148.8
+  ],
+  [
+   "finalist2",
+   236.0,
+   139.6
+  ],
+  [
+   "TEST CeeDee Lamb",
+   230.9,
+   193.1
+  ]
+ ]
+}

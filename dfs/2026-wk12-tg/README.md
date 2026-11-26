@@ -31,3 +31,9 @@ team totals halfway to Vegas; DvP multipliers removed (Clay prices matchups), we
 Pick = regrade finalist2: 6-world mean 69.6 (best), worst 48.9 (best), Milton-boom 85.4 (best). Search pick was 7th (58.1).
 L1 Goff/CHI-DET game stack + Lamb · L2 Milton + Gibbs + E. Johnson/Kelce/Moore (rain game) · L3 Caleb + Gibbs + Lamb.
 P(>=1 cashes) 75% synthetic field (real field sharper: expect ~60-70%). Validator PASS, salaries match.
+
+## 5-LINEUP FINAL (wed5, full pool: 55 players incl. punts, min_base 3.5) — `wed5/lineups_FINAL.csv`
+6-world 251.4 (worst 210.2), Milton-boom 209.7; P(>=1 of 5 cashes) 89% synthetic. QBs Dak/Goff/Milton/Caleb/Allen.
+Best 3 OF THE 5 = `wed5/lineups_BEST3.csv` (Goff, Milton, Allen lineups): 145.1 (worst 109.4).
+Best 3 overall (any lineups) = `wed5/lineups_BEST3_widepool.csv` (Milton/Goff/Mahomes): 157.1 (worst 96.7); old wed 3 = 156.3 (worst 78.9).
+Flag: Darius Cooper 4/5, Swift 4/5 (model-driven; Kendall: punts can hit).
