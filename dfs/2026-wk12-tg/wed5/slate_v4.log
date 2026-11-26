@@ -61,3 +61,7 @@ VALIDATOR: PASS
 Questionable in pool (have a pivot): Dalton Kincaid, Noah Gray
 1176 -> 1804 candidates
 f1 108s median top-3/15/150: [185.8 180.9 171.9]
+f2 214s median top-3/15/150: [186.  181.  172.2]
+f3 318s median top-3/15/150: [186.1 181.2 172.4]
+saved /tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wed5_v4.npz
+[v4] 55 players · 1804 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
