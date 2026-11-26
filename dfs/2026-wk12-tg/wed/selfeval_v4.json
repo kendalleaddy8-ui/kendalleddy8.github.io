@@ -1,0 +1,143 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [
+  "same cheap punt in 2+ lineups (lesson 21 says vary them): ['Darius Cooper']"
+ ],
+ "exposure": {
+  "D'Andre Swift": 2,
+  "Sam LaPorta": 2,
+  "CeeDee Lamb": 2,
+  "Jahmyr Gibbs": 2,
+  "Saquon Barkley": 2,
+  "Darius Cooper": 2
+ },
+ "qbs": [
+  "Jared Goff",
+  "Joe Milton III",
+  "Caleb Williams"
+ ],
+ "dsts": [
+  "Chiefs",
+  "Lions",
+  "Bills"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   47.7,
+   26.1,
+   33.0
+  ],
+  "any_pct": 75.5,
+  "cash_line": 131.3,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49900,
+   "proj": 130.7,
+   "own_sum": 227.0,
+   "top3_per10k": 2.53,
+   "top15_per1k": 1.21,
+   "top150_pct": 0.88,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "CeeDee Lamb",
+    "Chiefs"
+   ],
+   "cash_pct": 47.7
+  },
+  {
+   "lineup": 2,
+   "salary": 49900,
+   "proj": 124.5,
+   "own_sum": 215.0,
+   "top3_per10k": 1.67,
+   "top15_per1k": 0.53,
+   "top150_pct": 0.32,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "Saquon Barkley",
+    "George Pickens",
+    "Darius Cooper",
+    "DJ Moore",
+    "Travis Kelce",
+    "Emmett Johnson"
+   ],
+   "cash_pct": 26.1
+  },
+  {
+   "lineup": 3,
+   "salary": 50000,
+   "proj": 129.2,
+   "own_sum": 201.0,
+   "top3_per10k": 1.13,
+   "top15_per1k": 0.48,
+   "top150_pct": 0.38,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "CeeDee Lamb",
+    "Darius Cooper",
+    "Saquon Barkley",
+    "Bills"
+   ],
+   "cash_pct": 33.0
+  }
+ ],
+ "portfolio_grade": {
+  "A": 88.3,
+  "B": 63.9,
+  "C": 59.3
+ },
+ "regrade": [
+  [
+   "finalist2",
+   69.6,
+   48.9
+  ],
+  [
+   "finalist1",
+   65.1,
+   22.9
+  ],
+  [
+   "finalist5",
+   64.8,
+   46.9
+  ],
+  [
+   "TEST Joe Milton III+CeeDee Lamb",
+   64.4,
+   37.0
+  ],
+  [
+   "finalist4",
+   63.0,
+   39.8
+  ],
+  [
+   "finalist3",
+   62.2,
+   41.2
+  ]
+ ]
+}

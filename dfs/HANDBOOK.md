@@ -290,7 +290,9 @@ Each of your 1–3 lineups tells a **different story**.
 
 ### 8A. Engine v4 — the full stack (built Thanksgiving 2026; use every slate)
 
-**Run order** (`W=../2026-wkNN`, from `engine/`):
+**One command (preferred):** `DFS_SCRATCH=<scratch> python3 slate.py $W` runs everything below from `$W/slate.json`, including the forks, the regrade pick and the self-evaluation (see `ENGINE.md`).
+
+**Run order by hand** (`W=../2026-wkNN`, from `engine/`):
 ```
 python3 run_week.py $W --n 3 --target 200 --cands 900 --shared 4 --qbs "<every QB>" --tag run   # candidates
 python3 $W/gen_hunch.py $W              # forced builds: Kendall's hunches + DvP angles (copy from 2026-wk12-tg)
