@@ -7,8 +7,8 @@ EXTRA = {"Zavion Thomas": ("CHI", "DET", "WR", 3200, 3.0, "1:00"), "James Mitche
 pool = P.pool.copy()
 for n, (t, o, p, s, pr, k) in EXTRA.items():
     if n not in set(pool.Name): pool = pd.concat([pool, pd.DataFrame([{"Name": n, "Team": t, "Opponent": o, "Pos": p, "Salary": s, "Proj": pr, "Kick": k}])], ignore_index=True)
-ix = {n: i for i, n in enumerate(pool.Name)}; rng = np.random.default_rng(4242); worlds = []
-for j in range(4):
+ix = {n: i for i, n in enumerate(pool.Name)}; rng = np.random.default_rng(int(os.environ.get('KG_SEED', 4242))); worlds = []
+for j in range(int(os.environ.get('KG_WORLDS', 4))):
     Pn = pool.copy(); Pn["Proj"] = Pn.Proj * np.exp(rng.normal(0, 0.12, len(Pn))); S = simulate(Pn, 40000, seed=7000 + j).astype(np.float32)
     worlds.append((S, {f: thresholds(S[:, :len(P.pool)], Z[f"F_{f}"].astype(int)) for f in FS}))
 Wt = np.array([120.0, 10.0, 1.0])

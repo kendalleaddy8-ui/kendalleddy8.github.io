@@ -29,7 +29,7 @@ for st in range(ns):
     for c in P.C:
         if len(pk) == 5: break
         if ok(pk + [list(c)]): pk.append(list(c))
-    Ls, _ = P.ils(pk, kicks=5, seed=wk * 100 + st); g = P.grade(Ls); res.append(((g["B"] + g["C"]) / 2, Ls))
+    Ls, _ = P.ils(pk, kicks=8, seed=wk * 100 + st); g = P.grade(Ls); res.append(((g["B"] + g["C"]) / 2, Ls))
     print(f"w{wk} start {st}: A {g['A']:.1f} B {g['B']:.1f} C {g['C']:.1f}", flush=True)
 res.sort(key=lambda r: -r[0])
 for k, (v, Ls) in enumerate(res[:2]):

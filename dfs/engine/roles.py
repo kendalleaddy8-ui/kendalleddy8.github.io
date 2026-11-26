@@ -39,7 +39,7 @@ for st in range(ns):
                 if not e and len({tuple(sorted(L)) for L in trial}) == len(trial) and not any(P.pos[i] == "DST" for a, b in itertools.combinations(trial, 2) for i in set(a) & set(b)):
                     pk.append(c); break
     if len(pk) < 5: print("start", st, "could not seed"); continue
-    Ls, _ = P.search(pk); g = P.grade(Ls); res.append(((g["B"] + g["C"]) / 2, Ls))
+    Ls, _ = P.ils(pk, kicks=6, seed=wk * 100 + st); g = P.grade(Ls); res.append(((g["B"] + g["C"]) / 2, Ls))
     print(f"w{wk} start {st}: A {g['A']:.1f} B {g['B']:.1f} C {g['C']:.1f}", flush=True)
 res.sort(key=lambda r: -r[0])
 for k, (v, Ls) in enumerate(res[:2]):
