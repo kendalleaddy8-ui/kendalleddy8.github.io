@@ -1,0 +1,139 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [],
+ "exposure": {
+  "Jahmyr Gibbs": 2,
+  "Rome Odunze": 2,
+  "Amon-Ra St. Brown": 2,
+  "D'Andre Swift": 2,
+  "Luther Burden III": 2,
+  "Sam LaPorta": 2,
+  "Javonte Williams": 2
+ },
+ "qbs": [
+  "Caleb Williams",
+  "Joe Milton III",
+  "Jared Goff"
+ ],
+ "dsts": [
+  "Chiefs",
+  "Bills",
+  "Cowboys"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   39.5,
+   39.1,
+   49.3
+  ],
+  "any_pct": 74.6,
+  "cash_line": 130.5,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 50000,
+   "proj": 128.6,
+   "own_sum": 197.0,
+   "top3_per10k": 2.13,
+   "top15_per1k": 0.96,
+   "top150_pct": 0.67,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Saquon Barkley",
+    "Travis Kelce",
+    "Chiefs"
+   ],
+   "cash_pct": 39.5
+  },
+  {
+   "lineup": 2,
+   "salary": 49900,
+   "proj": 133.4,
+   "own_sum": 218.0,
+   "top3_per10k": 2.93,
+   "top15_per1k": 1.08,
+   "top150_pct": 0.75,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 39.1
+  },
+  {
+   "lineup": 3,
+   "salary": 49900,
+   "proj": 131.0,
+   "own_sum": 235.0,
+   "top3_per10k": 7.13,
+   "top15_per1k": 2.5,
+   "top150_pct": 1.35,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "DJ Moore",
+    "Cowboys"
+   ],
+   "cash_pct": 49.3
+  }
+ ],
+ "portfolio_grade": {
+  "A": 174.9,
+  "B": 167.0,
+  "C": 121.7
+ },
+ "regrade": [
+  [
+   "finalist2",
+   212.1,
+   121.7
+  ],
+  [
+   "PICK",
+   206.8,
+   130.0
+  ],
+  [
+   "TEST Colston Loveland",
+   206.8,
+   130.0
+  ],
+  [
+   "TEST Josh Allen",
+   192.8,
+   113.3
+  ],
+  [
+   "finalist3",
+   190.1,
+   127.5
+  ],
+  [
+   "TEST Jahmyr Gibbs+Emmett Johnson",
+   188.5,
+   112.6
+  ]
+ ]
+}
