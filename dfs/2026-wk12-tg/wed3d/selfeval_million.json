@@ -1,0 +1,110 @@
+{
+ "lineups": 3,
+ "checks": {
+  "validator": "PASS",
+  "salary_match": "PASS",
+  "injury_flags": "none"
+ },
+ "warnings": [
+  "same cheap punt in 2+ lineups (lesson 21 says vary them): ['Darius Cooper']"
+ ],
+ "exposure": {
+  "D'Andre Swift": 2,
+  "Javonte Williams": 2,
+  "CeeDee Lamb": 2,
+  "Jahmyr Gibbs": 2,
+  "Rome Odunze": 2,
+  "Darius Cooper": 2
+ },
+ "qbs": [
+  "Jared Goff",
+  "Caleb Williams",
+  "Joe Milton III"
+ ],
+ "dsts": [
+  "Cowboys",
+  "Bills",
+  "Chiefs"
+ ],
+ "cash": {
+  "per_lineup_pct": [
+   41.1,
+   44.0,
+   53.2
+  ],
+  "any_pct": 83.1,
+  "cash_line": 132.6,
+  "note": "synthetic field is softer than a real one: discount ~5-15 points"
+ },
+ "per_lineup": [
+  {
+   "lineup": 1,
+   "salary": 49600,
+   "proj": 129.9,
+   "own_sum": 233.0,
+   "top3_per10k": 2.27,
+   "top15_per1k": 0.91,
+   "top150_pct": 0.61,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Javonte Williams",
+    "CeeDee Lamb",
+    "Cowboys"
+   ],
+   "cash_pct": 41.1
+  },
+  {
+   "lineup": 2,
+   "salary": 50000,
+   "proj": 133.2,
+   "own_sum": 205.0,
+   "top3_per10k": 4.0,
+   "top15_per1k": 1.64,
+   "top150_pct": 0.91,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Saquon Barkley",
+    "DeVonta Smith",
+    "Darius Cooper",
+    "Javonte Williams",
+    "Bills"
+   ],
+   "cash_pct": 44.0
+  },
+  {
+   "lineup": 3,
+   "salary": 50000,
+   "proj": 136.9,
+   "own_sum": 211.0,
+   "top3_per10k": 11.33,
+   "top15_per1k": 3.56,
+   "top150_pct": 1.52,
+   "field_dups": [
+    0,
+    0,
+    0
+   ],
+   "swappable_after_first_window": [
+    "Joe Milton III",
+    "Darius Cooper",
+    "Brevyn Spann-Ford",
+    "CeeDee Lamb",
+    "Chiefs"
+   ],
+   "cash_pct": 53.2
+  }
+ ],
+ "portfolio_grade": {
+  "A": 168.3,
+  "B": 108.5,
+  "C": 161.7
+ }
+}

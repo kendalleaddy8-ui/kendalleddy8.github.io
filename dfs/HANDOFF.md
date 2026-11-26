@@ -113,5 +113,17 @@ Paste this into a fresh chat with "Read dfs/HANDOFF.md, dfs/HANDBOOK.md and dfs/
    - loaded; the `token-saver:scout` agent is active
    - keep the Input Router from condensing DFS number tables: read them in ranges, or say "full output"
 
-## 6. FINAL (filled when the run finishes)
-_pending_
+## 6. FINAL: Thanksgiving 3 lineups (Wed 10:40 PM ET)
+**PLAY = `2026-wk12-tg/wed3d/lineups_MILLION.csv`** (fresh-world fair test vs the balanced pick: score 166.5 vs 154.6, P(any top-3) 18.5 vs 15.6 per 10k, P(≥1 cash) 83% vs 78%; worst case 72.8 vs 132.7)
+
+| # | QB | RB | RB | WR | WR | WR | TE | FLEX | DST |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Goff | Swift | Javonte | Burden | Jameson Williams | Raymond | LaPorta | Lamb | Cowboys |
+| 2 | Caleb | Gibbs | Barkley | Odunze | D. Smith | D. Cooper | Loveland | Javonte | Bills |
+| 3 | Milton | Gibbs | Swift | Odunze | St. Brown | D. Cooper | Spann-Ford | Lamb | Chiefs |
+
+- Safer alternative: `wed3d/lineups_FINAL.csv` (balanced; best worst case).
+- Self-check: validator PASS, salaries match, injuries clean, no duplicates. One warning: Darius Cooper in 2 lineups (lesson 21, kept on purpose: "punts can hit").
+- Exposure: Swift, Javonte, Lamb, Gibbs, Odunze and Cooper each in 2/3.
+- Watch at 11:40 AM: Swift, Gibbs, Barkley, Lamb, Cooper, Spann-Ford (Ferguson OUT assumed).
+- New tool tonight: `engine/fairtest.py` grades lineup sets on fresh worlds no search has seen. Use it for the final call between finalists.
