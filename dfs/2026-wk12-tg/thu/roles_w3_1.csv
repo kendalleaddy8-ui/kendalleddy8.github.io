@@ -1,0 +1,46 @@
+Name,Rating,Team,Opponent,Pos,Base,Salary,Spread,Total,OpenTotal,Kick,PROE,Pace,WxPass,WxRun,WxDST,Status,Proj,Adj,Implied,Own,Slot,Lineup,Role
+Joe Milton III,,PHI,DAL,QB,16.4,4600,8.5,49.5,49.5,4:30,,,,,,,17.71,26.56,20.5,12.0,QB,1,top2games
+Jahmyr Gibbs,,DET,CHI,RB,26.1,9500,1.5,56.5,51.5,1:00,,1.02,,,,,29.07,43.6,27.5,44.0,RB,1,top2games
+Saquon Barkley,,PHI,DAL,RB,15.0,5800,8.5,49.5,49.5,4:30,,,,,,,14.21,21.32,20.5,20.0,RB,1,top2games
+Amon-Ra St. Brown,,DET,CHI,WR,18.2,7700,1.5,56.5,51.5,1:00,,1.02,,,,,20.19,34.32,27.5,36.0,WR,1,top2games
+George Pickens,,DAL,PHI,WR,14.8,6300,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,16.34,26.95,29.0,30.0,WR,1,top2games
+Makai Lemon,,PHI,DAL,WR,7.4,3900,8.5,49.5,49.5,4:30,,,,,,,7.47,12.33,20.5,5.0,WR,1,top2games
+Brevyn Spann-Ford,,DAL,PHI,TE,4.9,3000,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,5.71,9.13,29.0,12.0,TE,1,top2games
+Javonte Williams,,DAL,PHI,RB,16.9,6800,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,17.08,25.63,29.0,38.0,FLEX,1,top2games
+Lions,,DET,CHI,DST,4.5,2400,1.5,56.5,51.5,1:00,,1.02,,,,,4.63,9.27,27.5,14.0,DST,1,top2games
+Joe Milton III,,PHI,DAL,QB,16.4,4600,8.5,49.5,49.5,4:30,,,,,,,17.71,26.56,20.5,12.0,QB,2,top2games
+D'Andre Swift,,CHI,DET,RB,15.9,6200,-1.5,56.5,51.5,1:00,,1.02,,,,,17.12,25.68,29.0,28.0,RB,2,top2games
+Saquon Barkley,,PHI,DAL,RB,15.0,5800,8.5,49.5,49.5,4:30,,,,,,,14.21,21.32,20.5,20.0,RB,2,top2games
+CeeDee Lamb,,DAL,PHI,WR,20.1,8300,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,22.19,37.71,29.0,42.0,WR,2,top2games
+George Pickens,,DAL,PHI,WR,14.8,6300,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,16.34,26.95,29.0,30.0,WR,2,top2games
+Makai Lemon,,PHI,DAL,WR,7.4,3900,8.5,49.5,49.5,4:30,,,,,,,7.47,12.33,20.5,5.0,WR,2,top2games
+Colston Loveland,,CHI,DET,TE,11.4,5000,-1.5,56.5,51.5,1:00,,1.02,,,,,12.77,20.43,29.0,25.0,TE,2,top2games
+Javonte Williams,,DAL,PHI,RB,16.9,6800,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,17.08,25.63,29.0,38.0,FLEX,2,top2games
+Bears,,CHI,DET,DST,3.9,2900,-1.5,56.5,51.5,1:00,,1.02,,,,,3.59,7.19,29.0,12.0,DST,2,top2games
+Caleb Williams,,CHI,DET,QB,18.3,5800,-1.5,56.5,51.5,1:00,,1.02,,,,,19.42,28.16,29.0,15.0,QB,3,anomaly
+D'Andre Swift,,CHI,DET,RB,15.9,6200,-1.5,56.5,51.5,1:00,,1.02,,,,,17.12,25.68,29.0,28.0,RB,3,anomaly
+Will Shipley,,PHI,DAL,RB,6.3,4800,8.5,49.5,49.5,4:30,,,,,,,6.3,9.45,20.5,4.0,RB,3,anomaly
+Luther Burden III,,CHI,DET,WR,14.7,6000,-1.5,56.5,51.5,1:00,,1.02,,,,,15.37,25.35,29.0,26.0,WR,3,anomaly
+Jameson Williams,,DET,CHI,WR,12.6,5700,1.5,56.5,51.5,1:00,,1.02,,,,,13.98,23.06,27.5,20.0,WR,3,anomaly
+Khalil Shakir,,BUF,KC,WR,9.0,4600,-2.5,45.5,49.5,8:20,,,0.95,1.02,1.04,,8.23,13.58,24.0,10.0,WR,3,anomaly
+Dallas Goedert,,PHI,DAL,TE,8.4,4100,8.5,49.5,49.5,4:30,,,,,,,8.27,13.24,20.5,13.0,TE,3,anomaly
+Saquon Barkley,,PHI,DAL,RB,15.0,5800,8.5,49.5,49.5,4:30,,,,,,,14.21,21.32,20.5,20.0,FLEX,3,anomaly
+Bills,,BUF,KC,DST,4.9,3100,-2.5,45.5,49.5,8:20,,,0.95,1.02,1.04,,5.22,10.45,24.0,14.0,DST,3,anomaly
+Joe Milton III,,PHI,DAL,QB,16.4,4600,8.5,49.5,49.5,4:30,,,,,,,17.71,26.56,20.5,12.0,QB,4,allgames
+Jahmyr Gibbs,,DET,CHI,RB,26.1,9500,1.5,56.5,51.5,1:00,,1.02,,,,,29.07,43.6,27.5,44.0,RB,4,allgames
+Javonte Williams,,DAL,PHI,RB,16.9,6800,-8.5,49.5,49.5,4:30,3.0,1.03,,,,,17.08,25.63,29.0,38.0,RB,4,allgames
+Rome Odunze,,CHI,DET,WR,11.9,4500,-1.5,56.5,51.5,1:00,,1.02,,,,,12.44,20.52,29.0,18.0,WR,4,allgames
+DeVonta Smith,,PHI,DAL,WR,15.2,5900,8.5,49.5,49.5,4:30,,,,,,,15.65,25.83,20.5,26.0,WR,4,allgames
+Makai Lemon,,PHI,DAL,WR,7.4,3900,8.5,49.5,49.5,4:30,,,,,,,7.47,12.33,20.5,5.0,WR,4,allgames
+Colston Loveland,,CHI,DET,TE,11.4,5000,-1.5,56.5,51.5,1:00,,1.02,,,,,12.77,20.43,29.0,25.0,TE,4,allgames
+Emmett Johnson,,KC,BUF,RB,17.2,7200,2.5,45.5,49.5,8:20,,,0.95,1.02,1.04,,17.26,25.89,21.5,50.0,FLEX,4,allgames
+Chiefs,,KC,BUF,DST,5.1,2600,2.5,45.5,49.5,8:20,,,0.95,1.02,1.04,,5.43,10.86,21.5,14.0,DST,4,allgames
+Jared Goff,,DET,CHI,QB,17.4,5600,1.5,56.5,51.5,1:00,,1.02,,,,,19.3,27.98,27.5,16.0,QB,5,allgames
+D'Andre Swift,,CHI,DET,RB,15.9,6200,-1.5,56.5,51.5,1:00,,1.02,,,,,17.12,25.68,29.0,28.0,RB,5,allgames
+Emmett Johnson,,KC,BUF,RB,17.2,7200,2.5,45.5,49.5,8:20,,,0.95,1.02,1.04,,17.26,25.89,21.5,50.0,RB,5,allgames
+Amon-Ra St. Brown,,DET,CHI,WR,18.2,7700,1.5,56.5,51.5,1:00,,1.02,,,,,20.19,34.32,27.5,36.0,WR,5,allgames
+Jameson Williams,,DET,CHI,WR,12.6,5700,1.5,56.5,51.5,1:00,,1.02,,,,,13.98,23.06,27.5,20.0,WR,5,allgames
+Rome Odunze,,CHI,DET,WR,11.9,4500,-1.5,56.5,51.5,1:00,,1.02,,,,,12.44,20.52,29.0,18.0,WR,5,allgames
+Colston Loveland,,CHI,DET,TE,11.4,5000,-1.5,56.5,51.5,1:00,,1.02,,,,,12.77,20.43,29.0,25.0,TE,5,allgames
+DeVonta Smith,,PHI,DAL,WR,15.2,5900,8.5,49.5,49.5,4:30,,,,,,,15.65,25.83,20.5,26.0,FLEX,5,allgames
+Eagles,,PHI,DAL,DST,3.4,2200,8.5,49.5,49.5,4:30,,,,,,,3.07,6.14,20.5,10.0,DST,5,allgames
