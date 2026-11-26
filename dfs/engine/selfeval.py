@@ -32,6 +32,16 @@ def main():
     if cheap: W.append(f"same cheap punt in 2+ lineups (lesson 21 says vary them): {cheap}")
     q = [n for n, s in flags if s.upper() == "QUESTIONABLE"]
     if q: W.append(f"questionable players rostered (have a pivot): {q}")
+    # §7.2 strong defaults + Thanksgiving additions (warn, never block: "punts can hit")
+    lines = pd.read_csv(os.path.join(a.week, "lines.csv")); imp = dict(zip(lines.Team, lines.Total / 2 - lines.Spread / 2))
+    for k, d in enumerate(groups, 1):
+        punts = d[(d.Pos != "DST") & (d.Proj < 6.0)].Name.tolist()
+        if len(punts) > 2: W.append(f"L{k}: {len(punts)} near-punts (proj < 6): {punts} (default max 2)")
+        rb = d[d.Pos == "RB"].Team.value_counts()
+        if (rb >= 2).any(): W.append(f"L{k}: same-team RB+RB {list(rb[rb >= 2].index)} (backfields split)")
+        if (d.Pos == "TE").sum() >= 2: W.append(f"L{k}: two TEs: {d[d.Pos == 'TE'].Name.tolist()} (needs a target/red-zone reason)")
+        dst = d[d.Pos == "DST"].iloc[0]
+        if imp.get(dst.Opponent, 0) >= 27: W.append(f"L{k}: {dst.Name} DST faces {dst.Opponent} implied {imp[dst.Opponent]:.1f} (cheap-salary punt?)")
     per = []
     for k, (d, Lx) in enumerate(zip(groups, Ls), 1):
         x = P.single("C", Lx); dups = [P.dup[f].get(tuple(sorted(Lx)), 0) for f in FS]
