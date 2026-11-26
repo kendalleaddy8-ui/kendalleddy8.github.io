@@ -1,0 +1,45 @@
+[v4w1] 55 players · 1786 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 7: A 169.4 · B 162.0 · C 127.0 · mean(B,C) 144.5
+start 8: A 160.7 · B 124.8 · C 114.5 · mean(B,C) 119.7
+start 9: A 142.8 · B 150.8 · C 108.5 · mean(B,C) 129.6
+start 10: A 136.1 · B 102.5 · C 114.5 · mean(B,C) 108.5
+start 11: A 136.5 · B 121.1 · C 91.0 · mean(B,C) 106.1
+start 12: A 144.9 · B 163.5 · C 95.8 · mean(B,C) 129.7
+start 13: A 147.9 · B 84.5 · C 129.8 · mean(B,C) 107.1
+
+PICK (best mean B,C): A 169.4 B 162.0 C 127.0
+
+L1 $49,700 proj 135.9 own 211% · top-3 7.67/10k · top-15 2.24/1k · top-150 1.16% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  17.2 own 12.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  29.1 own 44.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   WR   Luther Burden III      CHI $6,000  15.2 own 26.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  15.2 own 26.0% 4:30
+   TE   Dallas Goedert         PHI $4,100   8.0 own 13.0% 4:30
+   FLEX George Pickens         DAL $6,300  16.3 own 30.0% 4:30
+   DST  Chiefs                 KC $2,600   5.4 own 14.0% 8:20
+
+L2 $49,700 proj 127.2 own 215% · top-3 3.87/10k · top-15 1.56/1k · top-150 0.86% · field dups [0, 0, 0]
+   QB   Jared Goff             DET $5,600  18.7 own 16.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   RB   Javonte Williams       DAL $6,800  17.1 own 38.0% 4:30
+   WR   Luther Burden III      CHI $6,000  15.2 own 26.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  15.2 own 26.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX James Cook III         BUF $7,400  15.3 own 24.0% 8:20
+   DST  Bills                  BUF $3,100   5.2 own 14.0% 8:20
+
+L3 $49,500 proj 126.7 own 192% · top-3 2.53/10k · top-15 0.88/1k · top-150 0.42% · field dups [0, 0, 0]
+   QB   Dak Prescott           DAL $6,400  20.7 own 25.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  29.1 own 44.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  14.2 own 20.0% 4:30
+   WR   George Pickens         DAL $6,300  16.3 own 30.0% 4:30
+   WR   Makai Lemon            PHI $3,900   7.2 own  5.0% 4:30
+   WR   Darius Cooper          PHI $3,600   8.2 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX James Cook III         BUF $7,400  15.3 own 24.0% 8:20
+   DST  Lions                  DET $2,400   4.6 own 14.0% 1:00
+exposure: Jahmyr Gibbs 2/3, D'Andre Swift 2/3, Luther Burden III 2/3, DeVonta Smith 2/3, George Pickens 2/3, Rome Odunze 2/3, James Cook III 2/3, Sam LaPorta 2/3
+VALIDATOR: PASS

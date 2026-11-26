@@ -38,3 +38,77 @@ Angle table (best P>=target per QB): Joe Milton III 3.82% · Caleb Williams 3.50
 VALIDATOR: PASS
 Questionable in pool (have a pivot): Dalton Kincaid, Noah Gray
 1171 -> 1786 candidates
+f1 107s median top-3/15/150: [190.2 185.2 176. ]
+f2 214s median top-3/15/150: [190.4 185.5 176.5]
+f3 323s median top-3/15/150: [190.5 185.5 176.4]
+saved /tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wed3d_v4.npz
+[v4] 55 players · 1786 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 182.4 · B 154.9 · C 130.2 · mean(B,C) 142.6
+start 1: A 164.0 · B 105.3 · C 133.4 · mean(B,C) 119.3
+start 2: A 119.9 · B 78.6 · C 121.6 · mean(B,C) 100.1
+start 3: A 137.3 · B 69.1 · C 134.0 · mean(B,C) 101.5
+start 4: A 130.6 · B 118.1 · C 155.7 · mean(B,C) 136.9
+start 5: A 147.7 · B 91.8 · C 168.9 · mean(B,C) 130.4
+start 6: A 157.2 · B 104.0 · C 81.3 · mean(B,C) 92.6
+start 7: A 169.4 · B 162.0 · C 127.0 · mean(B,C) 144.5
+start 8: A 160.7 · B 124.8 · C 114.5 · mean(B,C) 119.7
+start 9: A 142.8 · B 150.8 · C 108.5 · mean(B,C) 129.6
+start 10: A 136.1 · B 102.5 · C 114.5 · mean(B,C) 108.5
+start 11: A 136.5 · B 121.1 · C 91.0 · mean(B,C) 106.1
+start 12: A 144.9 · B 163.5 · C 95.8 · mean(B,C) 129.7
+start 13: A 147.9 · B 84.5 · C 129.8 · mean(B,C) 107.1
+start 14: A 156.3 · B 108.2 · C 145.2 · mean(B,C) 126.7
+start 15: A 165.5 · B 117.0 · C 120.2 · mean(B,C) 118.6
+start 16: A 138.3 · B 111.9 · C 132.7 · mean(B,C) 122.3
+start 17: A 143.1 · B 105.1 · C 154.2 · mean(B,C) 129.7
+start 18: A 142.8 · B 140.8 · C 106.2 · mean(B,C) 123.5
+start 19: A 176.5 · B 123.1 · C 183.2 · mean(B,C) 153.1
+start 20: A 159.0 · B 88.2 · C 133.1 · mean(B,C) 110.6
+start 21: A 151.7 · B 65.2 · C 117.1 · mean(B,C) 91.2
+world N0 ready
+start 22: A 154.8 · B 112.0 · C 93.2 · mean(B,C) 102.6
+start 23: A 148.2 · B 100.2 · C 191.6 · mean(B,C) 145.9
+
+PICK (best mean B,C): A 176.5 B 123.1 C 183.2
+TEST Jahmyr Gibbs+Emmett Johnson: A 164.5 B 140.6 C 181.3 · mean(B,C) 161.0 vs pick 153.1
+TEST CeeDee Lamb: A 176.5 B 123.1 C 183.2 · mean(B,C) 153.1 vs pick 153.1
+TEST Joe Milton III+CeeDee Lamb: A 176.5 B 123.1 C 183.2 · mean(B,C) 153.1 vs pick 153.1
+TEST Josh Allen: A 126.9 B 143.3 C 139.1 · mean(B,C) 141.2 vs pick 153.1
+TEST Colston Loveland: A 164.5 B 140.6 C 181.3 · mean(B,C) 161.0 vs pick 153.1
+
+L1 $50,000 proj 132.4 own 219% · top-3 8.47/10k · top-15 2.51/1k · top-150 1.22% · field dups [0, 0, 0]
+   QB   Jared Goff             DET $5,600  18.7 own 16.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  14.2 own 20.0% 4:30
+   WR   Luther Burden III      CHI $6,000  15.2 own 26.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   George Pickens         DAL $6,300  16.3 own 30.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX CeeDee Lamb            DAL $8,300  22.2 own 42.0% 4:30
+   DST  Bills                  BUF $3,100   5.2 own 14.0% 8:20
+
+L2 $49,900 proj 136.2 own 205% · top-3 6.47/10k · top-15 2.34/1k · top-150 1.26% · field dups [0, 0, 0]
+   QB   Caleb Williams         CHI $5,800  19.2 own 15.0% 1:00
+   RB   Jahmyr Gibbs           DET $9,500  29.1 own 44.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   WR   Amon-Ra St. Brown      DET $7,700  19.6 own 36.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   Darius Cooper          PHI $3,600   8.2 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX Saquon Barkley         PHI $5,800  14.2 own 20.0% 4:30
+   DST  Chiefs                 KC $2,600   5.4 own 14.0% 8:20
+
+L3 $49,800 proj 130.9 own 208% · top-3 5.87/10k · top-15 1.79/1k · top-150 0.91% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  17.2 own 12.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  29.1 own 44.0% 1:00
+   RB   Javonte Williams       DAL $6,800  17.1 own 38.0% 4:30
+   WR   Amon-Ra St. Brown      DET $7,700  19.6 own 36.0% 1:00
+   WR   Makai Lemon            PHI $3,900   7.2 own  5.0% 4:30
+   WR   Darius Cooper          PHI $3,600   8.2 own  5.0% 4:30
+   TE   Brevyn Spann-Ford      DAL $3,000   5.7 own 12.0% 4:30
+   FLEX CeeDee Lamb            DAL $8,300  22.2 own 42.0% 4:30
+   DST  Lions                  DET $2,400   4.6 own 14.0% 1:00
+exposure: Jahmyr Gibbs 2/3, CeeDee Lamb 2/3, Amon-Ra St. Brown 2/3, Darius Cooper 2/3, D'Andre Swift 2/3, Saquon Barkley 2/3, Rome Odunze 2/3, Sam LaPorta 2/3
+VALIDATOR: PASS
+world N1 ready
+world N2 ready

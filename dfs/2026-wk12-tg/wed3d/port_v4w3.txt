@@ -1,0 +1,46 @@
+[v4w3] 55 players · 1786 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 21: A 151.7 · B 65.2 · C 117.1 · mean(B,C) 91.2
+start 22: A 154.8 · B 112.0 · C 93.2 · mean(B,C) 102.6
+start 23: A 148.2 · B 100.2 · C 191.6 · mean(B,C) 145.9
+
+PICK (best mean B,C): A 148.2 B 100.2 C 191.6
+TEST Jahmyr Gibbs+Emmett Johnson: A 149.9 B 130.0 C 176.7 · mean(B,C) 153.4 vs pick 145.9
+TEST CeeDee Lamb: A 148.2 B 100.2 C 191.6 · mean(B,C) 145.9 vs pick 145.9
+TEST Joe Milton III+CeeDee Lamb: A 148.2 B 100.2 C 191.6 · mean(B,C) 145.9 vs pick 145.9
+TEST Josh Allen: A 112.4 B 160.5 C 120.7 · mean(B,C) 140.6 vs pick 145.9
+TEST Colston Loveland: A 149.9 B 130.0 C 176.7 · mean(B,C) 153.4 vs pick 145.9
+
+L1 $50,000 proj 137.7 own 224% · top-3 8.33/10k · top-15 3.07/1k · top-150 1.75% · field dups [0, 0, 0]
+   QB   Joe Milton III         PHI $4,600  17.2 own 12.0% 4:30
+   RB   Jahmyr Gibbs           DET $9,500  29.1 own 44.0% 1:00
+   RB   Javonte Williams       DAL $6,800  17.1 own 38.0% 4:30
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   DeVonta Smith          PHI $5,900  15.2 own 26.0% 4:30
+   WR   Darius Cooper          PHI $3,600   8.2 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX CeeDee Lamb            DAL $8,300  22.2 own 42.0% 4:30
+   DST  Chiefs                 KC $2,600   5.4 own 14.0% 8:20
+
+L2 $50,000 proj 124.9 own 195% · top-3 8.53/10k · top-15 2.55/1k · top-150 1.37% · field dups [0, 0, 0]
+   QB   Jared Goff             DET $5,600  18.7 own 16.0% 1:00
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  14.2 own 20.0% 4:30
+   WR   Amon-Ra St. Brown      DET $7,700  19.6 own 36.0% 1:00
+   WR   Rome Odunze            CHI $4,500  12.3 own 18.0% 1:00
+   WR   DJ Moore               BUF $5,600  11.9 own 18.0% 8:20
+   TE   Colston Loveland       CHI $5,000  12.6 own 25.0% 1:00
+   FLEX James Cook III         BUF $7,400  15.3 own 24.0% 8:20
+   DST  Eagles                 PHI $2,200   3.1 own 10.0% 4:30
+
+L3 $49,800 proj 130.2 own 215% · top-3 4.07/10k · top-15 1.27/1k · top-150 0.84% · field dups [0, 0, 0]
+   QB   Dak Prescott           DAL $6,400  20.7 own 25.0% 4:30
+   RB   D'Andre Swift          CHI $6,200  17.1 own 28.0% 1:00
+   RB   Saquon Barkley         PHI $5,800  14.2 own 20.0% 4:30
+   WR   DeVonta Smith          PHI $5,900  15.2 own 26.0% 4:30
+   WR   George Pickens         DAL $6,300  16.3 own 30.0% 4:30
+   WR   Darius Cooper          PHI $3,600   8.2 own  5.0% 4:30
+   TE   Sam LaPorta            DET $4,200  11.0 own 25.0% 1:00
+   FLEX CeeDee Lamb            DAL $8,300  22.2 own 42.0% 4:30
+   DST  Bills                  BUF $3,100   5.2 own 14.0% 8:20
+exposure: CeeDee Lamb 2/3, DeVonta Smith 2/3, Sam LaPorta 2/3, Rome Odunze 2/3, Darius Cooper 2/3, D'Andre Swift 2/3, Saquon Barkley 2/3
+VALIDATOR: PASS
