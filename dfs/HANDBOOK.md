@@ -334,6 +334,9 @@ Run every injury fork as its own folder (e.g. `wout/` = Walker OUT) and give Ken
 | Ownership (explicit for every player ≥ $4k on short slates) | judgment + field chatter | `overrides.Own` + σ 0.30 noise |
 | Field: size, stacking habits, duplicates | `field_classic.sample_field` | `fieldprep.py` |
 | Late swap: staggered kicks | `lateswap.py` | latest player in FLEX; re-run after each window |
+| Trench win rates: each OL vs the opposing DL (PBWR vs PRWR, RBWR vs RSWR ranks) | ESPN 'win rates' page (`espn.com/nfl/story/_/id/49742016/...`) | `trenches.csv` edges −2..+2, plus late OL/DL injury news |
+| WR vs CB (shadow coverage, slot/outside) + scheme vs scheme (recent-5-week defense, post-bye changes) | Clay playbook MATCHUP column + ESPN Matchup Rankings (Cockcroft) | residual Mult: Great +3 / Good +1.5 / Shaky −1.5 / Poor −3%, ±2% for independent upgrades |
+| TE vs LB/S coverage (TE yds/targets allowed, coverage LB/S injuries) | FantasyPros points allowed + injury reports | residual Mult ±2–4% |
 | Stress tests: "X has a day" (mean ×1.15, fatter tail) | `2026-wk12-tg/milton_stress.py` pattern | the pick must stay top in the stress world too |
 
 ---
@@ -435,6 +438,7 @@ Run every injury fork as its own folder (e.g. `wout/` = Walker OUT) and give Ken
 | 27 | 12 TG | The old sim made same-team RBs (Walker/E. Johnson) positively correlated and ignored game script, QB vultures and duplicate prize-splitting | sim SCRIPT layers + dup-aware, top-3-weighted objective (`portfolio.py`) are the default from Wk12 on |
 | 28 | 12 TG | Mike Clay's weekly **Fantasy Playbook** (`espn.com/fantasy/football/story/_/id/<id>/fantasy-playbook-projections-lineup-locks-week-N-shadow`) has projections for EVERY game, including Thursday/holiday slates, where the DK values table has none | Parse the `<td>POS##</td><td>player</td><td>proj</td>` rows. Blend team totals halfway to Vegas. Do NOT stack DvP multipliers on top (Clay already prices matchups) |
 | 29 | 12 TG | Switching to Clay's projections, I dropped the coaching layer along with the DvP multipliers. Clay prices talent and matchup, not in-game coaching behavior (4th-down aggression, tempo, protection breakdowns from late OL news). The §7.2 defaults were never checked in code | Coaching stays in `lines.csv` Pace/PROE + `trenches.csv` + Mult ≤ ±2% even on Clay weeks. `selfeval.py` now warns on: > 2 near-punts, same-team RB+RB, 2 TEs, a DST facing 27+ implied |
+| 30 | 12 TG | Kendall added three matchup layers on the eve of Thanksgiving: trenches (ESPN win rates), WR vs CB + scheme (Clay grades, ESPN Matchup Rankings: BUF post-bye scheme turnaround), TE vs LB/S (DET most TE yds, coverage-LB injuries) | Every slate: all three in the angle checklist (§8A). On Clay weeks, apply them as small RESIDUAL nudges (Clay already prices matchups). Warm-start the search from the previous best lineups after any layer change (`warmstart.py`) |
 | 18 | 9 | **Partial results (Kendall's own cards):** Walker 39.3 and Shedeur 22.7 (Kendall hunches ✅) · Willis 4.8, Gibbs 13.4, Dulcich 3.4, Judkins 5.5 · Jeudy 5.7, Cody White 0.0 (unverified player, as flagged) | **Trench model A beat the sim on Willis** → when the trench layer and Vegas disagree on a QB, trust the trench read. Kendall's QB/RB hunches went 2-for-2: give hunch angles at least one lineup |
 
 ---
