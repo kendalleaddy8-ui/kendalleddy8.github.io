@@ -136,3 +136,6 @@ Lineups 1–3 = `lineups_MILLION.csv` (locked, already entered). New 4–5 = `we
 | 5 | Allen | Gibbs | Barkley | Odunze | D. Smith | DJ Moore | Kelce | Shakir | Eagles |
 - Fresh-world test: 5-set score 203.3 (worst 124.7), P(any top-3) 22.2/10k, top-15 7.47/1k, P(>=1 cash) 91% in sim, vs the 3-set 166.5 / 18.5 / 6.07 / 83%. All 3 parallel workers converged to the same pair.
 - Warnings: Cooper 3/5, Gibbs 4/5. The cheap Lions/Eagles DSTs face 28+ implied, but forced by the no-shared-DST rule; the shared-Chiefs alternative tested worse (202.2).
+
+## 8. FINAL ENTRY (Thu 12 AM): engine #1-4 + Kendall K4 replacing the Allen lineup
+Fresh-world test: 413.8 vs 393.3, top-3 24.0 vs 22.7 per 10k. Caleb in 2 lineups (rule waived on numbers). `wed3d/ENTRY_SHEET.csv`.
