@@ -10,10 +10,11 @@ a.add_argument("--teams", default="", help="slate filter: comma list of teams, o
 a.add_argument("--shared", type=int, default=3, help="max players shared by any two lineups")
 a.add_argument("--compare-shared", type=int, default=None, help="also report the portfolio at this overlap cap")
 a.add_argument("--tag", default="run", help="output names: lineups_<tag>.csv, <tag>.txt")
+a.add_argument("--min-base", type=float, default=5.5, help="prune players below this Base (3.5 = every player with a role)")
 a = a.parse_args(); W = a.week; J = lambda f: os.path.join(W, f)
 ov = pd.read_csv(J("overrides.csv")) if os.path.exists(J("overrides.csv")) else pd.DataFrame()
 tr = pd.read_csv(J("trenches.csv")) if os.path.exists(J("trenches.csv")) else None
-pool = build(pd.read_csv(J("espn_pool.csv")), pd.read_csv(J("injuries.csv")), pd.read_csv(J("lines.csv")), ov, tr)
+pool = build(pd.read_csv(J("espn_pool.csv")), pd.read_csv(J("injuries.csv")), pd.read_csv(J("lines.csv")), ov, tr, min_base=a.min_base)
 if a.teams:
     keep = set(pool[pool.Kick.isin(["4:05", "4:25"])].Team) if a.teams == "late" else set(a.teams.split(","))
     pool = pool[pool.Team.isin(keep) & pool.Opponent.isin(keep)].reset_index(drop=True)

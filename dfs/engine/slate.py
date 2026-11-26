@@ -22,7 +22,7 @@ def chain(W, cfg, skip=1):
     W = os.path.abspath(W); tag = cfg.get("tag", "v4"); npz = os.path.join(SCR, f"{os.path.basename(W)}_{tag}.npz"); log = os.path.join(W, f"slate_{tag}.log")
     py = [sys.executable, "-u"]
     if skip <= 1: run(py + ["run_week.py", W, "--n", str(cfg.get("n", 3)), "--target", "200", "--cands", str(cfg.get("cands", 900)),
-                           "--shared", str(cfg.get("shared", 4)), "--qbs", ",".join(cfg.get("qbs", [])), "--tag", "run"], log)
+                           "--shared", str(cfg.get("shared", 4)), "--qbs", ",".join(cfg.get("qbs", [])), "--tag", "run", "--min-base", str(cfg.get("min_base", 3.5))], log)
     if skip <= 2 and cfg.get("locks"): run(py + ["hunch_cands.py", W] + sum([["--lock", l] for l in cfg["locks"]], []), log)
     if skip <= 3: run(py + ["fieldprep.py", W, npz], log)
     if skip <= 4: run(py + ["portfolio.py", W, npz, "--n", str(cfg.get("n", 3)), "--tag", tag, "--starts", str(cfg.get("starts", 12)), "--shared", str(cfg.get("shared", 4))]

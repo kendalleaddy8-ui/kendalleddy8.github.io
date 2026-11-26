@@ -7,7 +7,7 @@ import argparse, numpy as np, pandas as pd
 EXCLUDE_ALWAYS = set()   # (Omar Cooper Jr. exclusion was one game only — removed Wk11 MNF)
 VOL = {"QB": 1.45, "RB": 1.5, "WR": 1.65, "TE": 1.6, "DST": 2.0}
 
-def build(pool, inj, lines, ov, trenches=None):
+def build(pool, inj, lines, ov, trenches=None, min_base=5.5):
     """trenches: optional DataFrame Team,PassProEdge,RunBlockEdge,Source with edges in -2..+2 (team's OL vs opp DL).
     PassPro: QB/WR/TE x(1+0.025*e), opposing DST x(1-0.05*e) · RunBlock: RB x(1+0.04*e).
     Do NOT also put the same trench factors in overrides.Mult (double-apply)."""
@@ -26,7 +26,7 @@ def build(pool, inj, lines, ov, trenches=None):
     tags = {n: str(g(n, "Tag", "")) for n in d.Name}
     d = d[~d.Status.str.upper().isin(["OUT", "IR", "DOUBTFUL"]) & ~d.Name.isin(EXCLUDE_ALWAYS)
           & ~d.Name.map(lambda n: "exclude" in tags[n])].copy()
-    d = d[(d.Base >= 5.5) | (d.Pos == "DST")].reset_index(drop=True)
+    d = d[(d.Base >= min_base) | (d.Pos == "DST")].reset_index(drop=True)   # min_base: 3.5 = every player with a role (punts can hit)
     lead = set(d[d.Pos == "RB"].sort_values("Base").groupby("Team").tail(1).Name) | {n for n, t in tags.items() if "leadRB" in t}
     alpha = set(d[(d.Pos == "WR") & (d.Base >= 18)].Name) | {n for n, t in tags.items() if "alphaWR" in t}
     def adj(r):
