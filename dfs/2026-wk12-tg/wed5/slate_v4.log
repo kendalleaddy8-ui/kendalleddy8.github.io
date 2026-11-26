@@ -65,3 +65,11 @@ f2 214s median top-3/15/150: [186.  181.  172.2]
 f3 318s median top-3/15/150: [186.1 181.2 172.4]
 saved /tmp/claude-0/-home-user-kendalleddy8-github-io/e52ada3d-e7c1-5e4c-a107-74cef7dd16c9/scratchpad/wed5_v4.npz
 [v4] 55 players · 1804 candidates · places [3, 15, 150] weights [np.float64(40.0), np.float64(10.0), np.float64(1.0)] · dup-aware
+start 0: A 218.5 · B 240.5 · C 148.8 · mean(B,C) 194.6
+start 1: A 157.2 · B 89.4 · C 126.1 · mean(B,C) 107.7
+start 2: A 176.6 · B 129.0 · C 157.6 · mean(B,C) 143.3
+start 3: A 190.9 · B 106.7 · C 185.8 · mean(B,C) 146.3
+start 4: A 215.4 · B 210.7 · C 212.8 · mean(B,C) 211.7
+start 5: A 166.4 · B 99.1 · C 142.4 · mean(B,C) 120.8
+start 6: A 167.3 · B 89.9 · C 164.3 · mean(B,C) 127.1
+start 7: A 206.9 · B 136.9 · C 158.1 · mean(B,C) 147.5
